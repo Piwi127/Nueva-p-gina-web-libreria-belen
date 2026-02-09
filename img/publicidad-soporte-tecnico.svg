@@ -1,0 +1,79 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Publicidad Soporte Tecnico Libreria Belen</title>
+  <desc id="desc">Pieza promocional de servicios tecnicos, desarrollo web y sistemas.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="55%" stop-color="#1c2541"/>
+      <stop offset="100%" stop-color="#3a506b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#4ef58a"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <circle cx="1100" cy="120" r="180" fill="#00d4ff" opacity="0.14"/>
+  <circle cx="120" cy="1390" r="220" fill="#4ef58a" opacity="0.12"/>
+
+  <rect x="70" y="70" width="1060" height="1360" rx="28" fill="#ffffff" opacity="0.06" stroke="#ffffff" stroke-opacity="0.2"/>
+
+  <text x="600" y="170" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff">
+    LIBRERIA BELEN
+  </text>
+  <rect x="290" y="195" width="620" height="8" rx="4" fill="url(#accent)"/>
+
+  <text x="600" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="900" fill="#ffffff">
+    SOPORTE TECNICO ESPECIALIZADO
+  </text>
+
+  <text x="130" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#c9f8ff">
+    En Libreria Belen brindamos soporte tecnico especializado en
+  </text>
+  <text x="130" y="377" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#c9f8ff">
+    mantenimiento y reparacion de computadoras, laptops y servidores.
+  </text>
+
+  <g filter="url(#softShadow)">
+    <rect x="110" y="430" width="980" height="620" rx="24" fill="#0f1b38" opacity="0.92"/>
+  </g>
+
+  <text x="140" y="490" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#4ef58a">
+    Servicios que realizamos:
+  </text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="30" fill="#ffffff">
+    <text x="155" y="550">• Hacemos trabajos de soporte.</text>
+    <text x="155" y="605">• Creaciones y mantenimiento de servidores.</text>
+    <text x="155" y="660">• Soporte de bases de datos en backend.</text>
+    <text x="155" y="715">• Se crean paginas web a pedido.</text>
+    <text x="155" y="770">• Se crean proyectos web.</text>
+    <text x="155" y="825">• Se crean proyectos de punto de venta, POS,</text>
+    <text x="190" y="870">  inventarios y balance entre otros.</text>
+  </g>
+
+  <rect x="130" y="930" width="940" height="100" rx="18" fill="#00d4ff" opacity="0.18" stroke="#00d4ff" stroke-opacity="0.8"/>
+  <text x="600" y="992" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900" fill="#ffffff">
+    TODO TRABAJO PREVIA COTIZACION
+  </text>
+
+  <rect x="130" y="1075" width="940" height="180" rx="20" fill="#4ef58a" opacity="0.14" stroke="#4ef58a" stroke-opacity="0.9"/>
+  <text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="900" fill="#ffffff">
+    MANEJAMOS TODO TIPO DE
+  </text>
+  <text x="600" y="1200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="900" fill="#ffffff">
+    LENGUAJES DE PROGRAMACION
+  </text>
+
+  <text x="600" y="1315" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#d3e8ff">
+    Consultas y cotizaciones por WhatsApp
+  </text>
+  <text x="600" y="1360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="900" fill="#ffffff">
+    +51 947 872 207
+  </text>
+</svg>

@@ -206,7 +206,9 @@ document.addEventListener('DOMContentLoaded', () => {
     initCloudflareWebAnalytics();
     initAnalyticsTracking();
     initSearchUI();
+    initSupportRequestForm();
     initHeroCarousel();
+    initSupportMatrixBackground();
     applyPricePendingUI();
     initAccessibilityEnhancements();
     initDynamicYear();
@@ -387,7 +389,8 @@ function initHeroCarousel() {
     const root = document.querySelector('[data-hero-carousel]');
     if (!root) return;
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const animationMs = 1300;
+    const animationMs = 1800;
+    const autoplayMs = 6500;
 
     const slides = Array.from(root.querySelectorAll('[data-hero-slide]'));
     const dots = Array.from(root.querySelectorAll('[data-hero-dot]'));
@@ -475,7 +478,7 @@ function initHeroCarousel() {
         if (root.dataset.autoplay !== 'true') return;
         if (prefersReducedMotion || document.hidden) return;
         stopAutoplay();
-        timer = setInterval(() => setActive(index + 1), 5500);
+        timer = setInterval(() => setActive(index + 1), autoplayMs);
     };
 
     const stopAutoplay = () => {
@@ -1211,6 +1214,88 @@ function getProductModalNodes() {
     return hasMissingNode ? null : nodes;
 }
 
+function initSupportMatrixBackground() {
+    const canvas = document.getElementById('supportMatrixCanvas');
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const glyphs = '01001101011100101010110010101100100101010110010010110010101011';
+    let width = 0;
+    let height = 0;
+    let fontSize = 16;
+    let columns = 0;
+    let drops = [];
+    let rafId = null;
+
+    const resize = () => {
+        const dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = Math.floor(width * dpr);
+        canvas.height = Math.floor(height * dpr);
+        canvas.style.width = `${width}px`;
+        canvas.style.height = `${height}px`;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+        fontSize = Math.max(14, Math.round(width / 95));
+        columns = Math.max(20, Math.floor(width / fontSize));
+        drops = Array.from({ length: columns }, () => Math.floor(Math.random() * -45));
+        ctx.fillStyle = '#07130f';
+        ctx.fillRect(0, 0, width, height);
+    };
+
+    const drawFrame = () => {
+        ctx.fillStyle = 'rgba(6, 18, 13, 0.08)';
+        ctx.fillRect(0, 0, width, height);
+        ctx.font = `${fontSize}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`;
+
+        for (let i = 0; i < columns; i += 1) {
+            const text = glyphs[Math.floor(Math.random() * glyphs.length)];
+            const x = i * fontSize;
+            const y = drops[i] * fontSize;
+            const alpha = 0.22 + Math.random() * 0.24;
+            ctx.fillStyle = `rgba(108, 255, 178, ${alpha.toFixed(3)})`;
+            ctx.fillText(text, x, y);
+
+            if (y > height + fontSize * 2 && Math.random() > 0.975) {
+                drops[i] = Math.floor(Math.random() * -18);
+            } else {
+                drops[i] += 0.34 + Math.random() * 0.42;
+            }
+        }
+
+        rafId = window.requestAnimationFrame(drawFrame);
+    };
+
+    resize();
+    if (!reducedMotion) {
+        drawFrame();
+    } else {
+        for (let i = 0; i < columns; i += 2) {
+            const text = glyphs[Math.floor(Math.random() * glyphs.length)];
+            const x = i * fontSize;
+            const y = (Math.random() * height) | 0;
+            ctx.fillStyle = 'rgba(108, 255, 178, 0.18)';
+            ctx.fillText(text, x, y);
+        }
+    }
+
+    window.addEventListener('resize', resize, { passive: true });
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden && rafId) {
+            window.cancelAnimationFrame(rafId);
+            rafId = null;
+            return;
+        }
+        if (!document.hidden && !reducedMotion && !rafId) {
+            drawFrame();
+        }
+    });
+}
+
 function openProductModal(productId) {
     const product = products.find(p => p.id === productId);
     if (!product) return false;
@@ -1940,6 +2025,72 @@ function generateInvoice() {
     doc.save(`Boleta_${customer.name}_${customer.lastName}_${Date.now()}.pdf`);
 }
 
+function initSupportRequestForm() {
+    const form = document.getElementById('supportForm');
+    if (!form) return;
+
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const getValue = (id) => {
+            const node = document.getElementById(id);
+            return node ? node.value.trim() : '';
+        };
+
+        const serviceType = getValue('supportServiceType');
+        const deviceType = getValue('supportDeviceType');
+        const brandModel = getValue('supportBrandModel');
+        const issueDetail = getValue('supportIssueDetail');
+        const urgency = getValue('supportUrgency');
+        const budget = getValue('supportBudget');
+        const customerName = getValue('supportCustomerName');
+        const customerPhone = getValue('supportCustomerPhone');
+        const district = getValue('supportDistrict');
+        const availableTime = getValue('supportAvailableTime');
+        const consentNode = document.getElementById('supportConsent');
+
+        if (!serviceType || !deviceType || !brandModel || !issueDetail || !urgency || !customerName || !customerPhone) {
+            alert('Por favor, completa todos los campos obligatorios del formulario técnico.');
+            return;
+        }
+
+        const normalizedPhone = customerPhone.replace(/\D/g, '');
+        if (normalizedPhone.length < 9) {
+            alert('Ingresa un número de contacto válido (mínimo 9 dígitos).');
+            return;
+        }
+
+        if (consentNode && !consentNode.checked) {
+            alert('Debes autorizar el contacto por WhatsApp para continuar.');
+            return;
+        }
+
+        let message = 'Hola LIBRERÍA BELÉN, deseo solicitar SOPORTE TÉCNICO para PC:\n\n';
+        message += `Servicio: ${serviceType}\n`;
+        message += `Tipo de equipo: ${deviceType}\n`;
+        message += `Marca/Modelo: ${brandModel}\n`;
+        message += `Falla o requerimiento: ${issueDetail}\n`;
+        message += `Urgencia: ${urgency}\n`;
+        message += `Presupuesto estimado: ${budget || 'Por definir'}\n\n`;
+        message += `Cliente: ${customerName}\n`;
+        message += `Teléfono: ${customerPhone}\n`;
+        if (district) message += `Distrito/Zona: ${district}\n`;
+        if (availableTime) message += `Horario disponible: ${availableTime}\n`;
+        message += '\nQuedo atento(a) a su evaluación y propuesta técnica.';
+
+        trackEvent('support_request_submit', {
+            service_type: serviceType,
+            device_type: deviceType,
+            urgency,
+            has_budget: Boolean(budget),
+            path: window.location.pathname
+        });
+
+        const url = `https://wa.me/${WHATSAPP_PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
+        window.open(url, '_blank', 'noopener,noreferrer');
+    });
+}
+
 // Mobile Menu Logic
 function setMobileMenuState(isOpen) {
     const navLinks = document.querySelector('.nav-links');
@@ -2005,7 +2156,7 @@ function initDynamicYear() {
 
 function initVisualMicroInteractions() {
     const targets = document.querySelectorAll(
-        '.home-hero, .conversion-strip, .trust-badges, .trust-metrics, .carousel-container, .location-section, .about-content, .product-grid, .footer-content'
+        '.home-hero, .conversion-strip, .support-tech-section, .support-page-hero, .support-page-layout, .trust-badges, .trust-metrics, .carousel-container, .location-section, .about-content, .product-grid, .footer-content'
     );
 
     if (!targets.length) return;

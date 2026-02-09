@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="author" content="Libreria Belen">
+    <meta name="description" content="Soporte técnico para PC en Lima: diagnóstico, formateo, reparación, armado, upgrades, seguridad y redes. Solicita atención por WhatsApp.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://via.placeholder.com; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; frame-src https://www.google.com; upgrade-insecure-requests">
+    <title>Soporte Técnico - LIBRERÍA BELÉN</title>
+    <link rel="canonical" href="https://libreria-belen.com/support">
+    <link rel="alternate" hreflang="es-PE" href="https://libreria-belen.com/support">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Libreria Belen">
+    <meta property="og:title" content="Soporte Técnico para PC - LIBRERÍA BELÉN">
+    <meta property="og:description" content="Atención técnica para PC: formateo, reparación, armado, optimización y más.">
+    <meta property="og:url" content="https://libreria-belen.com/support">
+    <meta property="og:image" content="https://libreria-belen.com/img/logonuevo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="cf-beacon-token" content="YOUR_CF_BEACON_TOKEN">
+    <link rel="preconnect" href="https://wa.me" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Soporte técnico para PC",
+            "provider": {
+                "@type": "LocalBusiness",
+                "name": "Libreria Belen"
+            },
+            "areaServed": "Lima, Peru",
+            "serviceType": "Diagnóstico, reparación, formateo y armado de computadoras"
+        }
+    </script>
+</head>
+
+<body class="support-page-body">
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+    <canvas id="supportMatrixCanvas" class="support-matrix-bg" aria-hidden="true"></canvas>
+
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <p><i class="fas fa-store"></i> Atención en tienda: Lun a Sáb de 8:30 a.m. a 8:00 p.m.</p>
+            <a href="https://wa.me/51947872207?text=Hola%20Librer%C3%ADa%20Bel%C3%A9n%2C%20quisiera%20consultar%20sobre%20soporte%20t%C3%A9cnico%20para%20PC." target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp"></i> Soporte por WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="img/logonuevo.png" alt="Librería Belén" width="220" height="64" decoding="async" fetchpriority="high">
+            </a>
+
+            <div class="search-bar" style="position: relative;">
+                <input type="text" id="searchInput" placeholder="Buscar productos, marcas y más..." oninput="handleSearchInput(this.value)">
+                <button type="button" onclick="executeSearch()" aria-label="Buscar productos"><i class="fas fa-search"></i></button>
+                <div id="searchResults" class="search-results-dropdown"></div>
+            </div>
+
+            <div class="nav-icons">
+                <button type="button" class="theme-toggle" data-theme-toggle aria-label="Cambiar tema visual">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button type="button" class="cart-icon" onclick="window.location.href='catalog.html'" aria-label="Ir al catálogo">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <button type="button" class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Abrir menú móvil">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-links">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalog.html">Catálogo</a></li>
+                <li><a href="support.html" class="active">Soporte Técnico</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" class="container support-page" tabindex="-1">
+        <section class="support-page-hero reveal-on-scroll">
+            <span class="support-tech-badge">Atención especializada</span>
+            <h1>Servicio de Soporte Técnico para PC</h1>
+            <p>Brindamos diagnóstico, formateo, reparación, armado, actualizaciones y optimización para computadoras de hogar, oficina, estudio y gaming.</p>
+        </section>
+
+        <section class="support-promo-block reveal-on-scroll">
+            <div class="support-promo-card">
+                <img src="img/publicidad-soporte-tecnico.svg" alt="Publicidad de servicios de soporte técnico Librería Belén" class="support-promo-image">
+            </div>
+            <div class="support-promo-content">
+                <h2>Información completa de nuestro servicio</h2>
+                <p>En Librería Belén brindamos soporte técnico especializado en mantenimiento y reparación de computadoras, laptops y servidores.</p>
+                <ul>
+                    <li>Hacemos trabajos de soporte.</li>
+                    <li>Creaciones y mantenimiento de servidores.</li>
+                    <li>Soporte de bases de datos en backend.</li>
+                    <li>Se crean páginas web a pedido.</li>
+                    <li>Se crean proyectos web.</li>
+                    <li>Se crean proyectos de punto de venta, POS, inventarios y balance entre otros.</li>
+                </ul>
+                <p class="support-promo-note">Todo trabajo previa cotización.</p>
+                <p class="support-promo-note">Manejamos todo tipo de lenguajes de programación.</p>
+            </div>
+        </section>
+
+        <section class="support-page-layout reveal-on-scroll">
+            <div class="support-page-services">
+                <h2>Especialidades que atendemos</h2>
+                <div class="support-tech-grid">
+                    <article class="support-tech-card">
+                        <h3><i class="fas fa-stethoscope"></i> Diagnóstico y mantenimiento</h3>
+                        <ul>
+                            <li>Chequeo integral de hardware y software.</li>
+                            <li>Mantenimiento preventivo y limpieza interna.</li>
+                            <li>Control de temperatura y estabilidad.</li>
+                        </ul>
+                    </article>
+                    <article class="support-tech-card">
+                        <h3><i class="fas fa-laptop-code"></i> Formateo e instalación</h3>
+                        <ul>
+                            <li>Reinstalación de Windows y drivers.</li>
+                            <li>Instalación de Office y programas base.</li>
+                            <li>Configuración para uso personal o laboral.</li>
+                        </ul>
+                    </article>
+                    <article class="support-tech-card">
+                        <h3><i class="fas fa-tools"></i> Reparacion y upgrades</h3>
+                        <ul>
+                            <li>Fallas de arranque, lentitud y sobrecalentamiento.</li>
+                            <li>Upgrade de RAM, SSD, GPU y fuente.</li>
+                            <li>Armado de PC nueva según presupuesto.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+
+            <div class="support-page-form-wrap">
+                <h2>Solicitar evaluación técnica</h2>
+                <form id="supportForm" class="support-form" novalidate>
+                    <div class="support-form-grid">
+                        <label>Tipo de servicio
+                            <select id="supportServiceType" required>
+                                <option value="">Selecciona</option>
+                                <option value="Diagnóstico general">Diagnóstico general</option>
+                                <option value="Formateo e instalación">Formateo e instalación</option>
+                                <option value="Reparación de hardware">Reparación de hardware</option>
+                                <option value="Armado de PC">Armado de PC</option>
+                                <option value="Upgrade de componentes">Upgrade de componentes</option>
+                                <option value="Eliminacion de virus">Eliminacion de virus</option>
+                                <option value="Configuración de red/periféricos">Configuración de red/periféricos</option>
+                                <option value="Creación y mantenimiento de servidores">Creación y mantenimiento de servidores</option>
+                                <option value="Soporte de bases de datos backend">Soporte de bases de datos backend</option>
+                                <option value="Página web a pedido">Página web a pedido</option>
+                                <option value="Proyecto web a medida">Proyecto web a medida</option>
+                                <option value="Proyecto POS/inventarios/balance">Proyecto POS/inventarios/balance</option>
+                            </select>
+                        </label>
+                        <label>Tipo de equipo
+                            <select id="supportDeviceType" required>
+                                <option value="">Selecciona</option>
+                                <option value="PC de escritorio">PC de escritorio</option>
+                                <option value="Laptop">Laptop</option>
+                                <option value="All in One">All in One</option>
+                                <option value="Equipo gamer">Equipo gamer</option>
+                                <option value="Servidor">Servidor</option>
+                                <option value="Sistema web">Sistema web</option>
+                            </select>
+                        </label>
+                        <label>Marca y modelo
+                            <input id="supportBrandModel" type="text" placeholder="Ej.: HP 240 G8 / PC armado Ryzen 5" required>
+                        </label>
+                        <label>Urgencia
+                            <select id="supportUrgency" required>
+                                <option value="">Selecciona</option>
+                                <option value="Baja (esta semana)">Baja (esta semana)</option>
+                                <option value="Media (24-48 horas)">Media (24-48 horas)</option>
+                                <option value="Alta (hoy)">Alta (hoy)</option>
+                            </select>
+                        </label>
+                        <label>Presupuesto estimado
+                            <select id="supportBudget">
+                                <option value="">Por definir</option>
+                                <option value="Hasta S/150">Hasta S/150</option>
+                                <option value="S/150 - S/300">S/150 - S/300</option>
+                                <option value="S/300 - S/600">S/300 - S/600</option>
+                                <option value="Mayor a S/600">Mayor a S/600</option>
+                            </select>
+                        </label>
+                        <label>Nombre completo
+                            <input id="supportCustomerName" type="text" placeholder="Tu nombre y apellido" required>
+                        </label>
+                        <label>Teléfono de contacto
+                            <input id="supportCustomerPhone" type="tel" placeholder="Ej. 987654321" required>
+                        </label>
+                        <label>Distrito / zona
+                            <input id="supportDistrict" type="text" placeholder="Ej. Cercado de Lima">
+                        </label>
+                        <label>Horario disponible
+                            <input id="supportAvailableTime" type="text" placeholder="Ej. 2:00 p.m. - 6:00 p.m.">
+                        </label>
+                    </div>
+
+                    <label>Describe la falla o necesidad técnica
+                        <textarea id="supportIssueDetail" rows="5" placeholder="Comenta que sucede con tu equipo/proyecto, desde cuando ocurre y que intentaste hacer." required></textarea>
+                    </label>
+
+                    <label class="support-consent">
+                        <input id="supportConsent" type="checkbox" required>
+                        Acepto que me contacten por WhatsApp para diagnóstico y propuesta técnica.
+                    </label>
+
+                    <button type="submit" class="btn btn-primary support-submit">
+                        <i class="fab fa-whatsapp"></i> Enviar solicitud por WhatsApp
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>LIBRERÍA BELÉN</h3>
+                <p>Soporte técnico y soluciones para computadoras con atención personalizada en Lima.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="catalog.html">Catálogo</a></li>
+                    <li><a href="support.html">Soporte Técnico</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/51947872207?text=Hola%2C%20necesito%20soporte%20t%C3%A9cnico%20para%20mi%20PC.%20Quisiera%20informaci%C3%B3n%20sobre%20diagn%C3%B3stico%2C%20reparaci%C3%B3n%2C%20formateo%20o%20armado." target="_blank" rel="noopener">+51 947 872 207</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Jr. Conchucos 120 - Cercado de Lima</p>
+                <p><i class="fas fa-clock"></i> Lun a Sáb: 8:30 a.m. - 8:00 p.m.</p>
+            </div>
+        </div>
+        <div style="text-align: center; padding-top: var(--spacing-lg); border-top: 1px solid #333; margin-top: var(--spacing-lg);">
+            <p>&copy; <span data-current-year>2026</span> LIBRERIA BELEN. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <nav class="mobile-bottom-nav">
+        <a href="index.html">
+            <i class="fas fa-home"></i>
+            <span>Inicio</span>
+        </a>
+        <a href="catalog.html">
+            <i class="fas fa-th"></i>
+            <span>Catálogo</span>
+        </a>
+        <a href="catalog.html">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Carrito</span>
+        </a>
+        <a href="about.html">
+            <i class="fas fa-info-circle"></i>
+            <span>Nosotros</span>
+        </a>
+        <a href="support.html" class="active">
+            <i class="fas fa-tools"></i>
+            <span>Soporte</span>
+        </a>
+    </nav>
+
+    <a class="whatsapp-float" href="https://wa.me/51947872207?text=Hola%2C%20necesito%20soporte%20t%C3%A9cnico%20para%20mi%20PC.%20Quisiera%20informaci%C3%B3n%20sobre%20diagn%C3%B3stico%2C%20reparaci%C3%B3n%2C%20formateo%20o%20armado." target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i>
+        <span>Soporte técnico</span>
+    </a>
+
+    <script src="js/app.js" defer></script>
+</body>
+
+</html>
