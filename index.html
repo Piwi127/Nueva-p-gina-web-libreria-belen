@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Librería Belen en Lima: útiles escolares, papelería, cuadernos, arte y oficina. Campaña escolar 2026, marcas como Faber‑Castell y Artesco, envío gratis en estaciones de la Línea 1.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://via.placeholder.com; font-src 'self'; frame-src https://www.google.com; upgrade-insecure-requests">
+    <title>LIBRERÍA BELEN - Suministros de Oficina y Escolares</title>
+    <link rel="preload" as="image" href="images/portada1.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <p><i class="fas fa-store"></i> Atención en tienda: Lun a Sáb de 8:30 a.m. a 8:00 p.m.</p>
+            <p><i class="fas fa-train"></i> Delivery gratis en todas las estaciones del tren, Metro de Lima, Línea 1.</p>
+            <a href="https://wa.me/51947872207" target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp"></i> Pedidos por WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="img/logonuevo.png" alt="Librería Belen" decoding="async">
+            </a>
+
+            <div class="search-bar" style="position: relative;">
+                <input type="text" id="searchInput" placeholder="Buscar productos, marcas y más..."
+                    oninput="handleSearchInput(this.value)">
+                <button type="button" onclick="executeSearch()" aria-label="Buscar productos"><i class="fas fa-search"></i></button>
+                <div id="searchResults" class="search-results-dropdown"></div>
+            </div>
+
+            <div class="nav-icons">
+                <button type="button" class="theme-toggle" data-theme-toggle aria-label="Cambiar tema visual">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button type="button" class="cart-icon" onclick="window.location.href='catalog.html'" aria-label="Ir al catálogo">
+                    <!-- For now links to cart page or modal logic later -->
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" id="cart-count">0</span>
+                </button>
+                <button type="button" class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Abrir menú móvil">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-links">
+        <div class="container">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="catalog.html">Catálogo</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" tabindex="-1">
+    <!-- Hero Section -->
+    <section class="home-hero" data-hero-carousel data-autoplay="true" aria-label="Promociones principales">
+        <div class="home-hero-track">
+            <article class="home-hero-slide is-active" data-hero-slide>
+                <picture class="home-hero-media" aria-hidden="true">
+                    <img src="images/portada1.png" alt="Portada principal Librería Belen" width="4096" height="1024" fetchpriority="high" loading="eager" decoding="async">
+                </picture>
+            </article>
+
+            <article class="home-hero-slide" data-hero-slide>
+                <picture class="home-hero-media" aria-hidden="true">
+                    <img src="images/portada%20dos.png" alt="Segunda portada Librería Belen" width="4096" height="1024" loading="lazy" decoding="async">
+                </picture>
+            </article>
+
+            <article class="home-hero-slide" data-hero-slide>
+                <picture class="home-hero-media" aria-hidden="true">
+                    <img src="images/portada%20tres.png" alt="Tercera portada Librería Belen" width="4000" height="1056" loading="lazy" decoding="async">
+                </picture>
+            </article>
+
+            <article class="home-hero-slide" data-hero-slide>
+                <picture class="home-hero-media" aria-hidden="true">
+                    <img src="images/portada%20cuatro.png" alt="Cuarta portada Librería Belen" width="4000" height="1056" loading="lazy" decoding="async">
+                </picture>
+            </article>
+
+            <article class="home-hero-slide" data-hero-slide>
+                <picture class="home-hero-media" aria-hidden="true">
+                    <img src="images/portadacinco.png" alt="Quinta portada Librería Belen" width="4000" height="1056" loading="lazy" decoding="async">
+                </picture>
+            </article>
+        </div>
+
+        <div class="home-hero-controls" aria-label="Controles del carrusel principal">
+            <button type="button" class="home-hero-nav home-hero-prev" data-hero-prev aria-label="Anterior publicación">
+                <i class="fas fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <div class="home-hero-dots" role="tablist" aria-label="Seleccionar publicación de portada">
+                <button type="button" class="home-hero-dot is-active" data-hero-dot aria-label="Ir a publicación 1"></button>
+                <button type="button" class="home-hero-dot" data-hero-dot aria-label="Ir a publicación 2"></button>
+                <button type="button" class="home-hero-dot" data-hero-dot aria-label="Ir a publicación 3"></button>
+                <button type="button" class="home-hero-dot" data-hero-dot aria-label="Ir a publicación 4"></button>
+                <button type="button" class="home-hero-dot" data-hero-dot aria-label="Ir a publicación 5"></button>
+            </div>
+            <button type="button" class="home-hero-nav home-hero-next" data-hero-next aria-label="Siguiente publicación">
+                <i class="fas fa-chevron-right" aria-hidden="true"></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="container conversion-strip reveal-on-scroll">
+        <div class="conversion-strip-card">
+            <p>¿Tienes lista escolar completa?</p>
+            <strong>Te ayudamos a armar tu pedido en menos de 10 minutos.</strong>
+            <div class="conversion-strip-actions">
+                <a href="catalog.html" class="btn btn-primary">Ver catálogo</a>
+                <a href="https://wa.me/51947872207" class="btn btn-outline-light" target="_blank" rel="noopener">Empezar por WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Carousel -->
+    <section class="container" style="margin-bottom: var(--spacing-xl);">
+        <h2 class="section-title">Nuevos Ingresos</h2>
+        <div class="carousel-container">
+            <button type="button" class="carousel-btn prev" onclick="scrollCarousel(-1)" aria-label="Desplazar carrusel a la izquierda"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel-track" id="featured-carousel">
+                <!-- Random products will be loaded via JS -->
+                <p style="text-align: center; width: 100%; padding: 2rem;">Cargando novedades...</p>
+            </div>
+            <button type="button" class="carousel-btn next" onclick="scrollCarousel(1)" aria-label="Desplazar carrusel a la derecha"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location-section">
+        <div class="container location-grid">
+            <div class="location-card">
+                <div class="location-title">
+                    <span class="location-badge">Ubícanos</span>
+                    <h2>Estamos en el corazón de Lima</h2>
+                    <p>Visítanos en Jr. Conchucos 120 - Cercado de Lima. Campaña escolar 2026 con atención cercana y asesoría para listas escolares.</p>
+                </div>
+                <div class="location-details">
+                    <div><i class="fas fa-map-marker-alt"></i> Jr. Conchucos 120 - Cercado de Lima</div>
+                    <div><i class="fab fa-whatsapp"></i> <a href="https://wa.me/51947872207" target="_blank" rel="noopener">Consulta por WhatsApp</a></div>
+                </div>
+                <div class="location-actions">
+                    <a class="btn btn-primary" href="https://maps.app.goo.gl/QyMt76Eo8Yr2KrZt5" target="_blank" rel="noopener">Ver en Google Maps</a>
+                </div>
+            </div>
+            <div class="location-map">
+                <iframe
+                    title="Ubicación Librería Belen"
+                    src="https://www.google.com/maps?q=-12.044322104838658,-77.01129263126799&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>LIBRERÍA BELEN</h3>
+                <p>Tu librería de confianza en Cercado de Lima: útiles escolares, papelería, cuadernos y materiales de arte. Campaña escolar 2026 con precios especiales.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="catalog.html">Catálogo</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="https://maps.app.goo.gl/QyMt76Eo8Yr2KrZt5" target="_blank" rel="noopener">Cómo llegar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>
+                    <i class="fab fa-whatsapp"></i>
+                    <a href="https://wa.me/51947872207" target="_blank" rel="noopener">+51 947 872 207</a>
+                </p>
+                <p><i class="fas fa-map-marker-alt"></i> Jr. Conchucos 120 - Cercado de Lima</p>
+                <p><i class="fas fa-clock"></i> Lun a Sáb: 8:30 a.m. - 8:00 p.m.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Compra Rápida</h3>
+                <p>Envíanos tu lista escolar por WhatsApp y te ayudamos a completar tu pedido.</p>
+                <a class="btn btn-primary" href="https://wa.me/51947872207" target="_blank" rel="noopener">Solicitar cotización</a>
+            </div>
+        </div>
+        <div
+            style="text-align: center; padding-top: var(--spacing-lg); border-top: 1px solid #333; margin-top: var(--spacing-lg);">
+            <p>&copy; <span data-current-year>2026</span> LIBRERÍA BELEN. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Product Detail Modal -->
+    <div id="productDetailModal" class="modal">
+        <div class="modal-content product-detail-content">
+            <span class="close-modal" onclick="closeProductModal()">&times;</span>
+            <div class="product-detail-grid">
+                <div class="detail-image-container">
+                    <img id="detailImage" src="" alt="Producto">
+                    <p class="image-disclaimer">Imagen de referencia, Librería Belen no es dueña ni autora de esta imagen.</p>
+                </div>
+                <div class="detail-info-container">
+                    <h2 id="detailTitle">Título del Producto</h2>
+                    <div class="detail-meta">
+                        <span id="detailPrice" class="detail-price">S/ 0.00</span>
+                        <div id="detailRating" class="product-rating"></div>
+                    </div>
+
+                    <div class="detail-section">
+                        <h4>Descripción</h4>
+                        <p id="detailDescription">Descripción detallada...</p>
+                    </div>
+
+                    <div class="detail-section">
+                        <h4>Cualidades</h4>
+                        <ul id="detailFeatures"></ul>
+                    </div>
+
+                    <div class="detail-section">
+                        <h4>Para qué sirve</h4>
+                        <ul id="detailUsage"></ul>
+                    </div>
+
+                    <div class="detail-actions">
+                        <div class="qty-selector">
+                            <button onclick="adjustDetailQty(-1)">-</button>
+                            <span id="detailQty">1</span>
+                            <button onclick="adjustDetailQty(1)">+</button>
+                        </div>
+                        <button class="btn btn-primary" id="detailAddBtn" onclick="addToCartFromDetail()">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="mobile-bottom-nav">
+        <a href="index.html" class="active">
+            <i class="fas fa-home"></i>
+            <span>Inicio</span>
+        </a>
+        <a href="catalog.html">
+            <i class="fas fa-th"></i>
+            <span>Catálogo</span>
+        </a>
+        <a href="catalog.html">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Carrito</span>
+        </a>
+        <a href="about.html">
+            <i class="fas fa-info-circle"></i>
+            <span>Nosotros</span>
+        </a>
+    </nav>
+
+    <a class="whatsapp-float" href="https://wa.me/51947872207" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i>
+        <span>Consulta aquí</span>
+    </a>
+
+    <script src="data/products.js" defer></script>
+    <script src="js/app.js" defer></script>
+</body>
+
+</html>

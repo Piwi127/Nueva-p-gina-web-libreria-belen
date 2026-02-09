@@ -1,0 +1,7 @@
+# Pretty URLs
+/about /about.html 200
+/catalog /catalog.html 200
+/formulario /plantilla-formulario.html 200
+
+# Canonical home
+/index / 301

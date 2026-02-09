@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plantilla Formulario Producto</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; background: #f8fafc; color: #0f172a; }
+    .container { max-width: 900px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 10px 30px rgba(15,23,42,0.08); }
+    h1 { margin-top: 0; font-size: 22px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    label { display: block; font-weight: 600; margin-bottom: 6px; }
+    input, select, textarea { width: 100%; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 14px; }
+    textarea { min-height: 90px; resize: vertical; }
+    .full { grid-column: 1 / -1; }
+    .actions { display: flex; gap: 10px; margin-top: 16px; }
+    button { padding: 10px 16px; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; }
+    .primary { background: #0f172a; color: #fff; }
+    .secondary { background: #e2e8f0; }
+    .output { margin-top: 16px; }
+    .hint { font-size: 12px; color: #64748b; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Plantilla Formulario - Producto</h1>
+    <p class="hint">Rellena los campos y genera el JSON listo para pegar en <code>data/products.js</code>.</p>
+
+    <div class="grid">
+      <div>
+        <label for="title">Título</label>
+        <input id="title" type="text" placeholder="Ej. Cuaderno Artesco A4">
+      </div>
+      <div>
+        <label for="price">Precio (S/)</label>
+        <input id="price" type="number" step="0.01" placeholder="Ej. 12.50">
+      </div>
+      <div>
+        <label for="short">Descripción corta</label>
+        <input id="short" type="text" placeholder="Ej. Ideal para clases y oficina.">
+      </div>
+      <div>
+        <label for="rating">Rating (0-5)</label>
+        <input id="rating" type="number" step="0.1" value="4.5">
+      </div>
+      <div>
+        <label for="stock">Stock</label>
+        <input id="stock" type="number" value="10">
+      </div>
+      <div>
+        <label for="tag">Tag</label>
+        <select id="tag">
+          <option value="nuevo">nuevo</option>
+          <option value="oferta">oferta</option>
+          <option value="">(vacío)</option>
+        </select>
+      </div>
+      <div>
+        <label for="category">Categoria</label>
+        <select id="category">
+          <option value="papeleria">papeleria</option>
+          <option value="utiles">utiles</option>
+          <option value="cuadernos">cuadernos</option>
+          <option value="arte">arte</option>
+          <option value="oficina">oficina</option>
+          <option value="organizacion">organizacion</option>
+          <option value="escritura">escritura</option>
+          <option value="tecnologia">tecnologia</option>
+          <option value="regalos">regalos</option>
+          <option value="otros">otros</option>
+        </select>
+      </div>
+      <div>
+        <label for="link">Link</label>
+        <input id="link" type="text" placeholder="https://...">
+      </div>
+      <div class="full">
+        <label for="description">Descripción</label>
+        <textarea id="description" placeholder="Descripción del producto"></textarea>
+      </div>
+      <div class="full">
+        <label for="longDescription">Descripción larga</label>
+        <textarea id="longDescription" placeholder="Descripción detallada"></textarea>
+      </div>
+      <div class="full">
+        <label for="image">Imagen (ruta)</label>
+        <input id="image" type="text" placeholder="assets/img/products/nombre.jpg">
+      </div>
+      <div class="full">
+        <label for="usage">Uso (una linea por item)</label>
+        <textarea id="usage" placeholder="Ej.\nIdeal para tareas\nUso diario"></textarea>
+      </div>
+      <div class="full">
+        <label for="details">Detalles (una linea por item)</label>
+        <textarea id="details" placeholder="Ej.\nProducto nuevo\nAlta calidad"></textarea>
+      </div>
+      <div>
+        <label for="colors">Colores (separados por coma)</label>
+        <input id="colors" type="text" placeholder="Clasico, Rojo, Azul">
+      </div>
+      <div>
+        <label for="sizes">Tamaños (separados por coma)</label>
+        <input id="sizes" type="text" placeholder="Unico, A4">
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="primary" id="generateBtn">Generar JSON</button>
+      <button class="secondary" id="clearBtn">Limpiar</button>
+    </div>
+
+    <div class="output">
+      <label for="output">JSON generado</label>
+      <textarea id="output" readonly></textarea>
+      <div class="hint">Se genera una entrada con slug automatico listo para pegar.</div>
+    </div>
+  </div>
+
+  <script>
+    const byId = (id) => document.getElementById(id);
+
+    function slugify(text) {
+      return text
+        .toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-');
+    }
+
+    function splitLines(text) {
+      return text.split('\n').map(s => s.trim()).filter(Boolean);
+    }
+
+    function splitComma(text) {
+      return text.split(',').map(s => s.trim()).filter(Boolean);
+    }
+
+    byId('generateBtn').addEventListener('click', () => {
+      const title = byId('title').value.trim();
+      if (!title) { alert('Ingresa un título'); return; }
+
+      const slug = slugify(title);
+      const json = {
+        [slug]: {
+          title,
+          short: byId('short').value.trim(),
+          description: byId('description').value.trim(),
+          longDescription: byId('longDescription').value.trim(),
+          price: `S/ ${Number(byId('price').value || 0).toFixed(2)}`,
+          rating: String(byId('rating').value || '4.5'),
+          stock: Number(byId('stock').value || 0),
+          tag: byId('tag').value,
+          category: byId('category').value,
+          link: byId('link').value.trim(),
+          colors: splitComma(byId('colors').value),
+          sizes: splitComma(byId('sizes').value),
+          details: splitLines(byId('details').value),
+          usage: splitLines(byId('usage').value),
+          reviews: [
+            { name: 'Cliente', text: 'Buena calidad y entrega rapida.' }
+          ],
+          image: byId('image').value.trim(),
+          gallery: []
+        }
+      };
+
+      byId('output').value = JSON.stringify(json, null, 2);
+    });
+
+    byId('clearBtn').addEventListener('click', () => {
+      document.querySelectorAll('input, textarea, select').forEach(el => {
+        if (el.tagName === 'SELECT') return;
+        el.value = '';
+      });
+      byId('rating').value = '4.5';
+      byId('stock').value = '10';
+      byId('tag').value = 'nuevo';
+      byId('category').value = 'papeleria';
+      byId('output').value = '';
+    });
+  </script>
+</body>
+</html>
