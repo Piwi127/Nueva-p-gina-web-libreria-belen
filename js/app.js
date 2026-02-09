@@ -261,12 +261,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Close Modals on outside click
-    window.onclick = function (event) {
-        if (event.target == cartModal) closeCart();
-        else if (event.target == sidebar) toggleSidebar();
-        else if (event.target == productDetailModal) closeProductModal();
-    }
+    // Close modals on outside click without clobbering other handlers.
+    window.addEventListener('click', (event) => {
+        if (event.target === cartModal) closeCart();
+        else if (event.target === sidebar) toggleSidebar();
+        else if (event.target === productDetailModal) closeProductModal();
+    });
 });
 
 function ensureProductsLoaded() {
@@ -282,13 +282,38 @@ function ensureProductsLoaded() {
     productsLoadPromise = new Promise((resolve, reject) => {
         const existing = document.querySelector(`script[src="${PRODUCTS_SCRIPT_PATH}"]`);
         if (existing) {
-            existing.addEventListener('load', () => {
+            if (typeof window.PRODUCTS !== 'undefined') {
                 loadProducts();
                 resolve(products);
-            }, { once: true });
-            existing.addEventListener('error', () => {
+                return;
+            }
+
+            const onLoad = () => {
+                cleanup();
+                loadProducts();
+                resolve(products);
+            };
+            const onError = () => {
+                cleanup();
                 reject(new Error('No se pudo cargar products.js'));
-            }, { once: true });
+            };
+            const timeoutId = window.setTimeout(() => {
+                cleanup();
+                if (typeof window.PRODUCTS !== 'undefined') {
+                    loadProducts();
+                    resolve(products);
+                    return;
+                }
+                reject(new Error('Tiempo de espera agotado al cargar products.js'));
+            }, 5000);
+            const cleanup = () => {
+                clearTimeout(timeoutId);
+                existing.removeEventListener('load', onLoad);
+                existing.removeEventListener('error', onError);
+            };
+
+            existing.addEventListener('load', onLoad, { once: true });
+            existing.addEventListener('error', onError, { once: true });
             return;
         }
 
@@ -1169,19 +1194,42 @@ function getRankedSearchResults(list, query) {
 }
 
 // Product Detail Modal Logic
+function getProductModalNodes() {
+    if (!productDetailModal) return null;
+
+    const nodes = {
+        detailImage: document.getElementById('detailImage'),
+        detailTitle: document.getElementById('detailTitle'),
+        detailPrice: document.getElementById('detailPrice'),
+        detailRating: document.getElementById('detailRating'),
+        detailDescription: document.getElementById('detailDescription'),
+        detailQty: document.getElementById('detailQty'),
+        detailFeatures: document.getElementById('detailFeatures'),
+        detailUsage: document.getElementById('detailUsage')
+    };
+    const hasMissingNode = Object.values(nodes).some(node => !node);
+    return hasMissingNode ? null : nodes;
+}
+
 function openProductModal(productId) {
     const product = products.find(p => p.id === productId);
-    if (!product) return;
+    if (!product) return false;
+
+    const modalNodes = getProductModalNodes();
+    if (!modalNodes) {
+        window.location.href = `catalog.html?search=${encodeURIComponent(product.title || '')}`;
+        return false;
+    }
 
     currentDetailId = productId;
     currentDetailQty = 1;
 
-    document.getElementById('detailImage').src = sanitizeUrl(product.image);
-    document.getElementById('detailTitle').innerText = product.title;
-    document.getElementById('detailPrice').innerText = PRICE_LABEL;
-    document.getElementById('detailRating').innerHTML = getStars(product.rating);
-    document.getElementById('detailDescription').innerText = product.longDescription;
-    document.getElementById('detailQty').innerText = currentDetailQty;
+    modalNodes.detailImage.src = sanitizeUrl(product.image);
+    modalNodes.detailTitle.innerText = product.title;
+    modalNodes.detailPrice.innerText = PRICE_LABEL;
+    modalNodes.detailRating.innerHTML = getStars(product.rating);
+    modalNodes.detailDescription.innerText = product.longDescription;
+    modalNodes.detailQty.innerText = currentDetailQty;
     const detailAddBtn = document.getElementById('detailAddBtn');
     if (detailAddBtn) {
         detailAddBtn.disabled = PRICES_PENDING;
@@ -1194,7 +1242,7 @@ function openProductModal(productId) {
     }
 
     // Features
-    const featureList = document.getElementById('detailFeatures');
+    const featureList = modalNodes.detailFeatures;
     featureList.innerHTML = '';
     if (product.features && product.features.length > 0) {
         product.features.forEach(f => {
@@ -1207,7 +1255,7 @@ function openProductModal(productId) {
     }
 
     // Usage
-    const usageList = document.getElementById('detailUsage');
+    const usageList = modalNodes.detailUsage;
     usageList.innerHTML = '';
     if (product.usage && product.usage.length > 0) {
         product.usage.forEach(u => {
@@ -1220,16 +1268,19 @@ function openProductModal(productId) {
     }
 
     productDetailModal.style.display = 'block';
+    return true;
 }
 
 function closeProductModal() {
+    if (!productDetailModal) return;
     productDetailModal.style.display = 'none';
 }
 
 function adjustDetailQty(change) {
     currentDetailQty += change;
     if (currentDetailQty < 1) currentDetailQty = 1;
-    document.getElementById('detailQty').innerText = currentDetailQty;
+    const detailQtyNode = document.getElementById('detailQty');
+    if (detailQtyNode) detailQtyNode.innerText = currentDetailQty;
 }
 
 function addToCartFromDetail() {
@@ -1238,16 +1289,8 @@ function addToCartFromDetail() {
         return;
     }
     if (!currentDetailId) return;
-    const product = products.find(p => p.id === currentDetailId);
+    const product = addProductToCart(currentDetailId, currentDetailQty);
     if (!product) return;
-
-    // Logic similar to addToCart but with custom qty
-    const existingItem = cart.find(item => item.id === currentDetailId);
-    if (existingItem) {
-        existingItem.quantity += currentDetailQty;
-    } else {
-        cart.push({ ...product, quantity: currentDetailQty });
-    }
 
     saveCart();
     updateCartCount();
@@ -1755,8 +1798,8 @@ function getCustomerData() {
         return null;
     }
 
-    if (dni.length !== 8) {
-        alert('El DNI debe tener exactamente 8 dígitos.');
+    if (!/^\d{8}$/.test(dni)) {
+        alert('El DNI debe tener exactamente 8 digitos numericos.');
         return null;
     }
 
@@ -1819,7 +1862,13 @@ function generateInvoice() {
     const customer = getCustomerData();
     if (!customer) return;
 
-    const { jsPDF } = window.jspdf;
+    const jsPdfApi = window.jspdf && window.jspdf.jsPDF;
+    if (!jsPdfApi) {
+        alert('No se pudo generar la boleta porque la libreria PDF no esta disponible.');
+        return;
+    }
+
+    const jsPDF = jsPdfApi;
     const doc = new jsPDF();
     const date = new Date().toLocaleDateString();
     const time = new Date().toLocaleTimeString();
@@ -1989,27 +2038,53 @@ function initExperimentalDesignLayer() {
 
     const hero = document.querySelector('.home-hero');
     if (hero) {
+        let heroFrameId = null;
+        let latestHeroEvent = null;
         hero.addEventListener('mousemove', (event) => {
-            const rect = hero.getBoundingClientRect();
-            const x = ((event.clientX - rect.left) / rect.width) * 100;
-            const y = ((event.clientY - rect.top) / rect.height) * 100;
-            hero.style.setProperty('--pointer-x', `${x}%`);
-            hero.style.setProperty('--pointer-y', `${y}%`);
+            latestHeroEvent = event;
+            if (heroFrameId) return;
+            heroFrameId = requestAnimationFrame(() => {
+                if (!latestHeroEvent) return;
+                const rect = hero.getBoundingClientRect();
+                const x = ((latestHeroEvent.clientX - rect.left) / rect.width) * 100;
+                const y = ((latestHeroEvent.clientY - rect.top) / rect.height) * 100;
+                hero.style.setProperty('--pointer-x', `${x}%`);
+                hero.style.setProperty('--pointer-y', `${y}%`);
+                heroFrameId = null;
+                latestHeroEvent = null;
+            });
         });
     }
 
+    let cardFrameId = null;
+    let latestCardEvent = null;
     document.addEventListener('mousemove', (event) => {
-        const card = event.target.closest('.product-card');
-        if (!card || window.innerWidth < 900) return;
+        if (window.innerWidth < 900) return;
+        if (!(event.target instanceof Element)) return;
+        latestCardEvent = event;
+        if (cardFrameId) return;
 
-        const rect = card.getBoundingClientRect();
-        const x = event.clientX - rect.left;
-        const y = event.clientY - rect.top;
-        const px = (x / rect.width) * 100;
-        const py = (y / rect.height) * 100;
+        cardFrameId = requestAnimationFrame(() => {
+            if (!latestCardEvent) return;
 
-        card.style.setProperty('--pointer-x', `${px}%`);
-        card.style.setProperty('--pointer-y', `${py}%`);
+            const card = latestCardEvent.target.closest('.product-card');
+            if (!card) {
+                cardFrameId = null;
+                latestCardEvent = null;
+                return;
+            }
+
+            const rect = card.getBoundingClientRect();
+            const x = latestCardEvent.clientX - rect.left;
+            const y = latestCardEvent.clientY - rect.top;
+            const px = (x / rect.width) * 100;
+            const py = (y / rect.height) * 100;
+
+            card.style.setProperty('--pointer-x', `${px}%`);
+            card.style.setProperty('--pointer-y', `${py}%`);
+            cardFrameId = null;
+            latestCardEvent = null;
+        });
     });
 }
 
@@ -2102,21 +2177,28 @@ function getProductBadge(index) {
     return '';
 }
 
+function addProductToCart(productId, quantity = 1) {
+    const product = products.find(p => p.id === productId);
+    if (!product) return null;
+
+    const safeQuantity = Math.max(1, Math.floor(Number(quantity) || 1));
+    const existingItem = cart.find(item => item.id === productId);
+    if (existingItem) {
+        existingItem.quantity += safeQuantity;
+    } else {
+        cart.push({ ...product, quantity: safeQuantity });
+    }
+    return product;
+}
+
 // Enhanced Add to Cart with Toast
 function addToCart(productId) {
     if (PRICES_PENDING) {
         showToast('Precios próximamente', 'error');
         return;
     }
-    const product = products.find(p => p.id === productId);
+    const product = addProductToCart(productId, 1);
     if (!product) return;
-
-    const existingItem = cart.find(item => item.id === productId);
-    if (existingItem) {
-        existingItem.quantity += 1;
-    } else {
-        cart.push({ ...product, quantity: 1 });
-    }
 
     saveCart();
     updateCartCount();
