@@ -4,12 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="author" content="Libreria Belen">
     <meta name="description" content="Librería Belen en Lima: útiles escolares, papelería, cuadernos, arte y oficina. Campaña escolar 2026, marcas como Faber‑Castell y Artesco, envío gratis en estaciones de la Línea 1.">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://via.placeholder.com; font-src 'self'; frame-src https://www.google.com; upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://via.placeholder.com; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; frame-src https://www.google.com; upgrade-insecure-requests">
     <title>LIBRERÍA BELEN - Suministros de Oficina y Escolares</title>
+    <link rel="canonical" href="https://libreria-belen.com/">
+    <link rel="alternate" hreflang="es-PE" href="https://libreria-belen.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Libreria Belen">
+    <meta property="og:title" content="LIBRERIA BELEN - Suministros de Oficina y Escolares">
+    <meta property="og:description" content="Utiles escolares, papeleria y materiales de oficina en Cercado de Lima.">
+    <meta property="og:url" content="https://libreria-belen.com/">
+    <meta property="og:image" content="https://libreria-belen.com/img/logonuevo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="cf-beacon-token" content="YOUR_CF_BEACON_TOKEN">
     <link rel="preload" as="image" href="images/portada1.png" type="image/png">
+    <link rel="preconnect" href="https://wa.me" crossorigin>
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "LocalBusiness",
+                    "name": "Libreria Belen",
+                    "url": "https://libreria-belen.com/",
+                    "telephone": "+51 947 872 207",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Jr. Conchucos 120",
+                        "addressLocality": "Cercado de Lima",
+                        "addressCountry": "PE"
+                    },
+                    "openingHours": "Mo-Sa 08:30-20:00",
+                    "sameAs": [
+                        "https://wa.me/51947872207"
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "name": "Libreria Belen",
+                    "url": "https://libreria-belen.com/",
+                    "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": "https://libreria-belen.com/catalog?search={search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    }
+                }
+            ]
+        }
+    </script>
 </head>
 
 <body>
@@ -29,7 +76,7 @@
     <header class="main-header">
         <div class="header-container">
             <a href="index.html" class="logo">
-                <img src="img/logonuevo.png" alt="Librería Belen" decoding="async">
+                <img src="img/logonuevo.png" alt="Librería Belen" width="220" height="64" decoding="async" fetchpriority="high">
             </a>
 
             <div class="search-bar" style="position: relative;">
@@ -246,6 +293,7 @@
                             <button onclick="adjustDetailQty(1)">+</button>
                         </div>
                         <button class="btn btn-primary" id="detailAddBtn" onclick="addToCartFromDetail()">Agregar al Carrito</button>
+                        <button class="btn btn-whatsapp-detail" id="detailWhatsAppBtn" onclick="contactViaProductWhatsAppFromDetail()"><i class="fab fa-whatsapp"></i> Consultar por WhatsApp</button>
                     </div>
                 </div>
             </div>

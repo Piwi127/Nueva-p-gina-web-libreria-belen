@@ -35,6 +35,8 @@ const PRICES_PENDING = true;
 const PRICE_LABEL = '0';
 const THEME_STORAGE_KEY = 'libreriaBelenTheme';
 const PRODUCTS_SCRIPT_PATH = 'data/products.js';
+const WHATSAPP_PHONE_NUMBER = '51947872207';
+const CF_BEACON_PLACEHOLDER = 'YOUR_CF_BEACON_TOKEN';
 const CATEGORY_LABELS = {
     papeleria: 'Papelería',
     utiles: 'Útiles escolares',
@@ -201,6 +203,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initThemeToggle();
     updateCartCount();
     initImageFallbackHandler();
+    initCloudflareWebAnalytics();
+    initAnalyticsTracking();
     initSearchUI();
     initHeroCarousel();
     applyPricePendingUI();
@@ -302,6 +306,56 @@ function ensureProductsLoaded() {
     });
 
     return productsLoadPromise;
+}
+
+function trackEvent(eventName, params = {}) {
+    const payload = { event_name: eventName, ...params };
+
+    if (Array.isArray(window.dataLayer)) {
+        window.dataLayer.push(payload);
+    }
+    if (typeof window.gtag === 'function') {
+        window.gtag('event', eventName, params);
+    }
+
+    window.dispatchEvent(new CustomEvent('libreria-analytics', { detail: payload }));
+}
+
+function initCloudflareWebAnalytics() {
+    const tokenMeta = document.querySelector('meta[name="cf-beacon-token"]');
+    if (!tokenMeta) return;
+
+    const token = (tokenMeta.getAttribute('content') || '').trim();
+    if (!token || token === CF_BEACON_PLACEHOLDER) return;
+    if (document.querySelector('script[data-cf-beacon]')) return;
+
+    const script = document.createElement('script');
+    script.defer = true;
+    script.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    script.setAttribute('data-cf-beacon', `{"token":"${token}"}`);
+    document.head.appendChild(script);
+}
+
+function initAnalyticsTracking() {
+    document.addEventListener('click', (event) => {
+        const target = event.target;
+        if (!(target instanceof Element)) return;
+
+        const whatsappLink = target.closest('a[href*="wa.me/"]');
+        if (whatsappLink) {
+            trackEvent('whatsapp_click', {
+                source: whatsappLink.className || 'link',
+                path: window.location.pathname
+            });
+            return;
+        }
+
+        const cta = target.closest('a.btn, button.btn');
+        if (!cta) return;
+
+        const label = cta.textContent ? cta.textContent.trim().toLowerCase() : 'cta';
+        trackEvent('cta_click', { label, path: window.location.pathname });
+    });
 }
 
 function initHeroCarousel() {
@@ -1133,6 +1187,11 @@ function openProductModal(productId) {
         detailAddBtn.disabled = PRICES_PENDING;
         detailAddBtn.title = PRICES_PENDING ? 'Precios próximamente' : '';
     }
+    const detailWhatsAppBtn = document.getElementById('detailWhatsAppBtn');
+    if (detailWhatsAppBtn) {
+        detailWhatsAppBtn.disabled = false;
+        detailWhatsAppBtn.title = '';
+    }
 
     // Features
     const featureList = document.getElementById('detailFeatures');
@@ -1193,8 +1252,42 @@ function addToCartFromDetail() {
     saveCart();
     updateCartCount();
     animateCartCount();
+    trackEvent('add_to_cart', { source: 'modal', product_id: product.id });
     closeProductModal();
     openCart(); // Optional: show cart after adding
+}
+
+
+function buildProductInquiryMessage(product, quantity, source) {
+    const safeQty = Number.isFinite(quantity) && quantity > 0 ? Math.floor(quantity) : 1;
+    const categoryLabel = CATEGORY_LABELS[product.category] || 'Catalogo';
+
+    let message = 'Hola LIBRERIA BELEN, deseo consultar este producto:\n\n';
+    message += `Producto: ${product.title}\n`;
+    message += `Cantidad: ${safeQty}\n`;
+    message += `Categoria: ${categoryLabel}\n`;
+    message += `Origen: ${source}\n`;
+    message += '\nPodrian confirmar stock y tiempo de entrega?';
+    return message;
+}
+
+function openProductWhatsApp(productId, quantity = 1, source = 'catalog_card') {
+    const product = products.find(p => p.id === productId);
+    if (!product) return;
+
+    const message = buildProductInquiryMessage(product, quantity, source);
+    const url = `https://wa.me/${WHATSAPP_PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
+    trackEvent('product_whatsapp_click', {
+        source,
+        product_id: product.id,
+        quantity: Number.isFinite(quantity) ? quantity : 1
+    });
+    window.open(url, '_blank', 'noopener,noreferrer');
+}
+
+function contactViaProductWhatsAppFromDetail() {
+    if (!currentDetailId) return;
+    openProductWhatsApp(currentDetailId, currentDetailQty, 'product_modal');
 }
 
 
@@ -1242,6 +1335,12 @@ function executeSearch() {
     if (!input) return;
     const query = input.value.trim();
     addSearchHistory(query);
+    if (query) {
+        trackEvent('search_execute', {
+            query_length: query.length,
+            path: window.location.pathname
+        });
+    }
     window.location.href = `catalog.html?search=${encodeURIComponent(query)}`;
 }
 
@@ -1700,9 +1799,9 @@ function checkout() {
     message += `\n*Total a Pagar: S/ ${total.toFixed(2)}*`;
     message += "\n\n¿Cuáles son los métodos de pago disponibles y el tiempo de entrega?";
 
-    const phoneNumber = "51947872207";
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/${WHATSAPP_PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
 
+    trackEvent('checkout_whatsapp', { items: cart.length, total });
     window.open(url, '_blank', 'noopener,noreferrer');
 }
 
@@ -2022,6 +2121,7 @@ function addToCart(productId) {
     saveCart();
     updateCartCount();
     animateCartCount();
+    trackEvent('add_to_cart', { source: 'catalog', product_id: product.id });
     showToast(`${product.title} añadido al carrito`, 'success');
 }
 
@@ -2056,6 +2156,9 @@ function getProductCardHtml(product, index) {
                 </button>
                 <button class="btn-buy" onclick="openProductModal(${product.id})">
                     Ver detalle
+                </button>
+                <button class="btn-whatsapp-product" onclick="openProductWhatsApp(${product.id}, 1, 'catalog_card')">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
                 </button>
             </div>
         </div>
