@@ -1,7 +1,10 @@
-# Pretty URLs
-/about /about.html 200
-/catalog /catalog.html 200
-/formulario /plantilla-formulario.html 200
+# Avoid clean-URL redirect loops in Cloudflare Pages.
+# Pages already canonicalizes *.html -> extensionless routes.
+
+# Optional aliases
+/formulario /plantilla-formulario 301
+/catalogo /catalog 301
+/catalogos /catalog 301
 
 # Canonical home
 /index / 301
