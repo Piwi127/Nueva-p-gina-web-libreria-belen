@@ -45,6 +45,18 @@
     --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+:root[data-theme="night"] {
+    --primary-color: #dbeafe;
+    --primary-light: #93c5fd;
+    --accent-color: #f59e0b;
+    --accent-hover: #fbbf24;
+    --bg-color: #0b1220;
+    --surface-color: #111a2e;
+    --text-color: #e2e8f0;
+    --text-light: #94a3b8;
+    --border-color: #22314d;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -676,6 +688,69 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
+}
+
+:root[data-theme="night"] .main-header {
+    background: rgba(12, 20, 35, 0.96);
+    border-bottom-color: rgba(71, 85, 105, 0.45);
+}
+
+:root[data-theme="night"] .search-bar {
+    background: #0f1a31;
+    border-color: rgba(71, 85, 105, 0.6);
+    box-shadow: 0 10px 24px rgba(2, 6, 23, 0.45);
+}
+
+:root[data-theme="night"] .search-bar::before {
+    color: rgba(203, 213, 225, 0.68);
+}
+
+:root[data-theme="night"] .search-bar input {
+    color: #e2e8f0;
+}
+
+:root[data-theme="night"] .search-bar input::placeholder {
+    color: rgba(203, 213, 225, 0.72);
+}
+
+:root[data-theme="night"] .theme-toggle {
+    background: #0f1a31;
+    border-color: rgba(71, 85, 105, 0.6);
+    color: #f8fafc;
+}
+
+:root[data-theme="night"] .product-card,
+:root[data-theme="night"] .conversion-strip-card,
+:root[data-theme="night"] .location-card,
+:root[data-theme="night"] .location-map,
+:root[data-theme="night"] .support-tech-shell,
+:root[data-theme="night"] .support-tech-card,
+:root[data-theme="night"] .support-tech-visual,
+:root[data-theme="night"] .modal-content,
+:root[data-theme="night"] .search-results-dropdown,
+:root[data-theme="night"] .filter-group,
+:root[data-theme="night"] .sidebar {
+    background-color: #111a2e;
+    border-color: rgba(71, 85, 105, 0.45);
+    color: #e2e8f0;
+}
+
+:root[data-theme="night"] .support-tech-head p,
+:root[data-theme="night"] .conversion-strip-card p,
+:root[data-theme="night"] .location-title p,
+:root[data-theme="night"] .product-meta,
+:root[data-theme="night"] .product-card p {
+    color: #94a3b8;
+}
+
+:root[data-theme="night"] .btn-outline-light {
+    background: #0f1a31;
+    border-color: rgba(71, 85, 105, 0.7);
+    color: #e2e8f0;
+}
+
+:root[data-theme="night"] .footer-content a:hover {
+    color: #fbbf24;
 }
 
 .btn-cart {
