@@ -17,3 +17,5 @@ yarn-error.log*
 # Temp
 *.tmp
 *.temp
+tmp-mobile-audit/
+tmp-mobile-audit.js
