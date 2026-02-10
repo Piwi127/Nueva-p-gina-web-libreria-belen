@@ -800,6 +800,11 @@ img {
     color: #cbd5e1;
 }
 
+:root[data-theme="night"] .page-home .conversion-strip-note,
+:root[data-theme="night"] .page-home .support-cta-note {
+    color: #6ee7b7;
+}
+
 .btn-cart {
     flex: 1;
     background-color: white;
@@ -2034,6 +2039,13 @@ footer {
     gap: 0.6rem;
 }
 
+.conversion-strip-note {
+    margin-left: auto;
+    font-size: 0.82rem;
+    color: #0f766e;
+    font-weight: 700;
+}
+
 .home-featured {
     margin-bottom: var(--spacing-xl);
     padding: 1.1rem 1rem 1.35rem;
@@ -2076,6 +2088,33 @@ footer {
     padding-top: 1.1rem;
 }
 
+.page-home .support-tech-actions {
+    gap: 0.65rem;
+}
+
+.page-home .btn-whatsapp-priority {
+    background: linear-gradient(135deg, #16a34a, #15803d);
+    border: 1px solid rgba(21, 128, 61, 0.55);
+    color: #fff;
+    box-shadow: 0 12px 24px rgba(22, 163, 74, 0.24);
+}
+
+.page-home .btn-whatsapp-priority:hover {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    box-shadow: 0 14px 28px rgba(22, 163, 74, 0.32);
+}
+
+.page-home .btn-whatsapp-priority i {
+    margin-right: 0.35rem;
+}
+
+.page-home .support-cta-note {
+    width: 100%;
+    font-size: 0.82rem;
+    color: #0f766e;
+    font-weight: 700;
+}
+
 .page-home .carousel-track .product-card {
     border-radius: 14px;
     border-color: rgba(148, 163, 184, 0.3);
@@ -2115,6 +2154,23 @@ footer {
 
 .page-home .footer-section a:hover {
     color: #fbbf24;
+}
+
+.page-home .whatsapp-float {
+    box-shadow: 0 14px 30px rgba(22, 163, 74, 0.35);
+    animation: homeWhatsappPulse 2.4s ease-in-out infinite;
+}
+
+@keyframes homeWhatsappPulse {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .matrix-divider-section {
@@ -2429,8 +2485,74 @@ footer {
 }
 
 .support-page {
-    margin-top: var(--spacing-lg);
+    margin-top: 1rem;
     margin-bottom: var(--spacing-xl);
+}
+
+.support-main-hero {
+    margin-bottom: 0.85rem;
+    border-radius: 0 0 14px 14px;
+    border: 1px solid rgba(110, 231, 183, 0.32);
+    box-shadow: 0 14px 32px rgba(3, 10, 23, 0.3);
+    overflow: hidden;
+}
+
+.support-main-hero .home-hero-track {
+    aspect-ratio: 4 / 1;
+    min-height: 180px;
+    max-height: 420px;
+    perspective: none;
+    transform-style: flat;
+}
+
+.support-main-hero .home-hero-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+    background: #071225;
+}
+
+.support-main-hero .home-hero-slide,
+.support-main-hero .home-hero-slide.is-active,
+.support-main-hero .home-hero-slide.is-entering,
+.support-main-hero .home-hero-slide.is-leaving {
+    transform: none;
+}
+
+.support-main-hero .home-hero-slide.is-entering,
+.support-main-hero .home-hero-slide.is-leaving {
+    animation: none;
+}
+
+.support-main-hero .home-hero-controls {
+    bottom: 0.45rem;
+}
+
+.support-main-hero .home-hero-nav {
+    width: 46px;
+    height: 46px;
+    background: rgba(2, 6, 23, 0.58);
+    border-color: rgba(255, 255, 255, 0.88);
+}
+
+.support-main-hero .home-hero-dot {
+    width: 12px;
+    height: 12px;
+}
+
+@media (max-width: 1200px) {
+    .support-main-hero .home-hero-track {
+        aspect-ratio: 16 / 5;
+        min-height: 170px;
+    }
+}
+
+@media (max-width: 992px) {
+    .support-main-hero .home-hero-track {
+        aspect-ratio: 16 / 6;
+        min-height: 165px;
+    }
 }
 
 .support-page-hero {
@@ -2902,6 +3024,13 @@ footer {
         flex-direction: column;
     }
 
+    .page-home .conversion-strip-note {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0.2rem;
+        text-align: left;
+    }
+
     .home-featured {
         padding: 0.95rem 0.7rem 1.05rem;
         border-radius: 14px;
@@ -2926,6 +3055,18 @@ footer {
 
     .support-tech-top {
         grid-template-columns: 1fr;
+    }
+
+    .page-home .support-tech-actions {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .page-home .support-tech-actions .btn {
+        width: 100%;
+        text-align: center;
     }
 
     .support-tech-visual img {
@@ -2973,6 +3114,22 @@ footer {
         aspect-ratio: 3 / 2;
     }
 
+    .support-main-hero {
+        margin-bottom: 0.55rem;
+        border-radius: 0 0 12px 12px;
+    }
+
+    .support-main-hero .home-hero-track {
+        aspect-ratio: 16 / 9;
+        min-height: 170px;
+        max-height: 260px;
+    }
+
+    .support-main-hero .home-hero-media img {
+        object-fit: contain;
+        object-position: center center;
+    }
+
     .mobile-bottom-nav {
         position: fixed;
         left: 0;
@@ -3005,6 +3162,70 @@ footer {
         justify-content: flex-start;
     }
 
+    .support-page-body .header-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.55rem;
+        padding: 0.35rem 0.75rem 0.55rem;
+    }
+
+    .support-page-body .nav-links {
+        position: fixed !important;
+        top: 0;
+        left: -100%;
+        width: 75%;
+        max-width: 300px;
+        height: 100dvh;
+        padding-top: 5rem;
+        display: flex !important;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .support-page-body .nav-links.mobile-active {
+        left: 0;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .support-page-body .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0.1rem;
+    }
+
+    .support-page-body .logo img {
+        height: 62px;
+    }
+
+    .support-page-body .nav-icons {
+        margin-left: auto;
+        gap: 0.8rem;
+    }
+
+    .support-page-body .search-bar {
+        order: 3;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 0.15rem;
+    }
+
+    .support-page-body .support-page {
+        margin-top: 0.25rem !important;
+        padding-top: 0 !important;
+    }
+
+    .support-page-body .support-page-hero {
+        margin-bottom: 0.85rem;
+    }
+
+    .page-home .support-tech-head h2 {
+        font-size: 1.45rem;
+        line-height: 1.25;
+    }
+
     .support-form-grid {
         grid-template-columns: 1fr;
     }
@@ -3025,5 +3246,17 @@ footer {
 
     .whatsapp-float span {
         display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .support-main-hero .home-hero-track {
+        aspect-ratio: 4 / 3;
+        min-height: 180px;
+        max-height: 240px;
+    }
+
+    .support-main-hero .home-hero-media img {
+        object-position: center center;
     }
 }

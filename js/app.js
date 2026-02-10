@@ -368,6 +368,17 @@ function initAnalyticsTracking() {
         const target = event.target;
         if (!(target instanceof Element)) return;
 
+        const conversionCta = target.closest('[data-cta-id]');
+        if (conversionCta) {
+            const ctaId = conversionCta.getAttribute('data-cta-id') || 'unknown';
+            const label = conversionCta.textContent ? conversionCta.textContent.trim().toLowerCase() : ctaId;
+            trackEvent('conversion_cta_click', {
+                cta_id: ctaId,
+                label: label.slice(0, 90),
+                path: window.location.pathname
+            });
+        }
+
         const whatsappLink = target.closest('a[href*="wa.me/"]');
         if (whatsappLink) {
             trackEvent('whatsapp_click', {
@@ -389,8 +400,10 @@ function initHeroCarousel() {
     const root = document.querySelector('[data-hero-carousel]');
     if (!root) return;
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const animationMs = 1800;
-    const autoplayMs = 6500;
+    const animationMsRaw = Number(root.dataset.animationMs);
+    const autoplayMsRaw = Number(root.dataset.autoplayMs);
+    const animationMs = Number.isFinite(animationMsRaw) && animationMsRaw >= 0 ? animationMsRaw : 1800;
+    const autoplayMs = Number.isFinite(autoplayMsRaw) && autoplayMsRaw >= 1200 ? autoplayMsRaw : 6500;
 
     const slides = Array.from(root.querySelectorAll('[data-hero-slide]'));
     const dots = Array.from(root.querySelectorAll('[data-hero-dot]'));
@@ -438,7 +451,7 @@ function initHeroCarousel() {
         const nextSlide = slides[safeNext];
         const direction = getDirection(index, safeNext);
 
-        if (prefersReducedMotion) {
+        if (prefersReducedMotion || animationMs === 0) {
             cleanAnimationClasses(currentSlide);
             cleanAnimationClasses(nextSlide);
             currentSlide.classList.remove('is-active');
