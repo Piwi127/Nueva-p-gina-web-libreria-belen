@@ -3210,12 +3210,14 @@ footer {
         display: flex !important;
         visibility: hidden;
         pointer-events: none;
+        z-index: 5002;
     }
 
     .support-page-body .nav-links.mobile-active {
         left: 0;
         visibility: visible;
         pointer-events: auto;
+        z-index: 5002;
     }
 
     .support-page-body .mobile-bottom-nav {
