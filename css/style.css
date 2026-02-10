@@ -2261,10 +2261,14 @@ footer {
 .support-page-body .nav-links,
 .support-page-body #main-content,
 .support-page-body footer,
-.support-page-body .mobile-bottom-nav,
-.support-page-body .whatsapp-float {
+.support-page-body .mobile-bottom-nav {
     position: relative;
     z-index: 1;
+}
+
+.support-page-body .whatsapp-float {
+    position: fixed;
+    z-index: 3000;
 }
 
 .support-page {
