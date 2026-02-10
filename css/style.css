@@ -3132,14 +3132,14 @@ footer {
     }
 
     .support-main-hero .home-hero-track {
-        aspect-ratio: 16 / 10;
-        min-height: 220px;
-        max-height: 330px;
+        aspect-ratio: 16 / 9;
+        min-height: 150px;
+        max-height: 220px;
     }
 
     .support-main-hero .home-hero-media img {
         object-fit: cover;
-        object-position: center 34%;
+        object-position: center 40%;
         background: #071225;
     }
 
@@ -3332,14 +3332,14 @@ footer {
     }
 
     .support-main-hero .home-hero-track {
-        aspect-ratio: 5 / 4;
-        min-height: 230px;
-        max-height: 300px;
+        aspect-ratio: 16 / 10;
+        min-height: 150px;
+        max-height: 200px;
     }
 
     .support-main-hero .home-hero-media img {
         object-fit: cover;
-        object-position: center 38%;
+        object-position: center 42%;
     }
 
     .home-hero-nav,
