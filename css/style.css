@@ -167,7 +167,7 @@ img {
     display: block;
 }
 
-/* Header */
+/* Encabezado */
 .main-header {
     background-color: var(--surface-color);
     /* White header for cleanliness */
@@ -304,7 +304,7 @@ img {
     display: none;
 }
 
-/* Navigation Bar (Secondary) */
+/* Barra de navegacion (secundaria) */
 .nav-links {
     background: linear-gradient(90deg, #0f172a, #111827);
     box-shadow: 0 10px 25px rgba(15, 23, 42, 0.35);
@@ -355,7 +355,7 @@ img {
     border-radius: 2px;
 }
 
-/* Hero Section */
+/* Seccion hero */
 .hero {
     background-color: var(--primary-color);
     padding: 0;
@@ -564,7 +564,7 @@ img {
     }
 }
 
-/* Hero CTA animation */
+/* Animacion CTA del hero */
 .hero .btn-primary {
     position: relative;
     animation: heroPulse 1.6s ease-in-out infinite;
@@ -593,7 +593,7 @@ img {
     100% { opacity: 0; transform: scale(1.15); }
 }
 
-/* Product Grid */
+/* Cuadricula de productos */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -868,7 +868,7 @@ img {
     border-color: #15803d;
 }
 
-/* Footer */
+/* Pie de pagina */
 footer {
     background-color: var(--primary-color);
     /* Dark Navy */
@@ -905,12 +905,12 @@ footer {
     text-decoration: underline;
 }
 
-/* Utilities */
+/* Utilidades */
 .hidden {
     display: none !important;
 }
 
-/* Catalog Sidebar */
+/* Barra lateral del catalogo */
 .catalog-layout {
     display: flex;
     gap: var(--spacing-lg);
@@ -1036,7 +1036,7 @@ footer {
     text-align: center;
 }
 
-/* About Page */
+/* Pagina Nosotros */
 .about-content {
     background: white;
     padding: var(--spacing-lg);
@@ -1045,7 +1045,7 @@ footer {
     box-shadow: var(--shadow-sm);
 }
 
-/* Additions for Cart */
+/* Elementos adicionales del carrito */
 .btn-qty {
     width: 24px;
     height: 24px;
@@ -1064,12 +1064,12 @@ footer {
     border-color: var(--primary-color);
 }
 
-/* Ensure images in product grid are contained */
+/* Asegura que las imagenes de productos se contengan correctamente */
 .product-image img {
     object-position: center;
 }
 
-/* Sidebar Inputs */
+/* Entradas de la barra lateral */
 .filter-item {
     display: flex;
     align-items: center;
@@ -1078,7 +1078,7 @@ footer {
     color: var(--text-color);
 }
 
-/* Mobile Sidebar Toggle - Hidden on Desktop */
+/* Boton movil de filtros - oculto en escritorio */
 #mobile-filter-toggle {
     display: none;
     margin-bottom: var(--spacing-sm);
@@ -1089,7 +1089,7 @@ footer {
     display: none;
 }
 
-/* Pagination Styles */
+/* Estilos de paginacion */
 .pagination-container {
     display: flex;
     justify-content: center;
@@ -1136,7 +1136,7 @@ footer {
     }
 }
 
-/* Carousel Styles */
+/* Estilos del carrusel */
 .carousel-container {
     position: relative;
     width: 100%;
@@ -1159,7 +1159,7 @@ footer {
     animation: carouselFloat 6s ease-in-out infinite;
 }
 
-/* Hide scrollbar */
+/* Oculta la barra de desplazamiento */
 .carousel-track::-webkit-scrollbar {
     display: none;
 }
@@ -1229,7 +1229,7 @@ footer {
     right: 0;
 }
 
-/* Search Dropdown */
+/* Desplegable de busqueda */
 .search-results-dropdown {
     position: absolute;
     top: 100%;
@@ -1351,7 +1351,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* WhatsApp Floating Button */
+/* Boton flotante de WhatsApp */
 .whatsapp-float {
     position: fixed;
     right: 20px;
@@ -1402,7 +1402,7 @@ footer {
 }
 
 
-/* Product Detail Modal */
+/* Modal de detalle de producto */
 .modal {
     display: none;
     position: fixed;
@@ -1577,7 +1577,7 @@ footer {
     font-weight: 600;
 }
 
-/* Unified UI Layer */
+/* Capa unificada de interfaz */
 .mobile-menu-btn {
     display: none;
 }
@@ -2510,7 +2510,7 @@ footer {
     letter-spacing: 0.01em;
 }
 
-/* Tech visual skin for support page */
+/* Apariencia visual tecnica para la pagina de soporte */
 .support-page-body .support-page-hero,
 .support-page-body .support-promo-card,
 .support-page-body .support-promo-content,

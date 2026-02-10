@@ -1,4 +1,5 @@
-// State
+// Estado
+// Funcion: parseStoredJson. Describe y encapsula una parte de la logica de la aplicacion.
 function parseStoredJson(key, fallback) {
     try {
         const raw = localStorage.getItem(key);
@@ -11,6 +12,7 @@ function parseStoredJson(key, fallback) {
     }
 }
 
+// Funcion: parseStoredArray. Describe y encapsula una parte de la logica de la aplicacion.
 function parseStoredArray(key) {
     const value = parseStoredJson(key, []);
     return Array.isArray(value) ? value : [];
@@ -122,7 +124,7 @@ const SUBCATEGORY_PATTERNS = {
     ]
 };
 
-// DOM Elements
+// Elementos del DOM
 const productGrid = document.getElementById('product-grid');
 const cartCount = document.querySelectorAll('.cart-count');
 const cartModal = document.getElementById('cartModal');
@@ -135,6 +137,7 @@ const featuredCarousel = document.getElementById('featured-carousel');
 const productDetailModal = document.getElementById('productDetailModal');
 let autoScrollInterval;
 
+// Funcion: escapeHtml. Describe y encapsula una parte de la logica de la aplicacion.
 function escapeHtml(value) {
     return String(value || '')
         .replace(/&/g, '&amp;')
@@ -144,10 +147,12 @@ function escapeHtml(value) {
         .replace(/'/g, '&#39;');
 }
 
+// Funcion: escapeAttr. Describe y encapsula una parte de la logica de la aplicacion.
 function escapeAttr(value) {
     return escapeHtml(value);
 }
 
+// Funcion: escapeJsString. Describe y encapsula una parte de la logica de la aplicacion.
 function escapeJsString(value) {
     return String(value || '')
         .replace(/\\/g, '\\\\')
@@ -155,6 +160,7 @@ function escapeJsString(value) {
         .replace(/\r?\n/g, ' ');
 }
 
+// Funcion: sanitizeUrl. Describe y encapsula una parte de la logica de la aplicacion.
 function sanitizeUrl(url) {
     const trimmed = String(url || '').trim();
     if (!trimmed) return 'img/placeholder.jpg';
@@ -185,6 +191,7 @@ function sanitizeUrl(url) {
     }
 }
 
+// Funcion: initImageFallbackHandler. Describe y encapsula una parte de la logica de la aplicacion.
 function initImageFallbackHandler() {
     document.addEventListener('error', (event) => {
         const target = event.target;
@@ -198,7 +205,7 @@ function initImageFallbackHandler() {
     }, true);
 }
 
-// Initialize
+// Inicializacion
 document.addEventListener('DOMContentLoaded', () => {
     initThemeToggle();
     updateCartCount();
@@ -270,6 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Funcion: ensureProductsLoaded. Describe y encapsula una parte de la logica de la aplicacion.
 function ensureProductsLoaded() {
     if (products.length > 0) return Promise.resolve(products);
 
@@ -334,6 +342,7 @@ function ensureProductsLoaded() {
     return productsLoadPromise;
 }
 
+// Funcion: trackEvent. Describe y encapsula una parte de la logica de la aplicacion.
 function trackEvent(eventName, params = {}) {
     const payload = { event_name: eventName, ...params };
 
@@ -347,6 +356,7 @@ function trackEvent(eventName, params = {}) {
     window.dispatchEvent(new CustomEvent('libreria-analytics', { detail: payload }));
 }
 
+// Funcion: initCloudflareWebAnalytics. Describe y encapsula una parte de la logica de la aplicacion.
 function initCloudflareWebAnalytics() {
     const tokenMeta = document.querySelector('meta[name="cf-beacon-token"]');
     if (!tokenMeta) return;
@@ -362,6 +372,7 @@ function initCloudflareWebAnalytics() {
     document.head.appendChild(script);
 }
 
+// Funcion: initAnalyticsTracking. Describe y encapsula una parte de la logica de la aplicacion.
 function initAnalyticsTracking() {
     document.addEventListener('click', (event) => {
         const target = event.target;
@@ -395,6 +406,7 @@ function initAnalyticsTracking() {
     });
 }
 
+// Funcion: initHeroCarousel. Describe y encapsula una parte de la logica de la aplicacion.
 function initHeroCarousel() {
     const root = document.querySelector('[data-hero-carousel]');
     if (!root) return;
@@ -528,6 +540,7 @@ function initHeroCarousel() {
     startAutoplay();
 }
 
+// Funcion: applyTheme. Describe y encapsula una parte de la logica de la aplicacion.
 function applyTheme(theme) {
     const safeTheme = theme === 'night' ? 'night' : 'editorial';
     if (safeTheme === 'editorial') {
@@ -545,6 +558,7 @@ function applyTheme(theme) {
     });
 }
 
+// Funcion: initThemeToggle. Describe y encapsula una parte de la logica de la aplicacion.
 function initThemeToggle() {
     const stored = localStorage.getItem(THEME_STORAGE_KEY);
     applyTheme(stored || 'editorial');
@@ -562,6 +576,7 @@ let activeSearchIndex = -1;
 let searchDebounceTimer = null;
 const SEARCH_DEBOUNCE_MS = 120;
 
+// Funcion: initSearchUI. Describe y encapsula una parte de la logica de la aplicacion.
 function initSearchUI() {
     const input = document.getElementById('searchInput');
     const results = document.getElementById('searchResults');
@@ -602,19 +617,23 @@ function initSearchUI() {
     });
 }
 
+// Funcion: setActiveSearchItem. Describe y encapsula una parte de la logica de la aplicacion.
 function setActiveSearchItem(items, index) {
     items.forEach((item, i) => item.classList.toggle('active', i === index));
     if (items[index]) items[index].scrollIntoView({ block: 'nearest' });
 }
 
+// Funcion: getSearchHistory. Describe y encapsula una parte de la logica de la aplicacion.
 function getSearchHistory() {
     return parseStoredArray('libreriaBelenSearchHistory');
 }
 
+// Funcion: saveSearchHistory. Describe y encapsula una parte de la logica de la aplicacion.
 function saveSearchHistory(history) {
     localStorage.setItem('libreriaBelenSearchHistory', JSON.stringify(history.slice(0, 6)));
 }
 
+// Funcion: addSearchHistory. Describe y encapsula una parte de la logica de la aplicacion.
 function addSearchHistory(query) {
     const q = query.trim();
     if (!q) return;
@@ -623,6 +642,7 @@ function addSearchHistory(query) {
     saveSearchHistory(history);
 }
 
+// Funcion: renderSearchDropdown. Describe y encapsula una parte de la logica de la aplicacion.
 function renderSearchDropdown(query, filtered) {
     const searchResults = document.getElementById('searchResults');
     if (!searchResults) return;
@@ -714,6 +734,7 @@ function renderSearchDropdown(query, filtered) {
     searchResults.classList.add('active');
 }
 
+// Funcion: createSectionTitle. Describe y encapsula una parte de la logica de la aplicacion.
 function createSectionTitle(text) {
     const title = document.createElement('div');
     title.className = 'search-section-title';
@@ -721,6 +742,7 @@ function createSectionTitle(text) {
     return title;
 }
 
+// Funcion: createChipRow. Describe y encapsula una parte de la logica de la aplicacion.
 function createChipRow(items, onClick) {
     const row = document.createElement('div');
     row.className = 'search-chips';
@@ -735,6 +757,7 @@ function createChipRow(items, onClick) {
     return row;
 }
 
+// Funcion: createProductChipRow. Describe y encapsula una parte de la logica de la aplicacion.
 function createProductChipRow(items) {
     const row = document.createElement('div');
     row.className = 'search-chips';
@@ -759,6 +782,7 @@ function createProductChipRow(items) {
     return row;
 }
 
+// Funcion: getTopCategories. Describe y encapsula una parte de la logica de la aplicacion.
 function getTopCategories(list, limit) {
     const counts = {};
     list.forEach(p => {
@@ -771,6 +795,7 @@ function getTopCategories(list, limit) {
         .map(([name]) => name);
 }
 
+// Funcion: getTopBrands. Describe y encapsula una parte de la logica de la aplicacion.
 function getTopBrands(list, limit) {
     const counts = {};
     list.forEach(p => {
@@ -784,6 +809,7 @@ function getTopBrands(list, limit) {
         .map(([name]) => name);
 }
 
+// Funcion: extractBrandFromTitle. Describe y encapsula una parte de la logica de la aplicacion.
 function extractBrandFromTitle(title) {
     const knownBrands = [
         { label: 'Faber-Castell', pattern: /faber[-\s]?castell/i },
@@ -803,6 +829,7 @@ function extractBrandFromTitle(title) {
     return '';
 }
 
+// Funcion: getBestPriceProducts. Describe y encapsula una parte de la logica de la aplicacion.
 function getBestPriceProducts(list, limit) {
     return [...list]
         .filter(p => Number.isFinite(p.price))
@@ -810,6 +837,7 @@ function getBestPriceProducts(list, limit) {
         .slice(0, limit);
 }
 
+// Funcion: handleCategorySearch. Describe y encapsula una parte de la logica de la aplicacion.
 function handleCategorySearch(category) {
     const input = document.getElementById('searchInput');
     if (input) input.value = '';
@@ -833,6 +861,7 @@ function handleCategorySearch(category) {
     }
 }
 
+// Funcion: handleBrandSearch. Describe y encapsula una parte de la logica de la aplicacion.
 function handleBrandSearch(brand) {
     const input = document.getElementById('searchInput');
     if (input) input.value = brand;
@@ -851,6 +880,7 @@ function handleBrandSearch(brand) {
     renderSearchDropdown(brand, filtered);
 }
 
+// Funcion: loadProducts. Describe y encapsula una parte de la logica de la aplicacion.
 function loadProducts() {
     if (typeof window.PRODUCTS !== 'undefined') {
         products = Object.entries(window.PRODUCTS).map(([slug, data], index) => {
@@ -914,6 +944,7 @@ function loadProducts() {
     }
 }
 
+// Funcion: normalizeCategory. Describe y encapsula una parte de la logica de la aplicacion.
 function normalizeCategory(rawCategory, title) {
     const normalized = (rawCategory || '').toString().trim().toLowerCase();
     if (['papeleria', 'regalos', 'cuadernos'].includes(normalized)) return normalized;
@@ -925,6 +956,7 @@ function normalizeCategory(rawCategory, title) {
     return categorizeByTitle(title || '') || (normalized || 'otros');
 }
 
+// Funcion: categorizeByTitle. Describe y encapsula una parte de la logica de la aplicacion.
 function categorizeByTitle(title) {
     const t = title.toLowerCase();
 
@@ -941,6 +973,7 @@ function categorizeByTitle(title) {
     return '';
 }
 
+// Funcion: normalizeSubcategory. Describe y encapsula una parte de la logica de la aplicacion.
 function normalizeSubcategory(category, title) {
     const patterns = SUBCATEGORY_PATTERNS[category] || [];
     const t = title.toLowerCase();
@@ -950,12 +983,14 @@ function normalizeSubcategory(category, title) {
     return 'varios';
 }
 
+// Funcion: getSubcategoryLabel. Describe y encapsula una parte de la logica de la aplicacion.
 function getSubcategoryLabel(category, subcategory) {
     const patterns = SUBCATEGORY_PATTERNS[category] || [];
     const match = patterns.find(p => p.key === subcategory);
     return match ? match.label : subcategory;
 }
 
+// Funcion: buildSearchTokens. Describe y encapsula una parte de la logica de la aplicacion.
 function buildSearchTokens({ title, description, longDescription, usage, category, subcategory, subcategoryLabel, brand }) {
     const tokens = new Set();
     const source = [
@@ -1007,6 +1042,7 @@ function buildSearchTokens({ title, description, longDescription, usage, categor
     return Array.from(tokens);
 }
 
+// Funcion: tokenize. Describe y encapsula una parte de la logica de la aplicacion.
 function tokenize(text) {
     return text
         .normalize('NFD')
@@ -1016,10 +1052,12 @@ function tokenize(text) {
         .filter(Boolean);
 }
 
+// Funcion: normalizeText. Describe y encapsula una parte de la logica de la aplicacion.
 function normalizeText(text) {
     return tokenize(text).join(' ');
 }
 
+// Funcion: getTokenCharRanges. Describe y encapsula una parte de la logica de la aplicacion.
 function getTokenCharRanges(text) {
     const raw = String(text || '');
     const ranges = [];
@@ -1052,6 +1090,7 @@ function getTokenCharRanges(text) {
     return { raw, ranges };
 }
 
+// Funcion: highlightSearchMatches. Describe y encapsula una parte de la logica de la aplicacion.
 function highlightSearchMatches(text, query) {
     const source = String(text || '');
     const q = String(query || '').trim();
@@ -1100,6 +1139,7 @@ function highlightSearchMatches(text, query) {
     return result;
 }
 
+// Funcion: getExpandedQueryTokens. Describe y encapsula una parte de la logica de la aplicacion.
 function getExpandedQueryTokens(query) {
     const baseTokens = tokenize(query);
     const expanded = new Set(baseTokens);
@@ -1122,6 +1162,7 @@ function getExpandedQueryTokens(query) {
     return Array.from(expanded);
 }
 
+// Funcion: levenshteinDistance. Describe y encapsula una parte de la logica de la aplicacion.
 function levenshteinDistance(a, b) {
     if (a === b) return 0;
     const m = a.length;
@@ -1147,6 +1188,7 @@ function levenshteinDistance(a, b) {
     return dp[m][n];
 }
 
+// Funcion: hasApproxToken. Describe y encapsula una parte de la logica de la aplicacion.
 function hasApproxToken(tokens, queryToken) {
     if (!queryToken || queryToken.length < 4) return false;
     const maxDistance = queryToken.length >= 8 ? 2 : 1;
@@ -1157,6 +1199,7 @@ function hasApproxToken(tokens, queryToken) {
     return false;
 }
 
+// Funcion: scoreSearchProduct. Describe y encapsula una parte de la logica de la aplicacion.
 function scoreSearchProduct(product, query, queryTokens) {
     const qNorm = normalizeText(query);
     if (!qNorm) return 0;
@@ -1196,6 +1239,7 @@ function scoreSearchProduct(product, query, queryTokens) {
     return score;
 }
 
+// Funcion: getRankedSearchResults. Describe y encapsula una parte de la logica de la aplicacion.
 function getRankedSearchResults(list, query) {
     const q = (query || '').trim();
     if (!q) return list;
@@ -1208,7 +1252,8 @@ function getRankedSearchResults(list, query) {
         .map(item => item.product);
 }
 
-// Product Detail Modal Logic
+// Logica del modal de detalle de producto
+// Funcion: getProductModalNodes. Describe y encapsula una parte de la logica de la aplicacion.
 function getProductModalNodes() {
     if (!productDetailModal) return null;
 
@@ -1226,6 +1271,7 @@ function getProductModalNodes() {
     return hasMissingNode ? null : nodes;
 }
 
+// Funcion: initSupportMatrixBackground. Describe y encapsula una parte de la logica de la aplicacion.
 function initSupportMatrixBackground() {
     const canvas = document.getElementById('supportMatrixCanvas');
     if (!canvas) return;
@@ -1308,6 +1354,7 @@ function initSupportMatrixBackground() {
     });
 }
 
+// Funcion: openProductModal. Describe y encapsula una parte de la logica de la aplicacion.
 function openProductModal(productId) {
     const product = products.find(p => p.id === productId);
     if (!product) return false;
@@ -1368,11 +1415,13 @@ function openProductModal(productId) {
     return true;
 }
 
+// Funcion: closeProductModal. Describe y encapsula una parte de la logica de la aplicacion.
 function closeProductModal() {
     if (!productDetailModal) return;
     productDetailModal.style.display = 'none';
 }
 
+// Funcion: adjustDetailQty. Describe y encapsula una parte de la logica de la aplicacion.
 function adjustDetailQty(change) {
     currentDetailQty += change;
     if (currentDetailQty < 1) currentDetailQty = 1;
@@ -1380,6 +1429,7 @@ function adjustDetailQty(change) {
     if (detailQtyNode) detailQtyNode.innerText = currentDetailQty;
 }
 
+// Funcion: addToCartFromDetail. Describe y encapsula una parte de la logica de la aplicacion.
 function addToCartFromDetail() {
     if (PRICES_PENDING) {
         showToast('Precios próximamente', 'error');
@@ -1398,6 +1448,7 @@ function addToCartFromDetail() {
 }
 
 
+// Funcion: buildProductInquiryMessage. Describe y encapsula una parte de la logica de la aplicacion.
 function buildProductInquiryMessage(product, quantity, source) {
     const safeQty = Number.isFinite(quantity) && quantity > 0 ? Math.floor(quantity) : 1;
     const categoryLabel = CATEGORY_LABELS[product.category] || 'Catalogo';
@@ -1411,6 +1462,7 @@ function buildProductInquiryMessage(product, quantity, source) {
     return message;
 }
 
+// Funcion: openProductWhatsApp. Describe y encapsula una parte de la logica de la aplicacion.
 function openProductWhatsApp(productId, quantity = 1, source = 'catalog_card') {
     const product = products.find(p => p.id === productId);
     if (!product) return;
@@ -1425,13 +1477,15 @@ function openProductWhatsApp(productId, quantity = 1, source = 'catalog_card') {
     window.open(url, '_blank', 'noopener,noreferrer');
 }
 
+// Funcion: contactViaProductWhatsAppFromDetail. Describe y encapsula una parte de la logica de la aplicacion.
 function contactViaProductWhatsAppFromDetail() {
     if (!currentDetailId) return;
     openProductWhatsApp(currentDetailId, currentDetailQty, 'product_modal');
 }
 
 
-// Search Logic
+// Logica de busqueda
+// Funcion: handleSearchInput. Describe y encapsula una parte de la logica de la aplicacion.
 function handleSearchInput(query, showDropdown = true, immediate = false) {
     currentSearchQuery = query;
 
@@ -1470,6 +1524,7 @@ function handleSearchInput(query, showDropdown = true, immediate = false) {
     searchDebounceTimer = setTimeout(runSearch, SEARCH_DEBOUNCE_MS);
 }
 
+// Funcion: executeSearch. Describe y encapsula una parte de la logica de la aplicacion.
 function executeSearch() {
     const input = document.getElementById('searchInput');
     if (!input) return;
@@ -1484,8 +1539,9 @@ function executeSearch() {
     window.location.href = `catalog.html?search=${encodeURIComponent(query)}`;
 }
 
-// ... Rest (Carousel, Pagination, Standard Cart) ...
+// ... Resto (carrusel, paginacion y carrito estandar) ...
 
+// Funcion: renderFeaturedCarousel. Describe y encapsula una parte de la logica de la aplicacion.
 function renderFeaturedCarousel() {
     if (!featuredCarousel || products.length === 0) return;
     const shuffled = [...products].sort(() => 0.5 - Math.random());
@@ -1502,6 +1558,7 @@ function renderFeaturedCarousel() {
     featuredCarousel.appendChild(fragment);
 }
 
+// Funcion: scrollCarousel. Describe y encapsula una parte de la logica de la aplicacion.
 function scrollCarousel(direction) {
     if (!featuredCarousel) return;
     const cardWidth = 250 + 32;
@@ -1512,6 +1569,7 @@ function scrollCarousel(direction) {
     }
 }
 
+// Funcion: startCarouselAutoScroll. Describe y encapsula una parte de la logica de la aplicacion.
 function startCarouselAutoScroll() {
     if (!featuredCarousel) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -1533,6 +1591,7 @@ function startCarouselAutoScroll() {
     });
 }
 
+// Funcion: renderProducts. Describe y encapsula una parte de la logica de la aplicacion.
 function renderProducts(productsToRender) {
     if (!productGrid) return;
     const startIndex = (currentPage - 1) * itemsPerPage;
@@ -1557,6 +1616,7 @@ function renderProducts(productsToRender) {
     renderPagination(productsToRender.length);
 }
 
+// Funcion: renderPagination. Describe y encapsula una parte de la logica de la aplicacion.
 function renderPagination(totalItems) {
     if (!paginationContainer) return;
     const totalPages = Math.ceil(totalItems / itemsPerPage);
@@ -1590,12 +1650,14 @@ function renderPagination(totalItems) {
     paginationContainer.appendChild(nextBtn);
 }
 
+// Funcion: changePage. Describe y encapsula una parte de la logica de la aplicacion.
 function changePage(newPage) {
     currentPage = newPage;
     renderProducts(sortProducts(currentProducts, currentSort));
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// Funcion: initSortSelect. Describe y encapsula una parte de la logica de la aplicacion.
 function initSortSelect() {
     const select = document.getElementById('sortSelect');
     if (!select) return;
@@ -1606,6 +1668,7 @@ function initSortSelect() {
     });
 }
 
+// Funcion: sortProducts. Describe y encapsula una parte de la logica de la aplicacion.
 function sortProducts(list, sortKey) {
     const items = [...list];
     if (sortKey === 'price-asc') return items.sort((a, b) => a.price - b.price);
@@ -1615,6 +1678,7 @@ function sortProducts(list, sortKey) {
     return items;
 }
 
+// Funcion: getStars. Describe y encapsula una parte de la logica de la aplicacion.
 function getStars(rating) {
     const safeRating = Number.isFinite(Number(rating)) ? Number(rating) : 0;
     const clamped = Math.max(0, Math.min(5, safeRating));
@@ -1626,6 +1690,7 @@ function getStars(rating) {
     return starsHtml;
 }
 
+// Funcion: renderCategories. Describe y encapsula una parte de la logica de la aplicacion.
 function renderCategories() {
     if (!categoryFilterContainer) return;
     const counts = products.reduce((acc, p) => {
@@ -1685,6 +1750,7 @@ function renderCategories() {
     categoryFilterContainer.innerHTML = html;
 }
 
+// Funcion: renderBrandFilters. Describe y encapsula una parte de la logica de la aplicacion.
 function renderBrandFilters() {
     const container = document.getElementById('brandFilters');
     if (!container) return;
@@ -1723,6 +1789,7 @@ function renderBrandFilters() {
     container.innerHTML = html;
 }
 
+// Funcion: applyFilters. Describe y encapsula una parte de la logica de la aplicacion.
 function applyFilters() {
     let list = products;
 
@@ -1751,10 +1818,12 @@ function applyFilters() {
     updateCatalogInsights();
 }
 
+// Funcion: filterBySearch. Describe y encapsula una parte de la logica de la aplicacion.
 function filterBySearch(list, query) {
     return getRankedSearchResults(list, query);
 }
 
+// Funcion: filterProducts. Describe y encapsula una parte de la logica de la aplicacion.
 function filterProducts(category) {
     currentPage = 1;
     currentCategory = category;
@@ -1766,6 +1835,7 @@ function filterProducts(category) {
     if (window.innerWidth < 768) closeSidebar();
 }
 
+// Funcion: filterBySubcategory. Describe y encapsula una parte de la logica de la aplicacion.
 function filterBySubcategory(category, subcategory) {
     currentPage = 1;
     currentCategory = category;
@@ -1779,12 +1849,14 @@ function filterBySubcategory(category, subcategory) {
     if (window.innerWidth < 768) closeSidebar();
 }
 
+// Funcion: toggleSubcategory. Describe y encapsula una parte de la logica de la aplicacion.
 function toggleSubcategory(category) {
     const container = document.querySelector(`.filter-accordion[data-category="${category}"]`);
     if (!container) return;
     container.classList.toggle('open');
 }
 
+// Funcion: filterByPrice. Describe y encapsula una parte de la logica de la aplicacion.
 function filterByPrice(maxPrice) {
     if (PRICES_PENDING) return;
     currentPage = 1;
@@ -1794,12 +1866,14 @@ function filterByPrice(maxPrice) {
     applyFilters();
 }
 
+// Funcion: filterByBrand. Describe y encapsula una parte de la logica de la aplicacion.
 function filterByBrand(brand) {
     currentPage = 1;
     currentBrand = brand;
     applyFilters();
 }
 
+// Funcion: setSidebarState. Describe y encapsula una parte de la logica de la aplicacion.
 function setSidebarState(isOpen) {
     if (!sidebar) return;
     const open = Boolean(isOpen);
@@ -1807,15 +1881,19 @@ function setSidebarState(isOpen) {
     document.body.classList.toggle('sidebar-open', open);
 }
 
+// Funcion: closeSidebar. Describe y encapsula una parte de la logica de la aplicacion.
 function closeSidebar() {
     setSidebarState(false);
 }
 
+// Funcion: toggleSidebar. Describe y encapsula una parte de la logica de la aplicacion.
 function toggleSidebar() {
     if (!sidebar) return;
     setSidebarState(!sidebar.classList.contains('open'));
 }
+// Funcion: removeFromCart. Describe y encapsula una parte de la logica de la aplicacion.
 function removeFromCart(productId) { cart = cart.filter(item => item.id !== productId); saveCart(); renderCart(); updateCartCount(); }
+// Funcion: updateQuantity. Describe y encapsula una parte de la logica de la aplicacion.
 function updateQuantity(productId, change) {
     const item = cart.find(item => item.id === productId);
     if (item) {
@@ -1823,7 +1901,9 @@ function updateQuantity(productId, change) {
         if (item.quantity <= 0) { removeFromCart(productId); } else { saveCart(); renderCart(); updateCartCount(); }
     }
 }
+// Funcion: saveCart. Describe y encapsula una parte de la logica de la aplicacion.
 function saveCart() { localStorage.setItem('libreriaBelenCart', JSON.stringify(cart)); }
+// Funcion: updateCartCount. Describe y encapsula una parte de la logica de la aplicacion.
 function updateCartCount() {
     const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
     cartCount.forEach(el => {
@@ -1831,6 +1911,7 @@ function updateCartCount() {
         el.classList.toggle('is-empty', totalItems === 0);
     });
 }
+// Funcion: openCart. Describe y encapsula una parte de la logica de la aplicacion.
 function openCart() {
     if (!cartModal) {
         if (!document.getElementById('cartItems')) {
@@ -1846,11 +1927,13 @@ function openCart() {
     }
 }
 
+// Funcion: closeCart. Describe y encapsula una parte de la logica de la aplicacion.
 function closeCart() {
     if (!cartModal) return;
     cartModal.style.display = 'none';
     syncMobileOverlayState();
 }
+// Funcion: renderCart. Describe y encapsula una parte de la logica de la aplicacion.
 function renderCart() {
     if (!cartItemsContainer) return;
     cartItemsContainer.innerHTML = '';
@@ -1898,6 +1981,7 @@ function renderCart() {
     if (invoiceBtn) invoiceBtn.disabled = PRICES_PENDING;
 }
 
+// Funcion: getCustomerData. Describe y encapsula una parte de la logica de la aplicacion.
 function getCustomerData() {
     const nameInput = document.getElementById('customerName');
     const lastNameInput = document.getElementById('customerLastName');
@@ -1929,6 +2013,7 @@ function getCustomerData() {
     return { name, lastName, dni };
 }
 
+// Funcion: checkout. Describe y encapsula una parte de la logica de la aplicacion.
 function checkout() {
     if (cart.length === 0) {
         alert('Tu carrito está vacío.');
@@ -1966,6 +2051,7 @@ function checkout() {
     window.open(url, '_blank', 'noopener,noreferrer');
 }
 
+// Funcion: generateInvoice. Describe y encapsula una parte de la logica de la aplicacion.
 function generateInvoice() {
     if (cart.length === 0) {
         alert('El carrito está vacío. Agrega productos para generar una boleta.');
@@ -2058,6 +2144,7 @@ function generateInvoice() {
     doc.save(`Boleta_${customer.name}_${customer.lastName}_${Date.now()}.pdf`);
 }
 
+// Funcion: initSupportRequestForm. Describe y encapsula una parte de la logica de la aplicacion.
 function initSupportRequestForm() {
     const form = document.getElementById('supportForm');
     if (!form) return;
@@ -2124,7 +2211,8 @@ function initSupportRequestForm() {
     });
 }
 
-// Mobile Menu Logic
+// Logica del menu movil
+// Funcion: syncMobileOverlayState. Describe y encapsula una parte de la logica de la aplicacion.
 function syncMobileOverlayState() {
     const navLinks = document.querySelector('.nav-links');
     const navOpen = Boolean(navLinks && navLinks.classList.contains('mobile-active'));
@@ -2132,6 +2220,7 @@ function syncMobileOverlayState() {
     document.body.classList.toggle('mobile-menu-open', navOpen || cartOpen);
 }
 
+// Funcion: setMobileMenuState. Describe y encapsula una parte de la logica de la aplicacion.
 function setMobileMenuState(isOpen) {
     const navLinks = document.querySelector('.nav-links');
     if (!navLinks) return;
@@ -2140,17 +2229,19 @@ function setMobileMenuState(isOpen) {
     syncMobileOverlayState();
 }
 
+// Funcion: closeMobileMenu. Describe y encapsula una parte de la logica de la aplicacion.
 function closeMobileMenu() {
     setMobileMenuState(false);
 }
 
+// Funcion: toggleMobileMenu. Describe y encapsula una parte de la logica de la aplicacion.
 function toggleMobileMenu() {
     const navLinks = document.querySelector('.nav-links');
     if (!navLinks) return;
     setMobileMenuState(!navLinks.classList.contains('mobile-active'));
 }
 
-// Close mobile menu when clicking a link
+// Cierra el menu movil al hacer clic en un enlace
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
         closeMobileMenu();
@@ -2185,6 +2276,7 @@ window.addEventListener('resize', () => {
     }
 });
 
+// Funcion: initAccessibilityEnhancements. Describe y encapsula una parte de la logica de la aplicacion.
 function initAccessibilityEnhancements() {
     document.addEventListener('keydown', (event) => {
         if (event.key !== 'Escape') return;
@@ -2201,6 +2293,7 @@ function initAccessibilityEnhancements() {
     });
 }
 
+// Funcion: initDynamicYear. Describe y encapsula una parte de la logica de la aplicacion.
 function initDynamicYear() {
     const year = new Date().getFullYear();
     document.querySelectorAll('[data-current-year]').forEach(el => {
@@ -2208,6 +2301,7 @@ function initDynamicYear() {
     });
 }
 
+// Funcion: initVisualMicroInteractions. Describe y encapsula una parte de la logica de la aplicacion.
 function initVisualMicroInteractions() {
     const targets = document.querySelectorAll(
         '.home-hero, .conversion-strip, .support-tech-section, .support-page-hero, .support-page-layout, .trust-badges, .trust-metrics, .carousel-container, .location-section, .about-content, .product-grid, .footer-content'
@@ -2234,6 +2328,7 @@ function initVisualMicroInteractions() {
     targets.forEach(el => observer.observe(el));
 }
 
+// Funcion: initExperimentalDesignLayer. Describe y encapsula una parte de la logica de la aplicacion.
 function initExperimentalDesignLayer() {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (reduceMotion) return;
@@ -2293,9 +2388,10 @@ function initExperimentalDesignLayer() {
     });
 }
 
-// ========== PREMIUM FEATURES ==========
+// ========== FUNCIONES PREMIUM ==========
 
-// Toast Notifications
+// Notificaciones tipo toast
+// Funcion: showToast. Describe y encapsula una parte de la logica de la aplicacion.
 function showToast(message, type = 'success') {
     const container = document.getElementById('toastContainer') || createToastContainer();
 
@@ -2318,6 +2414,7 @@ function showToast(message, type = 'success') {
     }, 3000);
 }
 
+// Funcion: createToastContainer. Describe y encapsula una parte de la logica de la aplicacion.
 function createToastContainer() {
     const container = document.createElement('div');
     container.id = 'toastContainer';
@@ -2326,7 +2423,8 @@ function createToastContainer() {
     return container;
 }
 
-// Favorites System
+// Sistema de favoritos
+// Funcion: toggleFavorite. Describe y encapsula una parte de la logica de la aplicacion.
 function toggleFavorite(productId) {
     const index = favorites.indexOf(productId);
 
@@ -2342,6 +2440,7 @@ function toggleFavorite(productId) {
     updateFavoriteButtons();
 }
 
+// Funcion: updateFavoriteButtons. Describe y encapsula una parte de la logica de la aplicacion.
 function updateFavoriteButtons() {
     document.querySelectorAll('.favorite-btn').forEach(btn => {
         const productId = parseInt(btn.dataset.productId);
@@ -2353,11 +2452,13 @@ function updateFavoriteButtons() {
     });
 }
 
+// Funcion: isFavorite. Describe y encapsula una parte de la logica de la aplicacion.
 function isFavorite(productId) {
     return favorites.includes(productId);
 }
 
-// Back to Top Button
+// Boton volver arriba
+// Funcion: initBackToTop. Describe y encapsula una parte de la logica de la aplicacion.
 function initBackToTop() {
     const btn = document.createElement('button');
     btn.className = 'back-to-top';
@@ -2374,7 +2475,8 @@ function initBackToTop() {
     });
 }
 
-// Get Product Badge
+// Obtiene la etiqueta visual de producto
+// Funcion: getProductBadge. Describe y encapsula una parte de la logica de la aplicacion.
 function getProductBadge(index) {
     if (index < 3) return '<span class="product-badge new">Nuevo</span>';
     if (index % 5 === 0) return '<span class="product-badge sale">Oferta</span>';
@@ -2382,6 +2484,7 @@ function getProductBadge(index) {
     return '';
 }
 
+// Funcion: addProductToCart. Describe y encapsula una parte de la logica de la aplicacion.
 function addProductToCart(productId, quantity = 1) {
     const product = products.find(p => p.id === productId);
     if (!product) return null;
@@ -2396,7 +2499,8 @@ function addProductToCart(productId, quantity = 1) {
     return product;
 }
 
-// Enhanced Add to Cart with Toast
+// Agregar al carrito con notificacion toast
+// Funcion: addToCart. Describe y encapsula una parte de la logica de la aplicacion.
 function addToCart(productId) {
     if (PRICES_PENDING) {
         showToast('Precios próximamente', 'error');
@@ -2412,6 +2516,7 @@ function addToCart(productId) {
     showToast(`${product.title} añadido al carrito`, 'success');
 }
 
+// Funcion: getProductCardHtml. Describe y encapsula una parte de la logica de la aplicacion.
 function getProductCardHtml(product, index) {
     const badge = getProductBadge(index);
     const favoriteActive = isFavorite(product.id) ? 'active' : '';
@@ -2452,6 +2557,7 @@ function getProductCardHtml(product, index) {
     `;
 }
 
+// Funcion: renderCatalogSkeleton. Describe y encapsula una parte de la logica de la aplicacion.
 function renderCatalogSkeleton(count = 8) {
     if (!productGrid) return;
     const items = Array.from({ length: count }).map(() => `
@@ -2468,6 +2574,7 @@ function renderCatalogSkeleton(count = 8) {
     productGrid.innerHTML = items;
 }
 
+// Funcion: renderFeaturedSkeleton. Describe y encapsula una parte de la logica de la aplicacion.
 function renderFeaturedSkeleton(count = 4) {
     if (!featuredCarousel) return;
     const items = Array.from({ length: count }).map(() => `
@@ -2483,6 +2590,7 @@ function renderFeaturedSkeleton(count = 4) {
     featuredCarousel.innerHTML = items;
 }
 
+// Funcion: animateCartCount. Describe y encapsula una parte de la logica de la aplicacion.
 function animateCartCount() {
     document.querySelectorAll('.cart-count').forEach((badge) => {
         badge.classList.remove('count-pop');
@@ -2491,6 +2599,7 @@ function animateCartCount() {
     });
 }
 
+// Funcion: updateCatalogInsights. Describe y encapsula una parte de la logica de la aplicacion.
 function updateCatalogInsights() {
     const countNode = document.getElementById('catalogResultsCount');
     const chipsNode = document.getElementById('activeFilters');
@@ -2516,6 +2625,7 @@ function updateCatalogInsights() {
     `).join('') + '<button class="filter-chip clear-all" type="button" onclick="clearAllCatalogFilters()">Limpiar todo</button>';
 }
 
+// Funcion: clearSpecificFilter. Describe y encapsula una parte de la logica de la aplicacion.
 function clearSpecificFilter(filterKey) {
     if (filterKey === 'category') {
         currentCategory = 'all';
@@ -2538,6 +2648,7 @@ function clearSpecificFilter(filterKey) {
     applyFilters();
 }
 
+// Funcion: clearAllCatalogFilters. Describe y encapsula una parte de la logica de la aplicacion.
 function clearAllCatalogFilters() {
     currentCategory = 'all';
     currentSubcategory = 'all';
@@ -2555,6 +2666,7 @@ function clearAllCatalogFilters() {
     applyFilters();
 }
 
+// Funcion: applyPricePendingUI. Describe y encapsula una parte de la logica de la aplicacion.
 function applyPricePendingUI() {
     if (!PRICES_PENDING) return;
     const priceRange = document.getElementById('priceRange');
@@ -2573,6 +2685,7 @@ function applyPricePendingUI() {
     }
 }
 
+// Funcion: initPremiumFeatures. Describe y encapsula una parte de la logica de la aplicacion.
 function initPremiumFeatures() {
     initBackToTop();
     updateFavoriteButtons();
