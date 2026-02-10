@@ -266,7 +266,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close modals on outside click without clobbering other handlers.
     window.addEventListener('click', (event) => {
         if (event.target === cartModal) closeCart();
-        else if (event.target === sidebar) toggleSidebar();
         else if (event.target === productDetailModal) closeProductModal();
     });
 });
@@ -1764,7 +1763,7 @@ function filterProducts(category) {
     if (searchInput) searchInput.value = '';
     currentSearchQuery = '';
     applyFilters();
-    if (window.innerWidth < 768) { toggleSidebar(); }
+    if (window.innerWidth < 768) closeSidebar();
 }
 
 function filterBySubcategory(category, subcategory) {
@@ -1777,7 +1776,7 @@ function filterBySubcategory(category, subcategory) {
     if (radio) radio.checked = true;
     currentSearchQuery = '';
     applyFilters();
-    if (window.innerWidth < 768) { toggleSidebar(); }
+    if (window.innerWidth < 768) closeSidebar();
 }
 
 function toggleSubcategory(category) {
@@ -1801,7 +1800,21 @@ function filterByBrand(brand) {
     applyFilters();
 }
 
-function toggleSidebar() { if (sidebar) sidebar.classList.toggle('open'); }
+function setSidebarState(isOpen) {
+    if (!sidebar) return;
+    const open = Boolean(isOpen);
+    sidebar.classList.toggle('open', open);
+    document.body.classList.toggle('sidebar-open', open);
+}
+
+function closeSidebar() {
+    setSidebarState(false);
+}
+
+function toggleSidebar() {
+    if (!sidebar) return;
+    setSidebarState(!sidebar.classList.contains('open'));
+}
 function removeFromCart(productId) { cart = cart.filter(item => item.id !== productId); saveCart(); renderCart(); updateCartCount(); }
 function updateQuantity(productId, change) {
     const item = cart.find(item => item.id === productId);
@@ -1827,10 +1840,17 @@ function openCart() {
         }
     }
     renderCart();
-    if (cartModal) cartModal.style.display = 'block';
+    if (cartModal) {
+        cartModal.style.display = 'block';
+        syncMobileOverlayState();
+    }
 }
 
-function closeCart() { if (cartModal) cartModal.style.display = 'none'; }
+function closeCart() {
+    if (!cartModal) return;
+    cartModal.style.display = 'none';
+    syncMobileOverlayState();
+}
 function renderCart() {
     if (!cartItemsContainer) return;
     cartItemsContainer.innerHTML = '';
@@ -2105,11 +2125,19 @@ function initSupportRequestForm() {
 }
 
 // Mobile Menu Logic
+function syncMobileOverlayState() {
+    const navLinks = document.querySelector('.nav-links');
+    const navOpen = Boolean(navLinks && navLinks.classList.contains('mobile-active'));
+    const cartOpen = Boolean(cartModal && cartModal.style.display === 'block');
+    document.body.classList.toggle('mobile-menu-open', navOpen || cartOpen);
+}
+
 function setMobileMenuState(isOpen) {
     const navLinks = document.querySelector('.nav-links');
     if (!navLinks) return;
-    navLinks.classList.toggle('mobile-active', Boolean(isOpen));
-    document.body.classList.toggle('mobile-menu-open', Boolean(isOpen));
+    const open = Boolean(isOpen);
+    navLinks.classList.toggle('mobile-active', open);
+    syncMobileOverlayState();
 }
 
 function closeMobileMenu() {
@@ -2140,8 +2168,21 @@ document.addEventListener('click', (event) => {
     if (!clickedInsideMenu && !clickedMenuButton) closeMobileMenu();
 });
 
+document.addEventListener('click', (event) => {
+    if (window.innerWidth > 768) return;
+    if (!sidebar || !sidebar.classList.contains('open')) return;
+
+    const target = event.target;
+    const clickedInsideSidebar = target.closest('#sidebar');
+    const clickedSidebarButton = target.closest('#mobile-filter-toggle') || target.closest('.sidebar-header button');
+    if (!clickedInsideSidebar && !clickedSidebarButton) closeSidebar();
+});
+
 window.addEventListener('resize', () => {
-    if (window.innerWidth > 768) closeMobileMenu();
+    if (window.innerWidth > 768) {
+        closeMobileMenu();
+        closeSidebar();
+    }
 });
 
 function initAccessibilityEnhancements() {
@@ -2156,7 +2197,7 @@ function initAccessibilityEnhancements() {
 
         if (cartModal && cartModal.style.display === 'block') closeCart();
         if (productDetailModal && productDetailModal.style.display === 'block') closeProductModal();
-        if (sidebar && sidebar.classList.contains('open')) toggleSidebar();
+        if (sidebar && sidebar.classList.contains('open')) closeSidebar();
     });
 }
 

@@ -71,6 +71,12 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 :focus-visible {
     outline: 3px solid rgba(245, 158, 11, 0.7);
     outline-offset: 2px;
@@ -2260,8 +2266,7 @@ footer {
 .support-page-body .main-header,
 .support-page-body .nav-links,
 .support-page-body #main-content,
-.support-page-body footer,
-.support-page-body .mobile-bottom-nav {
+.support-page-body footer {
     position: relative;
     z-index: 1;
 }
@@ -2893,18 +2898,53 @@ footer {
         overflow: hidden;
     }
 
+    body.mobile-menu-open::after {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1999;
+        pointer-events: none;
+    }
+
+    body.sidebar-open {
+        overflow: hidden;
+    }
+
+    body.sidebar-open::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.45);
+        z-index: 999;
+        pointer-events: none;
+    }
+
     body {
         padding-bottom: 74px;
     }
 
     .header-container {
-        padding: 0.5rem 1rem;
-        flex-wrap: wrap;
+        padding: 0.45rem 0.8rem;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-template-areas:
+            "logo . actions"
+            "search search search";
+        align-items: center;
         position: relative;
+        gap: 0.6rem;
     }
 
     .logo {
         font-size: 1.2rem;
+        grid-area: logo;
+        flex: 0 0 auto;
+        min-width: 0;
+    }
+
+    .logo img {
+        height: 58px;
     }
 
     .mobile-menu-btn {
@@ -2916,16 +2956,15 @@ footer {
         cursor: pointer;
         padding: 0.5rem;
         order: 1;
-        margin-left: 1rem;
+        margin-left: 0.1rem;
     }
 
     .nav-links {
         position: fixed;
         top: 0;
         left: -100%;
-        width: 75%;
-        max-width: 300px;
-        height: 100vh;
+        width: min(85vw, 340px);
+        height: 100dvh;
         background-color: var(--primary-color);
         flex-direction: column;
         justify-content: flex-start;
@@ -2934,10 +2973,14 @@ footer {
         z-index: 2000;
         box-shadow: 4px 0 12px rgba(0, 0, 0, 0.2);
         display: flex !important;
+        visibility: hidden;
+        pointer-events: none;
     }
 
     .nav-links.mobile-active {
         left: 0;
+        visibility: visible;
+        pointer-events: auto;
     }
 
     .nav-links ul {
@@ -2955,27 +2998,30 @@ footer {
         padding: 1rem 0;
     }
 
-    .nav-links.mobile-active::before {
-        content: '';
-        position: fixed;
-        top: 0;
-        left: 100%;
-        width: 100vw;
-        height: 100vh;
-        background: rgba(0, 0, 0, 0.5);
-    }
+    .nav-links.mobile-active::before { content: none; }
 
     .search-bar {
-        order: 3;
+        grid-area: search;
+        order: 0;
+        flex: 0 0 100%;
         width: 100%;
-        max-width: 100%;
-        margin-top: 10px;
+        max-width: none;
+        margin-top: 0.15rem;
         display: flex;
+        box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+    }
+
+    .search-bar input {
+        min-height: 44px;
     }
 
     .nav-icons {
+        grid-area: actions;
         display: flex;
         align-items: center;
+        margin-left: 0;
+        justify-self: end;
+        gap: 0.65rem;
     }
 
     .announcement-content {
@@ -2997,9 +3043,8 @@ footer {
         position: fixed;
         top: 0;
         left: -100%;
-        width: 80%;
-        max-width: 300px;
-        height: 100%;
+        width: min(85vw, 340px);
+        height: 100dvh;
         background: white;
         z-index: 1000;
         padding: 1rem;
@@ -3028,8 +3073,10 @@ footer {
     }
 
     #cartModal > div {
-        width: 90% !important;
-        max-width: 400px;
+        width: 100vw !important;
+        max-width: 100vw;
+        border-left: none;
+        padding: 1rem 0.85rem;
     }
 
     .hero {
@@ -3045,12 +3092,38 @@ footer {
     }
 
     .modal-content {
-        margin: 10% auto;
+        margin: 8% auto;
         width: 95%;
+        max-height: calc(100dvh - 2rem);
+        overflow-y: auto;
     }
 
     .home-hero-track {
-        aspect-ratio: 3 / 2;
+        aspect-ratio: 16 / 10;
+        min-height: 210px;
+        max-height: 320px;
+    }
+
+    .home-hero-media img {
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .home-hero-controls {
+        bottom: 0.35rem;
+        gap: 0.55rem;
+    }
+
+    .home-hero-nav {
+        width: 40px;
+        height: 40px;
+        border-width: 1px;
+        background: rgba(2, 6, 23, 0.5);
+    }
+
+    .home-hero-dot {
+        width: 10px;
+        height: 10px;
     }
 
     .support-main-hero {
@@ -3059,14 +3132,29 @@ footer {
     }
 
     .support-main-hero .home-hero-track {
-        aspect-ratio: 16 / 9;
-        min-height: 170px;
-        max-height: 260px;
+        aspect-ratio: 16 / 10;
+        min-height: 220px;
+        max-height: 330px;
     }
 
     .support-main-hero .home-hero-media img {
-        object-fit: contain;
-        object-position: center center;
+        object-fit: cover;
+        object-position: center 34%;
+        background: #071225;
+    }
+
+    .support-main-hero .home-hero-controls {
+        bottom: 0.35rem;
+    }
+
+    .support-main-hero .home-hero-nav {
+        width: 40px;
+        height: 40px;
+    }
+
+    .support-main-hero .home-hero-dot {
+        width: 10px;
+        height: 10px;
     }
 
     .mobile-bottom-nav {
@@ -3102,8 +3190,11 @@ footer {
     }
 
     .support-page-body .header-container {
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-template-areas:
+            "logo . actions"
+            "search search search";
         align-items: center;
         gap: 0.55rem;
         padding: 0.35rem 0.75rem 0.55rem;
@@ -3113,8 +3204,7 @@ footer {
         position: fixed !important;
         top: 0;
         left: -100%;
-        width: 75%;
-        max-width: 300px;
+        width: min(85vw, 340px);
         height: 100dvh;
         padding-top: 5rem;
         display: flex !important;
@@ -3128,11 +3218,19 @@ footer {
         pointer-events: auto;
     }
 
+    .support-page-body .mobile-bottom-nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1001;
+    }
+
     .support-page-body .logo {
-        width: 100%;
+        width: auto;
         display: flex;
-        justify-content: center;
-        margin-bottom: 0.1rem;
+        justify-content: flex-start;
+        margin-bottom: 0;
     }
 
     .support-page-body .logo img {
@@ -3140,14 +3238,18 @@ footer {
     }
 
     .support-page-body .nav-icons {
-        margin-left: auto;
-        gap: 0.8rem;
+        grid-area: actions;
+        margin-left: 0;
+        justify-self: end;
+        gap: 0.65rem;
     }
 
     .support-page-body .search-bar {
-        order: 3;
+        grid-area: search;
+        order: 0;
+        flex: 0 0 100%;
         width: 100%;
-        max-width: 100%;
+        max-width: none;
         margin-top: 0.15rem;
     }
 
@@ -3186,16 +3288,67 @@ footer {
     .whatsapp-float span {
         display: none;
     }
+
+    .about-content {
+        padding: 1.1rem 0.95rem;
+        margin-top: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
-    .support-main-hero .home-hero-track {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.4rem;
+    }
+
+    .carousel-track .product-card {
+        min-width: 220px;
+        max-width: 220px;
+    }
+
+    .home-hero-track {
         aspect-ratio: 4 / 3;
-        min-height: 180px;
-        max-height: 240px;
+        min-height: 220px;
+        max-height: 300px;
+    }
+
+    .support-page-body .header-container {
+        padding-left: 0.55rem;
+        padding-right: 0.55rem;
+    }
+
+    .logo img {
+        height: 52px;
+    }
+
+    .search-bar input {
+        padding-left: 2.35rem;
+        padding-right: 0.8rem;
+        font-size: 0.92rem;
+    }
+
+    .support-page-body .logo img {
+        height: 56px;
+    }
+
+    .support-main-hero .home-hero-track {
+        aspect-ratio: 5 / 4;
+        min-height: 230px;
+        max-height: 300px;
     }
 
     .support-main-hero .home-hero-media img {
-        object-position: center center;
+        object-fit: cover;
+        object-position: center 38%;
+    }
+
+    .home-hero-nav,
+    .support-main-hero .home-hero-nav {
+        width: 36px;
+        height: 36px;
+    }
+
+    .home-hero-controls {
+        gap: 0.45rem;
     }
 }
