@@ -3138,8 +3138,8 @@ footer {
     }
 
     .support-main-hero .home-hero-media img {
-        object-fit: cover;
-        object-position: center 40%;
+        object-fit: contain;
+        object-position: center center;
         background: #071225;
     }
 
@@ -3338,8 +3338,8 @@ footer {
     }
 
     .support-main-hero .home-hero-media img {
-        object-fit: cover;
-        object-position: center 42%;
+        object-fit: contain;
+        object-position: center center;
     }
 
     .home-hero-nav,
