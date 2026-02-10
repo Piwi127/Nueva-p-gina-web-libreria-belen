@@ -2921,7 +2921,7 @@ footer {
     }
 
     body {
-        padding-bottom: 74px;
+        padding-bottom: calc(74px + env(safe-area-inset-bottom));
     }
 
     .header-container {
@@ -3166,7 +3166,7 @@ footer {
         justify-content: space-around;
         background: #fff;
         border-top: 1px solid var(--border-color);
-        padding: 0.6rem 0;
+        padding: 0.6rem 0 calc(0.6rem + env(safe-area-inset-bottom));
         z-index: 1001;
     }
 
@@ -3278,7 +3278,7 @@ footer {
     }
 
     .whatsapp-float {
-        bottom: 88px;
+        bottom: calc(88px + env(safe-area-inset-bottom));
         right: 12px;
         width: 48px;
         height: 48px;
