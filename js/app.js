@@ -2304,7 +2304,7 @@ function initDynamicYear() {
 // Funcion: initVisualMicroInteractions. Describe y encapsula una parte de la logica de la aplicacion.
 function initVisualMicroInteractions() {
     const targets = document.querySelectorAll(
-        '.home-hero, .conversion-strip, .support-tech-section, .support-page-hero, .support-page-layout, .trust-badges, .trust-metrics, .carousel-container, .location-section, .about-content, .product-grid, .footer-content'
+        '.home-hero, .conversion-strip, .support-tech-section, .jobs-divider-section, .jobs-section, .support-page-hero, .support-page-layout, .trust-badges, .trust-metrics, .carousel-container, .location-section, .about-content, .product-grid, .footer-content'
     );
 
     if (!targets.length) return;
