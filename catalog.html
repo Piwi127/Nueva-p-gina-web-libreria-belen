@@ -178,51 +178,57 @@
         </section>
     </main>
 
-    <!-- Modal del carrito (implementacion simple) -->
-    <div id="cartModal" class="cart-modal-shell" style="display:none;">
+    <!-- Modal del carrito -->
+    <div id="cartModal" class="cart-modal-shell" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
         <div class="cart-modal-panel">
+            <span class="cart-drag-handle" aria-hidden="true"></span>
+
             <div class="cart-modal-header">
-                <h2>Tu Carrito</h2>
-                <button type="button" class="cart-close-btn" onclick="closeCart()">&times;</button>
+                <div class="cart-title-wrap">
+                    <h2 id="cartTitle">Tu Carrito</h2>
+                    <p id="cartSubtitle">0 productos</p>
+                </div>
+                <button type="button" class="cart-close-btn" onclick="closeCart()" aria-label="Cerrar carrito">
+                    <i class="fas fa-times"></i>
+                </button>
             </div>
 
             <div id="cartItems" class="cart-items-scroll">
-                <!-- Cart items go here -->
-                <p style="text-align:center; color: var(--text-light); margin-top: 2rem;">Tu carrito está vacío.</p>
+                <div class="cart-empty-state">
+                    <i class="fas fa-shopping-basket" aria-hidden="true"></i>
+                    <h3>Tu carrito esta vacio.</h3>
+                    <p>Agrega productos y apareceran aqui automaticamente.</p>
+                </div>
             </div>
 
-    <div class="cart-modal-footer">
-        <!-- Customer Form -->
+            <div class="cart-modal-footer">
+                <div class="cart-total-row">
+                    <span>Total</span>
+                    <strong id="cartTotal">PROXIMAMENTE</strong>
+                </div>
+
                 <div class="cart-customer-form">
-                    <label>Tus Datos
-                        (Obligatorio)</label>
-                    <input type="text" id="customerName" placeholder="Nombres"
-                        class="cart-field">
-                    <input type="text" id="customerLastName" placeholder="Apellidos"
-                        class="cart-field">
-                    <input type="text" id="customerDni" placeholder="DNI (8 dígitos)" maxlength="8"
-                        class="cart-field"
+                    <label for="customerName">Datos para el pedido</label>
+                    <input type="text" id="customerName" placeholder="Nombres" class="cart-field">
+                    <input type="text" id="customerLastName" placeholder="Apellidos" class="cart-field">
+                    <input type="text" id="customerDni" placeholder="DNI (8 digitos)" maxlength="8" class="cart-field"
                         oninput="this.value = this.value.replace(/[^0-9]/g, '')">
                 </div>
 
-                <div class="cart-total">
-                    <h3>Total: <span id="cartTotal">PROXIMAMENTE</span></h3>
-                </div>
                 <label class="cart-consent">
                     <input type="checkbox" id="consentWhatsapp">
-                    Al continuar, enviarás tus datos (nombre, apellidos y DNI) por WhatsApp.
+                    Al continuar, enviaras tus datos (nombre, apellidos y DNI) por WhatsApp.
                 </label>
-                <!-- WhatsApp Checkout Button -->
-                <button class="btn btn-primary btn-checkout cart-action-btn cart-action-whatsapp" id="checkoutBtn" onclick="checkout()">
+
+                <button type="button" class="btn btn-primary btn-checkout cart-action-btn cart-action-whatsapp" id="checkoutBtn" onclick="checkout()">
                     <i class="fab fa-whatsapp"></i> Finalizar Pedido por WhatsApp
                 </button>
-                <!-- PDF Invoice Button -->
-                <button class="btn cart-action-btn cart-action-pdf" id="invoiceBtn" onclick="generateInvoice()">
+                <button type="button" class="btn cart-action-btn cart-action-pdf" id="invoiceBtn" onclick="generateInvoice()">
                     <i class="fas fa-file-pdf"></i> Descargar Boleta (PDF)
                 </button>
+            </div>
+        </div>
     </div>
-</div>
-</div>
 
     <footer>
         <div class="container footer-content">

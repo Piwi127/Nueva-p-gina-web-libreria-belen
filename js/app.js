@@ -1925,7 +1925,8 @@ function openCart() {
     }
     renderCart();
     if (cartModal) {
-        cartModal.style.display = 'block';
+        cartModal.style.display = 'grid';
+        cartModal.setAttribute('aria-hidden', 'false');
         syncMobileOverlayState();
     }
 }
@@ -1934,51 +1935,71 @@ function openCart() {
 function closeCart() {
     if (!cartModal) return;
     cartModal.style.display = 'none';
+    cartModal.setAttribute('aria-hidden', 'true');
     syncMobileOverlayState();
 }
 // Funcion: renderCart. Describe y encapsula una parte de la logica de la aplicacion.
 function renderCart() {
     if (!cartItemsContainer) return;
     cartItemsContainer.innerHTML = '';
+    const subtitle = document.getElementById('cartSubtitle');
     let total = 0;
+
     if (cart.length === 0) {
-        cartItemsContainer.innerHTML = '<p style="text-align:center; color: var(--text-light); margin-top: 2rem;">Tu carrito está vacío.</p>';
-        // Hide/Disable checkout button if possible or just let checkout logic handle it
+        cartItemsContainer.innerHTML =
+            '<div class="cart-empty-state">' +
+            '    <i class="fas fa-shopping-basket" aria-hidden="true"></i>' +
+            '    <h3>Tu carrito esta vacio.</h3>' +
+            '    <p>Agrega productos y apareceran aqui automaticamente.</p>' +
+            '</div>';
     } else {
+        const fragment = document.createDocumentFragment();
+
         cart.forEach(item => {
-            const itemTotal = item.price * item.quantity;
+            const safeQty = Math.max(1, Math.floor(Number(item.quantity) || 1));
+            const itemTotal = item.price * safeQty;
             total += itemTotal;
-            const cartItem = document.createElement('div');
-            cartItem.style.display = 'flex';
-            cartItem.style.marginBottom = '1rem';
-            cartItem.style.borderBottom = '1px solid #eee';
-            cartItem.style.paddingBottom = '0.5rem';
-            cartItem.style.alignItems = 'center';
+
+            const cartItem = document.createElement('article');
+            cartItem.className = 'cart-item';
             const safeTitle = escapeHtml(item.title);
             const safeImage = escapeAttr(sanitizeUrl(item.image));
-            const priceLabel = PRICES_PENDING ? PRICE_LABEL : `S/ ${item.price.toFixed(2)}`;
-            cartItem.innerHTML = `
-                <div style="width: 60px; height: 60px; background: #f8fafc; margin-right: 1rem; border-radius: 4px; overflow:hidden;">
-                    <img src="${safeImage}" style="width:100%; height:100%; object-fit:cover;">
-                </div>
-                <div style="flex:1;">
-                    <h4 style="font-size: 0.9rem; margin-bottom: 0.25rem; font-weight: 600;">${safeTitle}</h4>
-                    <div class="cart-item-price">${priceLabel}</div>
-                </div>
-                <div style="display:flex; align-items:center; gap: 0.5rem;">
-                    <button onclick="updateQuantity(${item.id}, -1)" class="btn-qty">-</button>
-                    <span style="font-weight: 600; min-width: 20px; text-align: center;">${item.quantity}</span>
-                    <button onclick="updateQuantity(${item.id}, 1)" class="btn-qty">+</button>
-                    <button onclick="removeFromCart(${item.id})" style="color: #ef4444; border:none; background:none; cursor:pointer;" title="Eliminar"><i class="fas fa-trash"></i></button>
-                </div>
-            `;
-            cartItemsContainer.appendChild(cartItem);
+            const priceLabel = PRICES_PENDING ? PRICE_LABEL : 'S/ ' + item.price.toFixed(2);
+            const subtotalLabel = PRICES_PENDING ? PRICE_LABEL : 'S/ ' + itemTotal.toFixed(2);
+
+            cartItem.innerHTML =
+                '<div class="cart-item-media">' +
+                '    <img src="' + safeImage + '" alt="' + safeTitle + '">' +
+                '</div>' +
+                '<div class="cart-item-main">' +
+                '    <h4 class="cart-item-title">' + safeTitle + '</h4>' +
+                '    <div class="cart-item-meta">' +
+                '        <span class="cart-item-price">' + priceLabel + '</span>' +
+                '        <span class="cart-item-subtotal">' + subtotalLabel + '</span>' +
+                '    </div>' +
+                '</div>' +
+                '<div class="cart-item-controls">' +
+                '    <button type="button" onclick="updateQuantity(' + item.id + ', -1)" class="btn-qty" aria-label="Restar cantidad">-</button>' +
+                '    <span class="cart-item-qty">' + safeQty + '</span>' +
+                '    <button type="button" onclick="updateQuantity(' + item.id + ', 1)" class="btn-qty" aria-label="Sumar cantidad">+</button>' +
+                '    <button type="button" onclick="removeFromCart(' + item.id + ')" class="cart-item-remove" title="Eliminar" aria-label="Eliminar producto"><i class="fas fa-trash"></i></button>' +
+                '</div>';
+
+            fragment.appendChild(cartItem);
         });
+
+        cartItemsContainer.appendChild(fragment);
     }
+
+    if (subtitle) {
+        const count = cart.reduce((sum, item) => sum + Math.max(1, Math.floor(Number(item.quantity) || 1)), 0);
+        subtitle.textContent = count + ' producto' + (count === 1 ? '' : 's');
+    }
+
     const checkoutBtn = document.getElementById('checkoutBtn');
     const invoiceBtn = document.getElementById('invoiceBtn');
     if (cartTotalElement) {
-        cartTotalElement.innerText = PRICES_PENDING ? PRICE_LABEL : `S/ ${total.toFixed(2)}`;
+        cartTotalElement.innerText = PRICES_PENDING ? PRICE_LABEL : 'S/ ' + total.toFixed(2);
     }
     if (checkoutBtn) checkoutBtn.disabled = PRICES_PENDING;
     if (invoiceBtn) invoiceBtn.disabled = PRICES_PENDING;
@@ -2261,8 +2282,9 @@ function initSupportRequestForm() {
 function syncMobileOverlayState() {
     const navLinks = document.querySelector('.nav-links');
     const navOpen = Boolean(navLinks && navLinks.classList.contains('mobile-active'));
-    const cartOpen = Boolean(cartModal && cartModal.style.display === 'block');
+    const cartOpen = Boolean(cartModal && cartModal.style.display && cartModal.style.display !== 'none');
     document.body.classList.toggle('mobile-menu-open', navOpen || cartOpen);
+    document.body.classList.toggle('cart-open', cartOpen);
 }
 
 // Funcion: setMobileMenuState. Describe y encapsula una parte de la logica de la aplicacion.
@@ -2332,7 +2354,7 @@ function initAccessibilityEnhancements() {
         const searchResults = document.getElementById('searchResults');
         if (searchResults) searchResults.classList.remove('active');
 
-        if (cartModal && cartModal.style.display === 'block') closeCart();
+        if (cartModal && cartModal.style.display && cartModal.style.display !== 'none') closeCart();
         if (productDetailModal && productDetailModal.style.display === 'block') closeProductModal();
         if (sidebar && sidebar.classList.contains('open')) closeSidebar();
     });
