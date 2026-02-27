@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -138,10 +138,10 @@
                 <label class="filter-item">
                     <input type="range" min="0" max="1000" class="slider" id="priceRange"
                         oninput="filterByPrice(this.value)">
-                    <div style="display:flex; justify-content:space-between; font-size: 0.9rem; margin-top: 5px;">
-                        <span>S/ 0</span>
-                        <span id="priceValue">0</span>
-                    </div>
+                    <span class="price-range-labels">
+                        <span>PROXIMAMENTE</span>
+                        <span id="priceValue">PROXIMAMENTE</span>
+                    </span>
                 </label>
             </div>
 
@@ -206,7 +206,7 @@
                 </div>
 
                 <div class="cart-total">
-                    <h3>Total: <span id="cartTotal">S/ 0.00</span></h3>
+                    <h3>Total: <span id="cartTotal">PROXIMAMENTE</span></h3>
                 </div>
                 <label class="cart-consent">
                     <input type="checkbox" id="consentWhatsapp">
@@ -264,7 +264,7 @@
                 <div class="detail-info-container">
                     <h2 id="detailTitle">Título del Producto</h2>
                     <div class="detail-meta">
-                        <span id="detailPrice" class="detail-price">S/ 0.00</span>
+                        <span id="detailPrice" class="detail-price">PROXIMAMENTE</span>
                         <div id="detailRating" class="product-rating"></div>
                     </div>
 
@@ -326,8 +326,7 @@
         <span>Consulta aquí</span>
     </a>
 
-    <script src="vendor/jspdf/jspdf.umd.min.js" defer></script>
-    <script src="data/products.js" defer></script>
+    <script src="data/products.js?v=20260227a" defer></script>
     <script src="js/app.js?v=20260213a" defer></script>
 </body>
 

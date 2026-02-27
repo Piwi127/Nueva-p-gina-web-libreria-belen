@@ -33,10 +33,12 @@ let currentBrand = 'all';
 let currentMaxPrice = Infinity;
 let currentSearchQuery = '';
 let productsLoadPromise = null;
+let jsPdfLoadPromise = null;
 const PRICES_PENDING = true;
-const PRICE_LABEL = '0';
+const PRICE_LABEL = 'PROXIMAMENTE';
 const THEME_STORAGE_KEY = 'libreriaBelenTheme';
-const PRODUCTS_SCRIPT_PATH = 'data/products.js';
+const PRODUCTS_SCRIPT_PATH = 'data/products.js?v=20260227a';
+const JSPDF_SCRIPT_PATH = 'vendor/jspdf/jspdf.umd.min.js?v=20260227a';
 const WHATSAPP_PHONE_NUMBER = '51947872207';
 const CF_BEACON_PLACEHOLDER = 'YOUR_CF_BEACON_TOKEN';
 const CATEGORY_LABELS = {
@@ -163,10 +165,10 @@ function escapeJsString(value) {
 // Funcion: sanitizeUrl. Describe y encapsula una parte de la logica de la aplicacion.
 function sanitizeUrl(url) {
     const trimmed = String(url || '').trim();
-    if (!trimmed) return 'img/placeholder.jpg';
+    if (!trimmed) return 'img/icon.svg';
     const lower = trimmed.toLowerCase();
-    if (lower.startsWith('javascript:') || lower.startsWith('vbscript:')) return 'img/placeholder.jpg';
-    if (/[<>"'`]/.test(trimmed)) return 'img/placeholder.jpg';
+    if (lower.startsWith('javascript:') || lower.startsWith('vbscript:')) return 'img/icon.svg';
+    if (/[<>"'`]/.test(trimmed)) return 'img/icon.svg';
 
     const hasScheme = /^[a-z][a-z0-9+.-]*:/i.test(trimmed);
     const isProtocolRelative = trimmed.startsWith('//');
@@ -178,16 +180,16 @@ function sanitizeUrl(url) {
     try {
         const parsed = new URL(trimmed, window.location.origin);
         const protocol = parsed.protocol.toLowerCase();
-        if (!['http:', 'https:'].includes(protocol)) return 'img/placeholder.jpg';
+        if (!['http:', 'https:'].includes(protocol)) return 'img/icon.svg';
 
         const allowedHosts = new Set([
             window.location.hostname,
             'via.placeholder.com'
         ]);
-        if (!allowedHosts.has(parsed.hostname)) return 'img/placeholder.jpg';
+        if (!allowedHosts.has(parsed.hostname)) return 'img/icon.svg';
         return parsed.href;
     } catch (error) {
-        return 'img/placeholder.jpg';
+        return 'img/icon.svg';
     }
 }
 
@@ -207,6 +209,7 @@ function initImageFallbackHandler() {
 
 // Inicializacion
 document.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.toggle('prices-pending', PRICES_PENDING);
     initThemeToggle();
     updateCartCount();
     initImageFallbackHandler();
@@ -890,7 +893,7 @@ function loadProducts() {
             } else {
                 price = Number(data.price);
             }
-            let image = data.image || 'img/placeholder.jpg';
+            let image = data.image || 'img/icon.svg';
             if (image.startsWith('assets/img/')) {
                 image = image.replace('assets/img/', 'img/');
             }
@@ -1960,7 +1963,7 @@ function renderCart() {
                 </div>
                 <div style="flex:1;">
                     <h4 style="font-size: 0.9rem; margin-bottom: 0.25rem; font-weight: 600;">${safeTitle}</h4>
-                    <div style="color: var(--primary-color); font-weight: bold;">${priceLabel}</div>
+                    <div class="cart-item-price">${priceLabel}</div>
                 </div>
                 <div style="display:flex; align-items:center; gap: 0.5rem;">
                     <button onclick="updateQuantity(${item.id}, -1)" class="btn-qty">-</button>
@@ -2051,8 +2054,50 @@ function checkout() {
     window.open(url, '_blank', 'noopener,noreferrer');
 }
 
+// Funcion: ensureJsPdfLoaded. Describe y encapsula una parte de la logica de la aplicacion.
+function ensureJsPdfLoaded() {
+    if (window.jspdf && window.jspdf.jsPDF) return Promise.resolve(window.jspdf.jsPDF);
+    if (jsPdfLoadPromise) return jsPdfLoadPromise;
+
+    jsPdfLoadPromise = new Promise((resolve, reject) => {
+        const existing = document.querySelector(`script[src="${JSPDF_SCRIPT_PATH}"]`);
+
+        const resolveIfReady = () => {
+            if (window.jspdf && window.jspdf.jsPDF) {
+                resolve(window.jspdf.jsPDF);
+                return true;
+            }
+            return false;
+        };
+
+        if (existing) {
+            if (resolveIfReady()) return;
+            existing.addEventListener('load', () => {
+                if (resolveIfReady()) return;
+                reject(new Error('jsPDF no se cargo correctamente.'));
+            }, { once: true });
+            existing.addEventListener('error', () => reject(new Error('No se pudo cargar jsPDF.')), { once: true });
+            return;
+        }
+
+        const script = document.createElement('script');
+        script.src = JSPDF_SCRIPT_PATH;
+        script.defer = true;
+        script.onload = () => {
+            if (resolveIfReady()) return;
+            reject(new Error('jsPDF no esta disponible tras la carga.'));
+        };
+        script.onerror = () => reject(new Error('No se pudo cargar jsPDF.'));
+        document.head.appendChild(script);
+    }).finally(() => {
+        jsPdfLoadPromise = null;
+    });
+
+    return jsPdfLoadPromise;
+}
+
 // Funcion: generateInvoice. Describe y encapsula una parte de la logica de la aplicacion.
-function generateInvoice() {
+async function generateInvoice() {
     if (cart.length === 0) {
         alert('El carrito está vacío. Agrega productos para generar una boleta.');
         return;
@@ -2066,7 +2111,7 @@ function generateInvoice() {
     const customer = getCustomerData();
     if (!customer) return;
 
-    const jsPdfApi = window.jspdf && window.jspdf.jsPDF;
+    const jsPdfApi = await ensureJsPdfLoaded().catch(() => null);
     if (!jsPdfApi) {
         alert('No se pudo generar la boleta porque la libreria PDF no esta disponible.');
         return;

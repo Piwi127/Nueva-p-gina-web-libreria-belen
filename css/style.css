@@ -698,6 +698,43 @@ img {
     letter-spacing: -0.05em;
 }
 
+.cart-item-price {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.price-range-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.prices-pending .product-price,
+.prices-pending .detail-price,
+.prices-pending .search-item-price,
+.prices-pending .cart-item-price,
+.prices-pending #cartTotal,
+.prices-pending #priceValue,
+.prices-pending .price-range-labels span {
+    font-size: 0.72rem !important;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+.prices-pending .price-range-labels {
+    justify-content: flex-end;
+}
+
+.prices-pending .price-range-labels span:first-child {
+    display: none;
+}
+
 .product-actions {
     margin-top: auto;
     display: flex;
