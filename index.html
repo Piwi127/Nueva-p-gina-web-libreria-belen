@@ -22,7 +22,7 @@
     <link rel="preload" as="image" href="images/optimized/portada1-1920.jpg" type="image/jpeg">
     <link rel="preconnect" href="https://wa.me" crossorigin>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
-    <link rel="stylesheet" href="css/style.css?v=20260227c">
+    <link rel="stylesheet" href="css/style.css?v=20260227e">
     <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
     <script type="application/ld+json">
         {
@@ -360,6 +360,17 @@
         </div>
     </footer>
 
+    <!-- Anuncio emergente de ingreso -->
+    <div id="entryAnnouncementModal" class="modal entry-announcement-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="entryAnnouncementTitle">
+        <div class="modal-content entry-announcement-content">
+            <button type="button" class="entry-announcement-close" data-announcement-close aria-label="Cerrar anuncio">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+            <p id="entryAnnouncementTitle" class="entry-announcement-kicker">Anuncio destacado</p>
+            <img class="entry-announcement-image" src="images/anuncio%20uno.png" alt="Anuncio destacado de Libreria Belen" width="900" height="900" loading="eager" decoding="async">
+        </div>
+    </div>
+
     <!-- Modal de detalle del producto -->
     <div id="productDetailModal" class="modal">
         <div class="modal-content product-detail-content">
@@ -435,7 +446,7 @@
     </a>
 
     <script src="data/products.js?v=20260227a" defer></script>
-    <script src="js/app.js?v=20260227c" defer></script>
+    <script src="js/app.js?v=20260227e" defer></script>
 </body>
 
 </html>

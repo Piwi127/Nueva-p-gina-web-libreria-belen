@@ -137,7 +137,10 @@ const paginationContainer = document.getElementById('pagination');
 const sidebar = document.getElementById('sidebar');
 const featuredCarousel = document.getElementById('featured-carousel');
 const productDetailModal = document.getElementById('productDetailModal');
+const entryAnnouncementModal = document.getElementById('entryAnnouncementModal');
 let autoScrollInterval;
+let entryAnnouncementCloseTimer = null;
+const ENTRY_ANNOUNCEMENT_ANIMATION_MS = 260;
 
 // Funcion: escapeHtml. Describe y encapsula una parte de la logica de la aplicacion.
 function escapeHtml(value) {
@@ -207,6 +210,54 @@ function initImageFallbackHandler() {
     }, true);
 }
 
+// Funcion: openEntryAnnouncementModal. Describe y encapsula una parte de la logica de la aplicacion.
+function openEntryAnnouncementModal() {
+    if (!entryAnnouncementModal) return;
+    if (entryAnnouncementCloseTimer) {
+        clearTimeout(entryAnnouncementCloseTimer);
+        entryAnnouncementCloseTimer = null;
+    }
+    entryAnnouncementModal.style.display = 'grid';
+    entryAnnouncementModal.setAttribute('aria-hidden', 'false');
+    requestAnimationFrame(() => {
+        entryAnnouncementModal.classList.add('is-visible');
+    });
+    document.body.classList.add('announcement-open');
+}
+
+// Funcion: closeEntryAnnouncementModal. Describe y encapsula una parte de la logica de la aplicacion.
+function closeEntryAnnouncementModal() {
+    if (!entryAnnouncementModal) return;
+    entryAnnouncementModal.classList.remove('is-visible');
+    entryAnnouncementModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('announcement-open');
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const delay = reduceMotion ? 0 : ENTRY_ANNOUNCEMENT_ANIMATION_MS;
+    if (entryAnnouncementCloseTimer) clearTimeout(entryAnnouncementCloseTimer);
+    entryAnnouncementCloseTimer = window.setTimeout(() => {
+        if (!entryAnnouncementModal.classList.contains('is-visible')) {
+            entryAnnouncementModal.style.display = 'none';
+        }
+        entryAnnouncementCloseTimer = null;
+    }, delay);
+}
+
+// Funcion: initEntryAnnouncementModal. Describe y encapsula una parte de la logica de la aplicacion.
+function initEntryAnnouncementModal() {
+    if (!entryAnnouncementModal || !document.body.classList.contains('page-home')) return;
+
+    if (entryAnnouncementModal.dataset.bound !== '1') {
+        const closeBtn = entryAnnouncementModal.querySelector('[data-announcement-close]');
+        if (closeBtn) {
+            closeBtn.addEventListener('click', closeEntryAnnouncementModal);
+        }
+        entryAnnouncementModal.dataset.bound = '1';
+    }
+
+    window.setTimeout(openEntryAnnouncementModal, 280);
+}
+
 // Inicializacion
 document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.toggle('prices-pending', PRICES_PENDING);
@@ -225,6 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initVisualMicroInteractions();
     initExperimentalDesignLayer();
     initPremiumFeatures();
+    initEntryAnnouncementModal();
 
     if (productGrid) {
         // Catalog Page Logic
@@ -277,6 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('click', (event) => {
         if (event.target === cartModal) closeCart();
         else if (event.target === productDetailModal) closeProductModal();
+        else if (event.target === entryAnnouncementModal) closeEntryAnnouncementModal();
     });
 });
 
@@ -2356,6 +2409,7 @@ function initAccessibilityEnhancements() {
 
         if (cartModal && cartModal.style.display && cartModal.style.display !== 'none') closeCart();
         if (productDetailModal && productDetailModal.style.display === 'block') closeProductModal();
+        if (entryAnnouncementModal && entryAnnouncementModal.style.display && entryAnnouncementModal.style.display !== 'none') closeEntryAnnouncementModal();
         if (sidebar && sidebar.classList.contains('open')) closeSidebar();
     });
 }
