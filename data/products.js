@@ -47,7 +47,7 @@
     "short": "Block de dibujo especial (empastado) Tama\u00f1o: 24 x 31.5 cm N\u00famero de hojas: 20 Gramaje: 140 gr Marca: Ove Im\u00e1genes referenciales",
     "description": "Block de dibujo especial - Ove Tama\u00f1o 24 x 31.5 cm 20 Hojas 140 gramos",
     "longDescription": "Agrega un toque de estilo a tus dibujos con el block de dibujo OVE estampado, de 24 x 31.5 cm y 20 hojas. Es perfecto para que explores tu creatividad con dise\u00f1os \u00fanicos Otras Especificaciones: Libera tu creatividad con el Block de Dibujo OVE Este block, de tama\u00f1o 24 x 31.5 cm y encuadernaci\u00f3n empastada, cuenta con 20 hojas de papel de dibujo de alta calidad, ofreci\u00e9ndote un lienzo perfecto para expresar tus ideas art\u00edsticas y creativas Cada hoja est\u00e1 dise\u00f1ada para soportar una variedad de t\u00e9cnicas de dibujo, como l\u00e1pices de grafito, carboncillos, pasteles y m\u00e1s El encuadernado empastado proporciona una mayor durabilidad y protecci\u00f3n, asegurando que tus obras de arte permanezcan seguras y protegidas Presentacion: x 1 unidades.",
-    "price": 4.2,
+    "price": 4.9,
     "rating": 4.5,
     "stock": 20,
     "tag": "nuevo",
