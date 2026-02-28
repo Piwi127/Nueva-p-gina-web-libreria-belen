@@ -5068,6 +5068,174 @@
     ],
     "image": "img/products/tampon-artesco-negro-para-huella-digital.jpg",
     "gallery": []
+  },
+  "cuaderno-cuadriculado-standford": {
+    "title": "Cuaderno Cuadriculado - Standford",
+    "short": "Cuaderno cuadriculado Standford para apuntes, ejercicios y trabajo escolar diario.",
+    "description": "Cuaderno cuadriculado Standford de uso escolar y academico, ideal para matematica, calculo, fisica y apuntes ordenados.",
+    "longDescription": "El cuaderno cuadriculado Standford ofrece una distribucion uniforme de cuadros para desarrollar ejercicios con orden y claridad. Su formato es comodo para clases, tareas y reforzamiento en casa, con hojas pensadas para escritura continua y trazos limpios.",
+    "price": 7.0,
+    "rating": 4.6,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "cuadernos",
+    "brand": "Standford",
+    "link": "https://www.tailoy.com.pe/catalogsearch/result/?q=cuaderno+cuadriculado+standford",
+    "colors": [
+      "Surtido"
+    ],
+    "sizes": [
+      "A5"
+    ],
+    "details": [
+      "Marca: Standford.",
+      "Categoria: cuadernos.",
+      "Lineado: cuadriculado.",
+      "Precio de venta: S/ 7.00 por unidad."
+    ],
+    "usage": [
+      "Recomendado para cursos numericos como matematica, geometria y fisica.",
+      "Permite organizar operaciones, tablas, esquemas y apuntes con precision.",
+      "Ideal para uso escolar, academico y de oficina."
+    ],
+    "reviews": [
+      {
+        "name": "Cliente",
+        "text": "Buena calidad de hojas y tapa resistente."
+      },
+      {
+        "name": "Libreria Belen",
+        "text": "Producto incorporado al catalogo con precio activo."
+      }
+    ],
+    "image": "img/products/cuaderno-cuadriculado-standford.jpg",
+    "gallery": []
+  },
+  "cuaderno-cuadrimax-2x2-standford": {
+    "title": "Cuaderno Cuadrimax 2x2 - Standford",
+    "short": "Cuaderno Standford con lineado Cuadrimax 2x2 para practica escolar de calculo y operaciones.",
+    "description": "Cuaderno Cuadrimax 2x2 Standford, disenado para trabajo ordenado en operaciones numericas y ejercicios de aula.",
+    "longDescription": "El cuaderno Cuadrimax 2x2 de Standford facilita el trazado y la resolucion de ejercicios gracias a su estructura de cuadro 2x2. Es una opcion practica para estudiantes que requieren mayor control visual al resolver operaciones, ordenar datos y mantener una escritura limpia.",
+    "price": 7.0,
+    "rating": 4.6,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "cuadernos",
+    "brand": "Standford",
+    "link": "https://www.tailoy.com.pe/catalogsearch/result/?q=cuaderno+cuadrimax+2x2+standford",
+    "colors": [
+      "Surtido"
+    ],
+    "sizes": [
+      "A4"
+    ],
+    "details": [
+      "Marca: Standford.",
+      "Categoria: cuadernos.",
+      "Lineado: Cuadrimax 2x2.",
+      "Precio de venta: S/ 7.00 por unidad."
+    ],
+    "usage": [
+      "Util en primaria y secundaria para ejercicios con cuadricula amplia.",
+      "Ayuda a mantener columnas, resultados y procedimientos bien alineados.",
+      "Apto para tareas diarias, repasos y evaluaciones."
+    ],
+    "reviews": [
+      {
+        "name": "Cliente",
+        "text": "Muy util para cursos con operaciones y cuadros."
+      },
+      {
+        "name": "Libreria Belen",
+        "text": "Producto incorporado al catalogo con precio activo."
+      }
+    ],
+    "image": "img/products/cuaderno-cuadrimax-2x2-standford.jpg",
+    "gallery": []
+  },
+  "cuaderno-rayado-standford": {
+    "title": "Cuaderno Rayado - Standford",
+    "short": "Cuaderno rayado Standford para dictados, redaccion, resumenes y apuntes diarios.",
+    "description": "Cuaderno rayado Standford recomendado para comunicacion, historia, ciencia y materias de teoria.",
+    "longDescription": "El cuaderno rayado Standford esta pensado para escritura fluida y organizada en clases escolares y academicas. Su lineado facilita una presentacion limpia de textos, resumenes y tareas, mejorando la lectura y el orden de cada pagina.",
+    "price": 7.0,
+    "rating": 4.6,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "cuadernos",
+    "brand": "Standford",
+    "link": "https://www.tailoy.com.pe/catalogsearch/result/?q=cuaderno+rayado+standford",
+    "colors": [
+      "Surtido"
+    ],
+    "sizes": [
+      "A5"
+    ],
+    "details": [
+      "Marca: Standford.",
+      "Categoria: cuadernos.",
+      "Lineado: rayado.",
+      "Precio de venta: S/ 7.00 por unidad."
+    ],
+    "usage": [
+      "Ideal para clases de lenguaje, lectura, redaccion y apuntes teoricos.",
+      "Permite mantener margenes, titulos y parrafos mas ordenados.",
+      "Recomendado para estudiantes y uso de oficina."
+    ],
+    "reviews": [
+      {
+        "name": "Cliente",
+        "text": "Excelente para tomar apuntes largos."
+      },
+      {
+        "name": "Libreria Belen",
+        "text": "Producto incorporado al catalogo con precio activo."
+      }
+    ],
+    "image": "img/products/cuaderno-rayado-standford.jpg",
+    "gallery": []
+  },
+  "cuaderno-triple-renglon-con-sombra-standford": {
+    "title": "Cuaderno Triple Renglon con Sombra - Standford",
+    "short": "Cuaderno Standford triple renglon con sombra, orientado a escritura guiada y aprendizaje.",
+    "description": "Cuaderno triple renglon con sombra Standford para reforzar trazos, escritura y presentacion ordenada.",
+    "longDescription": "El cuaderno triple renglon con sombra de Standford esta enfocado en etapas de aprendizaje y mejora de caligrafia. Sus lineas guia ayudan a mantener altura y forma de letras, logrando una escritura mas uniforme en tareas escolares y practicas diarias.",
+    "price": 7.0,
+    "rating": 4.6,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "cuadernos",
+    "brand": "Standford",
+    "link": "https://www.tailoy.com.pe/catalogsearch/result/?q=cuaderno+triple+renglon+con+sombra+standford",
+    "colors": [
+      "Surtido"
+    ],
+    "sizes": [
+      "A4"
+    ],
+    "details": [
+      "Marca: Standford.",
+      "Categoria: cuadernos.",
+      "Lineado: triple renglon con sombra.",
+      "Precio de venta: S/ 7.00 por unidad."
+    ],
+    "usage": [
+      "Muy recomendado para inicial y primaria en etapa de escritura guiada.",
+      "Facilita practicas de dictado, copias y mejora de caligrafia.",
+      "Tambien util para refuerzo en casa y academias."
+    ],
+    "reviews": [
+      {
+        "name": "Cliente",
+        "text": "Perfecto para practicar letra ordenada."
+      },
+      {
+        "name": "Libreria Belen",
+        "text": "Producto incorporado al catalogo con precio activo."
+      }
+    ],
+    "image": "img/products/cuaderno-triple-renglon-con-sombra-standford.jpg",
+    "gallery": []
   }
 };
   const OFFERS = [
