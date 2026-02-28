@@ -19,3 +19,7 @@ yarn-error.log*
 *.temp
 tmp-mobile-audit/
 tmp-mobile-audit.js
+
+# Local API playgrounds (no subir)
+clip-api-buscador.html
+clip-api-buscador-v2.html
