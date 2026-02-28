@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -79,7 +79,7 @@
                 <img src="img/logonuevo.png" alt="Librería Belen" width="220" height="64" decoding="async" fetchpriority="high">
             </a>
 
-            <div class="search-bar" style="position: relative;">
+            <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="Buscar productos, marcas y más..."
                     oninput="handleSearchInput(this.value)">
                 <button type="button" onclick="executeSearch()" aria-label="Buscar productos"><i class="fas fa-search"></i></button>
@@ -103,7 +103,7 @@
     </header>
 
     <!-- Navegacion -->
-    <nav class="nav-links">
+    <nav class="nav-links" aria-label="Navegación principal">
         <div class="container">
             <ul>
                 <li><a href="index.html" class="active">Inicio</a></li>
@@ -150,7 +150,7 @@
             </article>
         </div>
 
-        <div class="home-hero-controls" aria-label="Controles del carrusel principal">
+        <div class="home-hero-controls" role="group" aria-label="Controles del carrusel principal">
             <button type="button" class="home-hero-nav home-hero-prev" data-hero-prev aria-label="Anterior publicación">
                 <i class="fas fa-chevron-left" aria-hidden="true"></i>
             </button>
@@ -186,7 +186,7 @@
             <button type="button" class="carousel-btn prev" onclick="scrollCarousel(-1)" aria-label="Desplazar carrusel a la izquierda"><i class="fas fa-chevron-left"></i></button>
             <div class="carousel-track" id="featured-carousel">
                 <!-- Random products will be loaded via JS -->
-                <p style="text-align: center; width: 100%; padding: 2rem;">Cargando novedades...</p>
+                <p class="carousel-loading-placeholder">Cargando novedades...</p>
             </div>
             <button type="button" class="carousel-btn next" onclick="scrollCarousel(1)" aria-label="Desplazar carrusel a la derecha"><i class="fas fa-chevron-right"></i></button>
         </div>
@@ -354,14 +354,13 @@
                 <a class="btn btn-primary" href="https://wa.me/51947872207?text=Hola%20Librer%C3%ADa%20Bel%C3%A9n%2C%20quisiera%20consultar%20sobre%20sus%20productos%2C%20stock%20y%20precios." target="_blank" rel="noopener">Solicitar cotización</a>
             </div>
         </div>
-        <div
-            style="text-align: center; padding-top: var(--spacing-lg); border-top: 1px solid #333; margin-top: var(--spacing-lg);">
+        <div class="footer-legal">
             <p>&copy; <span data-current-year>2026</span> LIBRERÍA BELEN. Todos los derechos reservados.</p>
         </div>
     </footer>
 
     <!-- Anuncio emergente de ingreso -->
-    <div id="entryAnnouncementModal" class="modal entry-announcement-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="entryAnnouncementTitle">
+    <div id="entryAnnouncementModal" class="modal entry-announcement-modal" role="dialog" aria-modal="true" aria-labelledby="entryAnnouncementTitle">
         <div class="modal-content entry-announcement-content">
             <button type="button" class="entry-announcement-close" data-announcement-close aria-label="Cerrar anuncio">
                 <i class="fas fa-times" aria-hidden="true"></i>
@@ -380,7 +379,7 @@
             <span class="close-modal" onclick="closeProductModal()">&times;</span>
             <div class="product-detail-grid">
                 <div class="detail-image-container">
-                    <img id="detailImage" src="" alt="Producto">
+                    <img id="detailImage" src="img/icon.svg" alt="Producto">
                     <p class="image-disclaimer">Imagen de referencia, Librería Belen no es dueña ni autora de esta imagen.</p>
                 </div>
                 <div class="detail-info-container">
@@ -407,12 +406,12 @@
 
                     <div class="detail-actions">
                         <div class="qty-selector">
-                            <button onclick="adjustDetailQty(-1)">-</button>
+                            <button type="button" onclick="adjustDetailQty(-1)">-</button>
                             <span id="detailQty">1</span>
-                            <button onclick="adjustDetailQty(1)">+</button>
+                            <button type="button" onclick="adjustDetailQty(1)">+</button>
                         </div>
-                        <button class="btn btn-primary" id="detailAddBtn" onclick="addToCartFromDetail()">Agregar al Carrito</button>
-                        <button class="btn btn-whatsapp-detail" id="detailWhatsAppBtn" onclick="contactViaProductWhatsAppFromDetail()"><i class="fab fa-whatsapp"></i> Consultar por WhatsApp</button>
+                        <button type="button" class="btn btn-primary" id="detailAddBtn" onclick="addToCartFromDetail()">Agregar al Carrito</button>
+                        <button type="button" class="btn btn-whatsapp-detail" id="detailWhatsAppBtn" onclick="contactViaProductWhatsAppFromDetail()"><i class="fab fa-whatsapp"></i> Consultar por WhatsApp</button>
                     </div>
                 </div>
             </div>
@@ -420,7 +419,7 @@
     </div>
 
     <!-- Navegacion inferior movil -->
-    <nav class="mobile-bottom-nav">
+    <nav class="mobile-bottom-nav" aria-label="Navegación móvil">
         <a href="index.html" class="active">
             <i class="fas fa-home"></i>
             <span>Inicio</span>
