@@ -1773,6 +1773,26 @@ body.announcement-open {
     object-fit: contain;
 }
 
+.entry-announcement-link {
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.entry-announcement-link:focus-visible {
+    outline: 3px solid rgba(37, 99, 235, 0.45);
+    outline-offset: 2px;
+}
+
+.entry-announcement-cta {
+    margin-top: 0.65rem;
+    width: 100%;
+    padding: 0.72rem 1rem;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 .entry-announcement-close {
     position: absolute;
     top: 0.65rem;
@@ -1828,6 +1848,12 @@ body.announcement-open {
     .entry-announcement-image {
         max-height: calc(100dvh - 7.6rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
         border-radius: 10px;
+    }
+
+    .entry-announcement-cta {
+        margin-top: 0.5rem;
+        padding: 0.62rem 0.8rem;
+        font-size: 0.93rem;
     }
 }
 
