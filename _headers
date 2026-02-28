@@ -19,6 +19,9 @@
 /js/*
   Cache-Control: public, max-age=604800
 
+/data/products.js
+  Cache-Control: public, max-age=0, must-revalidate
+
 /data/*
   Cache-Control: public, max-age=86400
 
