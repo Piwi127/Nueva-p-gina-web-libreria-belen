@@ -4044,6 +4044,17 @@ body.announcement-open {
     background: #f8fafc;
 }
 
+.cart-action-clear {
+    border: 1px solid rgba(220, 38, 38, 0.35);
+    background: #fff5f5;
+    color: #b91c1c;
+}
+
+.cart-action-clear:hover {
+    border-color: rgba(220, 38, 38, 0.55);
+    background: #fee2e2;
+}
+
 :root[data-theme="night"] .cart-modal-shell {
     background: rgba(2, 6, 23, 0.72);
 }
@@ -4082,6 +4093,12 @@ body.announcement-open {
 
 :root[data-theme="night"] .cart-field {
     color: #e2e8f0;
+}
+
+:root[data-theme="night"] .cart-action-clear {
+    border-color: rgba(248, 113, 113, 0.4);
+    background: rgba(127, 29, 29, 0.28);
+    color: #fecaca;
 }
 
 body.cart-open .whatsapp-float {

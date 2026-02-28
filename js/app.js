@@ -1958,6 +1958,16 @@ function toggleSidebar() {
 }
 // Funcion: removeFromCart. Describe y encapsula una parte de la logica de la aplicacion.
 function removeFromCart(productId) { cart = cart.filter(item => item.id !== productId); saveCart(); renderCart(); updateCartCount(); }
+// Funcion: clearCart. Describe y encapsula una parte de la logica de la aplicacion.
+function clearCart() {
+    if (!Array.isArray(cart) || cart.length === 0) return;
+    const confirmed = window.confirm('Deseas eliminar toda la lista del carrito?');
+    if (!confirmed) return;
+    cart = [];
+    saveCart();
+    renderCart();
+    updateCartCount();
+}
 // Funcion: updateQuantity. Describe y encapsula una parte de la logica de la aplicacion.
 function updateQuantity(productId, change) {
     const item = cart.find(item => item.id === productId);
@@ -2059,10 +2069,12 @@ function renderCart() {
     }
 
     const checkoutBtn = document.getElementById('checkoutBtn');
+    const clearBtn = document.getElementById('clearCartBtn');
     const invoiceBtn = document.getElementById('invoiceBtn');
     if (cartTotalElement) {
         cartTotalElement.innerText = PRICES_PENDING ? PRICE_LABEL : formatPrice(total);
     }
+    if (clearBtn) clearBtn.disabled = cart.length === 0;
     if (checkoutBtn) checkoutBtn.disabled = PRICES_PENDING;
     if (invoiceBtn) invoiceBtn.disabled = PRICES_PENDING;
 }
