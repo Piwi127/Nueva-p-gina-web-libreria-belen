@@ -34,10 +34,10 @@ let currentMaxPrice = Infinity;
 let currentSearchQuery = '';
 let productsLoadPromise = null;
 let jsPdfLoadPromise = null;
-const PRICES_PENDING = true;
-const PRICE_LABEL = 'PROXIMAMENTE';
+const PRICES_PENDING = false;
+const PRICE_LABEL = 'S/ 0.00';
 const THEME_STORAGE_KEY = 'libreriaBelenTheme';
-const PRODUCTS_SCRIPT_PATH = 'data/products.js?v=20260227a';
+const PRODUCTS_SCRIPT_PATH = 'data/products.js?v=20260228b';
 const JSPDF_SCRIPT_PATH = 'vendor/jspdf/jspdf.umd.min.js?v=20260227a';
 const WHATSAPP_PHONE_NUMBER = '51947872207';
 const CF_BEACON_PLACEHOLDER = 'YOUR_CF_BEACON_TOKEN';
@@ -165,6 +165,13 @@ function escapeJsString(value) {
         .replace(/\r?\n/g, ' ');
 }
 
+// Funcion: formatPrice. Describe y encapsula una parte de la logica de la aplicacion.
+function formatPrice(value) {
+    const amount = Number(value);
+    if (!Number.isFinite(amount)) return PRICE_LABEL;
+    return 'S/ ' + amount.toFixed(2);
+}
+
 // Funcion: sanitizeUrl. Describe y encapsula una parte de la logica de la aplicacion.
 function sanitizeUrl(url) {
     const trimmed = String(url || '').trim();
@@ -284,6 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ensureProductsLoaded().then(() => {
             renderCategories();
             renderBrandFilters();
+            initPriceFilterUI();
             initSortSelect();
             const urlParams = new URLSearchParams(window.location.search);
             const category = urlParams.get('category');
@@ -763,7 +771,7 @@ function renderSearchDropdown(query, filtered) {
                     <h4>${highlightedTitle}</h4>
                     <p>${highlightedCategory}</p>
                 </div>
-                <div class="search-item-price">${PRICE_LABEL}</div>
+                <div class="search-item-price">${PRICES_PENDING ? PRICE_LABEL : formatPrice(product.price)}</div>
             `;
             searchResults.appendChild(item);
         });
@@ -824,7 +832,7 @@ function createProductChipRow(items) {
         const title = document.createElement('span');
         title.textContent = product.title;
         const price = document.createElement('strong');
-        price.textContent = PRICE_LABEL;
+        price.textContent = PRICES_PENDING ? PRICE_LABEL : formatPrice(product.price);
         chip.appendChild(title);
         chip.appendChild(price);
         chip.onclick = () => {
@@ -954,7 +962,7 @@ function loadProducts() {
 
             const normalizedCategory = normalizeCategory(data.category, data.title);
             const normalizedSubcategory = normalizeSubcategory(normalizedCategory, data.title || '');
-            const brand = extractBrandFromTitle(data.title || '') || 'Otros';
+            const brand = (data.brand && String(data.brand).trim()) || extractBrandFromTitle(data.title || '') || 'Otros';
             const searchTokens = buildSearchTokens({
                 title: data.title,
                 description: data.description,
@@ -1426,7 +1434,7 @@ function openProductModal(productId) {
 
     modalNodes.detailImage.src = sanitizeUrl(product.image);
     modalNodes.detailTitle.innerText = product.title;
-    modalNodes.detailPrice.innerText = PRICE_LABEL;
+    modalNodes.detailPrice.innerText = PRICES_PENDING ? PRICE_LABEL : formatPrice(product.price);
     modalNodes.detailRating.innerHTML = getStars(product.rating);
     modalNodes.detailDescription.innerText = product.longDescription;
     modalNodes.detailQty.innerText = currentDetailQty;
@@ -1916,9 +1924,10 @@ function toggleSubcategory(category) {
 function filterByPrice(maxPrice) {
     if (PRICES_PENDING) return;
     currentPage = 1;
+    const safeMaxPrice = Number(maxPrice);
     const priceDisplay = document.getElementById('priceValue');
-    if (priceDisplay) priceDisplay.innerText = `S/ ${maxPrice}`;
-    currentMaxPrice = Number(maxPrice);
+    if (priceDisplay) priceDisplay.innerText = formatPrice(safeMaxPrice);
+    currentMaxPrice = safeMaxPrice;
     applyFilters();
 }
 
@@ -2017,8 +2026,8 @@ function renderCart() {
             cartItem.className = 'cart-item';
             const safeTitle = escapeHtml(item.title);
             const safeImage = escapeAttr(sanitizeUrl(item.image));
-            const priceLabel = PRICES_PENDING ? PRICE_LABEL : 'S/ ' + item.price.toFixed(2);
-            const subtotalLabel = PRICES_PENDING ? PRICE_LABEL : 'S/ ' + itemTotal.toFixed(2);
+            const priceLabel = PRICES_PENDING ? PRICE_LABEL : formatPrice(item.price);
+            const subtotalLabel = PRICES_PENDING ? PRICE_LABEL : formatPrice(itemTotal);
 
             cartItem.innerHTML =
                 '<div class="cart-item-media">' +
@@ -2052,7 +2061,7 @@ function renderCart() {
     const checkoutBtn = document.getElementById('checkoutBtn');
     const invoiceBtn = document.getElementById('invoiceBtn');
     if (cartTotalElement) {
-        cartTotalElement.innerText = PRICES_PENDING ? PRICE_LABEL : 'S/ ' + total.toFixed(2);
+        cartTotalElement.innerText = PRICES_PENDING ? PRICE_LABEL : formatPrice(total);
     }
     if (checkoutBtn) checkoutBtn.disabled = PRICES_PENDING;
     if (invoiceBtn) invoiceBtn.disabled = PRICES_PENDING;
@@ -2662,7 +2671,7 @@ function getProductCardHtml(product, index) {
             </div>
             <h3 class="product-title" onclick="openProductModal(${product.id})" style="cursor:pointer">${safeTitle}</h3>
             <div class="product-rating-inline">${getStars(product.rating || 4.5)}<small> Calificado</small></div>
-            <div class="product-price">${PRICE_LABEL}</div>
+            <div class="product-price">${PRICES_PENDING ? PRICE_LABEL : formatPrice(product.price)}</div>
             <div class="product-actions">
                 <button class="btn-cart" ${cartDisabled} onclick="addToCart(${product.id})">
                     <i class="fas fa-cart-plus"></i>
@@ -2783,8 +2792,51 @@ function clearAllCatalogFilters() {
     if (brandRadio) brandRadio.checked = true;
     const input = document.getElementById('searchInput');
     if (input) input.value = '';
+    const priceRange = document.getElementById('priceRange');
+    const priceValue = document.getElementById('priceValue');
+    if (!PRICES_PENDING && priceRange) {
+        priceRange.value = priceRange.max;
+        currentMaxPrice = Number(priceRange.max);
+        if (priceValue) priceValue.innerText = formatPrice(currentMaxPrice);
+    } else {
+        currentMaxPrice = Infinity;
+    }
 
     applyFilters();
+}
+
+// Funcion: initPriceFilterUI. Describe y encapsula una parte de la logica de la aplicacion.
+function initPriceFilterUI() {
+    const priceRange = document.getElementById('priceRange');
+    const priceValue = document.getElementById('priceValue');
+    const priceMinValue = document.getElementById('priceMinValue');
+    if (!priceRange) return;
+
+    const priceList = products
+        .map(p => Number(p.price))
+        .filter(value => Number.isFinite(value) && value >= 0);
+
+    if (priceList.length === 0) {
+        priceRange.disabled = true;
+        if (priceValue) priceValue.innerText = PRICE_LABEL;
+        if (priceMinValue) priceMinValue.innerText = PRICE_LABEL;
+        currentMaxPrice = Infinity;
+        return;
+    }
+
+    const minPrice = Math.min(...priceList);
+    const maxPrice = Math.max(...priceList);
+    const minStep = minPrice < 10 || maxPrice < 10 ? 0.1 : 0.5;
+
+    priceRange.disabled = PRICES_PENDING;
+    priceRange.min = String(minPrice);
+    priceRange.max = String(maxPrice);
+    priceRange.step = String(minStep);
+    priceRange.value = String(maxPrice);
+    currentMaxPrice = PRICES_PENDING ? Infinity : maxPrice;
+
+    if (priceValue) priceValue.innerText = PRICES_PENDING ? PRICE_LABEL : formatPrice(maxPrice);
+    if (priceMinValue) priceMinValue.innerText = PRICES_PENDING ? PRICE_LABEL : formatPrice(minPrice);
 }
 
 // Funcion: applyPricePendingUI. Describe y encapsula una parte de la logica de la aplicacion.

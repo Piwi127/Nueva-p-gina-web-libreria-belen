@@ -1,238 +1,17 @@
 (() => {
   const PRODUCTS = {
-  "acuarela-faber-castell-estuche-x-12-und": {
-    "title": "Acuarela Faber Castell Estuche X 12 Und",
-    "short": "Colores vivos para arte y escuela.",
-    "description": "Estuche escolar de acuarelas con colores intensos, opacos y mezclables, solubles en agua.",
-    "longDescription": "Set de acuarelas pensado para trabajos escolares y actividades artísticas, con colores vivos que se activan con agua y se pueden mezclar para crear nuevos tonos.",
-    "price": "S/ 10.14",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/acuarela-faber-castell-estuche-x-12-und-357",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Humedece el pincel y activa la pastilla con agua para pintar.", "Mezcla colores en la paleta para obtener nuevos matices.", "Ideal para tareas escolares y prácticas de dibujo y pintura."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/acuarela-faber-castell-estuche-x-12-und.jpg",
-    "gallery": []
-  },
-  "acuarela-ove-grande-x-8-colores": {
-    "title": "Acuarela Ove Grande X 8 Colores",
-    "short": "Colores vivos para arte y escuela.",
-    "description": "Set escolar de 8 acuarelas en pastilla, solubles en agua y mezclables.",
-    "longDescription": "Acuarelas escolares en pastillas que se activan con agua para obtener colores vivos y combinables en trabajos de dibujo y manualidades.",
-    "price": "S/ 2.80",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/acuarela-ove-grande-x-8-colores-39891",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Usa agua y pincel para activar cada color.", "Mezcla dos o más tonos para crear colores personalizados.", "Recomendado para clases de arte y manualidades."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/acuarela-ove-grande-x-8-colores.jpg",
-    "gallery": []
-  },
-  "acuarelas-artesco-12-colores": {
-    "title": "Acuarelas Artesco 12 Colores",
-    "short": "Colores vivos para arte y escuela.",
-    "description": "Acuarelas Artesco en set de 12 colores para uso escolar y artístico.",
-    "longDescription": "Set de acuarelas Artesco de 12 colores diseñado para trabajos escolares, con colores intensos que se activan con agua.",
-    "price": "S/ 6.87",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/acuarelas-artesco-12-colores-74607",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Activa las pastillas con un pincel húmedo.", "Usa papel para acuarela o cartulina lisa para mejores resultados.", "Perfecto para tareas escolares y proyectos creativos."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/acuarelas-artesco-12-colores.jpg",
-    "gallery": []
-  },
-  "alfileres-artesco-28-mm-caja-x-50-gr": {
-    "title": "Alfileres Artesco 28 Mm Caja X 50 Gr",
-    "short": "Fijacion practica para trabajos.",
-    "description": "Alfileres Artesco de 28 mm para fijar papeles, manualidades o tableros.",
-    "longDescription": "Alfileres de uso escolar y de oficina, Útiles para sujetar documentos o elementos livianos en tableros y proyectos manuales.",
-    "price": "S/ 1.25",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "regalos",
-    "link": "https://clip.com.pe/producto/alfileres-artesco-28-mm-caja-x-50-gr-2796",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Sujeta hojas o cartulinas en paneles y tableros.", "Úsalos en proyectos de manualidades y maquetas.", "Ideal para organización en el aula o la oficina."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/alfileres-artesco-28-mm-caja-x-50-gr.jpg",
-    "gallery": []
-  },
-  "archivador-plastificado-ove-a4-negro-con-lomo-ancho": {
-    "title": "Archivador Plastificado Ove A4 Negro Con Lomo Ancho",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Archivador A4 de lomo ancho para almacenar grandes cantidades de documentos.",
-    "longDescription": "Archivador tamaño A4 con lomo ancho y mecanismo de palanca, pensado para guardar y organizar documentos de forma segura.",
-    "price": "S/ 3.80",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/archivador-plastificado-ove-a4-negro-con-lomo-ancho-5000846",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Archiva documentos A4 por temas o categorías.", "Usa separadores y etiquetas para organizar mejor.", "Recomendado para oficina, colegio o archivo en casa."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/archivador-plastificado-ove-a4-negro-con-lomo-ancho.jpg",
-    "gallery": []
-  },
-  "block-cuadriculado-justus-a4-5-perforaciones-50-hojas": {
-    "title": "Block Cuadriculado Justus A4 5 Perforaciones 50 Hojas",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Block cuadriculado A4 de 50 hojas con 5 perforaciones para archivar.",
-    "longDescription": "Block cuadriculado en tamaño A4 con 50 hojas y perforaciones para anillar, ideal para matemáticas y apuntes.",
-    "price": "S/ 3.13",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/block-cuadriculado-justus-a4-5-perforaciones-50-hojas-15692001",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Toma apuntes y resuelve ejercicios con guía cuadriculada.", "Archiva las hojas en anillados o archivadores.", "Útil para colegio, universidad y oficina."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/block-cuadriculado-justus-a4-5-perforaciones-50-hojas.jpg",
-    "gallery": []
-  },
-  "block-de-dibujo-anillado-20h-justus": {
-    "title": "Block De Dibujo Anillado 20H Justus",
-    "short": "Producto esencial para estudio y oficina.",
+  "block-de-dibujo-anillado-20h-justus-x-1-und": {
+    "title": "Block De Dibujo Anillado 20H Justus x 1 und",
+    "short": "Block de dibujo anillado de 20 hojas para bocetos y trabajos escolares.",
     "description": "Block de dibujo anillado de 20 hojas para bocetos y trabajos escolares.",
-    "longDescription": "Block de dibujo con 20 hojas y encuadernación anillada para facilitar el giro y el uso continuo en clases de arte.",
-    "price": "S/ 3.77",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/block-de-dibujo-anillado-loro-25-hojas-2523",
+    "longDescription": "Block de dibujo con 20 hojas y encuadernaci\u00f3n anillada para facilitar el giro y el uso continuo en clases de arte. Presentacion: x 1 unidades. Presentacion: x 1 unidades. Presentacion: x 1 unidades.",
+    "price": 5.3,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "cuadernos",
+    "brand": "Justus",
+    "link": "https://www.tailoy.com.pe/block-de-dibujo-anillado-20h-justus-49851",
     "colors": [
       "Clasico"
     ],
@@ -240,36 +19,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Justus.",
+      "Categoria: cuadernos.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Realiza bocetos, dibujos y ejercicios de arte.", "Ideal para clases de educación artística.", "Permite arrancar hojas con facilidad cuando sea necesario."],
+    "usage": [
+      "Perfecto para clases, tareas y organizacion de apuntes diarios.",
+      "Facilita la toma de notas, ejercicios y trabajos escolares.",
+      "Complementa con separadores y forros para mayor orden y proteccion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/Block%20De%20Dibujo%20Anillado%2020H%20Justus.webp",
+    "image": "img/products/block-de-dibujo-anillado-20h-justus-x-1-und.jpg",
     "gallery": []
   },
-  "block-de-dibujo-empastado-ove-24-x-31-5-cm-20-hojas": {
-    "title": "Block De Dibujo Empastado Ove 24 X 31.5 Cm 20 Hojas",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Block de dibujo empastado de 20 hojas en formato 24 x 31.5 cm.",
-    "longDescription": "Block de dibujo empastado con 20 hojas para trabajos escolares y artísticos, en tamaño amplio para mejor presentación.",
-    "price": "S/ 3.00",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/block-de-dibujo-empastado-ove-24-x-315-cm-20-hojas-46461",
+  "block-de-dibujo-empastado-ove-24-x-31-5-cm-20-hojas-x-1-und": {
+    "title": "Block De Dibujo Empastado Ove 24 X 31.5 Cm 20 Hojas x 1 und",
+    "short": "Block de dibujo especial (empastado) Tama\u00f1o: 24 x 31.5 cm N\u00famero de hojas: 20 Gramaje: 140 gr Marca: Ove Im\u00e1genes referenciales",
+    "description": "Block de dibujo especial - Ove Tama\u00f1o 24 x 31.5 cm 20 Hojas 140 gramos",
+    "longDescription": "Agrega un toque de estilo a tus dibujos con el block de dibujo OVE estampado, de 24 x 31.5 cm y 20 hojas. Es perfecto para que explores tu creatividad con dise\u00f1os \u00fanicos Otras Especificaciones: Libera tu creatividad con el Block de Dibujo OVE Este block, de tama\u00f1o 24 x 31.5 cm y encuadernaci\u00f3n empastada, cuenta con 20 hojas de papel de dibujo de alta calidad, ofreci\u00e9ndote un lienzo perfecto para expresar tus ideas art\u00edsticas y creativas Cada hoja est\u00e1 dise\u00f1ada para soportar una variedad de t\u00e9cnicas de dibujo, como l\u00e1pices de grafito, carboncillos, pasteles y m\u00e1s El encuadernado empastado proporciona una mayor durabilidad y protecci\u00f3n, asegurando que tus obras de arte permanezcan seguras y protegidas Presentacion: x 1 unidades.",
+    "price": 4.2,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "cuadernos",
+    "brand": "OVE",
+    "link": "https://www.tailoy.com.pe/block-de-dibujo-empastado-ove-24-x-315-cm-20-hojas-46461",
     "colors": [
       "Clasico"
     ],
@@ -277,36 +61,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: OVE.",
+      "Categoria: cuadernos.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo para dibujos, láminas y proyectos artísticos.", "Recomendado para técnicas en lápiz, témpera o acuarela ligera.", "Ideal para tareas de arte y manualidades."],
+    "usage": [
+      "Perfecto para clases, tareas y organizacion de apuntes diarios.",
+      "Facilita la toma de notas, ejercicios y trabajos escolares.",
+      "Complementa con separadores y forros para mayor orden y proteccion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/block-de-dibujo-empastado-ove-24-x-31-5-cm-20-hojas.jpg",
+    "image": "img/products/block-de-dibujo-empastado-ove-24-x-31-5-cm-20-hojas-x-1-und.jpg",
     "gallery": []
   },
-  "block-escolar-80h-period-cuadr-libra": {
-    "title": "Block Escolar 80H Period Cuadr Libra",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Block escolar cuadriculado de 80 hojas para trabajos y apuntes diarios.",
-    "longDescription": "Block escolar con 80 hojas cuadriculadas, adecuado para actividades académicas y ejercicios matemáticos.",
-    "price": "S/ 1.18",
-    "rating": "4.5",
-    "stock": 10,
+  "block-escolar-80h-period-cuadr-libra-x-1-und": {
+    "title": "Block Escolar 80H Period Cuadr Libra x 1 und",
+    "short": "Blocks escolar Cuadriculado Dise\u00f1os variados Hojas: 80 Im\u00e1genes referenciales Producto Surtido: Se vende al precio publicado y se entregar\u00e1 al azar seg\u00fan stock.",
+    "description": "Blocks escolar Cuadriculado Dise\u00f1os variados Hojas: 80 Im\u00e1genes referenciales Producto Surtido: Se vende al precio publicado y se entregar\u00e1 al azar seg\u00fan stock.",
+    "longDescription": "El block ideal para tus apuntes. El block escolar LIBRA con cuadriculado es perfecto para la escuela y la universidad, con hojas de alta calidad para tus notas y ejercicios Presentacion: x 1 unidades.",
+    "price": 2.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/block-escolar-80h-period-cuadr-libra-5000118",
+    "category": "cuadernos",
+    "brand": "LIBRA",
+    "link": "https://www.tailoy.com.pe/block-escolar-80h-period-cuadr-libra-5000118",
     "colors": [
       "Clasico"
     ],
@@ -314,591 +103,671 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: LIBRA.",
+      "Categoria: cuadernos.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Toma apuntes y realiza ejercicios con orden en la cuadrícula.", "Ideal para colegios y academias.", "Úsalo como block principal de clases."],
+    "usage": [
+      "Perfecto para clases, tareas y organizacion de apuntes diarios.",
+      "Facilita la toma de notas, ejercicios y trabajos escolares.",
+      "Complementa con separadores y forros para mayor orden y proteccion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/block-escolar-80h-period-cuadr-libra.jpg",
+    "image": "img/products/block-escolar-80h-period-cuadr-libra-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-faber-castell-060-azul": {
-    "title": "Bolígrafo Faber Castell 060 Azul",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Faber-Castell 060 con tinta seca para escritura limpia y uniforme.",
-    "longDescription": "Bolígrafo de tinta seca con trazo fluido y constante, pensado para escritura diaria en estudio u oficina.",
-    "price": "S/ 0.87",
-    "rating": "4.5",
-    "stock": 10,
+  "boligrafo-faber-castell-trilux-031-punta-fina-azul-x-1-und": {
+    "title": "Bol\u00edgrafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und",
+    "short": "Bol\u00edgrafo de calidad y larga duraci\u00f3n Punta fina de 1.0 mm Tinta seca Cuerpo erg\u00f3n\u00f3mico transl\u00facido Im\u00e1genes referenciales",
+    "description": "Bol\u00edgrafo de calidad y larga duraci\u00f3n Punta fina de 1.0 mm Tinta seca Cuerpo erg\u00f3n\u00f3mico transl\u00facido Im\u00e1genes referenciales",
+    "longDescription": "Experimenta la fluidez y comodidad de escritura con el bol\u00edgrafo FABER CASTELL 032-M Trilux en azul. Su dise\u00f1o ergon\u00f3mico y tinta de calidad te garantizan una experiencia de escritura superior Otras especificaiones: Bol\u00edgrafo de tinta seca con cuerpo triangular transl\u00facido Posee una punta met\u00e1lica fina de 1.0 mm Cuenta con tapa con sistema anti asfixia Presentacion: x 1 unidades. Presentacion: x 1 unidades. Presentacion: x 1 unidades.",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-faber-castell-060-azul-15727001",
+    "category": "escritura",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/boligrafo-faber-castell-trilux-031-punta-fina-azul-x-1-und-15723001",
     "colors": [
-      "Clasico"
+      "Azul"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Escribe apuntes y documentos con trazo uniforme.", "Adecuado para uso escolar y oficina.", "Funciona bien en papel bond y cuadernos."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-faber-castell-060-azul.jpg",
+    "image": "img/products/boligrafo-faber-castell-trilux-031-punta-fina-azul-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-faber-castell-060-negro": {
-    "title": "Bolígrafo Faber Castell 032-M Trilux Verde",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Faber-Castell 060 con tinta seca de uso cotidiano.",
-    "longDescription": "Bolígrafo de tinta seca con escritura continua y limpia para trabajos escolares o de oficina.",
-    "price": "S/ 0.87",
-    "rating": "4.5",
-    "stock": 10,
+  "boligrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und": {
+    "title": "Bol\u00edgrafo Faber Castell Trilux 031 Punta Fina Negro X 1 Und",
+    "short": "Bol\u00edgrafo de calidad y larga duraci\u00f3n Punta fina de 1.0 mm Tinta seca Cuerpo erg\u00f3n\u00f3mico transl\u00facido Im\u00e1genes referenciales",
+    "description": "Bol\u00edgrafo de calidad y larga duraci\u00f3n Punta fina de 1.0 mm Tinta seca Cuerpo erg\u00f3n\u00f3mico transl\u00facido Im\u00e1genes referenciales",
+    "longDescription": "Dale un toque de vitalidad a tus apuntes con el bol\u00edgrafo FABER CASTELL 032-M Trilux en rojo. Su tinta vibrante es perfecta para que resaltes informaci\u00f3n clave con facilidad Otras especificaiones: Bol\u00edgrafo de tinta seca con cuerpo triangular transl\u00facido Posee una punta met\u00e1lica fina de 1.0 mm Cuenta con tapa con sistema anti asfixia Presentacion: x 1 unidades. Presentacion: x 1 unidades. Presentacion: x 1 unidades.",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-faber-castell-032-m-trilux-verde-5438",
+    "category": "escritura",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/boligrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und-15723002",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo para escribir apuntes y documentos importantes.", "Ideal para escritura diaria.", "Compatible con papel bond y cuadernos escolares."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-faber-castell-060-negro.jpg",
+    "image": "img/products/boligrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-faber-castell-060-rojo": {
-    "title": "Bolígrafo Faber Castell 060 Rojo",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Faber-Castell 060 con tinta seca para correcciones y anotaciones.",
-    "longDescription": "Bolígrafo de tinta seca con trazo suave, Útil para subrayados y correcciones en trabajos escolares.",
-    "price": "S/ 0.87",
-    "rating": "4.5",
-    "stock": 10,
+  "boligrafo-faber-castell-trilux-031-punta-fina-rojo-x-1-und": {
+    "title": "Bol\u00edgrafo Faber Castell Trilux 031 Punta Fina Rojo X 1 Und",
+    "short": "Bol\u00edgrafo de calidad y larga duraci\u00f3n Punta fina de 1.0 mm Tinta seca Cuerpo erg\u00f3n\u00f3mico transl\u00facido Im\u00e1genes referenciales",
+    "description": "Bol\u00edgrafo de calidad y larga duraci\u00f3n Punta fina de 1.0 mm Tinta seca Cuerpo erg\u00f3n\u00f3mico transl\u00facido Im\u00e1genes referenciales",
+    "longDescription": "Disfruta de una escritura suave y confiable con el bol\u00edgrafo FABER CASTELL 032-M Trilux en negro. Es tu herramienta ideal para el uso diario en cualquier entorno Otras especificaiones: Bol\u00edgrafo de tinta seca con cuerpo triangular transl\u00facido Posee una punta met\u00e1lica fina de 1.0 mm Cuenta con tapa con sistema anti asfixia Presentacion: x 1 unidades. Presentacion: x 1 unidades. Presentacion: x 1 unidades.",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-faber-castell-060-rojo-15727003",
+    "category": "escritura",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/boligrafo-faber-castell-trilux-031-punta-fina-rojo-x-1-und-15723003",
     "colors": [
-      "Clasico"
+      "Rojo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para correcciones y anotaciones en rojo.", "Escribe en papel bond o cuadernos sin manchar.", "Útil para docentes y estudiantes."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-faber-castell-060-rojo.jpg",
+    "image": "img/products/boligrafo-faber-castell-trilux-031-punta-fina-rojo-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-faber-castell-trilux-031-punta-fina-azul-x-1-und": {
-    "title": "Bolígrafo Faber Castell 032-M Trilux Azul",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Trilux de trazo fino con escritura fluida y cuerpo triangular ergonómico.",
-    "longDescription": "Bolígrafo Faber-Castell Trilux con diseño triangular para un agarre cómodo y trazo fino, ideal para largas sesiones de escritura.",
-    "price": "S/ 0.42",
-    "rating": "4.5",
-    "stock": 10,
+  "boligrafo-pilot-bp-sf-punta-fina-azul-x-1-und": {
+    "title": "Bol\u00edgrafo Pilot Bp-Sf Punta Fina Azul X 1 Und",
+    "short": "Bol\u00edgrafo con forma triangular Punta fina de 0.8 mm Tinta seca Tapa antiasfixia Im\u00e1genes referenciales",
+    "description": "Bol\u00edgrafo con forma triangular Punta fina de 0.8 mm Tinta seca Tapa antiasfixia Im\u00e1genes referenciales",
+    "longDescription": "Descubre la precisi\u00f3n en tu escritura con el bol\u00edgrafo FABER CASTELL Trilux 031 de punta fina en azul. Ideal para tus notas diarias y proyectos que requieren detalles Otras especificaiones: Bol\u00edgrafo Trilux 031 de Faber-Castell, ideal para uso escolar y de oficina Presentacion: x 1 unidades. Presentacion: x 1 unidades. Presentacion: x 1 unidades.",
+    "price": 2.9,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-faber-castell-032-m-trilux-azul-3664",
+    "category": "escritura",
+    "brand": "Pilot",
+    "link": "https://www.tailoy.com.pe/boligrafo-pilot-bp-sf-punta-fina-azul-x-1-und-15791001",
     "colors": [
-      "Clasico"
+      "Azul"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Pilot.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Escribe apuntes prolongados con comodidad.", "Apto para escritura fina y detallada.", "Recomendado para estudio y oficina."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-faber-castell-trilux-031-punta-fina-azul-x-1-und.jpg",
+    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-azul-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und": {
-    "title": "Bolígrafo Faber Castell 032-M Trilux Rojo",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Trilux de trazo fino con agarre triangular y tinta suave.",
-    "longDescription": "Bolígrafo Faber-Castell Trilux con diseño triangular que mejora el agarre y permite escritura precisa.",
-    "price": "S/ 0.42",
-    "rating": "4.5",
-    "stock": 10,
+  "boligrafo-pilot-bp-sf-punta-fina-negro-x-1-und": {
+    "title": "Bol\u00edgrafo Pilot Bp-Sf Punta Fina Negro X 1 Und",
+    "short": "Bol\u00edgrafo de Tinta Seca Punta de Carburo de tungsteno y soporte de acero inoxidable Punta fina de 0.7mm Im\u00e1genes referenciales",
+    "description": "Bol\u00edgrafo de Tinta Seca Punta de Carburo de tungsteno y soporte de acero inoxidable Punta fina de 0.7mm Im\u00e1genes referenciales",
+    "longDescription": "Bol\u00edgrafo Pilot Bp-Sf Punta Fina Negro: escritura fina y elegante en tinta negra. Durabilidad y rendimiento para uso profesional Otras Especificaciones: Cuerpo acr\u00edlico transparente (de la tonalidad de la tinta) Punta de Carburo de tungsteno y soporte de acero inoxidable Punta fina de 0.7mm. Presentacion: x 1 unidades.",
+    "price": 2.9,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-faber-castell-032-m-trilux-rojo-3666",
+    "category": "escritura",
+    "brand": "PILOT",
+    "link": "https://www.tailoy.com.pe/boligrafo-pilot-bp-sf-punta-fina-negro-x-1-und-15791003",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: PILOT.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para escritura clara y detallada.", "Útil para notas escolares y documentos.", "Cómodo para uso prolongado."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und.jpg",
+    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-negro-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-faber-castell-trilux-031-punta-fina-rojo-x-1-und": {
-    "title": "Bolígrafo Faber Castell 032-M Trilux Negro",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Trilux de trazo fino, práctico para correcciones y anotaciones.",
-    "longDescription": "Bolígrafo Faber-Castell Trilux con cuerpo triangular y trazo fino para escritura precisa.",
-    "price": "S/ 0.42",
-    "rating": "4.5",
-    "stock": 10,
+  "boligrafo-pilot-bp-sf-punta-fina-rojo-x-1-und": {
+    "title": "Bol\u00edgrafo Pilot Bp-Sf Punta Fina Rojo X 1 Und",
+    "short": "Bol\u00edgrafo con forma triangular Punta fina de 0.8 mm Tinta seca Tapa antiasfixia Im\u00e1genes referenciales",
+    "description": "Bol\u00edgrafo con forma triangular Punta fina de 0.8 mm Tinta seca Tapa antiasfixia Im\u00e1genes referenciales",
+    "longDescription": "Descubre la precisi\u00f3n en tu escritura con el bol\u00edgrafo FABER CASTELL Trilux 031 de punta fina en azul. Ideal para tus notas diarias y proyectos que requieren detalles Otras especificaiones: Bol\u00edgrafo Trilux 031 de Faber-Castell, ideal para uso escolar y de oficina Presentacion: x 1 unidades. Presentacion: x 1 unidades. Presentacion: x 1 unidades.",
+    "price": 2.9,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-faber-castell-032-m-trilux-negro-3665",
+    "category": "escritura",
+    "brand": "Pilot",
+    "link": "https://www.tailoy.com.pe/boligrafo-pilot-bp-sf-punta-fina-rojo-x-1-und-15791004",
     "colors": [
-      "Clasico"
+      "Rojo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Pilot.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo para correcciones y anotaciones en rojo.", "Adecuado para escritura fina en papel.", "Cómodo para uso diario."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-faber-castell-trilux-031-punta-fina-rojo-x-1-und.jpg",
+    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-rojo-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-pilot-bp-sf-punta-fina-azul-x-1-und": {
-    "title": "Bolígrafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Pilot BP-SF de punta fina con tinta seca para escritura suave.",
-    "longDescription": "Bolígrafo Pilot BP-SF con punta fina y tinta seca, diseñado para escritura fluida y controlada.",
-    "price": "S/ 2.14",
-    "rating": "4.5",
-    "stock": 10,
+  "boligrafo-pilot-bp-sf-punta-fina-verde-x-1-und": {
+    "title": "Bol\u00edgrafo Pilot Bp-Sf Punta Fina Verde X 1 Und",
+    "short": "Bol\u00edgrafo 034 Color: Azul Escritura suave y precisa con el cl\u00e1sico bol\u00edgrafo de Faber-Castell Perfecto para la escuela, la oficina o el uso diario Im\u00e1genes referenciales",
+    "description": "Bol\u00edgrafo 034 Color: Azul Escritura suave y precisa con el cl\u00e1sico bol\u00edgrafo de Faber-Castell Perfecto para la escuela, la oficina o el uso diario Im\u00e1genes referenciales",
+    "longDescription": "Escritura fluida y de alta calidad. El bol\u00edgrafo FABER CASTELL en color azul es ideal para el colegio, la oficina o el hogar Presentacion: x 1 unidades. Presentacion: x 1 unidades. Presentacion: x 1 unidades.",
+    "price": 2.9,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-faber-castell-trilux-031-punta-fina-azul-x-1-und-15723001",
+    "category": "escritura",
+    "brand": "Pilot",
+    "link": "https://www.tailoy.com.pe/boligrafo-pilot-bps-gp-flex-punta-fina-verde-x-1-und-15793004",
     "colors": [
-      "Clasico"
+      "Verde"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Pilot.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Escritura fina para apuntes y notas.", "Ideal para uso escolar y oficina.", "Trazo uniforme en papel bond."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-pilot-bp-sf-punta-fina-azul-x-1-und.jpg",
+    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-verde-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-pilot-bp-sf-punta-fina-negro-x-1-und": {
-    "title": "Bolígrafo Pilot Bp-Sf Punta Fina Negro X 1 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Pilot BP-SF de punta fina para escritura precisa.",
-    "longDescription": "Bolígrafo de tinta seca con punta fina, pensado para escritura clara y controlada.",
-    "price": "S/ 2.14",
-    "rating": "4.5",
-    "stock": 10,
+  "cartulina-escolar-amarillo-pastel-135-140-g-x-1-und": {
+    "title": "Cartulina Escolar Amarillo Pastel 135/140 G X 1 und",
+    "short": "Cartulina escolar Color: Amarillo Pastel Gramaje: 135/140 g Textura suave y f\u00e1cil de cortar Para tareas escolares o creativas Im\u00e1genes referenciales",
+    "description": "Cartulina escolar Color: Amarillo Pastel Gramaje: 135/140 g Textura suave y f\u00e1cil de cortar Para tareas escolares o creativas Im\u00e1genes referenciales",
+    "longDescription": "Cartulina escolar de 135/140 g en amarillo pastel, ideal para uso acad\u00e9mico, presentaciones o trabajos manuales Presentacion: x 1 unidades. Peso o gramaje: 140 g.",
+    "price": 1.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-pilot-bp-sf-punta-fina-negro-x-1-und-15791003",
+    "brand": "GENERICO",
+    "link": "https://www.tailoy.com.pe/cartulina-escolar-amarillo-pastel-135140-gr-15909001",
     "colors": [
-      "Clasico"
+      "Amarillo"
     ],
     "sizes": [
-      "Unico"
+      "140 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: GENERICO.",
+      "Categoria: papeleria.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Útil para documentos y apuntes.", "Escritura fina y continua.", "Adecuado para estudiantes y profesionales."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-pilot-bp-sf-punta-fina-negro-x-1-und.jpg",
+    "image": "img/products/cartulina-escolar-amarillo-pastel-135-140-g-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-pilot-bp-sf-punta-fina-rojo-x-1-und": {
-    "title": "Bolígrafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Pilot BP-SF de punta fina para anotaciones y correcciones.",
-    "longDescription": "Bolígrafo de tinta seca con punta fina para escritura precisa y legible.",
-    "price": "S/ 2.14",
-    "rating": "4.5",
-    "stock": 10,
+  "cartulina-escolar-blanco-140-g-x-1-und": {
+    "title": "Cartulina Escolar Blanco 140 G X 1 Und",
+    "short": "Cartulina escolar Color: Blanco Gramaje: 140 g Acabado liso y f\u00e1cil de trabajar Ideal para uso acad\u00e9mico o art\u00edstico Im\u00e1genes referenciales",
+    "description": "Cartulina escolar Color: Blanco Gramaje: 140 g Acabado liso y f\u00e1cil de trabajar Ideal para uso acad\u00e9mico o art\u00edstico Im\u00e1genes referenciales",
+    "longDescription": "Cartulina escolar blanca de 140 g, recomendada para trabajos escolares, presentaciones y proyectos creativos Presentacion: x 1 unidades. Peso o gramaje: 140 g.",
+    "price": 1.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-faber-castell-trilux-031-punta-fina-azul-x-1-und-15723001",
+    "brand": "GENERICO",
+    "link": "https://www.tailoy.com.pe/cartulina-escolar-blanco-140-gr-116",
     "colors": [
-      "Clasico"
+      "Blanco"
     ],
     "sizes": [
-      "Unico"
+      "140 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: GENERICO.",
+      "Categoria: papeleria.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para correcciones y resaltados en rojo.", "Trazo fino para escritura detallada.", "Uso diario en estudio u oficina."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-pilot-bp-sf-punta-fina-rojo-x-1-und.jpg",
+    "image": "img/products/cartulina-escolar-blanco-140-g-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-pilot-bp-sf-punta-fina-verde-x-1-und": {
-    "title": "Bolígrafo 034 - Azul",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Pilot BP-SF de punta fina con tinta seca para escritura fluida.",
-    "longDescription": "Bolígrafo con punta fina y tinta seca, pensado para apuntes y anotaciones precisas.",
-    "price": "S/ 2.14",
-    "rating": "4.5",
-    "stock": 10,
+  "cartulina-escolar-celeste-pastel-135-140-g-x-1-und": {
+    "title": "Cartulina Escolar Celeste Pastel 135/140 G X 1 Und",
+    "short": "Cartulina escolar Color: Celeste Pastel Gramaje: 135/140 g Color suave y f\u00e1cil de recortar Ideal para tareas o manualidades Im\u00e1genes referenciales",
+    "description": "Cartulina escolar Color: Celeste Pastel Gramaje: 135/140 g Color suave y f\u00e1cil de recortar Ideal para tareas o manualidades Im\u00e1genes referenciales",
+    "longDescription": "Cartulina escolar en tono celeste pastel de 135/140 g, ideal para trabajos acad\u00e9micos o proyectos visuales Presentacion: x 1 unidades. Peso o gramaje: 140 g.",
+    "price": 1.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-034-azul-15725001",
+    "brand": "GENERICO",
+    "link": "https://www.tailoy.com.pe/cartulina-escolar-celeste-pastel-135140-gr-15909002",
     "colors": [
-      "Clasico"
+      "Celeste"
     ],
     "sizes": [
-      "Unico"
+      "140 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: GENERICO.",
+      "Categoria: papeleria.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Útil para anotaciones con color verde.", "Trazo fino y legible.", "Ideal para estudiantes y oficinas."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-pilot-bp-sf-punta-fina-verde-x-1-und.jpg",
+    "image": "img/products/cartulina-escolar-celeste-pastel-135-140-g-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-stabilo-marathon-azul-retractil": {
-    "title": "Bolígrafo Stabilo Marathon Azul Retráctil",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Stabilo Marathon retráctil con escritura suave y duradera.",
-    "longDescription": "Bolígrafo retráctil Stabilo Marathon diseñado para escritura cómoda y de larga duración.",
-    "price": "S/ 2.31",
-    "rating": "4.5",
-    "stock": 10,
+  "cartulina-escolar-rosado-pastel-135-140-g-x-1-und": {
+    "title": "Cartulina Escolar Rosado Pastel 135/140 G X 1 und",
+    "short": "Cartulina escolar Color: Rosado Pastel Gramaje: 135/140 g Tono suave y delicado Recomendada para tareas escolares Im\u00e1genes referenciales",
+    "description": "Cartulina escolar Color: Rosado Pastel Gramaje: 135/140 g Tono suave y delicado Recomendada para tareas escolares Im\u00e1genes referenciales",
+    "longDescription": "Cartulina escolar en color rosado pastel de 135/140 g, perfecta para manualidades y presentaciones visuales Presentacion: x 1 unidades. Peso o gramaje: 140 g.",
+    "price": 1.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-stabilo-marathon-azul-retractil-15811001",
+    "brand": "GENERICO",
+    "link": "https://www.tailoy.com.pe/cartulina-escolar-rosado-pastel-135140-gr-15909003",
     "colors": [
-      "Clasico"
+      "Rosado"
     ],
     "sizes": [
-      "Unico"
+      "140 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: GENERICO.",
+      "Categoria: papeleria.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Escritura diaria en cuadernos y documentos.", "Ideal para uso intensivo gracias a su durabilidad.", "Sistema retráctil práctico para transportar."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-stabilo-marathon-azul-retractil.jpg",
+    "image": "img/products/cartulina-escolar-rosado-pastel-135-140-g-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-stabilo-marathon-negro-retractil": {
-    "title": "Bolígrafo Stabilo Marathon Negro Retráctil",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Stabilo Marathon retráctil para escritura continua y cómoda.",
-    "longDescription": "Bolígrafo retráctil con tinta suave, pensado para uso diario y prolongado.",
-    "price": "S/ 2.31",
-    "rating": "4.5",
-    "stock": 10,
+  "cartulina-escolar-verde-pastel-135-140-g-x-1-und": {
+    "title": "Cartulina Escolar Verde Pastel 135/140 G X 1 Und",
+    "short": "Cartulina escolar Color: Verde Pastel Gramaje: 135/140 g F\u00e1cil de cortar y manipular Para proyectos visuales o escolares Im\u00e1genes referenciales",
+    "description": "Cartulina escolar Color: Verde Pastel Gramaje: 135/140 g F\u00e1cil de cortar y manipular Para proyectos visuales o escolares Im\u00e1genes referenciales",
+    "longDescription": "Cartulina escolar en verde pastel de 135/140 g, ideal para tareas, presentaciones o trabajos de arte Presentacion: x 1 unidades. Peso o gramaje: 140 g.",
+    "price": 1.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-stabilo-marathon-negro-retractil-15811002",
+    "brand": "GENERICO",
+    "link": "https://www.tailoy.com.pe/cartulina-escolar-verde-pastel-135140-gr-15909004",
     "colors": [
-      "Clasico"
+      "Verde"
     ],
     "sizes": [
-      "Unico"
+      "140 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: GENERICO.",
+      "Categoria: papeleria.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo para apuntes y documentos.", "Práctico para llevar en estuche o bolsillo.", "Escritura constante y fluida."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-stabilo-marathon-negro-retractil.jpg",
+    "image": "img/products/cartulina-escolar-verde-pastel-135-140-g-x-1-und.jpg",
     "gallery": []
   },
-  "Bolígrafo-stabilo-marathon-rojo-retractil": {
-    "title": "Bolígrafo Stabilo Marathon Rojo Retráctil",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Bolígrafo Stabilo Marathon retráctil, ideal para correcciones y anotaciones.",
-    "longDescription": "Bolígrafo retráctil con tinta suave y duradera para escritura en color rojo.",
-    "price": "S/ 2.31",
-    "rating": "4.5",
-    "stock": 10,
+  "cartulina-negro-chica-50-x-65-cm-x-1-und": {
+    "title": "Cartulina Negro Chica 50 X 65 Cm X 1 Und",
+    "short": "Cartulina color negro Formato: 50 x 65 cm Tama\u00f1o est\u00e1ndar para trabajos escolares Acabado uniforme y opaco Para presentaciones y manualidades Im\u00e1genes referenciales",
+    "description": "Cartulina color negro Formato: 50 x 65 cm Tama\u00f1o est\u00e1ndar para trabajos escolares Acabado uniforme y opaco Para presentaciones y manualidades Im\u00e1genes referenciales",
+    "longDescription": "Cartulina negra en tama\u00f1o 50 x 65 cm, ideal para actividades escolares, trabajos art\u00edsticos y exposiciones Presentacion: x 1 unidades. Medida: 50 x 65 cm.",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/boligrafo-stabilo-marathon-rojo-retractil-15811003",
+    "brand": "GENERICO",
+    "link": "https://www.tailoy.com.pe/cartulina-negro-chica-50-x-65-cm-118",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: GENERICO.",
+      "Categoria: papeleria.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Perfecto para correcciones y resaltados.", "Sistema retráctil para uso práctico.", "Recomendado para escuela y oficina."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/Bolígrafo-stabilo-marathon-rojo-retractil.jpg",
+    "image": "img/products/cartulina-negro-chica-50-x-65-cm-x-1-und.jpg",
     "gallery": []
   },
-  "borrador-artesco-chico-blanco": {
-    "title": "Borrador Artesco Chico Blanco",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Borrador Artesco blanco chico para borrar lápiz de grafito.",
-    "longDescription": "Borrador blanco compacto, ideal para borrar lápiz con suavidad en uso escolar.",
-    "price": "S/ 0.36",
-    "rating": "4.5",
-    "stock": 10,
+  "cola-artesco-con-aplicador-250-g-x-1-und": {
+    "title": "Cola Artesco Con Aplicador 250 G X 1 Und",
+    "short": "Frasco con tapa dosificador de f\u00e1cil aplicaci\u00f3n Pegamento libre impurezas y grumos Lavable y no es t\u00f3xica Im\u00e1genes referenciales",
+    "description": "Frasco con tapa dosificador de f\u00e1cil aplicaci\u00f3n Pegamento libre impurezas y grumos Lavable y no es t\u00f3xica Im\u00e1genes referenciales",
+    "longDescription": "Cola sint\u00e9tica ARTESCO de 250 gr con aplicador. Adhesivo escolar de alta calidad Otras especificaciones: Cola libre de impurezas con pr\u00e1ctico dosificador que facilita su uso \u00a1Infaltable en tus \u00fatiles escolares y manualidades! Presentacion: x 1 unidades. Peso o gramaje: 250 g.",
+    "price": 3.2,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/borrador-artesco-chico-blanco-1758",
+    "category": "utiles",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/cola-artesco-con-aplicador-250-g-28823",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "250 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: utiles.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Borra lápiz grafito en cuadernos y hojas.", "Recomendado para uso escolar diario.", "Tamaño pequeño para estuches."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/borrador-artesco-chico-blanco.jpg",
+    "image": "img/products/cola-artesco-con-aplicador-250-g-x-1-und.jpg",
     "gallery": []
   },
-  "borrador-brocha-retractil-ice-caja-x24-artesco": {
-    "title": "Borrador Artesco Grande Blanco",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Borrador retráctil con brocha para limpiar residuos de borrado.",
-    "longDescription": "Borrador con mecanismo retráctil y brocha incorporada para retirar residuos de grafito tras borrar.",
-    "price": "S/ 1.85",
-    "rating": "4.5",
-    "stock": 10,
+  "cola-artesco-con-aplicador-57-g-x-1-und": {
+    "title": "Cola Artesco Con Aplicador 57 G X 1 Und",
+    "short": "Frasco con tapa dosificador de f\u00e1cil aplicaci\u00f3n.",
+    "description": "Frasco con tapa dosificador de f\u00e1cil aplicaci\u00f3n.",
+    "longDescription": "Cola sint\u00e9tica ARTESCO de 57 gramos con aplicador. Pr\u00e1ctica para trabajos de precisi\u00f3n y manualidades Otras especificaciones: Pegamento l\u00edquido libre impurezas y grumos, no tiene formol Ideal para trabajos de manualidades Presentacion: x 1 unidades. Peso o gramaje: 57 g.",
+    "price": 2.1,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "regalos",
-    "link": "https://clip.com.pe/producto/borrador-artesco-grande-blanco-1757",
+    "category": "utiles",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/cola-artesco-con-aplicador-57-g-2035",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "57 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: utiles.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Borra lápiz y limpia la zona con la brocha integrada.", "Ideal para estuches y uso escolar.", "Mantiene la hoja limpia después del borrado."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/borrador-brocha-retractil-ice-caja-x24-artesco.jpg",
+    "image": "img/products/cola-artesco-con-aplicador-57-g-x-1-und.jpg",
     "gallery": []
   },
-  "cartulina-canson-150g-verde-amazonas": {
-    "title": "Cartulina Canson 150G Verde Manzana",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina Canson de 150 g, ideal para trabajos escolares y manualidades.",
-    "longDescription": "Cartulina de 150 g con buena rigidez para manualidades, presentaciones y trabajos escolares.",
-    "price": "S/ 1.88",
-    "rating": "4.5",
-    "stock": 10,
+  "cola-faber-castell-pega-bien-x110g-x-1-und": {
+    "title": "Cola Faber Castell Pega Bien X110G X 1 Und",
+    "short": "Medidas: 5.4 x 5.4 x 13 cm.",
+    "description": "Cola Faber Castell Pega Bien X110G X 1 Und disponible en Libreria Belen con calidad confiable para uso frecuente.",
+    "longDescription": "Cola sint\u00e9tica FABER CASTELL Pega Bien. 110 gramos de adhesivo de alta calidad para tus proyectos Otras especificaciones: Cola Pega Bien 110g Presentacion: x 110 gramos.",
+    "price": 2.1,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-canson-150g-verde-manzana-15907038",
+    "category": "utiles",
+    "brand": "FABER CASTELL",
+    "link": "https://www.tailoy.com.pe/cola-faber-castell-pega-bien-x110gr-63880",
     "colors": [
       "Clasico"
     ],
@@ -906,702 +775,82 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: FABER CASTELL.",
+      "Categoria: utiles.",
+      "Presentacion: x 110 gramos.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Usa para recortes, carteles y presentaciones.", "Ideal para técnicas en lápiz de color y plumón.", "Recomendada para trabajos escolares."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/cartulina-canson-150g-verde-amazonas.jpg",
-    "gallery": []
-  },
-  "cartulina-colorline-azul-mar-150": {
-    "title": "Cartulina Colorline Azul Mar 150 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina Colorline 150 g de color uniforme para manualidades.",
-    "longDescription": "Cartulina Colorline de 150 g con color homogéneo, adecuada para trabajos escolares y creativos.",
-    "price": "S/ 1.88",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-colorline-azul-mar-150-g-15907007",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Perfecta para recortes, collage y maquetas.", "Úsala en proyectos escolares y decorativos.", "Apta para lápices de color y plumones."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-colorline-azul-mar-150.jpg",
-    "gallery": []
-  },
-  "cartulina-colorline-fucsia-150-g": {
-    "title": "Cartulina Colorline Fucsia 150 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina Colorline 150 g con color vivo para proyectos creativos.",
-    "longDescription": "Cartulina Colorline de gramaje 150 g, Útil para trabajos escolares y manualidades de alta visibilidad.",
-    "price": "S/ 1.88",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-colorline-fucsia-150-g-15907016",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal para carteles y recortes llamativos.", "Útil en collages y proyectos escolares.", "Compatible con lápices y plumones."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-colorline-fucsia-150-g.jpg",
-    "gallery": []
-  },
-  "cartulina-colorline-marron-150-g": {
-    "title": "Cartulina Colorline Marrón 150 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina Colorline 150 g para trabajos escolares y manualidades.",
-    "longDescription": "Cartulina Colorline de 150 g con buena rigidez para recortes, maquetas y presentaciones.",
-    "price": "S/ 1.88",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-colorline-marron-150-g-15907025",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsala en maquetas y trabajos escolares.", "Ideal para recortes y decoraciones.", "Apta para lápiz y plumón."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-colorline-marron-150-g.jpg",
-    "gallery": []
-  },
-  "cartulina-colorline-rojo-tomate-150-g": {
-    "title": "Cartulina Colorline Rojo Tomate 150 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina Colorline 150 g de color intenso para manualidades.",
-    "longDescription": "Cartulina Colorline de 150 g con color uniforme, indicada para proyectos escolares y creativos.",
-    "price": "S/ 1.88",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-colorline-rojo-tomate-150-g-15907032",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsala para carteles y decoraciones.", "Ideal para trabajos escolares y collage.", "Soporta trazos de plumón y lápiz."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-colorline-rojo-tomate-150-g.jpg",
-    "gallery": []
-  },
-  "cartulina-escolar-amarillo-intenso-150-gr-50-x-65-cm": {
-    "title": "Cartulina Canson 150G Amarillo Limo",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina escolar de 150 g en formato 50 x 65 cm para trabajos grandes.",
-    "longDescription": "Cartulina escolar de 150 g con tamaño amplio, ideal para carteles y presentaciones.",
-    "price": "S/ 0.52",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-canson-150g-amarillo-limo-15907004",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsala en afiches y trabajos de exposición.", "Adecuada para recortes y manualidades.", "Ideal para actividades escolares."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-escolar-amarillo-intenso-150-gr-50-x-65-cm.jpg",
-    "gallery": []
-  },
-  "cartulina-escolar-amarillo-pastel-135-140-g": {
-    "title": "Cartulina Escolar Amarillo Pastel 135/140 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina escolar 135/140 g para trabajos escolares y manualidades.",
-    "longDescription": "Cartulina escolar de gramaje medio, adecuada para recortes, carteles y proyectos creativos.",
-    "price": "S/ 0.29",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-escolar-amarillo-pastel-135140-gr-15909001",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal para trabajos escolares y decoraciones.", "Úsala con lápices de color y plumones.", "Buena rigidez para presentaciones."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-escolar-amarillo-pastel-135-140-g.jpg",
-    "gallery": []
-  },
-  "cartulina-escolar-blanco-140-g": {
-    "title": "Cartulina Escolar Blanco 140 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina escolar blanca de 140 g para proyectos y presentaciones.",
-    "longDescription": "Cartulina escolar de 140 g con buena rigidez para trabajos y manualidades.",
-    "price": "S/ 0.21",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-escolar-blanco-140-gr-116",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsala como base para dibujos y carteles.", "Ideal para trabajos escolares y manualidades.", "Apta para lápiz, plumón y pintura ligera."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-escolar-blanco-140-g.jpg",
-    "gallery": []
-  },
-  "cartulina-escolar-celeste-pastel-135-140-g": {
-    "title": "Cartulina Escolar Celeste Pastel 135/140 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina escolar 135/140 g para manualidades y trabajos escolares.",
-    "longDescription": "Cartulina escolar con gramaje medio, Útil para recortes y presentaciones.",
-    "price": "S/ 0.29",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-escolar-celeste-pastel-135140-gr-15909002",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Usa en carteles, recortes y collages.", "Ideal para trabajos escolares creativos.", "Apta para lápiz y plumón."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-escolar-celeste-pastel-135-140-g.jpg",
-    "gallery": []
-  },
-  "cartulina-escolar-naranja-150-gr-50-x-65-cm": {
-    "title": "Cartulina Escolar Naranja 150 Gr 50 X 65 Cm",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina escolar de 150 g en formato 50 x 65 cm para afiches.",
-    "longDescription": "Cartulina de tamaño grande y gramaje 150 g, ideal para presentaciones escolares y carteles.",
-    "price": "S/ 0.52",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-escolar-naranja-150-gr-50-x-65-cm-15908006",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Perfecta para exposiciones y afiches.", "Úsala para recortar y decorar.", "Buena rigidez para trabajos escolares."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-escolar-naranja-150-gr-50-x-65-cm.jpg",
-    "gallery": []
-  },
-  "cartulina-escolar-rosado-pastel-135-140-g": {
-    "title": "Cartulina Escolar Rosado Pastel 135/140 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina escolar 135/140 g para recortes y manualidades.",
-    "longDescription": "Cartulina escolar de gramaje medio, Útil para trabajos creativos y presentaciones.",
-    "price": "S/ 0.29",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-escolar-rosado-pastel-135140-gr-15909003",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsala en proyectos escolares y decoraciones.", "Apta para lápiz de color y plumones.", "Ideal para collages y recortes."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-escolar-rosado-pastel-135-140-g.jpg",
-    "gallery": []
-  },
-  "cartulina-escolar-verde-pastel-135-140-g": {
-    "title": "Cartulina Escolar Verde Pastel 135/140 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina escolar 135/140 g para trabajos creativos.",
-    "longDescription": "Cartulina escolar con gramaje medio para manualidades y presentaciones escolares.",
-    "price": "S/ 0.29",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-escolar-verde-pastel-135140-gr-15909004",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Adecuada para recortes y carteles.", "Úsala en proyectos de aula.", "Compatible con lápiz y plumón."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-escolar-verde-pastel-135-140-g.jpg",
-    "gallery": []
-  },
-  "cartulina-negro-chica-50-x-65-cm": {
-    "title": "Cartulina Negro Chica 50 X 65 Cm",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartulina negra 50 x 65 cm para proyectos escolares y manualidades.",
-    "longDescription": "Cartulina en tamaño 50 x 65 cm, Útil para fondos, recortes y presentaciones con contraste.",
-    "price": "S/ 0.52",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cartulina-negro-chica-50-x-65-cm-118",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal como fondo para trabajos y maquetas.", "Útil para recortes y siluetas.", "Recomendada para proyectos creativos."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cartulina-negro-chica-50-x-65-cm.jpg",
-    "gallery": []
-  },
-  "cinta-de-embalaje-yimi-2-x70-yd-transparente": {
-    "title": "Cinta De Embalaje Pegafan Transparente 2'' X 110 Yd (Eco)",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cinta de embalaje transparente de 2 pulgadas para sellar cajas y paquetes.",
-    "longDescription": "Cinta de embalaje transparente para uso en cajas, paquetes y envíos, con buena adherencia.",
-    "price": "S/ 1.33",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cinta-de-embalaje-pegafan-transparente-2-x-110-yd-eco-15957002",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Sella cajas y paquetes para envíos.", "Ideal para oficina, almacén y hogar.", "Funciona con dispensadores de cinta."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cinta-de-embalaje-yimi-2-x70-yd-transparente.jpg",
-    "gallery": []
-  },
-  "cola-artesco-con-aplicador-250-g": {
-    "title": "Cola Artesco Con Aplicador 250 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cola sintética Artesco con aplicador para trabajos escolares y manualidades.",
-    "longDescription": "Cola sintética con aplicador que facilita el uso en papel, cartón y manualidades.",
-    "price": "S/ 2.42",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cola-artesco-con-aplicador-250-g-28823",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Pega papel y cartulina en trabajos escolares.", "Úsala en manualidades y maquetas.", "Aplicador práctico para dosificar."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cola-artesco-con-aplicador-250-g.jpg",
-    "gallery": []
-  },
-  "cola-artesco-con-aplicador-57-g": {
-    "title": "Cola Artesco Con Aplicador 57 G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cola sintética Artesco con aplicador, ideal para estuches escolares.",
-    "longDescription": "Cola sintética de tamaño práctico con aplicador para trabajos escolares y manualidades.",
-    "price": "S/ 1.47",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cola-artesco-con-aplicador-57-g-2035",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Pega papel y cartón de forma limpia.", "Ideal para uso escolar diario.", "Aplicador para controlar la cantidad."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cola-artesco-con-aplicador-57-g.jpg",
-    "gallery": []
-  },
-  "cola-faber-castell-pega-bien-x110g": {
-    "title": "Cola Faber Castell Pega Bien X110G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Pegamento Pega Bien de Faber-Castell para uso escolar y manualidades.",
-    "longDescription": "Pegamento Pega Bien de Faber-Castell diseñado para pegar papel y cartón en trabajos escolares.",
-    "price": "S/ 1.49",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cola-faber-castell-pega-bien-x110gr-63880",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal para pegar papel, cartulina y materiales ligeros.", "Uso recomendado en colegio y hogar.", "Aplicación sencilla y limpia."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cola-faber-castell-pega-bien-x110g.jpg",
+    "image": "img/products/cola-faber-castell-pega-bien-x110g-x-1-und.jpg",
     "gallery": []
   },
   "cola-faber-castell-pegabien-con-aplicador-250-gr": {
     "title": "Cola Faber Castell Pegabien Con Aplicador 250 gr",
-    "short": "Producto esencial para estudio y oficina.",
+    "short": "Pegamento Pega Bien de Faber-Castell con aplicador para manualidades.",
     "description": "Pegamento Pega Bien de Faber-Castell con aplicador para manualidades.",
-    "longDescription": "Pegamento escolar con aplicador, Útil para trabajos de papel y cartón con mejor dosificación.",
-    "price": "S/ 2.53",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "Cola Faber Castell Pegabien Con Aplicador 225 G",
+    "longDescription": "Pegamento escolar con aplicador, \u00datil para trabajos de papel y cart\u00f3n con mejor dosificaci\u00f3n.",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "utiles",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/cola-faber-castell-pegabien-con-aplicador-225-g-50503",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "250 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Pega papel y cartulina de forma uniforme.", "Aplicador para control de cantidad.", "Ideal para tareas escolares."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/cola-faber-castell-pegabien-con-aplicador-250-gr.jpg",
-    "gallery": []
-  },
-  "cola-x-1-2-kg-david": {
-    "title": "Cola X 1/2 Kg David",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cola blanca escolar para trabajos de papel, cartón y madera ligera.",
-    "longDescription": "Cola blanca tipo PVA adecuada para uso escolar y manualidades, con buena adherencia en superficies porosas.",
-    "price": "S/ 3.96",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cola-x-12-kg-david-317",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Pega papel, cartón y madera ligera.", "Úsala en proyectos de manualidades y maquetas.", "Recomendada para uso escolar."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cola-x-1-2-kg-david.png",
+    "image": "img/products/cola-faber-castell-pegabien-con-aplicador-250-gr.jpg",
     "gallery": []
   },
   "cola-x-23-cc-david": {
     "title": "Cola X 23 Cc David",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cola blanca escolar en presentación pequeña para estuches.",
-    "longDescription": "Cola blanca tipo PVA de tamaño compacto para pegar papel y cartón en trabajos escolares.",
-    "price": "S/ 0.39",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Adhesivo multiusos de alta calidad Ideal para trabajos en papel, cart\u00f3n y madera Disponible en pr\u00e1ctica presentaci\u00f3n de 23 cc Im\u00e1genes referenciales",
+    "description": "Adhesivo multiusos de alta calidad Ideal para trabajos en papel, cart\u00f3n y madera Disponible en pr\u00e1ctica presentaci\u00f3n de 23 cc Im\u00e1genes referenciales",
+    "longDescription": "Pega tus ideas al instante. La cola sint\u00e9tica DAVID de 23 cc es ideal para trabajos peque\u00f1os y precisos. Su aplicador te permite pegar sin ensuciar.",
+    "price": 0.6,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cola-x-23-cc-321",
+    "category": "utiles",
+    "brand": "DAVID",
+    "link": "https://www.tailoy.com.pe/cola-x-23-cc-321",
     "colors": [
       "Clasico"
     ],
@@ -1609,110 +858,124 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DAVID.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para tareas rápidas en el aula.", "Pega papel y cartulina.", "Presentación compacta para estuche."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/cola-x-23-cc-david.jpg",
+    "image": "img/products/cola-x-23-cc-david.jpg",
     "gallery": []
   },
   "cola-x-250-gr-pote-layconsa": {
     "title": "Cola X 250 Gr Pote Layconsa",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cola blanca escolar para uso en papel, cartón y manualidades.",
-    "longDescription": "Cola blanca tipo PVA en pote, adecuada para manualidades y trabajos escolares.",
-    "price": "S/ 1.83",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Medidas: 7.2 x 7.2 x 7.4 cm Peso neto: 270 gr.",
+    "description": "Medidas: 7.2 x 7.2 x 7.4 cm Peso neto: 270 gr.",
+    "longDescription": "Pegado resistente y r\u00e1pido, extra blanca y sin olor, al secar no maltrata el papel, envase ergon\u00f3mico y resistente, dispensador especial que evita derrames. Presentacion: x 250 gramos.",
+    "price": 2.9,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cola-x-250-gr-pote-layconsa-5468",
+    "category": "utiles",
+    "brand": "LAYCONSA",
+    "link": "https://www.tailoy.com.pe/cola-x-250-gr-pote-layconsa-5468",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "250 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: LAYCONSA.",
+      "Categoria: utiles.",
+      "Presentacion: x 250 gramos.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Pega papel, cartón y madera ligera.", "Útil en proyectos escolares y de manualidades.", "Aplicación con brocha o espátula."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/cola-x-250-gr-pote-layconsa.jpg",
+    "image": "img/products/cola-x-250-gr-pote-layconsa.jpg",
     "gallery": []
   },
   "cola-x-35-gr-faber-castell-pegabien": {
-    "title": "Cola X 35 Gr Faber Castell Pegabien   379635",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Pegamento Pega Bien de Faber-Castell en tamaño compacto.",
-    "longDescription": "Pegamento escolar de presentación pequeña para pegar papel y cartón con facilidad.",
-    "price": "S/ 0.85",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Cola X 35 Gr Faber Castell Pegabien",
+    "short": "Medidas: 3.6 x 3.6 x 8.8 cm Peso neto: 35 gr Contiene: cola blanca Marca: Faber Castell Im\u00e1genes referenciales",
+    "description": "Medidas: 3.6 x 3.6 x 8.8 cm Peso neto: 35 gr Contiene: cola blanca Marca: Faber Castell Im\u00e1genes referenciales",
+    "longDescription": "La cola Pegabien de Faber-Castell en presentaci\u00f3n de 35 gramos es un adhesivo l\u00edquido lavable, no t\u00f3xico y libre de solventes, dise\u00f1ado especialmente para ni\u00f1os y trabajos escolares. Su aplicador facilita el uso limpio y preciso, evitando derrames y desperdicios Presentacion: x 35 gramos.",
+    "price": 1.3,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cola-x-35-gr-faber-castell-pegabien-379635-75240",
+    "category": "utiles",
+    "brand": "FABER CASTELL",
+    "link": "https://www.tailoy.com.pe/cola-x-35-gr-faber-castell-pegabien-379635-75240",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "35 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: FABER CASTELL.",
+      "Categoria: utiles.",
+      "Presentacion: x 35 gramos.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para estuches escolares.", "Pega papel y cartulina en tareas.", "Aplicación limpia y práctica."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/cola-x-35-gr-faber-castell-pegabien.jpg",
+    "image": "img/products/cola-x-35-gr-faber-castell-pegabien.jpg",
     "gallery": []
   },
   "cola-x-60-cc-david": {
     "title": "Cola X 60 Cc David",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cola blanca escolar para proyectos y manualidades.",
-    "longDescription": "Cola blanca tipo PVA en formato mediano, Útil para pegar papel y cartón.",
-    "price": "S/ 0.64",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Adhesivo multiusos de alta calidad Ideal para trabajos en papel, cart\u00f3n y madera Disponible en pr\u00e1ctica presentaci\u00f3n de 60 cc Im\u00e1genes referenciales",
+    "description": "Adhesivo multiusos de alta calidad Ideal para trabajos en papel, cart\u00f3n y madera Disponible en pr\u00e1ctica presentaci\u00f3n de 60 cc Im\u00e1genes referenciales",
+    "longDescription": "La cantidad perfecta para tus proyectos. La cola sint\u00e9tica DAVID de 60 cc te ofrece un pegado fuerte y duradero en papel, cart\u00f3n y muchos otros materiales",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/cola-x-60-cc-david-322",
+    "category": "utiles",
+    "brand": "DAVID",
+    "link": "https://www.tailoy.com.pe/cola-x-60-cc-david-322",
     "colors": [
       "Clasico"
     ],
@@ -1720,36 +983,40 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DAVID.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsala en trabajos escolares.", "Pega papel y cartulina de forma uniforme.", "Ideal para manualidades."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/cola-x-60-cc-david.jpg",
+    "image": "img/products/cola-x-60-cc-david.jpg",
     "gallery": []
   },
   "colores-largos-artesco-triangulares-lapices-sacapuntas-x-12-und": {
-    "title": "Colores Largos Artesco Triangulares + Lápices + Sacapuntas X 12 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Colores largos Artesco triangulares con diseño ergonómico para escritura cómoda.",
-    "longDescription": "Set de colores triangulares Artesco con forma ergonómica para un mejor agarre y trazos uniformes.",
-    "price": "S/ 5.15",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Colores Largos Artesco Triangulares + L\u00e1pices + Sacapuntas X 12 Und",
+    "short": "Colores largos Artesco triangulares con dise\u00f1o ergon\u00f3mico para escritura c\u00f3moda.",
+    "description": "Colores largos Artesco triangulares con dise\u00f1o ergon\u00f3mico para escritura c\u00f3moda.",
+    "longDescription": "Set de colores triangulares Artesco con forma ergon\u00f3mica para un mejor agarre y trazos uniformes. Presentacion: x 12 unidades. Presentacion: x 12 unidades. Presentacion: x 12 unidades.",
+    "price": 7.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
+    "category": "utiles",
+    "brand": "Artesco",
+    "link": "https://www.tailoy.com.pe/colores-largos-artesco-triangulares-lapices-sacapuntas-x-12-und-1922",
     "colors": [
       "Clasico"
     ],
@@ -1757,36 +1024,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Artesco.",
+      "Categoria: utiles.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Colorea y dibuja con mejor control del agarre.", "Ideal para niños y estudiantes.", "Incluye Útiles para actividades escolares."],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/colores-largos-artesco-triangulares-lapices-sacapuntas-x-12-und.jpg",
+    "image": "img/products/colores-largos-artesco-triangulares-lapices-sacapuntas-x-12-und.jpg",
     "gallery": []
   },
   "colores-largos-faber-castell-triangulares-clasicos-x-12-und": {
-    "title": "Colores Largos Faber Castell Triangulares ClAsicos X 12 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Colores triangulares Faber-Castell de agarre cómodo y colores intensos.",
-    "longDescription": "Ecolápices triangulares Faber-Castell con forma ergonómica para un mejor agarre y colores brillantes.",
-    "price": "S/ 4.92",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "title": "Colores Largos Faber Castell Triangulares Cl\u00e1sicos X 12 Und",
+    "short": "Colores triangulares Faber-Castell de agarre c\u00f3modo y colores intensos.",
+    "description": "Colores triangulares Faber-Castell de agarre c\u00f3modo y colores intensos.",
+    "longDescription": "Ecol\u00e1pices triangulares Faber-Castell con forma ergon\u00f3mica para un mejor agarre y colores brillantes. Presentacion: x 12 unidades. Presentacion: x 12 unidades. Presentacion: x 12 unidades.",
+    "price": 6.1,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "utiles",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/colores-largos-faber-castell-triangulares-clasicos-x-12-und-360",
     "colors": [
       "Clasico"
     ],
@@ -1794,110 +1066,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: utiles.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para colorear y dibujar con comodidad.", "Forma triangular que mejora el control.", "Recomendado para uso escolar."],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/colores-largos-faber-castell-triangulares-clasicos-x-12-und.jpeg",
-    "gallery": []
-  },
-  "cuaderno-cuadriculado-justus": {
-    "title": "Cuaderno Cuadriculado - Justus",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno cuadriculado Justus en tamaño A4 para apuntes y ejercicios.",
-    "longDescription": "Cuaderno cuadriculado tamaño A4, ideal para matemáticas, apuntes y tareas escolares.",
-    "price": "S/ 3.50",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsalo para ejercicios y apuntes con cuadrícula.", "Ideal para colegio, universidad y oficina.", "Facilita el orden y la presentación."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-cuadriculado-justus.webp",
-    "gallery": []
-  },
-  "cuaderno-cuadriculado-luxor": {
-    "title": "Cuaderno Cuadriculado - Luxor",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Luxor A4 con hoja cuadriculada para apuntes y ejercicios.",
-    "longDescription": "Cuaderno Luxor en tamaño A4 con formatos de línea disponibles (cuadriculado o rayado), pensado para uso escolar y organización de tareas.",
-    "price": "S/ 2.10",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsalo para ejercicios de matemáticas y apuntes con cuadrícula.", "Ideal para colegio y oficina por su formato A4.", "Mantén tus notas ordenadas por cursos o proyectos."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-cuadriculado-luxor.jpg",
+    "image": "img/products/colores-largos-faber-castell-triangulares-clasicos-x-12-und.jpg",
     "gallery": []
   },
   "compas-escolar-layconsa-plastico-con-lapiz": {
-    "title": "Compás De Plástico Artesco Con Lápiz",
-    "short": "Escritura comoda para tareas y apuntes.",
-    "description": "Compás plástico escolar de uso práctico, con lápiz para trazos circulares.",
-    "longDescription": "Compás escolar de plástico, fácil de usar y con bordes redondeados; incluye lápiz para dibujo geométrico y tareas de geometría.",
-    "price": "S/ 1.69",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Compas Escolar Layconsa Plastico Con Lapiz",
+    "short": "Marca: Artesco Pr\u00e1ctico y f\u00e1cil de usar Punta roma no punzante Hecha de pl\u00e1stico resistente Incluye l\u00e1piz para trazos precisos Im\u00e1genes referenciales",
+    "description": "Marca: Artesco Pr\u00e1ctico y f\u00e1cil de usar Punta roma no punzante Hecha de pl\u00e1stico resistente Incluye l\u00e1piz para trazos precisos Im\u00e1genes referenciales",
+    "longDescription": "Comp\u00e1s de Pl\u00e1stico Artesco con L\u00e1piz: herramienta escolar segura y pr\u00e1ctica con puntas redondeadas y colores vibrantes. Ideal para realizar c\u00edrculos precisos en proyectos y tareas escolares. Perfecto para uso en clases de geometr\u00eda y actividades creativas.",
+    "price": 2.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/compas-de-plastico-artesco-con-lapiz-264",
+    "category": "utiles",
+    "brand": "Layconsa",
+    "link": "https://www.tailoy.com.pe/compas-escolar-layconsa-plastico-con-lapiz-5501",
     "colors": [
       "Clasico"
     ],
@@ -1905,73 +1108,81 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Layconsa.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Traza círculos y arcos en trabajos de geometría.", "Ideal para alumnos de primaria y secundaria.", "Úsalo sobre cartulina o papel bond."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/compas-escolar-layconsa-plastico-con-lapiz.jpg",
+    "image": "img/products/compas-escolar-layconsa-plastico-con-lapiz.jpg",
     "gallery": []
   },
   "corrector-mini-4ml": {
     "title": "Corrector Mini 4Ml",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Corrector líquido mini de 4 ml con punta metálica para correcciones precisas.",
-    "longDescription": "Corrector mini portÚtil con punta metálica y secado rápido, diseñado para correcciones finas en trabajos escolares y de oficina.",
-    "price": "S/ 0.70",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Corrector l\u00edquido mini de 4 ml con punta met\u00e1lica para correcciones precisas.",
+    "description": "Corrector l\u00edquido mini de 4 ml con punta met\u00e1lica para correcciones precisas.",
+    "longDescription": "Corrector mini port\u00datil con punta met\u00e1lica y secado r\u00e1pido, dise\u00f1ado para correcciones finas en trabajos escolares y de oficina.",
+    "price": 2.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "utiles",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/corrector-mini-4ml-9769",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "4ML"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Corrige errores de escritura con precisión.", "Espera unos segundos a que seque antes de reescribir.", "Ideal para estuches por su tamaño compacto."],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/corrector-mini-4ml.jpg",
+    "image": "img/products/corrector-mini-4ml.jpg",
     "gallery": []
   },
   "corrector-tipo-lapicero-artesco-punta-metalica": {
-    "title": "Corrector Tipo Lapicero Artesco Punta Metálica",
-    "short": "Escritura fluida para estudio y oficina.",
-    "description": "Corrector Artesco tipo lapicero con punta metálica y secado rápido.",
-    "longDescription": "Corrector tipo lapicero Artesco con punta metálica, cuerpo ergonómico y secado rápido para correcciones limpias.",
-    "price": "S/ 1.06",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Corrector Tipo Lapicero Artesco Punta Met\u00e1lica",
+    "short": "Corrector Artesco tipo lapicero con punta met\u00e1lica y secado r\u00e1pido.",
+    "description": "Corrector Artesco tipo lapicero con punta met\u00e1lica y secado r\u00e1pido.",
+    "longDescription": "Corrector tipo lapicero Artesco con punta met\u00e1lica, cuerpo ergon\u00f3mico y secado r\u00e1pido para correcciones limpias.",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "utiles",
+    "brand": "Artesco",
+    "link": "https://www.tailoy.com.pe/corrector-tipo-lapicero-artesco-punta-metalica-1425",
     "colors": [
       "Clasico"
     ],
@@ -1979,36 +1190,40 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Artesco.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Aplica el corrector con presión suave sobre el error.", "Deja secar y vuelve a escribir encima.", "Útil para trabajos escolares y oficina."],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/corrector-tipo-lapicero-artesco-punta-metalica.jpg",
+    "image": "img/products/corrector-tipo-lapicero-artesco-punta-metalica.jpg",
     "gallery": []
   },
   "corrector-tipo-lapicero-faber-castell-punta-metalica": {
-    "title": "Corrector Tipo Lapicero Faber Castell Punta Metálica",
-    "short": "Escritura fluida para estudio y oficina.",
-    "description": "Corrector Faber-Castell tipo lápiz con punta fina para correcciones precisas.",
-    "longDescription": "Corrector líquido tipo lápiz con punta fina, cuerpo suave y secado rápido para uso escolar y de oficina.",
-    "price": "S/ 1.14",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Corrector Tipo Lapicero Faber Castell Punta Met\u00e1lica",
+    "short": "Corrector Faber-Castell tipo l\u00e1piz con punta fina para correcciones precisas.",
+    "description": "Corrector Faber-Castell tipo l\u00e1piz con punta fina para correcciones precisas.",
+    "longDescription": "Corrector l\u00edquido tipo l\u00e1piz con punta fina, cuerpo suave y secado r\u00e1pido para uso escolar y de oficina.",
+    "price": 2.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "utiles",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/corrector-tipo-lapicero-faber-castell-punta-metalica-1104",
     "colors": [
       "Clasico"
     ],
@@ -2016,961 +1231,334 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Corrige líneas finas con la punta tipo aguja.", "Espera el secado antes de reescribir.", "Ideal para tareas y documentos."],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/corrector-tipo-lapicero-faber-castell-punta-metalica.jpg",
-    "gallery": []
-  },
-  "crayones-jumbo-artesco-estuche-de-plastico-x-12-und": {
-    "title": "Crayones Delgados X 12 Und. Puppy",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Crayones de 12 colores en estuche plástico, de trazo suave y colores intensos.",
-    "longDescription": "Set de crayones de 12 colores con trazo uniforme, colores intensos y materiales no tóxicos, ideal para uso escolar.",
-    "price": "S/ 4.77",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/crayones-delgados-x-12-und-puppy-402",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Colorea y dibuja con trazos suaves y uniformes.", "Recomendado para niños y actividades creativas.", "Guárdalos en el estuche para mantenerlos ordenados."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/crayones-jumbo-artesco-estuche-de-plastico-x-12-und.jpg",
-    "gallery": []
-  },
-  "cuaderno-cuadriculado-standford": {
-    "title": "Cuaderno Cuadriculado - Standford",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Standford con formato cuadriculado para apuntes y ejercicios.",
-    "longDescription": "Cuaderno escolar Standford con hojas cuadriculadas y tapa resistente, pensado para uso diario en el aula.",
-    "price": "S/ 5.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal para matemáticas y ejercicios con cuadrícula.", "Úsalo para apuntes y tareas escolares.", "Organiza tus cursos por cuaderno."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-cuadriculado-standford.png",
-    "gallery": []
-  },
-  "cuaderno-cuadriculado-a5-chico-justus": {
-    "title": "Cuaderno Cuadriculado A5 chico - Justus",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Justus A5 chico con cuadriculado para notas rápidas.",
-    "longDescription": "Cuaderno Justus en tamaño A5, práctico para llevar y tomar apuntes con papel de buena blancura.",
-    "price": "S/ 1.82",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsalo para notas rápidas y ejercicios.", "Ideal para llevar en mochila o bolso.", "Apto para colegio y oficina."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-cuadriculado-a5-chico-justus.jpg",
-    "gallery": []
-  },
-  "cuaderno-cuadrimax-1x1-standford": {
-    "title": "Cuaderno Cuadrimax 1x1 - Standford",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Standford con cuadrícula 1x1 para ejercicios y apuntes ordenados.",
-    "longDescription": "Cuaderno escolar Standford con formato cuadriculado, Útil para operaciones, gráficos y organización de contenidos.",
-    "price": "S/ 5.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Resuelve ejercicios con cuadrícula 1x1.", "Útil para tablas, gráficos y diagramas.", "Recomendado para colegio."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-cuadrimax-1x1-standford.png",
-    "gallery": []
-  },
-  "cuaderno-cuadrimax-2x2-standford": {
-    "title": "Cuaderno Cuadrimax 2x2 - Standford",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Standford con cuadrícula 2x2, ideal para nivel inicial.",
-    "longDescription": "Cuaderno cuadriculado 2x2 de Standford, pensado para trabajos escolares con cuadritos grandes para niños.",
-    "price": "S/ 5.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Útil para niños en nivel inicial y primaria.", "Facilita la escritura y el trazado de números.", "Ideal para tareas con cuadros grandes."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-cuadrimax-2x2-standford.jpg",
-    "gallery": []
-  },
-  "cuaderno-rayado-justus": {
-    "title": "Cuaderno Rayado - Justus",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Justus rayado para apuntes y tareas diarias.",
-    "longDescription": "Cuaderno Justus rayado con papel extra blanco y buena resistencia para uso escolar.",
-    "price": "S/ 3.50",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsalo para notas y tareas en líneas.", "Ideal para colegio y academia.", "Mantén tus apuntes organizados."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-rayado-justus.webp",
-    "gallery": []
-  },
-  "cuaderno-rayado-luxor": {
-    "title": "Cuaderno Rayado - Luxor",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Luxor rayado A4 para escritura y apuntes.",
-    "longDescription": "Cuaderno Luxor en tamaño A4 con formato rayado, pensado para escritura diaria y organización de contenidos.",
-    "price": "S/ 2.10",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Toma apuntes y redacta tareas en líneas.", "Útil para estudios y oficina.", "Ideal para cursos de letras."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-rayado-luxor.jpg",
-    "gallery": []
-  },
-  "cuaderno-rayado-standford": {
-    "title": "Cuaderno Rayado - Standford",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Standford rayado para apuntes y trabajos escolares.",
-    "longDescription": "Cuaderno escolar Standford con formato rayado y tapa resistente, adecuado para uso diario.",
-    "price": "S/ 5.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsalo para escribir apuntes en líneas.", "Recomendado para tareas y dictados.", "Mantén tus cursos organizados."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-rayado-standford.jpeg",
-    "gallery": []
-  },
-  "cuaderno-rayado-a5-chico-justus": {
-    "title": "Cuaderno Rayado A5 chico - Justus",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Justus A5 chico rayado para notas rápidas.",
-    "longDescription": "Cuaderno Justus en tamaño A5 con formato rayado, práctico para llevar y tomar apuntes.",
-    "price": "S/ 1.82",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal para notas rápidas y listas.", "Úsalo en el colegio, oficina o casa.", "Tamaño compacto para mochila."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-rayado-a5-chico-justus.jpg",
-    "gallery": []
-  },
-  "cuaderno-triple-kids-con-sombra-alpha": {
-    "title": "Cuaderno Triple kids con Sombra- Alpha",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Alpha Kids triple renglón con sombra para escritura escolar.",
-    "longDescription": "Cuaderno Alpha con formato triple renglón con sombra, hojas resistentes y tapa duradera, pensado para niños en edad escolar.",
-    "price": "S/ 5.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal para caligrafía y escritura guiada.", "Ayuda a mantener el tamaño de letra.", "Recomendado para primaria."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-triple-kids-con-sombra-alpha.jpg",
-    "gallery": []
-  },
-  "cuaderno-triple-renglon-con-sombra-justus": {
-    "title": "Cuaderno Triple Renglón con Sombra - Justus",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Justus triple renglón con sombra para escritura guiada.",
-    "longDescription": "Cuaderno con formato triple renglón con sombra, pensado para apoyar la caligrafía y la escritura ordenada.",
-    "price": "S/ 3.50",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Úsalo para caligrafía en primaria.", "Ayuda a mantener la altura de letras.", "Ideal para tareas escolares."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-triple-renglon-con-sombra-justus.jpg",
-    "gallery": []
-  },
-  "cuaderno-triple-renglon-con-sombra-standford": {
-    "title": "Cuaderno Triple Renglón con Sombra - Standford",
-    "short": "Ideal para apuntes y organizacion diaria.",
-    "description": "Cuaderno Standford triple renglón con sombra para escritura escolar.",
-    "longDescription": "Cuaderno Standford con formato triple renglón sombreado, Útil para caligrafía y escritura guiada.",
-    "price": "S/ 5.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "cuadernos",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal para niños que aprenden a escribir.", "Facilita el orden y el tamaño de letra.", "Úsalo en primaria."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/cuaderno-triple-renglon-con-sombra-standford.jpeg",
-    "gallery": []
-  },
-  "engrapador-artesco-m-526-azul-25-hojas-con-sacagrapas": {
-    "title": "Engrapador Artesco M-526 Azul 25 Hojas Con Sacagrapas",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Engrapador Artesco M-526 con sacagrapas, capacidad de hasta 25 hojas.",
-    "longDescription": "Engrapador de escritorio con estructura metálica, yunque giratorio y sacagrapas incorporado; usa grapas 26/6 y engrapa hasta 25 hojas.",
-    "price": "S/ 8.21",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/engrapador-artesco-m-526-azul-25-hojas-con-sacagrapas-28697001",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Une documentos de oficina y escuela.", "Usa grapas 26/6 para mejores resultados.", "Incluye sacagrapas para correcciones."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/engrapador-artesco-m-526-azul-25-hojas-con-sacagrapas.jpg",
-    "gallery": []
-  },
-  "engrapador-ove-25-hojas-con-sacagrapas": {
-    "title": "Engrapador Ove 25 Hojas Con Sacagrapas",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Engrapador de escritorio con capacidad de hasta 25 hojas y sacagrapas.",
-    "longDescription": "Engrapador de uso escolar u oficina, diseñado para unir documentos con una capacidad aproximada de 25 hojas.",
-    "price": "S/ 7.30",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/engrapador-ove-25-hojas-con-sacagrapas-23473",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Engrapa documentos para mantenerlos ordenados.", "Úsalo en tareas escolares y oficina.", "Ideal para trabajos de varios folios."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/engrapador-ove-25-hojas-con-sacagrapas.jpg",
-    "gallery": []
-  },
-  "folder-a-4-tapa-transparente-colores-surtidos": {
-    "title": "Folder A-4 Tapa Transparente Colores Surtidos",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Folder A4 con tapa transparente en colores surtidos para organizar documentos.",
-    "longDescription": "Folder tamaño A4 con tapa transparente y colores surtidos, Útil para proteger y presentar documentos en oficina o escuela.",
-    "price": "S/ 4.55",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/folder-a-4-tapa-transparente-colores-surtidos-1128",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Organiza documentos por temas o cursos.", "Protege hojas A4 con tapa transparente.", "Ideal para presentaciones y trabajos."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/folder-a-4-tapa-transparente-colores-surtidos.jpg",
-    "gallery": []
-  },
-  "folder-artesco-a4-doble-tapa-con-gusano": {
-    "title": "Folder Artesco A4 Amarillo Doble Tapa Con Gusano",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Folder Artesco A4 de doble tapa con gusano y bolsillos internos.",
-    "longDescription": "Folder A4 con doble tapa y gusano para sujetar hojas, incluye bolsillos internos y espacio para etiqueta.",
-    "price": "S/ 4.61",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/folder-artesco-a4-amarillo-doble-tapa-con-gusano-16095001",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Guarda y sujeta documentos A4 de forma segura.", "Ideal para archivar trabajos y tareas.", "Úsalo en oficina o colegio."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/folder-artesco-a4-doble-tapa-con-gusano.jpg",
-    "gallery": []
-  },
-  "folder-artesco-duramax-fantasaa-a4-con-fastener-surtido": {
-    "title": "Folder Artesco Duramax Fantasía A4 Con Fastener Surtido",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Folder Duramax Artesco A4 con fastener y diseños surtidos.",
-    "longDescription": "Folder Duramax con fastener metálico, bolsillos internos y diseños surtidos, pensado para organizar documentos A4.",
-    "price": "S/ 3.65",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/folder-artesco-duramax-fantasia-a4-con-fastener-surtido-268",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Sujeta documentos con el fastener metálico.", "Guarda hojas y accesorios en bolsillos internos.", "Ideal para escuela y oficina."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/folder-artesco-duramax-fantasaa-a4-con-fastener-surtido.jpg",
+    "image": "img/products/corrector-tipo-lapicero-faber-castell-punta-metalica.jpg",
     "gallery": []
   },
   "forro-vinifan-a4-cristal": {
     "title": "Forro Vinifan A4 Cristal",
-    "short": "Producto esencial para estudio y oficina.",
+    "short": "Forro Vinifan A4 cristal de alta transparencia y resistencia.",
     "description": "Forro Vinifan A4 cristal de alta transparencia y resistencia.",
-    "longDescription": "Forro cristal A4 Vinifan con gran durabilidad y brillo, ideal para forrar libros y cuadernos.",
-    "price": "S/ 4.50",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+    "longDescription": "Forro cristal A4 Vinifan con gran durabilidad y brillo, ideal para forrar libros y cuadernos. Formato: A4. Formato: A4. Formato: A4.",
+    "price": 6.0,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "",
+    "brand": "Vinifan",
+    "link": "https://www.tailoy.com.pe/forro-vinifan-a4-cristal-247",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "A4"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Vinifan.",
+      "Categoria: papeleria.",
+      "Formato: A4.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Protege libros y cuadernos del desgaste.", "Aporta brillo y transparencia a las carátulas.", "Ideal para uso escolar."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/forro-vinifan-a4-cristal.jpeg",
+    "image": "img/products/forro-vinifan-a4-cristal.jpg",
     "gallery": []
   },
   "forro-vinifan-oficio-cristal": {
     "title": "Forro Vinifan Oficio Cristal",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Forro Vinifan tamaño oficio con acabado cristal resistente.",
-    "longDescription": "Forro cristal Vinifan tamaño oficio, diseñado para proteger libros y cuadernos con alta transparencia.",
-    "price": "S/ 9.00",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Forro Vinifan tama\u00f1o oficio con acabado cristal resistente.",
+    "description": "Forro Vinifan tama\u00f1o oficio con acabado cristal resistente.",
+    "longDescription": "Forro cristal Vinifan tama\u00f1o oficio, dise\u00f1ado para proteger libros y cuadernos con alta transparencia. Formato: OFICIO. Formato: OFICIO. Formato: OFICIO.",
+    "price": 11.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
     "category": "papeleria",
-    "link": "",
+    "brand": "Vinifan",
+    "link": "https://www.tailoy.com.pe/forro-vinifan-oficio-cristal-248",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "OFICIO"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Vinifan.",
+      "Categoria: papeleria.",
+      "Formato: OFICIO.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Forra cuadernos tamaño oficio.", "Protege la carátula y prolonga su vida Útil.", "Ideal para uso escolar."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/forro-vinifan-oficio-cristal.png",
+    "image": "img/products/forro-vinifan-oficio-cristal.jpg",
     "gallery": []
   },
   "forro-vinifan-vinifancito-a4-cristal": {
     "title": "Forro Vinifan Vinifancito A4 Cristal",
-    "short": "Producto esencial para estudio y oficina.",
+    "short": "Forro Vinifancito A4 cristal para libros y cuadernos.",
     "description": "Forro Vinifancito A4 cristal para libros y cuadernos.",
-    "longDescription": "Forro cristal A4 con alta transparencia y brillo, pensado para proteger cuadernos y libros.",
-    "price": "S/ 2.25",
-    "rating": "4.5",
-    "stock": 10,
+    "longDescription": "Forro cristal A4 con alta transparencia y brillo, pensado para proteger cuadernos y libros. Formato: A4. Formato: A4. Formato: A4.",
+    "price": 3.2,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "",
+    "brand": "Vinifan",
+    "link": "https://www.tailoy.com.pe/forro-vinifan-vinifancito-a4-cristal-249",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "A4"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Vinifan.",
+      "Categoria: papeleria.",
+      "Formato: A4.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Protege cuadernos A4 del desgaste.", "Fácil de limpiar y mantener.", "Aporta acabado brillante."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/forro-vinifan-vinifancito-a4-cristal.jpeg",
+    "image": "img/products/forro-vinifan-vinifancito-a4-cristal.jpg",
     "gallery": []
   },
   "goma-en-barra-artesco-21-g": {
     "title": "Goma En Barra Artesco 21 G",
-    "short": "Borrado limpio para el estudio.",
-    "description": "Goma en barra Artesco 21 g de pegado rápido y limpio.",
-    "longDescription": "Pegamento en barra de 21 g con base giratoria y tapa hermética; no forma grumos y no contiene disolventes.",
-    "price": "S/ 1.50",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Pegamento en barra de 21 gr.",
+    "description": "Goma En Barra Artesco 21 G disponible en Libreria Belen con calidad confiable para uso frecuente.",
+    "longDescription": "Es una versi\u00f3n ideal y perfecta para quienes realizan trabajos frecuentes o de gran volumen. Su f\u00f3rmula asegura un pegado r\u00e1pido, limpio y duradero, sin formar grumos. Peso o gramaje: 21 g.",
+    "price": 2.1,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/goma-en-barra-artesco-21-g-2173",
+    "category": "utiles",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/goma-en-barra-artesco-21-g-2173",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "21 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: utiles.",
+      "Peso o gramaje: 21 g.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Pega papel, cartulina y cartón.", "Ideal para manualidades escolares.", "Uso limpio y sin derrames."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/goma-en-barra-artesco-21-g.jpg",
+    "image": "img/products/goma-en-barra-artesco-21-g.jpg",
     "gallery": []
   },
   "goma-en-barra-artesco-40-g": {
     "title": "Goma En Barra Artesco 40 G",
-    "short": "Borrado limpio para el estudio.",
-    "description": "Goma en barra Artesco 40 g para pegado rápido en papel y cartón.",
-    "longDescription": "Pegamento en barra sin disolventes, de pegado rápido y limpio, adecuado para trabajos escolares y oficina.",
-    "price": "S/ 2.51",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Pegamento en barra de 40 gr.",
+    "description": "Goma En Barra Artesco 40 G disponible en Libreria Belen con calidad confiable para uso frecuente.",
+    "longDescription": "Es una versi\u00f3n ideal y perfecta para quienes realizan trabajos frecuentes o de gran volumen. Su f\u00f3rmula asegura un pegado r\u00e1pido, limpio y duradero, sin formar grumos. Peso o gramaje: 40 g.",
+    "price": 3.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/goma-en-barra-artesco-40-g-3335",
+    "category": "utiles",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/goma-en-barra-artesco-40-g-3335",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "40 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: utiles.",
+      "Peso o gramaje: 40 g.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Pega papel y cartulina de forma uniforme.", "Ideal para proyectos escolares.", "Uso práctico y limpio."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/goma-en-barra-artesco-40-g.jpg",
-    "gallery": []
-  },
-  "goma-en-barra-artesco-neon-21-g": {
-    "title": "Goma En Barra Artesco Neón 21 G",
-    "short": "Borrado limpio para el estudio.",
-    "description": "Goma en barra Artesco 21 g, ideal para uso escolar y manualidades.",
-    "longDescription": "Pegamento en barra de 21 g con tapa hermética y pegado rápido, pensado para papel y cartón.",
-    "price": "S/ 2.02",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Pega papel y cartulina en trabajos escolares.", "Úsala en manualidades y maquetas.", "Aplicación limpia y sin grumos."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/goma-en-barra-artesco-neon-21-g.jpg",
+    "image": "img/products/goma-en-barra-artesco-40-g.jpg",
     "gallery": []
   },
   "goma-en-barra-faber-castell-40-g": {
     "title": "Goma En Barra Faber Castell 40 G",
-    "short": "Borrado limpio para el estudio.",
-    "description": "Goma en barra Faber-Castell 40 g sin solventes y no tóxica.",
-    "longDescription": "Pegamento en barra Faber-Castell con glicerina, sin solventes, ideal para papel, cartulina y fotos.",
-    "price": "S/ 2.59",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "short": "Goma en barra Faber-Castell 40 g sin solventes y no t\u00f3xica.",
+    "description": "Goma en barra Faber-Castell 40 g sin solventes y no t\u00f3xica.",
+    "longDescription": "Pegamento en barra Faber-Castell con glicerina, sin solventes, ideal para papel, cartulina y fotos. Peso o gramaje: 40 g. Peso o gramaje: 40 g. Peso o gramaje: 40 g.",
+    "price": 3.8,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "utiles",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/goma-en-barra-faber-castell-40-g-55463",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "40 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: utiles.",
+      "Peso o gramaje: 40 g.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Pega papel y cartulina sin dejar restos.", "Ideal para colegio, oficina y hogar.", "Aplicación limpia y práctica."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/goma-en-barra-faber-castell-40-g.jpg",
+    "image": "img/products/goma-en-barra-faber-castell-40-g.jpg",
     "gallery": []
   },
   "goma-en-barra-faber-castell-fix-21-g": {
     "title": "Goma En Barra Faber Castell Fix 21 G",
-    "short": "Borrado limpio para el estudio.",
+    "short": "Goma en barra Faber-Castell para pegado limpio en papel y cartulina.",
     "description": "Goma en barra Faber-Castell para pegado limpio en papel y cartulina.",
-    "longDescription": "Pegamento en barra sin solventes, pensado para uso escolar y de oficina en papel y cartulina.",
-    "price": "S/ 1.55",
-    "rating": "4.5",
-    "stock": 10,
+    "longDescription": "Pegamento en barra sin solventes, pensado para uso escolar y de oficina en papel y cartulina. Peso o gramaje: 21 g. Peso o gramaje: 21 g. Peso o gramaje: 21 g.",
+    "price": 2.2,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "utiles",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/goma-en-barra-faber-castell-fix-21-g-63146",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "21 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: utiles.",
+      "Peso o gramaje: 21 g.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Pega hojas y cartulinas de forma uniforme.", "Ideal para trabajos escolares.", "Uso limpio y sin derrames."],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/goma-en-barra-faber-castell-fix-21-g.jpg",
+    "image": "img/products/goma-en-barra-faber-castell-fix-21-g.jpg",
     "gallery": []
   },
   "grapas-26-6-x-5000-und-artesco": {
     "title": "Grapas 26/6 X 5000 Und Artesco",
-    "short": "Producto esencial para estudio y oficina.",
+    "short": "Grapas 26/6 Artesco en caja de 5000 unidades.",
     "description": "Grapas 26/6 Artesco en caja de 5000 unidades.",
-    "longDescription": "Grapas tamaño 26/6, galvanizadas y resistentes, compatibles con engrapadoras estándar y Útiles para hasta 25 hojas.",
-    "price": "S/ 2.42",
-    "rating": "4.5",
-    "stock": 10,
+    "longDescription": "Grapas tama\u00f1o 26/6, galvanizadas y resistentes, compatibles con engrapadoras est\u00e1ndar y \u00datiles para hasta 25 hojas. Presentacion: x 5000 unidades. Presentacion: x 5000 unidades. Presentacion: x 5000 unidades.",
+    "price": 3.4,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/oficina",
+    "category": "oficina",
+    "brand": "Artesco",
+    "link": "https://www.tailoy.com.pe/grapas-artesco-266-x-5000-und-1220",
     "colors": [
       "Clasico"
     ],
@@ -2978,36 +1566,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Artesco.",
+      "Categoria: oficina.",
+      "Presentacion: x 5000 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalas con engrapadoras 26/6.", "Ideal para oficina y colegio.", "Mantén documentos organizados."],
+    "usage": [
+      "Pensado para tareas administrativas y uso diario en escritorio.",
+      "Ayuda a ordenar, perforar, fijar o gestionar documentos de oficina.",
+      "Recomendado para estudio, negocio y trabajo remoto."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/grapas-26-6-x-5000-und-artesco.jpg",
+    "image": "img/products/grapas-26-6-x-5000-und-artesco.jpg",
     "gallery": []
   },
   "lapiz-2b-grafito-artesco-con-borrador-caja-x-12-un": {
-    "title": "Lápiz 2B Grafito Artesco Con Borrador Caja X 12 Und",
-    "short": "Escritura comoda para tareas y apuntes.",
-    "description": "Lápiz grafito 2B Artesco con borrador, presentación x12.",
-    "longDescription": "Lápiz Artesco 2B con cuerpo hexagonal y borrador incorporado, mina resistente y trazo uniforme.",
-    "price": "S/ 3.61",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "regalos",
-    "link": "https://clip.com.pe/producto/lapiz-2b-grafito-artesco-con-borrador-caja-x-12-und-17482",
+    "title": "L\u00e1piz 2B Grafito Artesco Con Borrador Caja X 12 Un",
+    "short": "L\u00e1piz con dise\u00f1o innovador y elegante - M\u00e1xima calidad Mina de grafito 2B muchos m\u00e1s resistentes Cuerpo de forma hexagonal para su mejor sujeci\u00f3n Antideslizante Con borrador de vinil incorporado Presentaci\u00f3n pre- afilado Im\u00e1genes referenciales",
+    "description": "Cooler para Laptop de 14 pulgadas modelo Skill H19 en color negro.",
+    "longDescription": "El l\u00e1piz grafito ARTESCO 2B con borrador es ideal para escribir y dibujar. Su mina suave y el borrador en la punta lo hacen perfecto para la escuela Otras especificaciones: Para una escritura de calidad y elegante \u00a1Infaltable en tus \u00fatiles escolares! Presentacion: x 12 unidades.",
+    "price": 5.5,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "utiles",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/lapiz-2b-grafito-artesco-con-borrador-caja-x-12-und-17482",
     "colors": [
       "Clasico"
     ],
@@ -3015,36 +1608,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: utiles.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para escritura diaria y dibujo.", "Borra con facilidad gracias al borrador incorporado.", "Úsalo en colegio u oficina."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lapiz-2b-grafito-artesco-con-borrador-caja-x-12-un.jpg",
+    "image": "img/products/lapiz-2b-grafito-artesco-con-borrador-caja-x-12-un.jpg",
     "gallery": []
   },
-  "lapiz-2b-tacnico-faber-castell-sin-borrador-caja-x-12-und": {
-    "title": "Lápiz 2B Técnico Artesco Con Borrador Caja X 12 Und",
-    "short": "Escritura comoda para tareas y apuntes.",
-    "description": "Lápiz de grafito 2B para escritura y dibujo técnico.",
-    "longDescription": "Lápiz de grafito de calidad para escritura y dibujo técnico/artístico, con trazo uniforme y resistente.",
-    "price": "S/ 3.97",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "regalos",
-    "link": "https://clip.com.pe/producto/lapiz-2b-tecnico-artesco-con-borrador-caja-x-12-und-12968",
+  "lapiz-2b-tecnico-faber-castell-sin-borrador-caja-x-12-und": {
+    "title": "L\u00e1piz 2B T\u00e9cnico Faber Castell Sin Borrador Caja X 12 Und",
+    "short": "L\u00e1piz profesional t\u00e9cnico con mina de grafito resistente.",
+    "description": "L\u00e1piz profesional t\u00e9cnico con mina de grafito resistente.",
+    "longDescription": "El l\u00e1piz t\u00e9cnico ARTESCO 2B con borrador es perfecto para el dibujo t\u00e9cnico. Su mina suave y el borrador facilitan el trabajo Otras especificaciones: Para una escritura c\u00f3moda y de calidad. \u00a1Infaltable en tus \u00fatiles escolares! Presentacion: x 12 unidades.",
+    "price": 5.9,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "utiles",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/lapiz-2b-tecnico-faber-castell-sin-borrador-caja-x-12-und-34384",
     "colors": [
       "Clasico"
     ],
@@ -3052,73 +1650,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: utiles.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo para dibujo técnico y bocetos.", "Ideal para escritura y sombreado.", "Recomendado para estudiantes y artistas."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lapiz-2b-tacnico-faber-castell-sin-borrador-caja-x-12-und.jpg",
+    "image": "img/products/lapiz-2b-tecnico-faber-castell-sin-borrador-caja-x-12-und.jpg",
     "gallery": []
   },
   "lapiz-hb-faber-castell-titan-con-borrador-caja-x-12-und": {
-    "title": "Lápiz Hb Faber Castell Titan Con Borrador Caja X 12 Und",
-    "short": "Escritura comoda para tareas y apuntes.",
-    "description": "Lápiz grafito Titan HB con borrador y cuerpo hexagonal.",
-    "longDescription": "Lápiz Faber-Castell Titan HB con borrador incorporado, diseño hexagonal y punta resistente para uso diario.",
-    "price": "S/ 4.62",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "regalos",
-    "link": "https://clip.com.pe/producto/lapiz-hb-faber-castell-titan-con-borrador-caja-x-12-und-33750",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal para escritura cotidiana.", "Útil para tareas y ejercicios escolares.", "Borra fácilmente con su borrador integrado."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/lapiz-hb-faber-castell-titan-con-borrador-caja-x-12-und.jpg",
-    "gallery": []
-  },
-  "lapiz-redondo-2-b-con-borrador-con-tabla-de-multiplicar-x-12-und": {
-    "title": "Lápiz Redondo 2-B Con Borrador Con Tabla De Multiplicar X 12 Und.",
-    "short": "Escritura comoda para tareas y apuntes.",
-    "description": "Lápiz grafito 2B con borrador para escritura y ejercicios escolares.",
-    "longDescription": "Lápiz 2B de grafito con trazo suave, Útil para escritura y dibujo, con borrador incorporado.",
-    "price": "S/ 5.03",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "L\u00e1piz Hb Faber Castell Titan Con Borrador Caja X 12 Und",
+    "short": "Las mejores marcas de \u00fatiles escolares y de oficina Im\u00e1genes referenciales",
+    "description": "Las mejores marcas de \u00fatiles escolares y de oficina Im\u00e1genes referenciales",
+    "longDescription": "El l\u00e1piz HB FABER CASTELL Titan con borrador es ideal para escritura y dibujo. Su mina de alta calidad te da un trazo uniforme Presentacion: x 12 unidades.",
+    "price": 6.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
+    "category": "utiles",
+    "brand": "FABER CASTELL",
+    "link": "https://www.tailoy.com.pe/lapiz-hb-faber-castell-titan-con-borrador-caja-x-12-und-33750",
     "colors": [
       "Clasico"
     ],
@@ -3126,36 +1692,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: FABER CASTELL.",
+      "Categoria: utiles.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo para escritura y dibujo.", "Ideal para tareas escolares.", "Borra con facilidad gracias al borrador."],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lapiz-redondo-2-b-con-borrador-con-tabla-de-multiplicar-x-12-und.jpg",
+    "image": "img/products/lapiz-hb-faber-castell-titan-con-borrador-caja-x-12-und.jpg",
     "gallery": []
   },
   "limpiatipos-artesco-sticky-tac": {
     "title": "Limpiatipos Artesco Sticky Tac",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Limpiatipos Sticky Tac Artesco, removible y fácil de manipular.",
-    "longDescription": "Masa adhesiva removible para fijar papel, cartulina o papelógrafos en paredes o pizarras.",
-    "price": "S/ 1.43",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Colores surtidos Removible F\u00e1cil de manipular Im\u00e1genes referenciales Producto Surtido: Se vende al precio publicado y se entregar\u00e1 al azar seg\u00fan stock.",
+    "description": "Colores surtidos Removible F\u00e1cil de manipular Im\u00e1genes referenciales Producto Surtido: Se vende al precio publicado y se entregar\u00e1 al azar seg\u00fan stock.",
+    "longDescription": "Limpiatipos ARTESCO Sticky Tac. Limpia de manera segura la suciedad de tus dispositivos Otras especificaciones: Ideal para pegar papel, cart\u00f3n, cartulinas o papel\u00f3grafos a una pared o a una pizarra",
+    "price": 2.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/limpiatipos-artesco-sticky-tac-2117",
+    "category": "utiles",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/limpiatipos-artesco-sticky-tac-2117",
     "colors": [
       "Clasico"
     ],
@@ -3163,36 +1734,40 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Pega avisos y cartulinas sin dañar superficies.", "Ideal para presentaciones escolares.", "Removible y reutilizable."],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/limpiatipos-artesco-sticky-tac.jpg",
+    "image": "img/products/limpiatipos-artesco-sticky-tac.jpg",
     "gallery": []
   },
   "lustre-color-anaranjado": {
-    "title": "Papel Lustre Naranja",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre color anaranjado para manualidades y trabajos escolares.",
-    "longDescription": "Papel lustre de acabado brillante, recomendado para manualidades, forrado y proyectos escolares.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color anaranjado",
+    "short": "Color: Naranja Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "description": "Color: Naranja Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, llamativo y funcional para sus creaciones. Ya sea que est\u00e9s armando una cartelera escolar o decorando una fiesta tem\u00e1tica, el Papel Lustre PAGODA te ofrece el brillo y la calidad que necesitas.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-naranja-5000346011",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-naranja-5000346011",
     "colors": [
       "Clasico"
     ],
@@ -3200,851 +1775,862 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para recortes, collage y decoración.", "Úsalo en trabajos escolares y artísticos.", "Su acabado brillante resalta colores."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-anaranjado.jpg",
+    "image": "img/products/lustre-color-anaranjado.jpg",
     "gallery": []
   },
   "lustre-color-azul": {
     "title": "Lustre color azul",
-    "short": "Producto esencial para estudio y oficina.",
+    "short": "Papel lustre azul de acabado brillante para manualidades.",
     "description": "Papel lustre azul de acabado brillante para manualidades.",
-    "longDescription": "Papel lustre con superficie brillante, Útil en trabajos escolares, decoraciones y proyectos creativos.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "longDescription": "Papel lustre con superficie brillante, \u00datil en trabajos escolares, decoraciones y proyectos creativos.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/didacticos-y-manualidades/juegos-didacticos",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-azulino-5000346003",
     "colors": [
-      "Clasico"
+      "Azul"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Recorta y pega en manualidades.", "Útil para decoración y collages.", "Ideal para uso escolar."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-azul.jpg",
+    "image": "img/products/lustre-color-azul.jpg",
     "gallery": []
   },
   "lustre-color-blanco": {
-    "title": "Papel Lustre Blanco",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre blanco de acabado brillante para trabajos escolares.",
-    "longDescription": "Papel lustre brillante, ideal para manualidades, forrado y proyectos creativos en el aula.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color blanco",
+    "short": "Color: Blanco Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "description": "Color: Blanco Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, llamativo y funcional para sus creaciones. Ya sea que est\u00e9s armando un proyecto escolar o decorando una fiesta tem\u00e1tica, el Papel Lustre PAGODA te ofrece el brillo y la calidad que necesitas.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-blanco-5000346004",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-blanco-5000346004",
     "colors": [
-      "Clasico"
+      "Blanco"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo como base para manualidades.", "Ideal para collages y decoración.", "Recomendado para uso escolar."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-blanco.jpg",
+    "image": "img/products/lustre-color-blanco.jpg",
     "gallery": []
   },
   "lustre-color-celeste": {
-    "title": "Papel Lustre Celeste",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre celeste para manualidades y proyectos creativos.",
-    "longDescription": "Papel lustre con acabado brillante, recomendado para trabajos escolares y actividades artísticas.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color celeste",
+    "short": "Color: Celeste Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "description": "Color: Celeste Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, llamativo y funcional para sus creaciones. Ya sea que est\u00e9s armando un proyecto escolar o decorando una fiesta tem\u00e1tica, el Papel Lustre PAGODA te ofrece el brillo y la calidad que necesitas.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-celeste-5000346005",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-celeste-5000346005",
     "colors": [
-      "Clasico"
+      "Celeste"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para recortes y decoración.", "Úsalo en proyectos escolares.", "Acabado brillante y color vivo."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-celeste.jpg",
+    "image": "img/products/lustre-color-celeste.jpg",
     "gallery": []
   },
   "lustre-color-lila": {
-    "title": "Papel Lustre Lila",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre lila para manualidades y uso escolar.",
-    "longDescription": "Papel lustre de acabado brillante, Útil para trabajos escolares, forrado y actividades creativas.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color lila",
+    "short": "Color: Lila Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "description": "Color: Lila Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, llamativo y funcional para sus creaciones. Ya sea que est\u00e9s armando un proyecto escolar o decorando una fiesta tem\u00e1tica, el Papel Lustre PAGODA te ofrece el brillo y la calidad que necesitas.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-lila-5000346008",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-lila-5000346008",
     "colors": [
-      "Clasico"
+      "Lila"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para manualidades y collages.", "Úsalo para decoración escolar.", "Color brillante y llamativo."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-lila.jpg",
+    "image": "img/products/lustre-color-lila.jpg",
     "gallery": []
   },
   "lustre-color-marron": {
-    "title": "Papel Lustre Marrón",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre marrón para trabajos escolares y manualidades.",
-    "longDescription": "Papel lustre con superficie brillante, recomendado para proyectos escolares y decoraciones.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color marron",
+    "short": "Color: Marr\u00f3n Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "description": "Color: Marr\u00f3n Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, llamativo y funcional para sus creaciones. Ya sea que est\u00e9s armando un proyecto escolar o decorando una fiesta tem\u00e1tica, el Papel Lustre PAGODA te ofrece el brillo y la calidad que necesitas.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-marron-5000346009",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-marron-5000346009",
     "colors": [
-      "Clasico"
+      "Marron"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo para recortes y maquetas.", "Ideal para trabajos artísticos.", "Acabado brillante."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-marron.jpg",
+    "image": "img/products/lustre-color-marron.jpg",
     "gallery": []
   },
   "lustre-color-morado": {
-    "title": "Papel Lustre Morado",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre morado para actividades escolares y creativas.",
-    "longDescription": "Papel lustre brillante, Útil para manualidades, forrar y decorar proyectos escolares.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color morado",
+    "short": "Color: Morado Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "description": "Color: Morado Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, llamativo y funcional para sus creaciones. Ya sea que est\u00e9s armando una cartelera escolar o decorando una fiesta tem\u00e1tica, el Papel Lustre PAGODA te ofrece el brillo y la calidad que necesitas.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-morado-5000346010",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-morado-5000346010",
     "colors": [
-      "Clasico"
+      "Morado"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para collages y decoración.", "Úsalo en trabajos escolares.", "Color intenso y brillante."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-morado.jpg",
+    "image": "img/products/lustre-color-morado.jpg",
     "gallery": []
   },
   "lustre-color-negro": {
-    "title": "Papel Lustre Negro",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre negro de acabado brillante para manualidades.",
-    "longDescription": "Papel lustre brillante en color negro, recomendado para proyectos escolares y decoraciones.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color negro",
+    "short": "Color: Negro Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "description": "Color: Negro Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, llamativo y funcional para sus creaciones. Ya sea que est\u00e9s armando una cartelera escolar o decorando una fiesta tem\u00e1tica, el Papel Lustre PAGODA te ofrece el brillo y la calidad que necesitas.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-negro-5000346012",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-negro-5000346012",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo como fondo para trabajos.", "Ideal para recortes y siluetas.", "Acabado brillante para mayor contraste."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-negro.jpg",
+    "image": "img/products/lustre-color-negro.jpg",
     "gallery": []
   },
   "lustre-color-rojo": {
-    "title": "Juego Didáctico Evaflex Base Diez Multibase Surtido",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre rojo para manualidades y trabajos escolares.",
-    "longDescription": "Papel lustre con acabado brillante, ideal para proyectos escolares y decoración.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color Rojo",
+    "short": "La base diez multibase evaflex es una herramienta educativa que ayuda a comprender el sistema de numeraci\u00f3n decimal.",
+    "description": "La base diez multibase evaflex es una herramienta educativa que ayuda a comprender el sistema de numeraci\u00f3n decimal.",
+    "longDescription": "Juego de base 10 con 121 piezas de pl\u00e1stico. Contiene un block de ejercicios y un instructivo. Presentaci\u00f3n en t\u00e1per pl\u00e1stico tipo lonchera",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/juego-didactico-evaflex-base-diez-multibase-surtido-6978",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-rojo-5000346014",
     "colors": [
-      "Clasico"
+      "Rojo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo en carteles y decoraciones.", "Ideal para collages y manualidades.", "Color vivo y brillante."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-rojo.jpg",
+    "image": "img/products/lustre-color-rojo.jpg",
     "gallery": []
   },
   "lustre-color-rosado": {
-    "title": "Papel Lustre Rosado",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre rosado de acabado brillante para manualidades.",
-    "longDescription": "Papel lustre brillante recomendado para trabajos escolares, decoración y proyectos artísticos.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color rosado",
+    "short": "Color: Rosado Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "description": "Color: Rosado Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, llamativo y funcional para sus creaciones. Ya sea que est\u00e9s armando una cartelera escolar o decorando una fiesta tem\u00e1tica, el Papel Lustre PAGODA te ofrece el brillo y la calidad que necesitas.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-rosado-5000346015",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-rosado-5000346015",
     "colors": [
-      "Clasico"
+      "Rosado"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Ideal para recortes y decoración.", "Úsalo en proyectos escolares.", "Color brillante y uniforme."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-rosado.jpg",
+    "image": "img/products/lustre-color-rosado.jpg",
     "gallery": []
   },
   "lustre-color-turquesa": {
-    "title": "Papel Lustre Turquesa",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre turquesa para manualidades y actividades creativas.",
-    "longDescription": "Papel lustre de acabado brillante, recomendado para trabajos escolares y decoraciones.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color turquesa",
+    "short": "Color: Turquesa Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "description": "Color: Turquesa Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, llamativo y funcional para sus creaciones. Ya sea que est\u00e9s armando una cartelera escolar o decorando una fiesta tem\u00e1tica, el Papel Lustre PAGODA te ofrece el brillo y la calidad que necesitas.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-turquesa-5000346016",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-turquesa-5000346016",
     "colors": [
-      "Clasico"
+      "Turquesa"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo en collages y manualidades.", "Ideal para decoración escolar.", "Acabado brillante y color vivo."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-turquesa.jpg",
-    "gallery": []
-  },
-  "lustre-color-verde-agua": {
-    "title": "Papel Lustre Verde Agua",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre verde agua para manualidades y trabajos escolares.",
-    "longDescription": "Papel lustre brillante para proyectos creativos, manualidades y uso escolar.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-verde-agua-5000346021",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Ideal para recortes y decoración.", "Úsalo en trabajos artísticos.", "Color brillante y uniforme."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/lustre-color-verde-agua.jpg",
+    "image": "img/products/lustre-color-turquesa.jpg",
     "gallery": []
   },
   "lustre-color-verde-oscuro": {
-    "title": "Juego Didáctico Evaflex Ábaco",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Papel lustre verde oscuro para manualidades y proyectos escolares.",
-    "longDescription": "Papel lustre con acabado brillante, recomendado para uso escolar y actividades creativas.",
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Lustre color verde oscuro",
+    "short": "Medidas: 21.2 x 20.7 X 8 cm Peso neto: 232 gr Contenido: 1 pieza Producto: Pl\u00e1stico Im\u00e1genes referenciales",
+    "description": "Medidas: 21.2 x 20.7 X 8 cm Peso neto: 232 gr Contenido: 1 pieza Producto: Pl\u00e1stico Im\u00e1genes referenciales",
+    "longDescription": "Juego did\u00e1ctico Evaflex \u00c1baco, dise\u00f1ado para ense\u00f1ar matem\u00e1ticas b\u00e1sicas de manera interactiva. Ideal para desarrollar habilidades de conteo y c\u00e1lculo en ni\u00f1os. Fabricado con materiales seguros y duraderos, perfecto para el aprendizaje en casa o en el aula",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/juego-didactico-evaflex-abaco-5363",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-lustre-verde-oscuro-5000346018",
     "colors": [
-      "Clasico"
+      "Verde"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
     ],
-    "usage": ["Úsalo para recortes y collages.", "Ideal para decoración y manualidades.", "Acabado brillante y resistente."],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
+    ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/lustre-color-verde-oscuro.jpg",
-    "gallery": []
-  },
-  "maquina-toner-para-fotocopiadora": {
-    "title": "MAQUINA - Toner para fotocopiadora",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Cartucho de tóner para fotocopiadora e impresora láser.",
-    "longDescription": "El tóner es un consumible de impresoras láser y fotocopiadoras; contiene polvo de tóner que se fija al papel durante la impresión.",
-    "price": "S/ 120.00",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "usage": ["Reemplaza el cartucho cuando la impresión salga tenue.", "Úsalo en equipos compatibles con tu modelo.", "Manipula el tóner con cuidado para evitar derrames."],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/maquina-toner-para-fotocopiadora.jpg",
+    "image": "img/products/lustre-color-verde-oscuro.jpg",
     "gallery": []
   },
   "mica-portapapel-vinifan-a4-paquete-x-10-und": {
     "title": "Mica Portapapel Vinifan A4 Paquete X 10 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Mica portapapel tamaño A4 en plástico transparente para proteger y presentar documentos, ideal para oficina y colegio.",
-    "usage": ["Guarda hojas A4 sin doblarlas.", "Úsala para presentar informes o trabajos.", "Límpiala con un paño para mantener la transparencia."],
-    "price": "S/ 4.09",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Mica portapapel tama\u00f1o A4 en pl\u00e1stico transparente para proteger y presentar documentos, ideal para oficina y colegio. Presentacion: x 10 unidades. Formato: A4. Presentacion: x 10 unidades. Formato: A4.",
+    "price": 5.5,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "",
+    "brand": "Vinifan",
+    "link": "https://www.tailoy.com.pe/portapapel-vinifan-a4-paquete-x-10-und-17498",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "A4"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Vinifan.",
+      "Categoria: papeleria.",
+      "Presentacion: x 10 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/mica-portapapel-vinifan-a4-paquete-x-10-und.png",
+    "image": "img/products/mica-portapapel-vinifan-a4-paquete-x-10-und.jpg",
     "gallery": []
   },
   "papel-bond-56-g-61-x-86-cm-rollo-x-50-und": {
     "title": "Papel Bond 56 G 61 X 86 Cm Rollo X 50 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel bond de 56 g/m² en formato 61 x 86 cm, presentado en rollo, apto para impresión y trabajos generales.",
-    "usage": ["Corta hojas a medida para impresiones o planos.", "Ideal para libros, folletos o trabajos escolares.", "Guárdalo en un lugar seco para conservarlo."],
-    "price": "S/ 0.15",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Medidas: Rollo de 61 x 86 cm Gramaje: 56 g Incluye Paquete de 50 unidades Uso: Impresiones de alta calidad, proyectos art\u00edsticos y escritura Im\u00e1genes referenciales",
+    "description": "Medidas: Rollo de 61 x 86 cm Gramaje: 56 g Incluye Paquete de 50 unidades Uso: Impresiones de alta calidad, proyectos art\u00edsticos y escritura Im\u00e1genes referenciales",
+    "longDescription": "Otras especficicaciones: Textura suave, ideal para t\u00e9cnicas de dibujo y pintura Papel bond ideal para impresiones de alta calidad, proyectos art\u00edsticos y escritura. Presentacion: x 50 unidades. Medida: 61 x 86 cm. Peso o gramaje: 56 g.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-bond-56-g-61-x-86-cm-rollo-x-50-und-53863",
+    "brand": "GENERICO",
+    "link": "https://www.tailoy.com.pe/papel-bond-56-g-61-x-86-cm-rollo-x-50-und-53863",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "56 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: GENERICO.",
+      "Categoria: papeleria.",
+      "Presentacion: x 50 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-bond-56-g-61-x-86-cm-rollo-x-50-und.png",
+    "image": "img/products/papel-bond-56-g-61-x-86-cm-rollo-x-50-und.png",
     "gallery": []
   },
-  "papel-crepa-amarillo-x-10-unidades": {
-    "title": "Papel Crepé Amarillo X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé amarillo en paquete de 10 unidades, textura arrugada y elástica para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-amarillo-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Amarillo X 10 Unidades",
+    "short": "Papel crep\u00e9 Color: Amarillo Incluye: 10 unidades Im\u00e1genes referenciales",
+    "description": "Papel crep\u00e9 Color: Amarillo Incluye: 10 unidades Im\u00e1genes referenciales",
+    "longDescription": "Un paquete que contiene 10 unidades de papel crep\u00e9 de la marca DRAGON en color amarillo. Este papel es ideal para manualidades, decoraciones de fiestas, elaboraci\u00f3n de flores de papel y otros proyectos creativos",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-amarillo-x-10-unidades-16281001",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-amarillo-x-10-unidades-16281001",
     "colors": [
-      "Clasico"
+      "Amarillo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-amarillo-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-amarillo-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-azul-x-10-unidades": {
-    "title": "Papel Crepé Azul X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé azul en paquete de 10 unidades, ligero y poroso, ideal para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-azul-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Azul X 10 Unidades",
+    "short": "Papel crep\u00e9 Color: Azul Incluye: 10 unidades Im\u00e1genes referenciales",
+    "description": "Papel crep\u00e9 Color: Azul Incluye: 10 unidades Im\u00e1genes referenciales",
+    "longDescription": "Un paquete de 10 unidades de papel crep\u00e9 de la marca DRAGON en color azul. Su textura y elasticidad lo hacen muy popular para decoraciones y proyectos art\u00edsticos",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-azul-x-10-unidades-16281002",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-azul-x-10-unidades-16281002",
     "colors": [
-      "Clasico"
+      "Azul"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-azul-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-azul-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-blanco-x-10-unidades": {
-    "title": "Papel Crepé Blanco X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé blanco en paquete de 10 unidades, textura arrugada y elástica para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-blanco-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Blanco X 10 Unidades",
+    "short": "Papel crep\u00e9 Color: Blanco Incluye: 10 unidades Im\u00e1genes referenciales",
+    "description": "Papel crep\u00e9 Color: Blanco Incluye: 10 unidades Im\u00e1genes referenciales",
+    "longDescription": "Un paquete de 10 unidades de papel crep\u00e9 de la marca DRAGON en color blanco. Es un material vers\u00e1til y esencial para una gran variedad de manualidades, desde figuras hasta decoraciones",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-blanco-x-10-unidades-16281003",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-blanco-x-10-unidades-16281003",
     "colors": [
-      "Clasico"
+      "Blanco"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-blanco-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-blanco-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-celeste-x-10-unidades": {
-    "title": "Papel Crepé Celeste X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé celeste en paquete de 10 unidades, flexible y resistente para manualidades y decoraciones.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-celeste-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Celeste X 10 Unidades",
+    "short": "Contiene: Paquete con 10 unidades.",
+    "description": "Contiene: Paquete con 10 unidades.",
+    "longDescription": "Papel ligero con aspecto arrugado. Ideal para trabajos de manualidades y decoraci\u00f3n.",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-celeste-x-10-unidades-16281004",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-celeste-x-10-unidades-16281004",
     "colors": [
-      "Clasico"
+      "Celeste"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-celeste-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-celeste-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-fucsia-x-10-unidades": {
-    "title": "Papel Crepé Fucsia X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé fucsia en paquete de 10 unidades, textura arrugada y elástica para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-fucsia-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Fucsia X 10 Unidades",
+    "short": "Color: Fucsia Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "description": "Color: Fucsia Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "longDescription": "El papel crep\u00e9 es un material decorativo de textura arrugada y gran elasticidad, ampliamente utilizado en manualidades, decoraci\u00f3n de eventos y proyectos escolares. Su color vibrante aporta energ\u00eda, dinamismo y un toque moderno a cualquier creaci\u00f3n. Este tipo de papel es ligero, f\u00e1cil de manipular y se adapta a m\u00faltiples formas, lo que lo convierte en una herramienta imprescindible para artistas",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-fucsia-x-10-unidades-16281005",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-fucsia-x-10-unidades-16281005",
     "colors": [
-      "Clasico"
+      "Fucsia"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-fucsia-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-fucsia-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-lila-x-10-unidades": {
-    "title": "Papel Crepé Lila X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé lila en paquete de 10 unidades, ligero y poroso, ideal para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-lila-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Lila X 10 Unidades",
+    "short": "Papel crepe Incluye: Paquete de 10 unidades Marca: Drag\u00f3n Colro: Lila Im\u00e1genes referenciales",
+    "description": "Papel crepe Incluye: Paquete de 10 unidades Marca: Drag\u00f3n Colro: Lila Im\u00e1genes referenciales",
+    "longDescription": "Este papel crep\u00e9 conserva su textura arrugada y elasticidad, lo que lo hace perfecto para crear decoraciones con volumen y movimiento.",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-lila-x-10-unidades-16281006",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-lila-x-10-unidades-16281006",
     "colors": [
-      "Clasico"
+      "Lila"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-lila-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-lila-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-marron-x-10-unidades": {
-    "title": "Papel Crepé Marrón X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé marrón en paquete de 10 unidades, flexible y elástico para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-marron-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Marr\u00f3n X 10 Unidades",
+    "short": "Color: Marr\u00f3n Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "description": "Color: Marr\u00f3n Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "longDescription": "El papel crep\u00e9 es un material decorativo de textura arrugada y gran elasticidad, ampliamente utilizado en manualidades, decoraci\u00f3n de eventos y proyectos escolares. Su color vibrante aporta energ\u00eda, dinamismo y un toque moderno a cualquier creaci\u00f3n. Este tipo de papel es ligero, f\u00e1cil de manipular y se adapta a m\u00faltiples formas, lo que lo convierte en una herramienta imprescindible para artistas",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-marron-x-10-unidades-16281007",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-marron-x-10-unidades-16281007",
     "colors": [
-      "Clasico"
+      "Marron"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-marron-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-marron-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-melon-x-10-unidades": {
-    "title": "Papel Crepé Melon X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé melón en paquete de 10 unidades, textura arrugada y elástica para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-melon-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Mel\u00f3n X 10 Unidades",
+    "short": "Color: Melon Marca: Drag\u00f3n Incluye 10 unidades Ligero y f\u00e1cil de cortar Im\u00e1genes referenciales",
+    "description": "Color: Melon Marca: Drag\u00f3n Incluye 10 unidades Ligero y f\u00e1cil de cortar Im\u00e1genes referenciales",
+    "longDescription": "Este papel es una excelente opci\u00f3n para quienes buscan un material econ\u00f3mico, colorido y funcional para sus creaciones. Ya sea que est\u00e9s decorando una cartelera, armando una maqueta o simplemente explorando tu lado art\u00edstico",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-melon-x-10-unidades-16281008",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-melon-x-10-unidades-16281008",
     "colors": [
       "Clasico"
     ],
@@ -4052,702 +2638,619 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-melon-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-melon-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-morado-x-10-unidades": {
-    "title": "Papel Crepé Morado X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé morado en paquete de 10 unidades, ligero y poroso, ideal para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-morado-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Morado X 10 Unidades",
+    "short": "Color: Morado Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "description": "Color: Morado Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "longDescription": "El papel crep\u00e9 es un material decorativo de textura arrugada y gran elasticidad, ampliamente utilizado en manualidades, decoraci\u00f3n de eventos y proyectos escolares. Su color vibrante aporta energ\u00eda, dinamismo y un toque moderno a cualquier creaci\u00f3n. Este tipo de papel es ligero, f\u00e1cil de manipular y se adapta a m\u00faltiples formas, lo que lo convierte en una herramienta imprescindible para artistas",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-morado-x-10-unidades-16281009",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-morado-x-10-unidades-16281009",
     "colors": [
-      "Clasico"
+      "Morado"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-morado-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-morado-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-naranja-x-10-unidades": {
-    "title": "Papel Crepé Naranja X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé naranja en paquete de 10 unidades, flexible y elástico para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-naranja-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Naranja X 10 Unidades",
+    "short": "Color: Naranja Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "description": "Color: Naranja Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "longDescription": "El papel crep\u00e9 es un material decorativo de textura arrugada y gran elasticidad, ampliamente utilizado en manualidades, decoraci\u00f3n de eventos y proyectos escolares. Su color vibrante aporta energ\u00eda, dinamismo y un toque moderno a cualquier creaci\u00f3n. Este tipo de papel es ligero, f\u00e1cil de manipular y se adapta a m\u00faltiples formas, lo que lo convierte en una herramienta imprescindible para artistas",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-naranja-x-10-unidades-16281010",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-naranja-x-10-unidades-16281010",
     "colors": [
-      "Clasico"
+      "Naranja"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-naranja-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-naranja-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-negro-x-10-unidades": {
-    "title": "Papel Crepé Negro X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé negro en paquete de 10 unidades, textura arrugada y elástica para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-negro-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Negro X 10 Unidades",
+    "short": "Color: Negro Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "description": "Color: Negro Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "longDescription": "El papel crep\u00e9 es un material decorativo de textura arrugada y gran elasticidad, ampliamente utilizado en manualidades, decoraci\u00f3n de eventos y proyectos escolares. Su color vibrante aporta energ\u00eda, dinamismo y un toque moderno a cualquier creaci\u00f3n. Este tipo de papel es ligero, f\u00e1cil de manipular y se adapta a m\u00faltiples formas, lo que lo convierte en una herramienta imprescindible para artistas",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-negro-x-10-unidades-16281011",
+    "brand": "DRAGON",
+    "link": "https://www.tailoy.com.pe/papel-crepe-negro-x-10-unidades-16281011",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: DRAGON.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-negro-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-negro-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-rojo-x-10-unidades": {
-    "title": "Papel Crepé Rojo X 10 Unidades",
+  "papel-crepe-rojo-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Rojo X 10 Unidades",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé rojo en paquete de 10 unidades, ligero y poroso, ideal para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Papel crep\u00e9 rojo en paquete de 10 unidades, ligero y poroso, ideal para manualidades y decoraci\u00f3n.",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-crepe-rojo-x-10-unidades-16281012",
     "colors": [
-      "Clasico"
+      "Rojo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-rojo-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-rojo-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-rosado-x-10-unidades": {
-    "title": "Papel Crepé Marrón X 10 Unidades",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé rosado en paquete de 10 unidades, flexible y elástico para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+  "papel-crepe-rosado-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Rosado X 10 Unidades",
+    "short": "Color: Marr\u00f3n Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "description": "Color: Marr\u00f3n Marca: Drag\u00f3n Incluye 10 unidades Proyectos escolares y art\u00edsticos Im\u00e1genes referenciales",
+    "longDescription": "El papel crep\u00e9 es un material decorativo de textura arrugada y gran elasticidad, ampliamente utilizado en manualidades, decoraci\u00f3n de eventos y proyectos escolares. Su color vibrante aporta energ\u00eda, dinamismo y un toque moderno a cualquier creaci\u00f3n. Este tipo de papel es ligero, f\u00e1cil de manipular y se adapta a m\u00faltiples formas, lo que lo convierte en una herramienta imprescindible para artistas",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-crepe-marron-x-10-unidades-16281007",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-crepe-rosado-x-10-unidades-16281013",
     "colors": [
-      "Clasico"
+      "Rosado"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-rosado-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-rosado-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-verde-limon-x-10-unidades": {
-    "title": "Papel Crepé Verde  Limón X 10 Unidades",
+  "papel-crepe-verde-limon-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Verde  Limon X 10 Unidades",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé verde lim²n en paquete de 10 unidades, textura arrugada y elástica para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Papel crep\u00e9 verde lim\u00b2n en paquete de 10 unidades, textura arrugada y el\u00e1stica para manualidades y decoraci\u00f3n.",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-crepe-verde-claro-x-10-unidades-16281015",
     "colors": [
-      "Clasico"
+      "Verde"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-verde-limon-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-verde-limon-x-10-unidades.jpg",
     "gallery": []
   },
-  "papel-crepa-verde-oscuro-x-10-unidades": {
-    "title": "Papel Crepé Verde Oscuro X 10 Unidades",
+  "papel-crepe-verde-oscuro-x-10-unidades": {
+    "title": "Papel Crep\u00e9 Verde Oscuro X 10 Unidades",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel crepé verde oscuro en paquete de 10 unidades, ligero y poroso, ideal para manualidades y decoración.",
-    "usage": ["Crea flores, guirnaldas y adornos.", "Se estira y modela fácilmente.", "Combina colores para decoraciones tem²ticas."],
-    "price": "S/ 2.60",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Papel crep\u00e9 verde oscuro en paquete de 10 unidades, ligero y poroso, ideal para manualidades y decoraci\u00f3n.",
+    "price": 3.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
     "category": "papeleria",
-    "link": "",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/papel-crepe-verde-oscuro-x-10-unidades-16281016",
     "colors": [
-      "Clasico"
+      "Verde"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-crepa-verde-oscuro-x-10-unidades.jpg",
+    "image": "img/products/papel-crepe-verde-oscuro-x-10-unidades.jpg",
     "gallery": []
   },
   "papel-fotocopia-chamex-a4-75gr-paquete-x-500-hojas": {
     "title": "Papel Fotocopia Chamex A4 75Gr Paquete X 500 Hojas",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel fotocopia Chamex tamaño A4 de 75 g/m² en resma de 500 hojas, apto para impresoras láser e inkjet.",
-    "usage": ["Imprime y fotocopia documentos del día a día.", "Úsalo en oficina, colegio o casa.", "Guárdalo en un lugar seco para mantenerlo blanco y liso."],
-    "price": "S/ 10.20",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Papel fotocopia formato A4 Marca: Chamex Gramaje: 75 g Paquete x 500 hojas Apto para oficina, hogar o estudio Im\u00e1genes referenciales",
+    "description": "Chamex tiene todo lo que necesitas para tus impresiones.",
+    "longDescription": "Papel fotocopia Chamex A4 de 75 g, adecuado para uso diario en distintas actividades acad\u00e9micas o profesionales Presentacion: x 500 hojas. Formato: A4.",
+    "price": 13.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-fotocopia-chamex-a4-75gr-paquete-x-500-hojas-199",
+    "brand": "CHAMEX",
+    "link": "https://www.tailoy.com.pe/papel-fotocopia-chamex-a4-75gr-paquete-x-500-hojas-199",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "A4",
+      "75G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: CHAMEX.",
+      "Categoria: papeleria.",
+      "Presentacion: x 500 hojas.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-fotocopia-chamex-a4-75gr-paquete-x-500-hojas.jpg",
+    "image": "img/products/papel-fotocopia-chamex-a4-75gr-paquete-x-500-hojas.jpg",
     "gallery": []
   },
-  "papel-kraft-monolucido-49-gr-70-x-100-cm": {
-    "title": "Papel Kraft Monolucido 49 Gr 70 X 100 Cm",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel kraft en pliego de 70 x 100 cm, ideal para forrar, envolver y realizar manualidades o trabajos creativos.",
-    "usage": ["Forra cuadernos y libros escolares.", "Úsalo para envolturas y empaques.", "Recorta y pega en proyectos de manualidades."],
-    "price": "S/ 0.19",
-    "rating": "4.5",
-    "stock": 10,
+  "papel-kraft-monolucido-49-gr-70-x-100-cm-x-1-und": {
+    "title": "Papel Kraft Monolucido 49 Gr 70 X 100 Cm X 1 Und",
+    "short": "Medida: 70 x 100 cm Gramaje: 49 gr Color: Marr\u00f3n Natural Envoltura de productos comerciales o escolares Protecci\u00f3n de superficies en embalaje Im\u00e1genes referenciales",
+    "description": "Medida: 70 x 100 cm Gramaje: 49 gr Color: Marr\u00f3n Natural Envoltura de productos comerciales o escolares Protecci\u00f3n de superficies en embalaje Im\u00e1genes referenciales",
+    "longDescription": "El papel kraft monolucido es un tipo de papel elaborado a partir de pulpa de fibra de madera, con una cara ligeramente satinada (lucida) que le da un acabado m\u00e1s suave y brillante. Con un gramaje de 49, es liviano pero resistente, ideal para envolver productos, proteger superficies o realizar trabajos escolares y decorativos. Presentacion: x 1 unidades. Medida: 70 x 100 cm.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-kraft-monolucido-49-gr-70-x-100-cm-54323",
+    "brand": "GENERICO",
+    "link": "https://www.tailoy.com.pe/papel-kraft-monolucido-49-gr-70-x-100-cm-54323",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "49 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: GENERICO.",
+      "Categoria: papeleria.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-kraft-monolucido-49-gr-70-x-100-cm.jpg",
+    "image": "img/products/papel-kraft-monolucido-49-gr-70-x-100-cm-x-1-und.jpg",
     "gallery": []
   },
-  "papel-lustre-amarillo": {
-    "title": "Papel Lustre - Amarillo",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel lustre amarillo con acabado brillante, pensado para manualidades, decoración y trabajos escolares.",
-    "usage": ["Recorta y pega en collages y maquetas.", "Ideal para decoraciones llamativas.", "Dale brillo a tarjetas y proyectos escolares."],
-    "price": "S/ 0.18",
-    "rating": "4.5",
-    "stock": 10,
+  "papel-lustre-amarillo-x-1-und": {
+    "title": "Papel Lustre - Amarillo X 1 und",
+    "short": "Color: Amarillo Textura: Suave al tacto, f\u00e1cil de cortar y manipular Marca: Pagoda Uso com\u00fan para Forrado de cuadernos y cajas Im\u00e1genes referenciales",
+    "description": "Color: Amarillo Textura: Suave al tacto, f\u00e1cil de cortar y manipular Marca: Pagoda Uso com\u00fan para Forrado de cuadernos y cajas Im\u00e1genes referenciales",
+    "longDescription": "El papel lustre, tambi\u00e9n conocido como papel charol o lustrillo, se distingue por su acabado brillante en una cara y opaco en la otra. Este color aporta energ\u00eda, alegr\u00eda y visibilidad a cualquier proyecto. Presentacion: x 1 unidades.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-lustre-amarillo-5000346001",
+    "brand": "PAGODA",
+    "link": "https://www.tailoy.com.pe/papel-lustre-amarillo-5000346001",
     "colors": [
-      "Clasico"
+      "Amarillo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: PAGODA.",
+      "Categoria: papeleria.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papel-lustre-amarillo.jpg",
-    "gallery": []
-  },
-  "papel-seda-negro-cuadernillo-x-24-und": {
-    "title": "Papel Seda Negro Cuadernillo X 24 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papel seda negro en cuadernillo, liviano y suave, ideal para envolturas, decoración y manualidades.",
-    "usage": ["Envuelve regalos y detalles delicados.", "Úsalo como relleno decorativo.", "Recorta y da volumen a manualidades."],
-    "price": "S/ 1.95",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papel-seda-negro-cuadernillo-x-24-und-16297010",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/papel-seda-negro-cuadernillo-x-24-und.jpg",
+    "image": "img/products/papel-lustre-amarillo-x-1-und.jpg",
     "gallery": []
   },
   "papelografo-rayado-61-x-86-cm-56-g-rollo-x-50-un": {
-    "title": "Papelógrafo Rayado 61 X 86 Cm 56 G Rollo X 50 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Papelógrafo rayado de 61 x 86 cm y 56 g/m², pensado para presentaciones y trabajos escolares.",
-    "usage": ["Úsalo en atril para exposiciones.", "Escribe con plumones para mayor visibilidad.", "Arranca hojas según la necesidad de la clase."],
-    "price": "S/ 0.19",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Papel\u00f3grafo Rayado 61 X 86 Cm 56 G Rollo X 50 Un",
+    "short": "Gramaje: 56 gramos Medidas: 61 x 86 cm Marca: Millenium Presentaci\u00f3n en rollo con 50 unidades Im\u00e1genes referenciales",
+    "description": "Gramaje: 56 gramos Medidas: 61 x 86 cm Marca: Millenium Presentaci\u00f3n en rollo con 50 unidades Im\u00e1genes referenciales",
+    "longDescription": "Este papel\u00f3grafo es una herramienta indispensable para quienes buscan comunicar ideas de forma clara, visual y colaborativa. Ya sea en el aula, en una reuni\u00f3n de trabajo o en una feria educativa, el Papel\u00f3grafo Rayado te ayuda a destacar con organizaci\u00f3n y estilo. Presentacion: x 50 unidades. Medida: 61 x 86 cm. Peso o gramaje: 56 g.",
+    "price": 0.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
     "category": "papeleria",
-    "link": "https://clip.com.pe/producto/papelografo-rayado-61-x-86-cm-56-g-rollo-x-50-und-53871",
+    "brand": "MILLENIUM",
+    "link": "https://www.tailoy.com.pe/papelografo-rayado-61-x-86-cm-56-g-rollo-x-50-und-53871",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "56 G"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: MILLENIUM.",
+      "Categoria: papeleria.",
+      "Presentacion: x 50 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/papelografo-rayado-61-x-86-cm-56-g-rollo-x-50-un.png",
+    "image": "img/products/papelografo-rayado-61-x-86-cm-56-g-rollo-x-50-un.png",
     "gallery": []
   },
   "perforador-artesco-m-208-11-hojas-celeste": {
     "title": "Perforador Artesco M-208 11 Hojas Celeste",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Perforador Artesco de dos huecos con estructura metálica, resistente y durable para uso escolar u oficina.",
-    "usage": ["Alinea las hojas antes de perforar.", "Perfora documentos para archivarlos.", "Limpia el depósito de residuos periódicamente."],
-    "price": "S/ 5.65",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Perforador Artesco M-208 color celeste Capacidad para perforar hasta 11 hojas Dise\u00f1o compacto y resistente Estructura met\u00e1lica inoxidable Incluye gu\u00eda de alineaci\u00f3n ajustable Im\u00e1genes referenciales",
+    "description": "Perforador Artesco M-208 color celeste Capacidad para perforar hasta 11 hojas Dise\u00f1o compacto y resistente Estructura met\u00e1lica inoxidable Incluye gu\u00eda de alineaci\u00f3n ajustable Im\u00e1genes referenciales",
+    "longDescription": "Ideal para uso en oficina o colegio, con capacidad para 11 hojas y gu\u00eda ajustable para una perforaci\u00f3n precisa",
+    "price": 7.9,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/perforador-artesco-m-208-11-hojas-celeste-28699001",
+    "category": "oficina",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/perforador-artesco-m-208-11-hojas-celeste-28699001",
     "colors": [
-      "Clasico"
+      "Celeste"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: oficina.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Pensado para tareas administrativas y uso diario en escritorio.",
+      "Ayuda a ordenar, perforar, fijar o gestionar documentos de oficina.",
+      "Recomendado para estudio, negocio y trabajo remoto."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/perforador-artesco-m-208-11-hojas-celeste.jpg",
+    "image": "img/products/perforador-artesco-m-208-11-hojas-celeste.jpg",
     "gallery": []
   },
   "perforador-artesco-m-73-25-hojas-negro": {
-    "title": "Perforador Escolar De Metal Faber Castell U10 10 Hojas",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Perforador metálico Faber-Castell U-10 para 10 hojas, con estructura metálica y sistema para eliminar desperdicios.",
-    "usage": ["Perfora hasta 10 hojas para archivarlas.", "Ajusta la guía para distintos tamaños de papel.", "Vacía el depósito de residuos después de usar."],
-    "price": "S/ 8.10",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Perforador Artesco M-73 25 Hojas Negro",
+    "short": "Perforador met\u00e1lico de dos orificios Capacidad para 10 hojas Dise\u00f1o compacto y resistente Ideal para uso escolar y personal F\u00e1cil de usar y transportar Im\u00e1genes referenciales",
+    "description": "Perforador met\u00e1lico de dos orificios Capacidad para 10 hojas Dise\u00f1o compacto y resistente Ideal para uso escolar y personal F\u00e1cil de usar y transportar Im\u00e1genes referenciales",
+    "longDescription": "Perforador met\u00e1lico compacto y duradero ideal para estudiantes y tareas cotidianas",
+    "price": 11.3,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/perforador-escolar-de-metal-faber-castell-u10-10-hojas-2652",
+    "category": "oficina",
+    "brand": "Artesco",
+    "link": "https://www.tailoy.com.pe/perforador-artesco-m-73-25-hojas-negro-28547002",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Artesco.",
+      "Categoria: oficina.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Pensado para tareas administrativas y uso diario en escritorio.",
+      "Ayuda a ordenar, perforar, fijar o gestionar documentos de oficina.",
+      "Recomendado para estudio, negocio y trabajo remoto."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/perforador-artesco-m-73-25-hojas-negro.jpg",
+    "image": "img/products/perforador-artesco-m-73-25-hojas-negro.jpg",
     "gallery": []
   },
   "perforador-escolar-artesco-m-01-11-hojas-azul": {
     "title": "Perforador Escolar Artesco M-01 11 Hojas Azul",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Perforador escolar Artesco M-01 con estructura metálica, diseñado para perforar aproximadamente 11 hojas.",
-    "usage": ["Perfora hojas para archivar en pioner.", "Úsalo en tareas y documentos escolares.", "Mantén limpia la base de residuos."],
-    "price": "S/ 5.31",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Capacidad para 11 hojas Estructura met\u00e1lica inoxidable Ideal para uso escolar Dise\u00f1o compacto y ligero F\u00e1cil de manejar por ni\u00f1os y j\u00f3venes Im\u00e1genes referenciales",
+    "description": "Capacidad para 11 hojas Estructura met\u00e1lica inoxidable Ideal para uso escolar Dise\u00f1o compacto y ligero F\u00e1cil de manejar por ni\u00f1os y j\u00f3venes Im\u00e1genes referenciales",
+    "longDescription": "Perforador escolar pr\u00e1ctico y resistente con capacidad para 11 hojas Ideal para actividades escolares, oficina y proyectos personales.",
+    "price": 7.4,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/perforador-escolar-artesco-m-01-11-hojas-azul-28700001",
+    "category": "oficina",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/perforador-escolar-artesco-m-01-11-hojas-azul-28700001",
     "colors": [
-      "Clasico"
+      "Azul"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: oficina.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Pensado para tareas administrativas y uso diario en escritorio.",
+      "Ayuda a ordenar, perforar, fijar o gestionar documentos de oficina.",
+      "Recomendado para estudio, negocio y trabajo remoto."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/perforador-escolar-artesco-m-01-11-hojas-azul.jpg",
-    "gallery": []
-  },
-  "pioner-universal-ove-a4-2-anillos-45-mm-azul": {
-    "title": "Pioner Universal Ove A4 2 Anillos 45 Mm Azul",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Pioner universal A4 de 2 anillos de 45 mm, con cubierta resistente e ideal para archivar documentos.",
-    "usage": ["Archiva hojas perforadas de tamaño A4.", "Usa separadores para organizar por temas.", "Rotula el lomo para identificar el contenido."],
-    "price": "S/ 8.90",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/pioner-universal-ove-a4-2-anillos-45-mm-azul-24399",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/pioner-universal-ove-a4-2-anillos-45-mm-azul.jpg",
-    "gallery": []
-  },
-  "pioner-universal-ove-a4-2-anillos-45-mm-blanco": {
-    "title": "Pioner Universal Vinifan A4 2 Anillos 45 Mm Blanco",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Pioner universal A4 de 2 anillos de 45 mm, con cubierta resistente e ideal para archivar documentos.",
-    "usage": ["Archiva hojas perforadas de tamaño A4.", "Usa separadores para organizar por temas.", "Rotula el lomo para identificar el contenido."],
-    "price": "S/ 8.90",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/pioner-universal-vinifan-a4-2-anillos-45-mm-blanco-16368002",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/pioner-universal-ove-a4-2-anillos-45-mm-blanco.jpg",
-    "gallery": []
-  },
-  "pioner-universal-ove-a4-2-anillos-45-mm-negro": {
-    "title": "Pioner Universal Artesco A4 2 Anillos 45 Mm Negro",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Pioner universal A4 de 2 anillos de 45 mm, con cubierta resistente e ideal para archivar documentos.",
-    "usage": ["Archiva hojas perforadas de tamaño A4.", "Usa separadores para organizar por temas.", "Rotula el lomo para identificar el contenido."],
-    "price": "S/ 8.90",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/pioner-universal-artesco-a4-2-anillos-45-mm-negro-16367003",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/pioner-universal-ove-a4-2-anillos-45-mm-negro.jpg",
+    "image": "img/products/perforador-escolar-artesco-m-01-11-hojas-azul.jpg",
     "gallery": []
   },
   "plastilina-jumbo-artesco-x-12-und": {
     "title": "Plastilina Jumbo Artesco X 12 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plastilina jumbo en caja de 12 unidades con colores surtidos, suave para moldear y no se reseca fácilmente.",
-    "usage": ["Modela figuras y personajes.", "Mezcla colores para crear nuevos tonos.", "Guarda las barras en su estuche tras usar."],
-    "price": "S/ 3.01",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plastilina-jumbo-artesco-x-12-und-1925",
+    "short": "Contiene 12 plastilinas gruesas de colores variados No se resecan ni se endurecen con el uso F\u00e1ciles de moldear, no manchan las manos Estimulan la creatividad y motricidad fina Ideal para manualidades y uso escolar Im\u00e1genes referenciales",
+    "description": "Contiene 12 plastilinas gruesas de colores variados No se resecan ni se endurecen con el uso F\u00e1ciles de moldear, no manchan las manos Estimulan la creatividad y motricidad fina Ideal para manualidades y uso escolar Im\u00e1genes referenciales",
+    "longDescription": "Perfectas para jugar, moldear y dejar volar la imaginaci\u00f3n. La plastilina Jumbo ARTESCO acompa\u00f1a a los peque\u00f1os artistas en cada creaci\u00f3n, fomentando habilidades motoras mientras se divierten con colores vivos y texturas suaves. Presentacion: x 12 unidades.",
+    "price": 4.2,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "arte",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/plastilina-jumbo-artesco-x-12-und-1925",
     "colors": [
       "Clasico"
     ],
@@ -4755,36 +3258,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: arte.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plastilina-jumbo-artesco-x-12-und.jpg",
+    "image": "img/products/plastilina-jumbo-artesco-x-12-und.jpg",
     "gallery": []
   },
   "plumon-artesco-fineliner-triangular-x-12-und": {
-    "title": "Plumón Artesco Fineliner Triangular X 12 Und",
+    "title": "Plum\u00f3n Artesco Fineliner Triangular X 12 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plumones fineliner Artesco con cuerpo triangular y punta microfibra para trazos finos, en estuche de 12 colores.",
-    "usage": ["Dibuja y escribe con trazos precisos.", "Ideal para detalles y delineado.", "Cierra bien las tapas para evitar secado."],
-    "price": "S/ 6.93",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Plumones fineliner Artesco con cuerpo triangular y punta microfibra para trazos finos, en estuche de 12 colores. Presentacion: x 12 unidades. Presentacion: x 12 unidades. Presentacion: x 12 unidades.",
+    "price": 9.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
+    "category": "escritura",
+    "brand": "Artesco",
+    "link": "https://www.tailoy.com.pe/plumon-artesco-fineliner-triangular-x-12-und-29888",
     "colors": [
       "Clasico"
     ],
@@ -4792,110 +3300,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Artesco.",
+      "Categoria: escritura.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-artesco-fineliner-triangular-x-12-und.webp",
-    "gallery": []
-  },
-  "plumon-delgado-artesco-max-45-x-12-und": {
-    "title": "Plumón Delgado Artesco Max 45 X 12 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plumones delgados Artesco Max 45 en estuche de 12 colores, con colores intensos y punta resistente.",
-    "usage": ["Colorea y resalta con trazos finos.", "Útiles para tareas escolares y dibujos.", "Lávalos de manos con agua y jabón si es necesario."],
-    "price": "S/ 4.27",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-delgado-artesco-max-45-x-12-und-3326",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/plumon-delgado-artesco-max-45-x-12-und.jpg",
-    "gallery": []
-  },
-  "plumon-delgado-artesco-power-tips-punta-conica-x-12-und": {
-    "title": "Plumón Delgado Artesco Power Tips Punta Cónica X 12 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plumones Artesco Power Tips con punta cónica de 4.5 mm, permiten trazos delgados y gruesos, ideales para lettering.",
-    "usage": ["Inclina la punta para variar el grosor del trazo.", "Úsalos en lettering, dibujo y escritura.", "Cierra bien el plum²n para conservar la tinta."],
-    "price": "S/ 6.78",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/plumon-delgado-artesco-power-tips-punta-conica-x-12-und.png",
+    "image": "img/products/plumon-artesco-fineliner-triangular-x-12-und.jpg",
     "gallery": []
   },
   "plumon-delgado-faber-castell-colorfest-x-12-und": {
-    "title": "Plumón Delgado Faber Castell Colorfest X 12 Und",
+    "title": "Plum\u00f3n Delgado Faber Castell Colorfest X 12 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plumones Faber-Castell Colorfest en estuche de 12 unidades, pensados para colorear y escribir en trabajos escolares.",
-    "usage": ["Colorea y dibuja en hojas y cartulinas.", "Úsalos en tareas y proyectos creativos.", "Guárdalos en su estuche para mantener el orden."],
-    "price": "S/ 7.88",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Plumones Faber-Castell Colorfest en estuche de 12 unidades, pensados para colorear y escribir en trabajos escolares. Presentacion: x 12 unidades. Presentacion: x 12 unidades. Presentacion: x 12 unidades.",
+    "price": 11.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
+    "category": "escritura",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/plumon-delgado-faber-castell-colorfest-x-12-und-78237",
     "colors": [
       "Clasico"
     ],
@@ -4903,36 +3342,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: escritura.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-delgado-faber-castell-colorfest-x-12-und.jpg",
+    "image": "img/products/plumon-delgado-faber-castell-colorfest-x-12-und.jpg",
     "gallery": []
   },
-  "plumon-delgado-faber-castell-fiesta-45-estuche-ragido-x-12-und": {
-    "title": "Plumón Delgado Faber Castell Fiesta 45 Estuche Rígido X 12 Und",
+  "plumon-delgado-faber-castell-fiesta-45-estuche-rigido-x-12-und": {
+    "title": "Plum\u00f3n Delgado Faber Castell Fiesta 45 Estuche R\u00edgido X 12 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plumones Faber-Castell Fiesta 45 en estuche rígido de 12 unidades, con colores vivos y tinta a base de colorantes alimentarios.",
-    "usage": ["Dibuja, pinta y colorea con tonos vivos.", "Úsalos en mandalas, apuntes o trabajos creativos.", "Mantén las tapas cerradas para conservar la tinta."],
-    "price": "S/ 8.19",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Plumones Faber-Castell Fiesta 45 en estuche r\u00edgido de 12 unidades, con colores vivos y tinta a base de colorantes alimentarios. Presentacion: x 12 unidades. Presentacion: x 12 unidades. Presentacion: x 12 unidades.",
+    "price": 11.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
+    "category": "utiles",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/plumon-delgado-faber-castell-fiesta-45-estuche-rigido-x-12-und-20866",
     "colors": [
       "Clasico"
     ],
@@ -4940,36 +3384,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: utiles.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-delgado-faber-castell-fiesta-45-estuche-ragido-x-12-und.jpg",
+    "image": "img/products/plumon-delgado-faber-castell-fiesta-45-estuche-rigido-x-12-und.jpg",
     "gallery": []
   },
   "plumon-delgado-faber-castell-fiesta-45-estuche-x-12-und": {
-    "title": "Plumón Delgado Faber Castell Fiesta 45 Estuche X 12 Und",
+    "title": "Plum\u00f3n Delgado Faber Castell Fiesta 45 Estuche X 12 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plumones Faber-Castell Fiesta 45 en estuche de 12 unidades, con colores vivos y tinta a base de colorantes alimentarios.",
-    "usage": ["Dibuja, pinta y colorea con tonos vivos.", "Úsalos en mandalas, apuntes o trabajos creativos.", "Mantén las tapas cerradas para conservar la tinta."],
-    "price": "S/ 4.31",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Plumones Faber-Castell Fiesta 45 en estuche de 12 unidades, con colores vivos y tinta a base de colorantes alimentarios. Presentacion: x 12 unidades. Presentacion: x 12 unidades. Presentacion: x 12 unidades.",
+    "price": 5.8,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "utiles",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/plumon-delgado-faber-castell-fiesta-45-estuche-x-12-und-43390",
     "colors": [
       "Clasico"
     ],
@@ -4977,36 +3426,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: utiles.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-delgado-faber-castell-fiesta-45-estuche-x-12-und.webp",
+    "image": "img/products/plumon-delgado-faber-castell-fiesta-45-estuche-x-12-und.jpg",
     "gallery": []
   },
   "plumon-delgado-faber-castell-fiesta-45-x-18-und": {
-    "title": "Plumón Delgado Faber Castell Fiesta 45 X 18 Und",
+    "title": "Plum\u00f3n Delgado Faber Castell Fiesta 45 X 18 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plumones Faber-Castell Fiesta 45 en presentación m²ltiple, con colores vivos y tinta a base de colorantes alimentarios.",
-    "usage": ["Dibuja, pinta y colorea con tonos vivos.", "Úsalos en mandalas, apuntes o trabajos creativos.", "Mantén las tapas cerradas para conservar la tinta."],
-    "price": "S/ 8.25",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Plumones Faber-Castell Fiesta 45 en presentaci\u00f3n m\u00b2ltiple, con colores vivos y tinta a base de colorantes alimentarios. Presentacion: x 18 unidades. Presentacion: x 18 unidades. Presentacion: x 18 unidades.",
+    "price": 11.6,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
+    "category": "escritura",
+    "brand": "Faber Castell",
+    "link": "https://www.tailoy.com.pe/plumon-delgado-faber-castell-fiesta-45-x-18-und-39916",
     "colors": [
       "Clasico"
     ],
@@ -5014,406 +3468,455 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Faber Castell.",
+      "Categoria: escritura.",
+      "Presentacion: x 18 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-delgado-faber-castell-fiesta-45-x-18-und.jpg",
+    "image": "img/products/plumon-delgado-faber-castell-fiesta-45-x-18-und.jpg",
     "gallery": []
   },
-  "plumon-indeleble-delgado-ove-daoo-azul": {
-    "title": "Plumón Indeleble Delgado Ove Dúo Azul",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n indeleble de tinta permanente y secado rápido, apto para marcar sobre m²ltiples superficies.",
-    "usage": ["Marca cajas, cartón o plástico.", "Deja secar la tinta para mayor fijación.", "Úsalo en rotulado y señalización."],
-    "price": "S/ 1.07",
-    "rating": "4.5",
-    "stock": 10,
+  "plumon-indeleble-delgado-ove-duo-azul": {
+    "title": "Plum\u00f3n Indeleble Delgado Ove D\u00fao Azul",
+    "short": "Marcador permanente Punta gruesa y punta delgada.",
+    "description": "Marcador permanente Punta gruesa y punta delgada.",
+    "longDescription": "Este plum\u00f3n es una excelente elecci\u00f3n para quienes valoran la practicidad sin renunciar a la calidad. Ya sea que lo uses para organizar tu espacio, personalizar tus objetos o dar vida a tus ideas creativas, el Plum\u00f3n OVE D\u00fao te acompa\u00f1ar\u00e1 con firmeza y estilo.",
+    "price": 1.9,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-indeleble-delgado-ove-duo-azul-16497001",
+    "category": "escritura",
+    "brand": "OVE",
+    "link": "https://www.tailoy.com.pe/plumon-indeleble-delgado-ove-duo-azul-16497001",
     "colors": [
-      "Clasico"
+      "Azul"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: OVE.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-indeleble-delgado-ove-daoo-azul.jpg",
+    "image": "img/products/plumon-indeleble-delgado-ove-duo-azul.jpg",
     "gallery": []
   },
-  "plumon-indeleble-delgado-ove-daoo-negro": {
-    "title": "Plumón Indeleble Delgado Ove Dúo Negro",
+  "plumon-indeleble-delgado-ove-duo-negro": {
+    "title": "Plum\u00f3n Indeleble Delgado Ove D\u00fao Negro",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n indeleble de tinta permanente y secado rápido, apto para marcar sobre m²ltiples superficies.",
-    "usage": ["Marca cajas, cartón o plástico.", "Deja secar la tinta para mayor fijación.", "Úsalo en rotulado y señalización."],
-    "price": "S/ 1.07",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Plum\u00b2n indeleble de tinta permanente y secado r\u00e1pido, apto para marcar sobre m\u00b2ltiples superficies.",
+    "price": 1.9,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-indeleble-delgado-ove-duo-negro-16497002",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-indeleble-delgado-ove-daoo-negro.jpg",
+    "image": "img/products/plumon-indeleble-delgado-ove-duo-negro.jpg",
     "gallery": []
   },
-  "plumon-indeleble-delgado-ove-daoo-rojo": {
-    "title": "Plumón Indeleble Delgado Ove Dúo Rojo",
+  "plumon-indeleble-delgado-ove-duo-rojo": {
+    "title": "Plum\u00f3n Indeleble Delgado Ove D\u00fao Rojo",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n indeleble de tinta permanente y secado rápido, apto para marcar sobre m²ltiples superficies.",
-    "usage": ["Marca cajas, cartón o plástico.", "Deja secar la tinta para mayor fijación.", "Úsalo en rotulado y señalización."],
-    "price": "S/ 1.07",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Plum\u00b2n indeleble de tinta permanente y secado r\u00e1pido, apto para marcar sobre m\u00b2ltiples superficies.",
+    "price": 1.9,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-indeleble-delgado-ove-duo-rojo-16497003",
     "colors": [
-      "Clasico"
+      "Rojo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-indeleble-delgado-ove-daoo-rojo.jpg",
+    "image": "img/products/plumon-indeleble-delgado-ove-duo-rojo.jpg",
     "gallery": []
   },
   "plumon-indeleble-jumbo-ove-e23-azul": {
-    "title": "Plumón Indeleble Grueso  Artesco Multimax A23 Rojo",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n indeleble grueso de tinta permanente resistente al agua, diseñado para marcar diversas superficies.",
-    "usage": ["Úsalo en cartón, plástico, metal o vidrio.", "Deja secar la tinta para que sea duradera.", "Ideal para rotulación y señalética."],
-    "price": "S/ 0.66",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Indeleble Jumbo Ove E23 Azul",
+    "short": "Plum\u00f3n permanente ARTESCO Multimax A23 Punta gruesa, redonda y resistente Marca en todo tipo de superficies Secado r\u00e1pido y tinta de alta duraci\u00f3n Tapa con clip sujetador Im\u00e1genes referenciales",
+    "description": "Plum\u00f3n permanente ARTESCO Multimax A23 Punta gruesa, redonda y resistente Marca en todo tipo de superficies Secado r\u00e1pido y tinta de alta duraci\u00f3n Tapa con clip sujetador Im\u00e1genes referenciales",
+    "longDescription": "Marcador permanente de alta resistencia con punta gruesa que permite un trazo fuerte y visible Ideal para marcar superficies como cart\u00f3n, pl\u00e1stico, vidrio y m\u00e1s Perfecto para el uso en oficina, escuela o entornos industriales",
+    "price": 1.7,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-indeleble-grueso-artesco-multimax-a23-rojo-16406003",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-indeleble-jumbo-ove-e23-azul-84965001",
     "colors": [
-      "Clasico"
+      "Azul"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-indeleble-jumbo-ove-e23-azul.jpg",
+    "image": "img/products/plumon-indeleble-jumbo-ove-e23-azul.jpg",
     "gallery": []
   },
   "plumon-indeleble-jumbo-ove-e23-negro": {
-    "title": "Plumón Indeleble Grueso Artesco Multimax A23 Azul",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n indeleble grueso de tinta permanente resistente al agua, diseñado para marcar diversas superficies.",
-    "usage": ["Úsalo en cartón, plástico, metal o vidrio.", "Deja secar la tinta para que sea duradera.", "Ideal para rotulación y señalética."],
-    "price": "S/ 0.66",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Indeleble Jumbo Ove E23 Negro",
+    "short": "Plum\u00f3n permanente ARTESCO Multimax A23 Punta gruesa, redonda y resistente Marca en todo tipo de superficies Secado r\u00e1pido y tinta de alta duraci\u00f3n Tapa con clip sujetador Im\u00e1genes referenciales",
+    "description": "Plum\u00f3n permanente ARTESCO Multimax A23 Punta gruesa, redonda y resistente Marca en todo tipo de superficies Secado r\u00e1pido y tinta de alta duraci\u00f3n Tapa con clip sujetador Im\u00e1genes referenciales",
+    "longDescription": "Marcador permanente de alta resistencia con punta gruesa que proporciona trazos firmes y visibles Ideal para escribir sobre superficies como cart\u00f3n, pl\u00e1stico, vidrio, entre otros Perfecto para el entorno escolar, de oficina o industrial",
+    "price": 1.7,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-indeleble-grueso-artesco-multimax-a23-azul-16406001",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-indeleble-jumbo-ove-e23-negro-84965002",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-indeleble-jumbo-ove-e23-negro.jpg",
+    "image": "img/products/plumon-indeleble-jumbo-ove-e23-negro.jpg",
     "gallery": []
   },
   "plumon-indeleble-jumbo-ove-e23-rojo": {
-    "title": "Plumón Indeleble Grueso Artesco Multimax A23 Negro",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n indeleble grueso de tinta permanente resistente al agua, diseñado para marcar diversas superficies.",
-    "usage": ["Úsalo en cartón, plástico, metal o vidrio.", "Deja secar la tinta para que sea duradera.", "Ideal para rotulación y señalética."],
-    "price": "S/ 0.66",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Indeleble Jumbo Ove E23 Rojo",
+    "short": "Plum\u00f3n permanente ARTESCO Multimax A23 Punta gruesa, redonda y resistente Marca en todo tipo de superficies Secado r\u00e1pido y tinta de alta duraci\u00f3n Tapa con clip sujetador Im\u00e1genes referenciales",
+    "description": "Plum\u00f3n permanente ARTESCO Multimax A23 Punta gruesa, redonda y resistente Marca en todo tipo de superficies Secado r\u00e1pido y tinta de alta duraci\u00f3n Tapa con clip sujetador Im\u00e1genes referenciales",
+    "longDescription": "Marcador indeleble de gran resistencia, ideal para trazos gruesos y definido Dise\u00f1ado para marcar con precisi\u00f3n sobre m\u00faltiples superficies Una herramienta vers\u00e1til para uso escolar, profesional o industrial",
+    "price": 1.7,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-indeleble-grueso-artesco-multimax-a23-negro-16406002",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-indeleble-jumbo-ove-e23-rojo-84965003",
     "colors": [
-      "Clasico"
+      "Rojo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-indeleble-jumbo-ove-e23-rojo.jpg",
+    "image": "img/products/plumon-indeleble-jumbo-ove-e23-rojo.jpg",
     "gallery": []
   },
   "plumon-jumbo-ove-47-azul-x-1-und": {
-    "title": "Plumón Para Pizarra Faber Castell 123 Azul",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n para pizarra blanca tipo jumbo, tinta de color intenso y borrado en seco, ideal para presentaciones.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalo en clases, reuniones o notas rápidas.", "Guárdalo en posición horizontal."],
-    "price": "S/ 0.87",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Jumbo Ove 47 Azul X 1 Und",
+    "short": "Plum\u00f3n para pizarra Jumbo 123 Marca: Faber Castell Color: Azul F\u00e1cil de borrar y Punta gruesa Im\u00e1genes referenciales",
+    "description": "Plum\u00f3n para pizarra Jumbo 123 Marca: Faber Castell Color: Azul F\u00e1cil de borrar y Punta gruesa Im\u00e1genes referenciales",
+    "longDescription": "El Whiteboard Marker Jumbo 123 viene con punta gruesa redondeada. Escritura suave sobre la pizarra y de f\u00e1cil borrado. No deja manchas. Presentacion: x 1 unidades.",
+    "price": 1.3,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-para-pizarra-faber-castell-123-azul-16444001",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-jumbo-ove-47-azul-x-1-und-33336001",
     "colors": [
-      "Clasico"
+      "Azul"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-jumbo-ove-47-azul-x-1-und.jpg",
+    "image": "img/products/plumon-jumbo-ove-47-azul-x-1-und.jpg",
     "gallery": []
   },
   "plumon-jumbo-ove-47-negro-x-1-und": {
-    "title": "Plumón Para Pizarra Faber Castell 123 Rojo",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n para pizarra blanca tipo jumbo, tinta de color intenso y borrado en seco, ideal para presentaciones.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalo en clases, reuniones o notas rápidas.", "Guárdalo en posición horizontal."],
-    "price": "S/ 0.87",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Jumbo Ove 47 Negro X 1 Und",
+    "short": "Plum\u00f3n para pizarra Jumbo 123 Marca: Faber Castell Color: Rojo F\u00e1cil de borrar y Punta gruesa Im\u00e1genes referenciales",
+    "description": "Plum\u00f3n para pizarra Jumbo 123 Marca: Faber Castell Color: Rojo F\u00e1cil de borrar y Punta gruesa Im\u00e1genes referenciales",
+    "longDescription": "El Whiteboard Marker Jumbo 123 viene con punta gruesa redondeada. Escritura suave sobre la pizarra y de f\u00e1cil borrado. No deja manchas. Presentacion: x 1 unidades.",
+    "price": 1.3,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-para-pizarra-faber-castell-123-rojo-16444006",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-jumbo-ove-47-negro-x-1-und-33336002",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-jumbo-ove-47-negro-x-1-und.jpg",
+    "image": "img/products/plumon-jumbo-ove-47-negro-x-1-und.jpg",
     "gallery": []
   },
   "plumon-jumbo-ove-47-rojo-x-1-und": {
-    "title": "Plumón Para Pizarra Faber Castell 123 Negro",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n para pizarra blanca tipo jumbo, tinta de color intenso y borrado en seco, ideal para presentaciones.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalo en clases, reuniones o notas rápidas.", "Guárdalo en posición horizontal."],
-    "price": "S/ 0.87",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Jumbo Ove 47 Rojo X 1 Und",
+    "short": "Plum\u00f3n para pizarra Jumbo 123 Marca: Faber Castell Color: Negro F\u00e1cil de borrar y Punta gruesa Im\u00e1genes referenciales",
+    "description": "Plum\u00f3n para pizarra Jumbo 123 Marca: Faber Castell Color: Negro F\u00e1cil de borrar y Punta gruesa Im\u00e1genes referenciales",
+    "longDescription": "El Whiteboard Marker Jumbo 123 viene con punta gruesa redondeada. Escritura suave sobre la pizarra y de f\u00e1cil borrado. No deja manchas. Presentacion: x 1 unidades.",
+    "price": 1.3,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-para-pizarra-faber-castell-123-negro-16444005",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-jumbo-ove-47-rojo-x-1-und-33336003",
     "colors": [
-      "Clasico"
+      "Rojo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-jumbo-ove-47-rojo-x-1-und.jpg",
+    "image": "img/products/plumon-jumbo-ove-47-rojo-x-1-und.jpg",
     "gallery": []
   },
   "plumon-jumbo-ove-47-verde-x-1-und": {
-    "title": "Plumón Para Pizarra Faber Castell 123 Verde",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n para pizarra blanca tipo jumbo, tinta de color intenso y borrado en seco, ideal para presentaciones.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalo en clases, reuniones o notas rápidas.", "Guárdalo en posición horizontal."],
-    "price": "S/ 0.87",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Jumbo Ove 47 Verde X 1 Und",
+    "short": "Plum\u00f3n para pizarra Jumbo 123 Marca: Faber Castell Color: Verde F\u00e1cil de borrar y Punta gruesa Im\u00e1genes referenciales",
+    "description": "Plum\u00f3n para pizarra Jumbo 123 Marca: Faber Castell Color: Verde F\u00e1cil de borrar y Punta gruesa Im\u00e1genes referenciales",
+    "longDescription": "El Whiteboard Marker Jumbo 123 viene con punta gruesa redondeada. Escritura suave sobre la pizarra y de f\u00e1cil borrado. No deja manchas. Presentacion: x 1 unidades.",
+    "price": 1.3,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-para-pizarra-faber-castell-123-verde-16444008",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-jumbo-ove-47-verde-x-1-und-33336004",
     "colors": [
-      "Clasico"
+      "Verde"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-jumbo-ove-47-verde-x-1-und.jpg",
+    "image": "img/products/plumon-jumbo-ove-47-verde-x-1-und.jpg",
     "gallery": []
   },
   "plumon-jumbo-ove-e47-x-12-und": {
-    "title": "Plumón Jumbo Ove E47 X 12 Und",
+    "title": "Plum\u00f3n Jumbo Ove E47 X 12 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plumones jumbo para pizarra blanca con tinta de color intenso y borrado en seco.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalos en clases, reuniones o notas rápidas.", "Guárdalos en posición horizontal."],
-    "price": "S/ 8.30",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Plumones jumbo para pizarra blanca con tinta de color intenso y borrado en seco. Presentacion: x 12 unidades. Presentacion: x 12 unidades. Presentacion: x 12 unidades.",
+    "price": 11.6,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-jumbo-ove-e47-x-12-und-87518",
     "colors": [
       "Clasico"
     ],
@@ -5421,36 +3924,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-jumbo-ove-e47-x-12-und.jpg",
+    "image": "img/products/plumon-jumbo-ove-e47-x-12-und.jpg",
     "gallery": []
   },
   "plumon-jumbo-ove-e47-x-6-und": {
-    "title": "Plumón Jumbo Ove E47 X 6 Und",
+    "title": "Plum\u00f3n Jumbo Ove E47 X 6 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plumones jumbo para pizarra blanca con tinta de color intenso y borrado en seco.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalos en clases, reuniones o notas rápidas.", "Guárdalos en posición horizontal."],
-    "price": "S/ 4.20",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Plumones jumbo para pizarra blanca con tinta de color intenso y borrado en seco. Presentacion: x 6 unidades. Presentacion: x 6 unidades. Presentacion: x 6 unidades.",
+    "price": 5.9,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "escritura",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/plumon-jumbo-ove-e47-x-6-und-87520",
     "colors": [
       "Clasico"
     ],
@@ -5458,221 +3966,205 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: escritura.",
+      "Presentacion: x 6 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-jumbo-ove-e47-x-6-und.jpg",
+    "image": "img/products/plumon-jumbo-ove-e47-x-6-und.jpg",
     "gallery": []
   },
   "plumon-para-pizarra-artesco-acrimax-123-azul": {
-    "title": "Plumón Para Pizarra Artesco Acrimax 123 Azul",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n para pizarra blanca de tinta intensa y borrado en seco, adecuado para uso escolar y de oficina.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalo en clases o presentaciones.", "Guárdalo en posición horizontal."],
-    "price": "S/ 1.23",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Para Pizarra Artesco Acrimax 123 Azul",
+    "short": "Color azul brillante y uniforme Punta gruesa para trazos visibles y claros Tinta de secado r\u00e1pido Se borra f\u00e1cilmente sin dejar residuos Ideal para uso en pizarras escolares y oficinas Im\u00e1genes referenciales",
+    "description": "Color azul brillante y uniforme Punta gruesa para trazos visibles y claros Tinta de secado r\u00e1pido Se borra f\u00e1cilmente sin dejar residuos Ideal para uso en pizarras escolares y oficinas Im\u00e1genes referenciales",
+    "longDescription": "El Plum\u00f3n Acrimax 123 de Artesco ofrece una escritura fluida y un borrado sencillo en pizarras blancas Su color azul intenso y punta gruesa permiten una alta visibilidad, ideal para entornos educativos y laborales",
+    "price": 1.7,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-para-pizarra-artesco-acrimax-123-azul-16402001",
+    "category": "escritura",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/plumon-para-pizarra-artesco-acrimax-123-azul-16402001",
     "colors": [
-      "Clasico"
+      "Azul"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-para-pizarra-artesco-acrimax-123-azul.jpg",
+    "image": "img/products/plumon-para-pizarra-artesco-acrimax-123-azul.jpg",
     "gallery": []
   },
   "plumon-para-pizarra-artesco-acrimax-123-negro": {
-    "title": "Plumón Para Pizarra Artesco Acrimax 123 Negro",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n para pizarra blanca de tinta intensa y borrado en seco, adecuado para uso escolar y de oficina.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalo en clases o presentaciones.", "Guárdalo en posición horizontal."],
-    "price": "S/ 1.23",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Para Pizarra Artesco Acrimax 123 Negro",
+    "short": "Color negro intenso de alta visibilidad Punta gruesa y redonda para trazos precisos Tinta de secado r\u00e1pido F\u00e1cil de borrar sin dejar residuos Tecnolog\u00eda alemana CAP OFF INK Im\u00e1genes referenciales",
+    "description": "Color negro intenso de alta visibilidad Punta gruesa y redonda para trazos precisos Tinta de secado r\u00e1pido F\u00e1cil de borrar sin dejar residuos Tecnolog\u00eda alemana CAP OFF INK Im\u00e1genes referenciales",
+    "longDescription": "El Plum\u00f3n Acrimax 123 de Artesco en color negro es ideal para pizarras blancas gracias a su tinta de secado r\u00e1pido y f\u00e1cil borrado Su punta gruesa y redonda permite trazos suaves y precisos, perfecto para entornos educativos y laborales",
+    "price": 1.7,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-para-pizarra-artesco-acrimax-123-negro-16402002",
+    "category": "escritura",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/plumon-para-pizarra-artesco-acrimax-123-negro-16402002",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-para-pizarra-artesco-acrimax-123-negro.jpg",
+    "image": "img/products/plumon-para-pizarra-artesco-acrimax-123-negro.jpg",
     "gallery": []
   },
   "plumon-para-pizarra-artesco-acrimax-123-rojo": {
-    "title": "Plumón Para Pizarra Artesco Acrimax 123 Rojo",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n para pizarra blanca de tinta intensa y borrado en seco, adecuado para uso escolar y de oficina.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalo en clases o presentaciones.", "Guárdalo en posición horizontal."],
-    "price": "S/ 1.23",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Para Pizarra Artesco Acrimax 123 Rojo",
+    "short": "Color rojo intenso y de f\u00e1cil borrado sin dejar residuos Punta gruesa y redonda para trazos uniformes Tinta de secado r\u00e1pido Ideal para presentaciones y actividades escolares Tecnolog\u00eda alemana CAP OFF INK: no se seca sin tapa Im\u00e1genes referenciales",
+    "description": "Color rojo intenso y de f\u00e1cil borrado sin dejar residuos Punta gruesa y redonda para trazos uniformes Tinta de secado r\u00e1pido Ideal para presentaciones y actividades escolares Tecnolog\u00eda alemana CAP OFF INK: no se seca sin tapa Im\u00e1genes referenciales",
+    "longDescription": "El Plum\u00f3n Para Pizarra Artesco 123 en color rojo ofrece un trazo suave, intenso y uniforme, ideal para uso escolar o profesional Su tinta de secado r\u00e1pido se borra f\u00e1cilmente y la tecnolog\u00eda CAP OFF INK evita que se seque sin tapa",
+    "price": 1.7,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-para-pizarra-artesco-123-rojo-16402003",
+    "category": "escritura",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/plumon-para-pizarra-artesco-123-rojo-16402003",
     "colors": [
-      "Clasico"
+      "Rojo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-para-pizarra-artesco-acrimax-123-rojo.jpg",
+    "image": "img/products/plumon-para-pizarra-artesco-acrimax-123-rojo.jpg",
     "gallery": []
   },
   "plumon-para-pizarra-artesco-acrimax-123-verde": {
-    "title": "Plumón Para Pizarra Artesco Acrimax 123 Verde",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Plum²n para pizarra blanca de tinta intensa y borrado en seco, adecuado para uso escolar y de oficina.",
-    "usage": ["Escribe en pizarras blancas y borra en seco.", "Úsalo en clases o presentaciones.", "Guárdalo en posición horizontal."],
-    "price": "S/ 1.23",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Plum\u00f3n Para Pizarra Artesco Acrimax 123 Verde",
+    "short": "Color verde intenso y uniforme Punta gruesa y redonda para trazos suaves Tinta de secado r\u00e1pido F\u00e1cil de borrar sin dejar residuos Tecnolog\u00eda alemana CAP OFF INK Im\u00e1genes referenciales",
+    "description": "Color verde intenso y uniforme Punta gruesa y redonda para trazos suaves Tinta de secado r\u00e1pido F\u00e1cil de borrar sin dejar residuos Tecnolog\u00eda alemana CAP OFF INK Im\u00e1genes referenciales",
+    "longDescription": "El Plum\u00f3n Acrimax 123 de Artesco en color verde ofrece trazos uniformes y de alta visibilidad Ideal para pizarras blancas, su tinta se borra con facilidad y est\u00e1 dise\u00f1ada para un uso pr\u00e1ctico y sin interrupciones en clases o reuniones",
+    "price": 1.7,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/plumon-para-pizarra-artesco-acrimax-123-verde-16402004",
+    "category": "escritura",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/plumon-para-pizarra-artesco-acrimax-123-verde-16402004",
     "colors": [
-      "Clasico"
+      "Verde"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: escritura.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/plumon-para-pizarra-artesco-acrimax-123-verde.jpg",
-    "gallery": []
-  },
-  "resaltador-plumon-mini-grip-artesco-x6-pastel": {
-    "title": "Resaltador - Plumón Mini Grip Artesco X6 Pastel",
-    "short": "Subrayado claro y uniforme.",
-    "description": "Subrayado claro y uniforme. Disponible en Libreria Belen.",
-    "longDescription": "Resaltadores mini Artesco en tonos pastel con punta biselada, tamaño compacto y secado rápido.",
-    "usage": ["Resalta títulos y palabras clave con colores suaves.", "Ideal para estuches pequeños por su tamaño mini.", "Deja secar unos segundos para evitar manchas."],
-    "price": "S/ 3.36",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/oficina/resaltadores",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/resaltador-plumon-mini-grip-artesco-x6-pastel.jpg",
+    "image": "img/products/plumon-para-pizarra-artesco-acrimax-123-verde.jpg",
     "gallery": []
   },
   "resaltador-artesco-metalico-x-4-und": {
-    "title": "Resaltador Artesco MetAlico X 4 Und",
-    "short": "Subrayado claro y uniforme.",
-    "description": "Subrayado claro y uniforme. Disponible en Libreria Belen.",
-    "longDescription": "Resaltadores Artesco de tonos metálicos con punta biselada y trazos de 1, 2 y 5 mm, pensados para lettering y resaltado especial.",
-    "usage": ["Resalta con efecto metálico en apuntes y tarjetas.", "Usa la punta biselada para variar el grosor del trazo.", "Ideal para lettering y detalles creativos."],
-    "price": "S/ 9.21",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Resaltador Artesco Met\u00e1lico X 4 Und",
+    "short": "Resaltador Artesco Met\u00e1lico X 4 Und disponible en Libreria Belen con calidad confiable para uso frecuente.",
+    "description": "Resaltador Artesco Met\u00e1lico X 4 Und disponible en Libreria Belen con calidad confiable para uso frecuente.",
+    "longDescription": "Resaltadores Artesco de tonos met\u00e1licos con punta biselada y trazos de 1, 2 y 5 mm, pensados para lettering y resaltado especial. Presentacion: x 4 unidades. Presentacion: x 4 unidades. Presentacion: x 4 unidades.",
+    "price": 13.2,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
+    "category": "escritura",
+    "brand": "Artesco",
+    "link": "https://www.tailoy.com.pe/resaltador-artesco-metalico-x-4-und-55953",
     "colors": [
       "Clasico"
     ],
@@ -5680,221 +4172,167 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Artesco.",
+      "Categoria: escritura.",
+      "Presentacion: x 4 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/resaltador-artesco-metalico-x-4-und.jpg",
+    "image": "img/products/resaltador-artesco-metalico-x-4-und.jpg",
     "gallery": []
   },
   "resaltador-ove-amarillo-x-1-und": {
     "title": "Resaltador Ove Amarillo X 1 Und",
-    "short": "Subrayado claro y uniforme.",
-    "description": "Subrayado claro y uniforme. Disponible en Libreria Belen.",
-    "longDescription": "Resaltador de color amarillo para subrayar textos en papel, práctico para estudio y oficina.",
-    "usage": ["Subraya ideas principales en libros y cuadernos.", "Usa trazos uniformes para una lectura clara.", "Cierra la tapa para evitar que se seque."],
-    "price": "S/ 1.08",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Color: Amarillo Punta biselada Trazos suaves Resalta luminosamente sin manchar Presentaci\u00f3n con 1 unidad Im\u00e1genes referenciales.",
+    "description": "Color: Amarillo Punta biselada Trazos suaves Resalta luminosamente sin manchar Presentaci\u00f3n con 1 unidad Im\u00e1genes referenciales.",
+    "longDescription": "El resaltador Ove Amarillo es ideal para resaltar texto de manera clara y vibrante. Su color amarillo brillante permite destacar informaci\u00f3n importante, perfecto para oficina, estudio o uso personal. Presentacion: x 1 unidades.",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/resaltador-ove-amarillo-x-1-und-15527",
+    "category": "escritura",
+    "brand": "OVE",
+    "link": "https://www.tailoy.com.pe/resaltador-ove-amarillo-x-1-und-15527",
     "colors": [
-      "Clasico"
+      "Amarillo"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: OVE.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/resaltador-ove-amarillo-x-1-und.jpg",
+    "image": "img/products/resaltador-ove-amarillo-x-1-und.jpg",
     "gallery": []
   },
   "resaltador-ove-naranja-x-1-und": {
     "title": "Resaltador Ove Naranja X 1 Und",
-    "short": "Subrayado claro y uniforme.",
-    "description": "Subrayado claro y uniforme. Disponible en Libreria Belen.",
-    "longDescription": "Resaltador de color naranja para subrayar textos en papel, práctico para estudio y oficina.",
-    "usage": ["Resalta información importante en documentos.", "Aplica la tinta con trazos suaves.", "Cierra la tapa después de usar."],
-    "price": "S/ 1.08",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Color: Naranja Punta biselada Trazos suaves Resalta luminosamente sin manchar Presentaci\u00f3n con 1 unidad Im\u00e1genes referenciales",
+    "description": "Color: Naranja Punta biselada Trazos suaves Resalta luminosamente sin manchar Presentaci\u00f3n con 1 unidad Im\u00e1genes referenciales",
+    "longDescription": "El resaltador OVE en color naranja ofrece una alta luminosidad para destacar texto importante sin manchar el papel. Su punta biselada permite trazos precisos y suaves, ideal para uso en oficina, estudio o uso personal. Presentacion: x 1 unidades.",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/resaltador-ove-naranja-x-1-und-42590",
+    "category": "escritura",
+    "brand": "OVE",
+    "link": "https://www.tailoy.com.pe/resaltador-ove-naranja-x-1-und-42590",
     "colors": [
-      "Clasico"
+      "Naranja"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: OVE.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/resaltador-ove-naranja-x-1-und.jpg",
+    "image": "img/products/resaltador-ove-naranja-x-1-und.jpg",
     "gallery": []
   },
   "resaltador-ove-verde-x-1-und": {
     "title": "Resaltador Ove Verde X 1 Und",
-    "short": "Subrayado claro y uniforme.",
-    "description": "Subrayado claro y uniforme. Disponible en Libreria Belen.",
-    "longDescription": "Resaltador de color verde para subrayar textos en papel, práctico para estudio y oficina.",
-    "usage": ["Subraya puntos clave con color visible.", "Úsalo en apuntes y resúmenes.", "Guárdalo bien cerrado."],
-    "price": "S/ 1.08",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Color: Verde Punta biselada Trazos suaves Resalta luminosamente sin manchar Presentaci\u00f3n con 1 unidad Im\u00e1genes referenciales",
+    "description": "Color: Verde Punta biselada Trazos suaves Resalta luminosamente sin manchar Presentaci\u00f3n con 1 unidad Im\u00e1genes referenciales",
+    "longDescription": "Ideal para resaltar tus apuntes y lecturas m\u00e1s importantes, el resaltador OVE verde ofrece trazos suaves y un color vibrante que no mancha el papel. Perfecto para uso en la oficina, estudio o uso personal. Presentacion: x 1 unidades.",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/resaltador-ove-verde-x-1-und-42589",
+    "category": "escritura",
+    "brand": "OVE",
+    "link": "https://www.tailoy.com.pe/resaltador-ove-verde-x-1-und-42589",
     "colors": [
-      "Clasico"
+      "Verde"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: OVE.",
+      "Categoria: escritura.",
+      "Presentacion: x 1 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Ideal para escritura diaria en colegio, universidad y oficina.",
+      "Permite tomar apuntes, subrayar ideas y completar tareas con precision.",
+      "Manten la tapa cerrada o guardalo en estuche para mayor duracion."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/resaltador-ove-verde-x-1-und.jpg",
-    "gallery": []
-  },
-  "resaltador-plumon-mini-grip-artesco-x6-neon": {
-    "title": "Resaltador Plumón Mini  Grip Artesco X6 Neón",
-    "short": "Subrayado claro y uniforme.",
-    "description": "Subrayado claro y uniforme. Disponible en Libreria Belen.",
-    "longDescription": "Resaltadores mini Artesco en colores neón con punta biselada, tamaño compacto y secado rápido.",
-    "usage": ["Resalta títulos y palabras clave con colores vibrantes.", "Ideal para estuches pequeños por su tamaño mini.", "Deja secar unos segundos para evitar manchas."],
-    "price": "S/ 3.36",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/resaltador-plumon-mini-grip-artesco-x6-neon.jpg",
+    "image": "img/products/resaltador-ove-verde-x-1-und.jpg",
     "gallery": []
   },
   "set-de-alfileres-uso-diario-en-disco-paquete-x-12-und": {
-    "title": "Set De Alfileres Uso Diario En Disco Paquete X 12 Und",
-    "short": "Fijacion practica para trabajos.",
-    "description": "Fijacion practica para trabajos. Disponible en Libreria Belen.",
-    "longDescription": "Set de alfileres en disco multicolor para fijación en costura y manualidades, práctico para uso diario.",
-    "usage": ["Fija telas en trabajos de costura.", "Úsalos en manualidades y proyectos escolares.", "Guárdalos en su disco para evitar pérdidas."],
-    "price": "S/ 4.70",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/set-de-alfileres-uso-diario-en-disco-paquete-x-12-und-30002",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/set-de-alfileres-uso-diario-en-disco-paquete-x-12-und.jpg",
-    "gallery": []
-  },
-  "silicona-de-barra-ove-delgada-800g": {
-    "title": "Silicona De Barra Ove Delgada 800G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Silicona en barra delgada en bolsa de 800 g, para uso en pistolas de silicona delgadas y trabajos de manualidades.",
-    "usage": ["Úsala con pistola de silicona delgada.", "Ideal para pegar plástico, madera, tela y cartón.", "Deja enfriar antes de manipular la unión."],
-    "price": "S/ 13.90",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Set de Alfileres Uso Diario en Disco Paquete X 12 Und",
+    "short": "Color: Multicolor Im\u00e1genes referenciales",
+    "description": "Color: Multicolor Im\u00e1genes referenciales",
+    "longDescription": "El set de alfileres USO DIARIO es perfecto para tus proyectos de costura. Incluye 12 discos para mantenerlos organizados y siempre a mano Otras especificaciones: Se puede utilizar para fijaci\u00f3n de tela, costura y variedad de manualidades Presentacion: x 12 unidades.",
+    "price": 6.8,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
+    "category": "organizacion",
+    "brand": "USO DIARIO",
+    "link": "https://www.tailoy.com.pe/set-de-alfileres-uso-diario-en-disco-paquete-x-12-und-30002",
     "colors": [
       "Clasico"
     ],
@@ -5902,221 +4340,165 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: USO DIARIO.",
+      "Categoria: organizacion.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Permite clasificar y proteger documentos de uso frecuente.",
+      "Facilita el archivo por temas, cursos o proyectos de trabajo.",
+      "Ideal para mantener orden en escritorio, mochila o archivador."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/silicona-de-barra-ove-delgada-800g.jpg",
+    "image": "img/products/set-de-alfileres-uso-diario-en-disco-paquete-x-12-und.jpg",
     "gallery": []
   },
-  "silicona-de-barra-ove-gruesa-800g": {
-    "title": "Silicona De Barra Ove Gruesa 800G",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Silicona en barra gruesa en bolsa de 800 g, para uso en pistolas de silicona gruesas y trabajos de manualidades.",
-    "usage": ["Úsala con pistola de silicona gruesa.", "Ideal para pegar plástico, madera, tela y cartón.", "Deja enfriar antes de manipular la unión."],
-    "price": "S/ 13.90",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "nuevo",
-    "category": "papeleria",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/silicona-de-barra-ove-gruesa-800g.jpg",
-    "gallery": []
-  },
-  "silicona-laquida-artesco-100-ml": {
-    "title": "Silicona Líquida Artesco 100 Ml",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Silicona líquida Artesco de 100 ml con tapa aplicador, apta para pegar tela, papel, cartón, madera, plástico y goma EVA.",
-    "usage": ["Aplica una capa delgada sobre la superficie.", "Presiona las piezas hasta fijar.", "Ideal para manualidades y maquetería."],
-    "price": "S/ 2.16",
-    "rating": "4.5",
-    "stock": 10,
+  "silicona-liquida-artesco-100-ml": {
+    "title": "Silicona L\u00edquida Artesco 100 Ml",
+    "short": "Pegamento con tapa aplicador.",
+    "description": "Silicona L\u00edquida Artesco 100 Ml disponible en Libreria Belen con calidad confiable para uso frecuente.",
+    "longDescription": "Este producto es una herramienta indispensable para quienes disfrutan de crear, reparar o decorar con precisi\u00f3n y confianza. Es un adhesivo transparente, vers\u00e1til y de alta calidad, dise\u00f1ado para brindar una fijaci\u00f3n r\u00e1pida y duradera en una amplia variedad de materiales Otras especificaciones: Aplicable en: tela, corcho, papel, cart\u00f3n, madera, pl\u00e1stico, porcelana, goma eva, espuma, vinilo, entre otros",
+    "price": 3.1,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/silicona-liquida-artesco-100-ml-2856",
+    "category": "utiles",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/silicona-liquida-artesco-100-ml-2856",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "100 ML"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/silicona-laquida-artesco-100-ml.jpg",
+    "image": "img/products/silicona-liquida-artesco-100-ml.jpg",
     "gallery": []
   },
-  "silicona-laquida-artesco-250-ml": {
-    "title": "Silicona Líquida Artesco 250 Ml",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Silicona líquida Artesco de 250 ml con tapa aplicador, apta para pegar tela, papel, cartón, madera, plástico y goma EVA.",
-    "usage": ["Aplica una capa delgada sobre la superficie.", "Presiona las piezas hasta fijar.", "Ideal para manualidades y maquetería."],
-    "price": "S/ 3.90",
-    "rating": "4.5",
-    "stock": 10,
+  "silicona-liquida-artesco-30ml": {
+    "title": "Silicona L\u00edquida Artesco 30Ml",
+    "short": "Pegamento con tapa aplicador.",
+    "description": "Silicona L\u00edquida Artesco 30Ml disponible en Libreria Belen con calidad confiable para uso frecuente.",
+    "longDescription": "Este producto es una herramienta indispensable para quienes disfrutan de crear, reparar o decorar con precisi\u00f3n y confianza. Es un adhesivo transparente, vers\u00e1til y de alta calidad, dise\u00f1ado para brindar una fijaci\u00f3n r\u00e1pida y duradera en una amplia variedad de materiales Otras especificaciones: Aplicable en: tela, corcho, papel, cart\u00f3n, madera, pl\u00e1stico, porcelana, goma eva, espuma, vinilo, entre otros",
+    "price": 2.3,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/silicona-liquida-artesco-250-ml-2857.",
+    "category": "utiles",
+    "brand": "ARTESCO",
+    "link": "https://www.tailoy.com.pe/silicona-liquida-artesco-30ml-2855",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "30ML"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: ARTESCO.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Apto para unir papel, cartulina y materiales ligeros en manualidades.",
+      "Aplica una capa uniforme para una fijacion limpia y resistente.",
+      "Espera unos minutos de secado antes de manipular la superficie."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/silicona-laquida-artesco-250-ml.jpg",
-    "gallery": []
-  },
-  "silicona-laquida-artesco-30ml": {
-    "title": "Silicona Líquida Artesco 30Ml",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Silicona líquida Artesco de 30 ml con tapa aplicador, apta para pegar tela, papel, cartón, madera, plástico y goma EVA.",
-    "usage": ["Úsala en detalles y trabajos pequeños.", "Aplica con la boquilla para mayor precisión.", "Ideal para manualidades y maquetas."],
-    "price": "S/ 1.09",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/silicona-liquida-artesco-30ml-2855",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/silicona-laquida-artesco-30ml.jpg",
+    "image": "img/products/silicona-liquida-artesco-30ml.jpg",
     "gallery": []
   },
   "sobre-manila-graphos-a4-paquete-x-50-und": {
     "title": "Sobre Manila Graphos A4 Paquete X 50 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Sobre manila Graphos tamaño A4 en paquete de 50 unidades, hecho de papel manila resistente para transportar documentos sin doblar.",
-    "usage": ["Guarda documentos A4 sin doblarlos.", "Ideal para oficina, colegio o archivo.", "Etiqueta el sobre para ordenar por temas."],
-    "price": "S/ 7.51",
-    "rating": "4.5",
-    "stock": 10,
+    "short": "Tama\u00f1o A4, ideal para documentos est\u00e1ndar.",
+    "description": "Tama\u00f1o A4, ideal para documentos est\u00e1ndar.",
+    "longDescription": "Es perfecto para guardar hojas sin doblarlas, ofreciendo una presentaci\u00f3n limpia y profesional. Fabricado con papel manila de buena calidad, este sobre es resistente y funcional para m\u00faltiples usos en oficina, escuela o el hogar. Presentacion: x 50 unidades. Formato: A4.",
+    "price": 11.3,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/sobre-manila-graphos-a4-paquete-x-50-und-1261",
+    "category": "organizacion",
+    "brand": "GRAPHOS",
+    "link": "https://www.tailoy.com.pe/sobre-manila-graphos-a4-paquete-x-50-und-1261",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "A4"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: GRAPHOS.",
+      "Categoria: organizacion.",
+      "Presentacion: x 50 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Permite clasificar y proteger documentos de uso frecuente.",
+      "Facilita el archivo por temas, cursos o proyectos de trabajo.",
+      "Ideal para mantener orden en escritorio, mochila o archivador."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/sobre-manila-graphos-a4-paquete-x-50-und.jpg",
+    "image": "img/products/sobre-manila-graphos-a4-paquete-x-50-und.jpg",
     "gallery": []
   },
   "tajador-metal-deposito-doble-pastel-artesco-caja-x12": {
-    "title": "Tajador Plástico Depósito Doble Tambor Vinifan Caja X 12 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Tajador doble con depósito plástico, doble orificio y cuchillas de acero inoxidable; colores surtidos.",
-    "usage": ["Taja lápices estándar y gruesos en el mismo cuerpo.", "Vacía el depósito para evitar residuos.", "Ideal para uso escolar y oficina."],
-    "price": "S/ 3.21",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "regalos",
-    "link": "https://clip.com.pe/producto/tajador-plastico-deposito-doble-tambor-vinifancax12-29084",
+    "title": "Tajador Metal Dep\u00f3sito Doble Pastel Artesco Caja X12",
+    "short": "Medidas: 13.5 x 8.5 x - cm Peso neto: 250 gramos Tajador doble con dep\u00f3sito Dise\u00f1o original y divertido Im\u00e1genes referenciales",
+    "description": "Medidas: 13.5 x 8.5 x - cm Peso neto: 250 gramos Tajador doble con dep\u00f3sito Dise\u00f1o original y divertido Im\u00e1genes referenciales",
+    "longDescription": "Tajador Vinifan modelo Tambor, ideal para ni\u00f1os por su dise\u00f1o divertido y f\u00e1cil de usar. Equipado con cuchillas afiladas que garantizan un tajado limpio y seguro.",
+    "price": 4.5,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "utiles",
+    "brand": "Artesco",
+    "link": "https://www.tailoy.com.pe/tajador-metal-deposito-doble-pastel-artesco-caja-x12-41862",
     "colors": [
       "Clasico"
     ],
@@ -6124,36 +4506,40 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Artesco.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/tajador-metal-deposito-doble-pastel-artesco-caja-x12.jpg",
+    "image": "img/products/tajador-metal-deposito-doble-pastel-artesco-caja-x12.jpg",
     "gallery": []
   },
   "tajador-ove-plastico-caja-x-24": {
-    "title": "Tajador Ove Plástico Caja X 24",
+    "title": "Tajador Ove Pl\u00e1stico Caja X 24",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Tajador plástico escolar en presentación por caja, práctico para uso diario y fácil de transportar.",
-    "usage": ["Taja lápices de grafito y de color.", "Limpia las virutas después de usar.", "Ideal para colegio y oficina."],
-    "price": "S/ 4.00",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "regalos",
-    "link": "",
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Tajador pl\u00e1stico escolar en presentaci\u00f3n por caja, pr\u00e1ctico para uso diario y f\u00e1cil de transportar.",
+    "price": 5.6,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "utiles",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/tajador-ove-plastico-caja-x-24-32603",
     "colors": [
       "Clasico"
     ],
@@ -6161,36 +4547,40 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/tajador-ove-plastico-caja-x-24.jpg",
+    "image": "img/products/tajador-ove-plastico-caja-x-24.jpg",
     "gallery": []
   },
   "tajador-plastico-deposito-doble-neon-vinifan-caja-x-12-und": {
-    "title": "Tajador Plástico Depósito Doble Neón Vinifan Caja X 12 Und",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Tajador doble con depósito plástico, doble orificio y cuchillas de acero inoxidable; colores surtidos.",
-    "usage": ["Taja lápices estándar y gruesos en el mismo cuerpo.", "Vacía el depósito para evitar residuos.", "Ideal para uso escolar y oficina."],
-    "price": "S/ 1.54",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Tajador Pl\u00e1stico Dep\u00f3sito Doble Neon Vinifan Caja X 12 Und",
+    "short": "Medidas: 5.2 x 14.5 x 14.2 cm Peso neto: 245 gramos Tajador doble con dep\u00f3sito Colores ne\u00f3n vibrantes y dise\u00f1o moderno Im\u00e1genes referenciales",
+    "description": "Medidas: 5.2 x 14.5 x 14.2 cm Peso neto: 245 gramos Tajador doble con dep\u00f3sito Colores ne\u00f3n vibrantes y dise\u00f1o moderno Im\u00e1genes referenciales",
+    "longDescription": "Tajador Vinifan con dise\u00f1o llamativo en colores ne\u00f3n, ideal para destacar en el uso escolar o profesional. Sus cuchillas afiladas aseguran un tajado limpio y preciso en cada uso. Presentacion: x 12 unidades.",
+    "price": 2.2,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "regalos",
-    "link": "https://clip.com.pe/producto/tajador-plastico-deposito-doble-neon-vinifancax12-25312",
+    "category": "utiles",
+    "brand": "VINIFAN",
+    "link": "https://www.tailoy.com.pe/tajador-plastico-deposito-doble-neon-vinifancax12-25312",
     "colors": [
       "Clasico"
     ],
@@ -6198,36 +4588,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: VINIFAN.",
+      "Categoria: utiles.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/tajador-plastico-deposito-doble-neon-vinifan-caja-x-12-und.jpg",
+    "image": "img/products/tajador-plastico-deposito-doble-neon-vinifan-caja-x-12-und.jpg",
     "gallery": []
   },
   "tajador-plastico-deposito-simple-funky-borrador-vinifan-caja-x-12-und": {
-    "title": "Tajador Plástico Depósito Simple Funky+ Borrador Vinifan Caja X 12 Und",
+    "title": "Tajador Pl\u00e1stico Dep\u00f3sito Simple Funky+ Borrador Vinifan Caja X 12 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Tajador plástico con depósito y borrador integrado, diseñado para uso escolar diario.",
-    "usage": ["Taja lápices de forma rápida y limpia.", "Usa el borrador para correcciones.", "Vacía el depósito cuando está lleno."],
-    "price": "S/ 18.00",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Tajador pl\u00e1stico con dep\u00f3sito y borrador integrado, dise\u00f1ado para uso escolar diario. Presentacion: x 12 unidades. Presentacion: x 12 unidades. Presentacion: x 12 unidades.",
+    "price": 25.2,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "regalos",
-    "link": "",
+    "category": "utiles",
+    "brand": "Vinifan",
+    "link": "https://www.tailoy.com.pe/tajador-plastico-deposito-simple-funky-borrador-vinifancax12-89290",
     "colors": [
       "Clasico"
     ],
@@ -6235,36 +4630,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Vinifan.",
+      "Categoria: utiles.",
+      "Presentacion: x 12 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/tajador-plastico-deposito-simple-funky-borrador-vinifan-caja-x-12-und.jpg",
+    "image": "img/products/tajador-plastico-deposito-simple-funky-borrador-vinifan-caja-x-12-und.jpg",
     "gallery": []
   },
   "transportador-artesco": {
-    "title": "Transportador Artesco 180° X 10 Cm",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Transportador Artesco de 180° y 10 cm, ideal para medir ángulos en trabajos escolares.",
-    "usage": ["Alinea la base con la línea de referencia.", "Mide o traza ángulos con precisión.", "Úsalo en geometría y dibujo técnico."],
-    "price": "S/ 0.61",
-    "rating": "4.5",
-    "stock": 10,
+    "title": "Transportador Artesco",
+    "short": "Transportador Artesco 180\u00b0 X 10 Cm Dise\u00f1ado para medir y trazar \u00e1ngulos con precisi\u00f3n Dise\u00f1o transparente que facilita la visibilidad Ideal para realizar trazos y mediciones r\u00e1pidas y precisas Im\u00e1genes referenciales",
+    "description": "Transportador Artesco 180\u00b0 X 10 Cm Dise\u00f1ado para medir y trazar \u00e1ngulos con precisi\u00f3n Dise\u00f1o transparente que facilita la visibilidad Ideal para realizar trazos y mediciones r\u00e1pidas y precisas Im\u00e1genes referenciales",
+    "longDescription": "Herramienta precisa y duradera para medir \u00e1ngulos de hasta 180 grados Fabricado con materiales de alta calidad, ideal para estudiantes y profesionales Dise\u00f1o transparente para f\u00e1cil lectura de mediciones.",
+    "price": 1.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "https://clip.com.pe/producto/transportador-artesco-180-x-10-cm-292",
+    "category": "utiles",
+    "brand": "Artesco",
+    "link": "https://www.tailoy.com.pe/transportador-artesco-180-x-9-cm-291",
     "colors": [
       "Clasico"
     ],
@@ -6272,73 +4672,82 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Artesco.",
+      "Categoria: utiles.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/transportador-artesco.jpg",
+    "image": "img/products/transportador-artesco.jpg",
     "gallery": []
   },
   "chinches-dorados-ove-10-mm-x-100-und": {
     "title": "Chinches Dorados Ove 10 Mm X 100 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Chinches dorados Ove de 10 mm en caja de 100 unidades, resistentes y Útiles para fijar notas o fotos.",
-    "usage": ["Fija papeles en corcho o paneles.", "Ideal para oficina, aula o casa.", "Guárdalas en su caja para evitar pérdidas."],
-    "price": "S/ 0.90",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Chinches dorados Ove de 10 mm en caja de 100 unidades, resistentes y \u00datiles para fijar notas o fotos. Presentacion: x 100 unidades. Presentacion: x 100 unidades. Presentacion: x 100 unidades.",
+    "price": 1.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "organizacion",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/chinches-dorados-ove-10-mm-x-100-und-18104",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "10 MM"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: organizacion.",
+      "Presentacion: x 100 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Permite clasificar y proteger documentos de uso frecuente.",
+      "Facilita el archivo por temas, cursos o proyectos de trabajo.",
+      "Ideal para mantener orden en escritorio, mochila o archivador."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/chinches-dorados-ove-10-mm-x-100-und.jpg",
+    "image": "img/products/chinches-dorados-ove-10-mm-x-100-und.jpg",
     "gallery": []
   },
   "palito-de-chupete-dragon-paquete-x-50-colores": {
     "title": "Palito De Chupete Dragon Paquete X 50 Colores",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
+    "description": "Producto esencial para estudio y oficina.",
     "longDescription": "Palitos de chupete Dragon de colores en paquete de 50 unidades, ideales para manualidades y proyectos escolares.",
-    "usage": ["Crea maquetas y estructuras simples.", "Pinta o decora para proyectos creativos.", "Úsalos en actividades escolares y arte."],
-    "price": "S/ 1.31",
-    "rating": "4.5",
-    "stock": 10,
+    "price": 2.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "arte",
+    "brand": "Dragon",
+    "link": "https://www.tailoy.com.pe/palito-de-chupete-dragon-paquete-x-50-colores-12415",
     "colors": [
       "Clasico"
     ],
@@ -6346,36 +4755,40 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Dragon.",
+      "Categoria: arte.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/palito-de-chupete-dragon-paquete-x-50-colores.jpg",
+    "image": "img/products/palito-de-chupete-dragon-paquete-x-50-colores.jpg",
     "gallery": []
   },
   "palito-de-chupete-dragon-grueso-de-color-paquete-x-40-und": {
     "title": "Palito De Chupete Dragon Grueso De Color Paquete X 40 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Palitos de chupete gruesos de colores en paquete de 40 unidades, Útiles para manualidades y decoraciones.",
-    "usage": ["Arma estructuras m²s resistentes.", "Ideal para proyectos de arte y manualidades.", "Píntalos o barnízalos para acabados creativos."],
-    "price": "S/ 1.80",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Palitos de chupete gruesos de colores en paquete de 40 unidades, \u00datiles para manualidades y decoraciones. Presentacion: x 40 unidades. Presentacion: x 40 unidades. Presentacion: x 40 unidades.",
+    "price": 2.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "arte",
+    "brand": "Dragon",
+    "link": "https://www.tailoy.com.pe/palito-de-chupete-dragon-grueso-de-color-paquete-x-40-und-12329",
     "colors": [
       "Clasico"
     ],
@@ -6383,36 +4796,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Dragon.",
+      "Categoria: arte.",
+      "Presentacion: x 40 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/palito-de-chupete-dragon-grueso-de-color-paquete-x-40-und.jpg",
+    "image": "img/products/palito-de-chupete-dragon-grueso-de-color-paquete-x-40-und.jpg",
     "gallery": []
   },
   "palito-de-chupete-natural-x-80-und": {
     "title": "Palito De Chupete Natural X 80 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Palitos de chupete naturales en paquete de 80 unidades, Útiles para manualidades, decoraciones y actividades creativas.",
-    "usage": ["Úsalos en maquetas y proyectos escolares.", "Decora y pega para crear figuras.", "Perfectos para trabajos creativos."],
-    "price": "S/ 0.93",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Palitos de chupete naturales en paquete de 80 unidades, \u00datiles para manualidades, decoraciones y actividades creativas. Presentacion: x 80 unidades. Presentacion: x 80 unidades. Presentacion: x 80 unidades.",
+    "price": 2.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "arte",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/palito-de-chupete-natural-x-80-und-719",
     "colors": [
       "Clasico"
     ],
@@ -6420,36 +4838,41 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: arte.",
+      "Presentacion: x 80 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/palito-de-chupete-natural-x-80-und.webp",
+    "image": "img/products/palito-de-chupete-natural-x-80-und.jpg",
     "gallery": []
   },
   "palito-de-chupete-grueso-natural": {
     "title": "Palito De Chupete Grueso Natural",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
+    "description": "Producto esencial para estudio y oficina.",
     "longDescription": "Palitos de chupete gruesos naturales en paquete, ideales para manualidades y trabajos escolares.",
-    "usage": ["Arma estructuras m²s resistentes.", "Úsalos en manualidades y decoración.", "Píntalos o cúbrelos con papel de colores."],
-    "price": "S/ 2.03",
-    "rating": "4.5",
-    "stock": 10,
+    "price": 3.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "arte",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/palito-de-chupete-grueso-natural-2050",
     "colors": [
       "Clasico"
     ],
@@ -6457,265 +4880,213 @@
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: arte.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/palito-de-chupete-grueso-natural.webp",
+    "image": "img/products/palito-de-chupete-grueso-natural.jpg",
     "gallery": []
   },
   "chinches-de-colores-ove-10-mm-x-100-und": {
     "title": "Chinches De Colores Ove 10 Mm X 100 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Chinches de colores Ove de 10 mm, Útiles para fijar notas, mapas y recordatorios.",
-    "usage": ["Fija papeles en corchos o paneles.", "Ideal para mapas y planos.", "Ordena por color para identificar temas."],
-    "price": "S/ 1.50",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Chinches de colores Ove de 10 mm, \u00datiles para fijar notas, mapas y recordatorios. Presentacion: x 100 unidades. Presentacion: x 100 unidades. Presentacion: x 100 unidades.",
+    "price": 2.5,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "utiles",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/chinches-de-colores-ove-10-mm-x-100-und-18105",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "10 MM"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: utiles.",
+      "Presentacion: x 100 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/chinches-de-colores-ove-10-mm-x-100-und.jpg",
+    "image": "img/products/chinches-de-colores-ove-10-mm-x-100-und.jpg",
     "gallery": []
   },
   "chinches-de-colores-ove-push-pins-10-mm-x-50-und": {
     "title": "Chinches De Colores Ove Push Pins 10 Mm X 50 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Chinches de colores Ove tipo push pins de 10 mm en caja de 50 unidades, resistentes y de colores surtidos.",
-    "usage": ["Fija notas y recordatorios.", "Ideal para mapas y planos.", "Guárdalas en su caja para mantener el orden."],
-    "price": "S/ 0.85",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Chinches de colores Ove tipo push pins de 10 mm en caja de 50 unidades, resistentes y de colores surtidos. Presentacion: x 50 unidades. Presentacion: x 50 unidades. Presentacion: x 50 unidades.",
+    "price": 2.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "category": "utiles",
+    "brand": "Ove",
+    "link": "https://www.tailoy.com.pe/chinches-de-colores-ove-push-pins-10-mm-x-50-und-18108",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "10 MM"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Ove.",
+      "Categoria: utiles.",
+      "Presentacion: x 50 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Producto recomendado para actividades escolares y de oficina.",
+      "Facil de usar en tareas diarias, proyectos y organizacion personal.",
+      "Conservalo en lugar seco para mantener su rendimiento."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/chinches-de-colores-ove-push-pins-10-mm-x-50-und.jpg",
+    "image": "img/products/chinches-de-colores-ove-push-pins-10-mm-x-50-und.jpg",
     "gallery": []
   },
   "microporoso-escarchado-a4-surtido-x-10-und": {
     "title": "Microporoso Escarchado A4 Surtido X 10 Und",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Microporoso escarchado tamaño A4 en paquete surtido de 10 unidades, ideal para manualidades y arte.",
-    "usage": ["Recorta figuras para proyectos escolares.", "Úsalo en decoraciones y manualidades.", "Combina colores para efectos brillantes."],
-    "price": "S/ 3.40",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/microporoso-escarchado-a4-surtido-x-10-und.jpg",
-    "gallery": []
-  },
-  "punzon-evaflex-caja-x25": {
-    "title": "Punzón Evaflex Caja X25",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Punzón Evaflex en caja de 25 unidades, diseñado para fortalecer motricidad fina y coordinación ojo-mano.",
-    "usage": ["Utilízalo en actividades de punzado sobre cartón o EVA.", "Ideal para preescolar y desarrollo motriz.", "Supervisa el uso en niños pequeños."],
-    "price": "S/ 39.57",
-    "rating": "4.5",
-    "stock": 10,
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Microporoso escarchado tama\u00f1o A4 en paquete surtido de 10 unidades, ideal para manualidades y arte. Presentacion: x 10 unidades. Formato: A4. Presentacion: x 10 unidades. Formato: A4.",
+    "price": 5.0,
+    "rating": 4.5,
+    "stock": 20,
     "tag": "nuevo",
-    "category": "regalos",
-    "link": "",
+    "category": "papeleria",
+    "brand": "Generica",
+    "link": "https://www.tailoy.com.pe/microporoso-escarchado-a4-surtido-x-10-und-71981014",
     "colors": [
       "Clasico"
     ],
     "sizes": [
-      "Unico"
+      "A4"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Generica.",
+      "Categoria: papeleria.",
+      "Presentacion: x 10 unidades.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Util para impresiones, recortes, forrado y trabajos escolares.",
+      "Compatible con actividades de aula, oficina y manualidades.",
+      "Conserva el material en superficie plana para evitar dobleces."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/punzon-evaflex-caja-x25.jpg",
+    "image": "img/products/microporoso-escarchado-a4-surtido-x-10-und.jpg",
     "gallery": []
   },
   "tampon-artesco-negro-para-huella-digital": {
-    "title": "Tampón Artesco Negro Para Huella Digital",
+    "title": "Tamp\u00f3n Artesco Negro Para Huella Digital",
     "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Tampón Artesco para huella digital con almohadilla de alta absorción, disponible en tinta negra.",
-    "usage": ["Marca huellas en documentos de forma clara.", "Úsalo en trámites o control interno.", "Mantén la tapa cerrada para conservar la tinta."],
-    "price": "S/ 2.77",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
+    "description": "Producto esencial para estudio y oficina.",
+    "longDescription": "Tamp\u00f3n Artesco para huella digital con almohadilla de alta absorci\u00f3n, disponible en tinta negra.",
+    "price": 4.0,
+    "rating": 4.5,
+    "stock": 20,
+    "tag": "nuevo",
+    "category": "oficina",
+    "brand": "Artesco",
+    "link": "https://www.tailoy.com.pe/tampon-artesco-negro-para-huella-digital-9791",
     "colors": [
-      "Clasico"
+      "Negro"
     ],
     "sizes": [
       "Unico"
     ],
     "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
+      "Marca: Artesco.",
+      "Categoria: oficina.",
+      "Producto con precio actualizado para venta inmediata."
+    ],
+    "usage": [
+      "Pensado para tareas administrativas y uso diario en escritorio.",
+      "Ayuda a ordenar, perforar, fijar o gestionar documentos de oficina.",
+      "Recomendado para estudio, negocio y trabajo remoto."
     ],
     "reviews": [
       {
         "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
+        "text": "Buen producto y entrega rapida."
       },
       {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
+        "name": "Libreria Belen",
+        "text": "Precio actualizado y stock disponible."
       }
     ],
-    "image": "assets/img/products/tampon-artesco-negro-para-huella-digital.jpg",
-    "gallery": []
-  },
-  "tampon-para-huella-digital-azul-ove": {
-    "title": "Tampón Para Huella Digital Azul Ove",
-    "short": "Producto esencial para estudio y oficina.",
-    "description": "Producto esencial para estudio y oficina. Disponible en Libreria Belen.",
-    "longDescription": "Tampón Ove para huella digital con almohadilla dactilar, práctico para marcar huellas definidas.",
-    "usage": ["Aplica la huella con presión uniforme.", "Ideal para oficina y control interno.", "Cierra el tampón después de usar."],
-    "price": "S/ 2.70",
-    "rating": "4.5",
-    "stock": 10,
-    "tag": "oferta",
-    "category": "papeleria",
-    "link": "",
-    "colors": [
-      "Clasico"
-    ],
-    "sizes": [
-      "Unico"
-    ],
-    "details": [
-      "Producto nuevo y listo para entrega.",
-      "Calidad seleccionada para uso diario.",
-      "Ideal para estudio, oficina o regalo.",
-      "Disponibilidad sujeta a stock."
-    ],
-    "reviews": [
-      {
-        "name": "Cliente",
-        "text": "Buena calidad y entrega rapida."
-      },
-      {
-        "name": "Maria",
-        "text": "Muy util para el dia a dia."
-      }
-    ],
-    "image": "assets/img/products/tampon-para-huella-digital-azul-ove.jpg",
+    "image": "img/products/tampon-artesco-negro-para-huella-digital.jpg",
     "gallery": []
   }
 };
   const OFFERS = [
   {
-    "title": "Papel Bond 56 G 61 X 86 Cm Rollo X 50 Und",
-    "description": "Producto esencial para estudio y oficina.",
-    "price": "S/ 0.15"
-  },
-  {
     "title": "Lustre color anaranjado",
-    "description": "Producto esencial para estudio y oficina.",
-    "price": "S/ 0.18"
+    "description": "Color: Naranja Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "price": "S/ 0.50"
   },
   {
     "title": "Lustre color azul",
-    "description": "Producto esencial para estudio y oficina.",
-    "price": "S/ 0.18"
+    "description": "Papel lustre azul de acabado brillante para manualidades.",
+    "price": "S/ 0.50"
+  },
+  {
+    "title": "Lustre color blanco",
+    "description": "Color: Blanco Marca: Pagoda Acabado brillante y elegante para tus proyectos creativos Im\u00e1genes referenciales",
+    "price": "S/ 0.50"
   }
 ];
   window.PRODUCTS = PRODUCTS;
   window.OFFERS = OFFERS;
 })();
-
