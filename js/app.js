@@ -37,7 +37,7 @@ let jsPdfLoadPromise = null;
 const PRICES_PENDING = false;
 const PRICE_LABEL = 'S/ 0.00';
 const THEME_STORAGE_KEY = 'libreriaBelenTheme';
-const PRODUCTS_SCRIPT_PATH = 'data/products.js?v=20260228b';
+const PRODUCTS_SCRIPT_PATH = 'data/products.js?v=20260228e';
 const JSPDF_SCRIPT_PATH = 'vendor/jspdf/jspdf.umd.min.js?v=20260227a';
 const WHATSAPP_PHONE_NUMBER = '51947872207';
 const CF_BEACON_PLACEHOLDER = 'YOUR_CF_BEACON_TOKEN';
