@@ -874,7 +874,7 @@ function renderSearchDropdown(query, filtered) {
                 if (input) input.value = '';
             };
             item.innerHTML = `
-                <img src="${safeImage}" alt="${safeTitle}" data-fallback-src="https://via.placeholder.com/60?text=Sin+Imagen">
+                <img src="${safeImage}" alt="${safeTitle}" data-fallback-src="img/icon.svg">
                 <div class="search-item-info">
                     <h4>${highlightedTitle}</h4>
                     <p>${highlightedCategory}</p>

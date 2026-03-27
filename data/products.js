@@ -4630,7 +4630,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/placeholder.jpg",
+    "image": "img/products/transportador-artesco.jpg",
     "gallery": []
   },
   "chinches-dorados-ove-10-mm-x-100-und": {
