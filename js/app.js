@@ -1622,9 +1622,9 @@ function buildProductInquiryMessage(product, quantity, source) {
     let message = 'Hola LIBRERIA BELEN, deseo consultar este producto:\n\n';
     message += `Producto: ${product.title}\n`;
     message += `Cantidad: ${safeQty}\n`;
-    message += `Categoria: ${categoryLabel}\n`;
+    message += `Categoría: ${categoryLabel}\n`;
     message += `Origen: ${source}\n`;
-    message += '\nPodrian confirmar stock y tiempo de entrega?';
+    message += '\n?Podr?an confirmar stock y tiempo de entrega?';
     return message;
 }
 
@@ -2063,7 +2063,7 @@ function removeFromCart(productId) { cart = cart.filter(item => item.id !== prod
 // Funcion: clearCart. Describe y encapsula una parte de la logica de la aplicacion.
 function clearCart() {
     if (!Array.isArray(cart) || cart.length === 0) return;
-    const confirmed = window.confirm('Deseas eliminar toda la lista del carrito?');
+    const confirmed = window.confirm('?Deseas eliminar toda la lista del carrito?');
     if (!confirmed) return;
     cart = [];
     saveCart();
@@ -2123,8 +2123,8 @@ function renderCart() {
         cartItemsContainer.innerHTML =
             '<div class="cart-empty-state">' +
             '    <i class="fas fa-shopping-basket" aria-hidden="true"></i>' +
-            '    <h3>Tu carrito est? vac?o.</h3>' +
-            '    <p>Agrega productos y aparecer?n aqu? autom?ticamente.</p>' +
+            '    <h3>Tu carrito está vacío.</h3>' +
+            '    <p>Agrega productos y aparecerán aquí automáticamente.</p>' +
             '</div>';
     } else {
         const fragment = document.createDocumentFragment();
