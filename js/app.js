@@ -846,18 +846,18 @@ function renderSearchDropdown(query, filtered) {
         }
 
         if (history.length === 0 && categoryList.length === 0) {
-            searchResults.innerHTML = '<div class="search-empty">Escribe para buscar productos</div>';
+            searchResults.innerHTML = '<div class="search-empty"><i class="fas fa-search"></i><div>Escribe para buscar productos</div></div>';
         }
 
         searchResults.classList.add('active');
         return;
     }
 
-    const suggestions = filtered.slice(0, 6);
+    const suggestions = filtered.slice(0, 8);
     if (suggestions.length === 0) {
-        searchResults.innerHTML = '<div class="search-empty">No se encontraron resultados</div>';
+        searchResults.innerHTML = '<div class="search-empty"><i class="fas fa-sad-tear"></i><div>No se encontraron resultados</div></div>';
     } else {
-        suggestions.forEach(product => {
+        suggestions.forEach((product, index) => {
             const item = document.createElement('div');
             const safeTitle = escapeHtml(product.title);
             const safeImage = escapeAttr(sanitizeUrl(product.image));
@@ -865,6 +865,7 @@ function renderSearchDropdown(query, filtered) {
             const highlightedCategory = highlightSearchMatches(product.category, query);
             item.className = 'search-item';
             item.setAttribute('data-search-item', 'true');
+            item.style.animationDelay = `${index * 0.05}s`;
             item.onclick = () => {
                 addSearchHistory(product.title);
                 openProductModal(product.id);
@@ -873,7 +874,7 @@ function renderSearchDropdown(query, filtered) {
                 if (input) input.value = '';
             };
             item.innerHTML = `
-                <img src="${safeImage}" alt="${safeTitle}" data-fallback-src="https://via.placeholder.com/40">
+                <img src="${safeImage}" alt="${safeTitle}" data-fallback-src="https://via.placeholder.com/60?text=Sin+Imagen">
                 <div class="search-item-info">
                     <h4>${highlightedTitle}</h4>
                     <p>${highlightedCategory}</p>
@@ -894,12 +895,6 @@ function renderSearchDropdown(query, filtered) {
     if (relatedBrands.length > 0) {
         searchResults.appendChild(createSectionTitle('Marcas relacionadas'));
         searchResults.appendChild(createChipRow(relatedBrands, (brand) => handleBrandSearch(brand)));
-    }
-
-    const bestPrice = getBestPriceProducts(filtered, 4);
-    if (bestPrice.length > 0) {
-        searchResults.appendChild(createSectionTitle('Mejor precio'));
-        searchResults.appendChild(createProductChipRow(bestPrice));
     }
 
     searchResults.classList.add('active');
@@ -1622,7 +1617,7 @@ function addToCartFromDetail() {
 // Funcion: buildProductInquiryMessage. Describe y encapsula una parte de la logica de la aplicacion.
 function buildProductInquiryMessage(product, quantity, source) {
     const safeQty = Number.isFinite(quantity) && quantity > 0 ? Math.floor(quantity) : 1;
-    const categoryLabel = CATEGORY_LABELS[product.category] || 'Catalogo';
+    const categoryLabel = CATEGORY_LABELS[product.category] || 'Cat?logo';
 
     let message = 'Hola LIBRERIA BELEN, deseo consultar este producto:\n\n';
     message += `Producto: ${product.title}\n`;
@@ -2128,8 +2123,8 @@ function renderCart() {
         cartItemsContainer.innerHTML =
             '<div class="cart-empty-state">' +
             '    <i class="fas fa-shopping-basket" aria-hidden="true"></i>' +
-            '    <h3>Tu carrito esta vacio.</h3>' +
-            '    <p>Agrega productos y apareceran aqui automaticamente.</p>' +
+            '    <h3>Tu carrito est? vac?o.</h3>' +
+            '    <p>Agrega productos y aparecer?n aqu? autom?ticamente.</p>' +
             '</div>';
     } else {
         const fragment = document.createDocumentFragment();

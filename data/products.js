@@ -4,7 +4,7 @@
     "title": "Block De Dibujo Anillado 20H Justus",
     "short": "Block De Dibujo Anillado 20H Justus",
     "description": "Block De Dibujo Anillado 20H Justus",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Block De Dibujo Anillado 20H Justus. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Block De Dibujo Anillado 20H Justus. Ideal para uso escolar y de oficina.",
     "price": 6.0,
     "rating": 4.5,
     "stock": 25,
@@ -20,7 +20,7 @@
     ],
     "details": [
       "Marca: Justus.",
-      "CategorÃ­a: cuadernos.",
+      "Categor?a: cuadernos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -34,7 +34,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -45,7 +45,7 @@
     "title": "Block De Dibujo Empastado Ove 24 X 31.5 Cm 20 Hojas",
     "short": "Block De Dibujo Empastado Ove 24 X 31.5 Cm 20 Hojas",
     "description": "Block De Dibujo Empastado Ove 24 X 31.5 Cm 20 Hojas",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Block De Dibujo Empastado Ove 24 X 31.5 Cm 20 Hojas. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Block De Dibujo Empastado Ove 24 X 31.5 Cm 20 Hojas. Ideal para uso escolar y de oficina.",
     "price": 7.0,
     "rating": 4.5,
     "stock": 12,
@@ -61,7 +61,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: cuadernos.",
+      "Categor?a: cuadernos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -75,7 +75,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -86,7 +86,7 @@
     "title": "Block Escolar 80H Period Cuadr Libra",
     "short": "Block Escolar 80H Period Cuadr Libra",
     "description": "Block Escolar 80H Period Cuadr Libra",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Block Escolar 80H Period Cuadr Libra. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Block Escolar 80H Period Cuadr Libra. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 25,
@@ -102,7 +102,7 @@
     ],
     "details": [
       "Marca: LIBRA.",
-      "CategorÃ­a: cuadernos.",
+      "Categor?a: cuadernos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -116,7 +116,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -124,10 +124,10 @@
     "gallery": []
   },
   "boligrafo-faber-castell-trilux-031-punta-fina-azul-x-1-und": {
-    "title": "BolÃ­grafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und",
-    "short": "BolÃ­grafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und",
-    "description": "BolÃ­grafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. BolÃ­grafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Bol?grafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und",
+    "short": "Bol?grafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und",
+    "description": "Bol?grafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Bol?grafo Faber Castell Trilux 031 Punta Fina Azul X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 50,
@@ -143,7 +143,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -157,7 +157,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -165,10 +165,10 @@
     "gallery": []
   },
   "boligrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und": {
-    "title": "BolÃ­grafo Faber Castell Trilux 031 Punta Fina Negro X 1 Und",
-    "short": "BolÃ­grafo Faber Castell Trilux 031 Punta Fina Negro X 1 Und",
-    "description": "BolÃ­grafo Faber Castell Trilux 031 Punta Fina Negro X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. BolÃ­grafo Faber Castell Trilux 031 Punta Fina Negro X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Bol?grafo Faber Castell Trilux 031 Punta Fina Negro X 1 Und",
+    "short": "Bol?grafo Faber Castell Trilux 031 Punta Fina Negro X 1 Und",
+    "description": "Bol?grafo Faber Castell Trilux 031 Punta Fina Negro X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Bol?grafo Faber Castell Trilux 031 Punta Fina Negro X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 50,
@@ -184,7 +184,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -198,7 +198,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -206,10 +206,10 @@
     "gallery": []
   },
   "boligrafo-faber-castell-trilux-031-punta-fina-rojo-x-1-und": {
-    "title": "BolÃ­grafo Faber Castell Trilux 031 Punta Fina Rojo X 1 Und",
-    "short": "BolÃ­grafo Faber Castell Trilux 031 Punta Fina Rojo X 1 Und",
-    "description": "BolÃ­grafo Faber Castell Trilux 031 Punta Fina Rojo X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. BolÃ­grafo Faber Castell Trilux 031 Punta Fina Rojo X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Bol?grafo Faber Castell Trilux 031 Punta Fina Rojo X 1 Und",
+    "short": "Bol?grafo Faber Castell Trilux 031 Punta Fina Rojo X 1 Und",
+    "description": "Bol?grafo Faber Castell Trilux 031 Punta Fina Rojo X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Bol?grafo Faber Castell Trilux 031 Punta Fina Rojo X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 50,
@@ -225,7 +225,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -239,7 +239,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -247,10 +247,10 @@
     "gallery": []
   },
   "boligrafo-pilot-bp-sf-punta-fina-azul-x-1-und": {
-    "title": "BolÃ­grafo Pilot Bp-Sf Punta Fina Azul X 1 Und",
-    "short": "BolÃ­grafo Pilot Bp-Sf Punta Fina Azul X 1 Und",
-    "description": "BolÃ­grafo Pilot Bp-Sf Punta Fina Azul X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. BolÃ­grafo Pilot Bp-Sf Punta Fina Azul X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Bol?grafo Pilot Bp-Sf Punta Fina Azul X 1 Und",
+    "short": "Bol?grafo Pilot Bp-Sf Punta Fina Azul X 1 Und",
+    "description": "Bol?grafo Pilot Bp-Sf Punta Fina Azul X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Bol?grafo Pilot Bp-Sf Punta Fina Azul X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.8,
     "rating": 4.5,
     "stock": 12,
@@ -266,7 +266,7 @@
     ],
     "details": [
       "Marca: Pilot.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -280,7 +280,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -288,10 +288,10 @@
     "gallery": []
   },
   "boligrafo-pilot-bp-sf-punta-fina-negro-x-1-und": {
-    "title": "BolÃ­grafo Pilot Bp-Sf Punta Fina Negro X 1 Und",
-    "short": "BolÃ­grafo Pilot Bp-Sf Punta Fina Negro X 1 Und",
-    "description": "BolÃ­grafo Pilot Bp-Sf Punta Fina Negro X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. BolÃ­grafo Pilot Bp-Sf Punta Fina Negro X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Bol?grafo Pilot Bp-Sf Punta Fina Negro X 1 Und",
+    "short": "Bol?grafo Pilot Bp-Sf Punta Fina Negro X 1 Und",
+    "description": "Bol?grafo Pilot Bp-Sf Punta Fina Negro X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Bol?grafo Pilot Bp-Sf Punta Fina Negro X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.8,
     "rating": 4.5,
     "stock": 12,
@@ -307,7 +307,7 @@
     ],
     "details": [
       "Marca: Pilot.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -321,7 +321,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -329,10 +329,10 @@
     "gallery": []
   },
   "boligrafo-pilot-bp-sf-punta-fina-rojo-x-1-und": {
-    "title": "BolÃ­grafo Pilot Bp-Sf Punta Fina Rojo X 1 Und",
-    "short": "BolÃ­grafo Pilot Bp-Sf Punta Fina Rojo X 1 Und",
-    "description": "BolÃ­grafo Pilot Bp-Sf Punta Fina Rojo X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. BolÃ­grafo Pilot Bp-Sf Punta Fina Rojo X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Bol?grafo Pilot Bp-Sf Punta Fina Rojo X 1 Und",
+    "short": "Bol?grafo Pilot Bp-Sf Punta Fina Rojo X 1 Und",
+    "description": "Bol?grafo Pilot Bp-Sf Punta Fina Rojo X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Bol?grafo Pilot Bp-Sf Punta Fina Rojo X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.8,
     "rating": 4.5,
     "stock": 12,
@@ -348,7 +348,7 @@
     ],
     "details": [
       "Marca: Pilot.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -362,7 +362,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -370,10 +370,10 @@
     "gallery": []
   },
   "boligrafo-pilot-bp-sf-punta-fina-verde-x-1-und": {
-    "title": "BolÃ­grafo Pilot Bp-Sf Punta Fina Verde X 1 Und",
-    "short": "BolÃ­grafo Pilot Bp-Sf Punta Fina Verde X 1 Und",
-    "description": "BolÃ­grafo Pilot Bp-Sf Punta Fina Verde X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. BolÃ­grafo Pilot Bp-Sf Punta Fina Verde X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Bol?grafo Pilot Bp-Sf Punta Fina Verde X 1 Und",
+    "short": "Bol?grafo Pilot Bp-Sf Punta Fina Verde X 1 Und",
+    "description": "Bol?grafo Pilot Bp-Sf Punta Fina Verde X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Bol?grafo Pilot Bp-Sf Punta Fina Verde X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.8,
     "rating": 4.5,
     "stock": 12,
@@ -389,7 +389,7 @@
     ],
     "details": [
       "Marca: Pilot.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -403,7 +403,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -414,13 +414,13 @@
     "title": "Cartulina Escolar Amarillo Pastel 135/140 G",
     "short": "Cartulina Escolar Amarillo Pastel 135/140 G",
     "description": "Cartulina Escolar Amarillo Pastel 135/140 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cartulina Escolar Amarillo Pastel 135/140 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cartulina Escolar Amarillo Pastel 135/140 G. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 100,
     "tag": "nuevo",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -429,8 +429,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -444,7 +444,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -455,13 +455,13 @@
     "title": "Cartulina Escolar Blanco 140 G",
     "short": "Cartulina Escolar Blanco 140 G",
     "description": "Cartulina Escolar Blanco 140 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cartulina Escolar Blanco 140 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cartulina Escolar Blanco 140 G. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 100,
     "tag": "nuevo",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -470,8 +470,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -485,7 +485,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -496,13 +496,13 @@
     "title": "Cartulina Escolar Celeste Pastel 135/140 G",
     "short": "Cartulina Escolar Celeste Pastel 135/140 G",
     "description": "Cartulina Escolar Celeste Pastel 135/140 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cartulina Escolar Celeste Pastel 135/140 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cartulina Escolar Celeste Pastel 135/140 G. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 100,
     "tag": "nuevo",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -511,8 +511,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -526,7 +526,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -537,13 +537,13 @@
     "title": "Cartulina Escolar Rosado Pastel 135/140 G",
     "short": "Cartulina Escolar Rosado Pastel 135/140 G",
     "description": "Cartulina Escolar Rosado Pastel 135/140 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cartulina Escolar Rosado Pastel 135/140 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cartulina Escolar Rosado Pastel 135/140 G. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 100,
     "tag": "nuevo",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -552,8 +552,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -567,7 +567,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -578,13 +578,13 @@
     "title": "Cartulina Escolar Verde Pastel 135/140 G",
     "short": "Cartulina Escolar Verde Pastel 135/140 G",
     "description": "Cartulina Escolar Verde Pastel 135/140 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cartulina Escolar Verde Pastel 135/140 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cartulina Escolar Verde Pastel 135/140 G. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 100,
     "tag": "nuevo",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -593,8 +593,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -608,7 +608,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -619,13 +619,13 @@
     "title": "Cartulina Negro Chica 50 X 65 Cm",
     "short": "Cartulina Negro Chica 50 X 65 Cm",
     "description": "Cartulina Negro Chica 50 X 65 Cm",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cartulina Negro Chica 50 X 65 Cm. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cartulina Negro Chica 50 X 65 Cm. Ideal para uso escolar y de oficina.",
     "price": 1.2,
     "rating": 4.5,
     "stock": 100,
     "tag": "nuevo",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -634,8 +634,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -649,7 +649,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -660,7 +660,7 @@
     "title": "Cola Artesco Con Aplicador 250 G",
     "short": "Cola Artesco Con Aplicador 250 G",
     "description": "Cola Artesco Con Aplicador 250 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cola Artesco Con Aplicador 250 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cola Artesco Con Aplicador 250 G. Ideal para uso escolar y de oficina.",
     "price": 4.0,
     "rating": 4.5,
     "stock": 12,
@@ -676,7 +676,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: adhesivos.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -690,7 +690,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -701,7 +701,7 @@
     "title": "Cola Artesco Con Aplicador 57 G",
     "short": "Cola Artesco Con Aplicador 57 G",
     "description": "Cola Artesco Con Aplicador 57 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cola Artesco Con Aplicador 57 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cola Artesco Con Aplicador 57 G. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 12,
@@ -717,7 +717,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: adhesivos.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -731,7 +731,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -742,7 +742,7 @@
     "title": "Cola Faber Castell Pega Bien X110G",
     "short": "Cola Faber Castell Pega Bien X110G",
     "description": "Cola Faber Castell Pega Bien X110G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cola Faber Castell Pega Bien X110G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cola Faber Castell Pega Bien X110G. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 12,
@@ -758,7 +758,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: adhesivos.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -772,7 +772,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -783,7 +783,7 @@
     "title": "Cola Faber Castell Pegabien Con Aplicador 250 gr",
     "short": "Cola Faber Castell Pegabien Con Aplicador 250 gr",
     "description": "Cola Faber Castell Pegabien Con Aplicador 250 gr",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cola Faber Castell Pegabien Con Aplicador 250 gr. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cola Faber Castell Pegabien Con Aplicador 250 gr. Ideal para uso escolar y de oficina.",
     "price": 4.5,
     "rating": 4.5,
     "stock": 12,
@@ -799,7 +799,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: adhesivos.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -813,7 +813,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -824,13 +824,13 @@
     "title": "Cola X 23 Cc David",
     "short": "Cola X 23 Cc David",
     "description": "Cola X 23 Cc David",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cola X 23 Cc David. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cola X 23 Cc David. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 24,
     "tag": "oferta",
     "category": "adhesivos",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -839,8 +839,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: adhesivos.",
+      "Marca: Gen?rico.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -854,7 +854,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -865,13 +865,13 @@
     "title": "Cola X 250 Gr Pote Layconsa",
     "short": "Cola X 250 Gr Pote Layconsa",
     "description": "Cola X 250 Gr Pote Layconsa",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cola X 250 Gr Pote Layconsa. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cola X 250 Gr Pote Layconsa. Ideal para uso escolar y de oficina.",
     "price": 3.5,
     "rating": 4.5,
     "stock": 6,
     "tag": "oferta",
     "category": "adhesivos",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -880,8 +880,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: adhesivos.",
+      "Marca: Gen?rico.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -895,7 +895,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -906,7 +906,7 @@
     "title": "Cola X 35 Gr Faber Castell Pegabien",
     "short": "Cola X 35 Gr Faber Castell Pegabien",
     "description": "Cola X 35 Gr Faber Castell Pegabien",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cola X 35 Gr Faber Castell Pegabien. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cola X 35 Gr Faber Castell Pegabien. Ideal para uso escolar y de oficina.",
     "price": 1.5,
     "rating": 4.5,
     "stock": 12,
@@ -922,7 +922,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: adhesivos.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -936,7 +936,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -947,13 +947,13 @@
     "title": "Cola X 60 Cc David",
     "short": "Cola X 60 Cc David",
     "description": "Cola X 60 Cc David",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Cola X 60 Cc David. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Cola X 60 Cc David. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 24,
     "tag": "oferta",
     "category": "adhesivos",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -962,8 +962,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: adhesivos.",
+      "Marca: Gen?rico.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -977,7 +977,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -985,10 +985,10 @@
     "gallery": []
   },
   "colores-largos-artesco-triangulares-lapices-sacapuntas-x-12-und": {
-    "title": "Colores Largos Artesco Triangulares + LÃ¡pices + Sacapuntas X 12 Und",
-    "short": "Colores Largos Artesco Triangulares + LÃ¡pices + Sacapuntas X 12 Und",
-    "description": "Colores Largos Artesco Triangulares + LÃ¡pices + Sacapuntas X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Colores Largos Artesco Triangulares + LÃ¡pices + Sacapuntas X 12 Und. Ideal para uso escolar y de oficina.",
+    "title": "Colores Largos Artesco Triangulares + L?pices + Sacapuntas X 12 Und",
+    "short": "Colores Largos Artesco Triangulares + L?pices + Sacapuntas X 12 Und",
+    "description": "Colores Largos Artesco Triangulares + L?pices + Sacapuntas X 12 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Colores Largos Artesco Triangulares + L?pices + Sacapuntas X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 12.5,
     "rating": 4.5,
     "stock": 12,
@@ -1004,7 +1004,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: arte.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1018,7 +1018,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1026,10 +1026,10 @@
     "gallery": []
   },
   "colores-largos-faber-castell-triangulares-clasicos-x-12-und": {
-    "title": "Colores Largos Faber Castell Triangulares ClÃ¡sicos X 12 Und",
-    "short": "Colores Largos Faber Castell Triangulares ClÃ¡sicos X 12 Und",
-    "description": "Colores Largos Faber Castell Triangulares ClÃ¡sicos X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Colores Largos Faber Castell Triangulares ClÃ¡sicos X 12 Und. Ideal para uso escolar y de oficina.",
+    "title": "Colores Largos Faber Castell Triangulares Cl?sicos X 12 Und",
+    "short": "Colores Largos Faber Castell Triangulares Cl?sicos X 12 Und",
+    "description": "Colores Largos Faber Castell Triangulares Cl?sicos X 12 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Colores Largos Faber Castell Triangulares Cl?sicos X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 6.5,
     "rating": 4.5,
     "stock": 14,
@@ -1045,7 +1045,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: arte.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1059,7 +1059,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1070,13 +1070,13 @@
     "title": "Compas Escolar Layconsa Plastico Con Lapiz",
     "short": "Compas Escolar Layconsa Plastico Con Lapiz",
     "description": "Compas Escolar Layconsa Plastico Con Lapiz",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Compas Escolar Layconsa Plastico Con Lapiz. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Compas Escolar Layconsa Plastico Con Lapiz. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 12,
     "tag": "oferta",
     "category": "escritura",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1085,8 +1085,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escritura.",
+      "Marca: Gen?rico.",
+      "Categor?a: escritura.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1100,7 +1100,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1111,13 +1111,13 @@
     "title": "Corrector Mini 4Ml",
     "short": "Corrector Mini 4Ml",
     "description": "Corrector Mini 4Ml",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Corrector Mini 4Ml. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Corrector Mini 4Ml. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
     "tag": "oferta",
     "category": "oficina",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1126,8 +1126,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: oficina.",
+      "Marca: Gen?rico.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1141,7 +1141,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1149,10 +1149,10 @@
     "gallery": []
   },
   "corrector-tipo-lapicero-artesco-punta-metalica": {
-    "title": "Corrector Tipo Lapicero Artesco Punta MetÃ¡lica",
-    "short": "Corrector Tipo Lapicero Artesco Punta MetÃ¡lica",
-    "description": "Corrector Tipo Lapicero Artesco Punta MetÃ¡lica",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Corrector Tipo Lapicero Artesco Punta MetÃ¡lica. Ideal para uso escolar y de oficina.",
+    "title": "Corrector Tipo Lapicero Artesco Punta Met?lica",
+    "short": "Corrector Tipo Lapicero Artesco Punta Met?lica",
+    "description": "Corrector Tipo Lapicero Artesco Punta Met?lica",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Corrector Tipo Lapicero Artesco Punta Met?lica. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -1168,7 +1168,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escritura.",
+      "Categor?a: escritura.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1182,7 +1182,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1190,10 +1190,10 @@
     "gallery": []
   },
   "corrector-tipo-lapicero-faber-castell-punta-metalica": {
-    "title": "Corrector Tipo Lapicero Faber Castell Punta MetÃ¡lica",
-    "short": "Corrector Tipo Lapicero Faber Castell Punta MetÃ¡lica",
-    "description": "Corrector Tipo Lapicero Faber Castell Punta MetÃ¡lica",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Corrector Tipo Lapicero Faber Castell Punta MetÃ¡lica. Ideal para uso escolar y de oficina.",
+    "title": "Corrector Tipo Lapicero Faber Castell Punta Met?lica",
+    "short": "Corrector Tipo Lapicero Faber Castell Punta Met?lica",
+    "description": "Corrector Tipo Lapicero Faber Castell Punta Met?lica",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Corrector Tipo Lapicero Faber Castell Punta Met?lica. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 12,
@@ -1209,7 +1209,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escritura.",
+      "Categor?a: escritura.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1223,7 +1223,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1234,13 +1234,13 @@
     "title": "Forro Vinifan A4 Cristal",
     "short": "Forro Vinifan A4 Cristal",
     "description": "Forro Vinifan A4 Cristal",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Forro Vinifan A4 Cristal. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Forro Vinifan A4 Cristal. Ideal para uso escolar y de oficina.",
     "price": 6.0,
     "rating": 4.5,
     "stock": 18,
     "tag": "oferta",
     "category": "accesorios",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1249,8 +1249,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: accesorios.",
+      "Marca: Gen?rico.",
+      "Categor?a: accesorios.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1264,7 +1264,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1275,13 +1275,13 @@
     "title": "Forro Vinifan Oficio Cristal",
     "short": "Forro Vinifan Oficio Cristal",
     "description": "Forro Vinifan Oficio Cristal",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Forro Vinifan Oficio Cristal. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Forro Vinifan Oficio Cristal. Ideal para uso escolar y de oficina.",
     "price": 12.4,
     "rating": 4.5,
     "stock": 5,
     "tag": "oferta",
     "category": "accesorios",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1290,8 +1290,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: accesorios.",
+      "Marca: Gen?rico.",
+      "Categor?a: accesorios.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1305,7 +1305,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1316,13 +1316,13 @@
     "title": "Forro Vinifan Vinifancito A4 Cristal",
     "short": "Forro Vinifan Vinifancito A4 Cristal",
     "description": "Forro Vinifan Vinifancito A4 Cristal",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Forro Vinifan Vinifancito A4 Cristal. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Forro Vinifan Vinifancito A4 Cristal. Ideal para uso escolar y de oficina.",
     "price": 3.5,
     "rating": 4.5,
     "stock": 18,
     "tag": "oferta",
     "category": "accesorios",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1331,8 +1331,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: accesorios.",
+      "Marca: Gen?rico.",
+      "Categor?a: accesorios.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1346,7 +1346,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1357,7 +1357,7 @@
     "title": "Goma En Barra Artesco 21 G",
     "short": "Goma En Barra Artesco 21 G",
     "description": "Goma En Barra Artesco 21 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Goma En Barra Artesco 21 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Goma En Barra Artesco 21 G. Ideal para uso escolar y de oficina.",
     "price": 3.0,
     "rating": 4.5,
     "stock": 12,
@@ -1373,7 +1373,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: oficina.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1387,7 +1387,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1398,7 +1398,7 @@
     "title": "Goma En Barra Artesco 40 G",
     "short": "Goma En Barra Artesco 40 G",
     "description": "Goma En Barra Artesco 40 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Goma En Barra Artesco 40 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Goma En Barra Artesco 40 G. Ideal para uso escolar y de oficina.",
     "price": 4.0,
     "rating": 4.5,
     "stock": 12,
@@ -1414,7 +1414,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: oficina.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1428,7 +1428,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1439,7 +1439,7 @@
     "title": "Goma En Barra Faber Castell 40 G",
     "short": "Goma En Barra Faber Castell 40 G",
     "description": "Goma En Barra Faber Castell 40 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Goma En Barra Faber Castell 40 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Goma En Barra Faber Castell 40 G. Ideal para uso escolar y de oficina.",
     "price": 4.5,
     "rating": 4.5,
     "stock": 12,
@@ -1455,7 +1455,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: oficina.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1469,7 +1469,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1480,7 +1480,7 @@
     "title": "Goma En Barra Faber Castell Fix 21 G",
     "short": "Goma En Barra Faber Castell Fix 21 G",
     "description": "Goma En Barra Faber Castell Fix 21 G",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Goma En Barra Faber Castell Fix 21 G. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Goma En Barra Faber Castell Fix 21 G. Ideal para uso escolar y de oficina.",
     "price": 3.5,
     "rating": 4.5,
     "stock": 12,
@@ -1496,7 +1496,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: oficina.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1510,7 +1510,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1521,7 +1521,7 @@
     "title": "Grapas 26/6 X 5000 Und Artesco",
     "short": "Grapas 26/6 X 5000 Und Artesco",
     "description": "Grapas 26/6 X 5000 Und Artesco",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Grapas 26/6 X 5000 Und Artesco. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Grapas 26/6 X 5000 Und Artesco. Ideal para uso escolar y de oficina.",
     "price": 4.5,
     "rating": 4.5,
     "stock": 20,
@@ -1537,7 +1537,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1551,7 +1551,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1559,10 +1559,10 @@
     "gallery": []
   },
   "lapiz-2b-grafito-artesco-con-borrador-x-1-und": {
-    "title": "LÃ¡piz 2B Grafito Artesco Con Borrador X 1 Und",
-    "short": "LÃ¡piz 2B Grafito Artesco Con Borrador X 1 Und",
-    "description": "LÃ¡piz 2B Grafito Artesco Con Borrador X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. LÃ¡piz 2B Grafito Artesco Con Borrador X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "L?piz 2B Grafito Artesco Con Borrador X 1 Und",
+    "short": "L?piz 2B Grafito Artesco Con Borrador X 1 Und",
+    "description": "L?piz 2B Grafito Artesco Con Borrador X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. L?piz 2B Grafito Artesco Con Borrador X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 5,
@@ -1578,7 +1578,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1592,7 +1592,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1600,10 +1600,10 @@
     "gallery": []
   },
   "lapiz-2b-tecnico-faber-castell-sin-borrador-x-1-und": {
-    "title": "LÃ¡piz 2B TÃ©cnico Faber Castell Sin Borrador  X 1 Und",
-    "short": "LÃ¡piz 2B TÃ©cnico Faber Castell Sin Borrador  X 1 Und",
-    "description": "LÃ¡piz 2B TÃ©cnico Faber Castell Sin Borrador  X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. LÃ¡piz 2B TÃ©cnico Faber Castell Sin Borrador  X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "L?piz 2B T?cnico Faber Castell Sin Borrador  X 1 Und",
+    "short": "L?piz 2B T?cnico Faber Castell Sin Borrador  X 1 Und",
+    "description": "L?piz 2B T?cnico Faber Castell Sin Borrador  X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. L?piz 2B T?cnico Faber Castell Sin Borrador  X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 1.5,
     "rating": 4.5,
     "stock": 3,
@@ -1619,7 +1619,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1633,7 +1633,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1641,10 +1641,10 @@
     "gallery": []
   },
   "lapiz-hb-faber-castell-titan-con-borrador-x-1-und": {
-    "title": "LÃ¡piz Hb Faber Castell Titan Con Borrador X 1 Und",
-    "short": "LÃ¡piz Hb Faber Castell Titan Con Borrador X 1 Und",
-    "description": "LÃ¡piz Hb Faber Castell Titan Con Borrador X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. LÃ¡piz Hb Faber Castell Titan Con Borrador X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "L?piz Hb Faber Castell Titan Con Borrador X 1 Und",
+    "short": "L?piz Hb Faber Castell Titan Con Borrador X 1 Und",
+    "description": "L?piz Hb Faber Castell Titan Con Borrador X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. L?piz Hb Faber Castell Titan Con Borrador X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 5,
@@ -1660,7 +1660,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1674,7 +1674,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1685,7 +1685,7 @@
     "title": "Limpiatipos Artesco Sticky Tac",
     "short": "Limpiatipos Artesco Sticky Tac",
     "description": "Limpiatipos Artesco Sticky Tac",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Limpiatipos Artesco Sticky Tac. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Limpiatipos Artesco Sticky Tac. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 12,
@@ -1701,7 +1701,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1715,7 +1715,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1732,7 +1732,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1741,8 +1741,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1756,7 +1756,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1773,7 +1773,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1782,8 +1782,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1797,7 +1797,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1814,7 +1814,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1823,8 +1823,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1838,7 +1838,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1855,7 +1855,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1864,8 +1864,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1879,7 +1879,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1896,7 +1896,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1905,8 +1905,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1920,7 +1920,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1937,7 +1937,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1946,8 +1946,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -1961,7 +1961,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -1978,7 +1978,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -1987,8 +1987,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2002,7 +2002,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2019,7 +2019,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2028,8 +2028,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2043,7 +2043,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2060,7 +2060,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2069,8 +2069,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2084,7 +2084,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2101,7 +2101,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2110,8 +2110,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2125,7 +2125,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2142,7 +2142,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2151,8 +2151,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2166,7 +2166,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2183,7 +2183,7 @@
     "stock": 100,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2192,8 +2192,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2207,7 +2207,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2218,13 +2218,13 @@
     "title": "Mica Portapapel Vinifan A4 Paquete X 10 Und",
     "short": "Mica Portapapel Vinifan A4 Paquete X 10 Und",
     "description": "Mica Portapapel Vinifan A4 Paquete X 10 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Mica Portapapel Vinifan A4 Paquete X 10 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Mica Portapapel Vinifan A4 Paquete X 10 Und. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 10,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2233,8 +2233,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2248,7 +2248,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2265,7 +2265,7 @@
     "stock": 50,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2274,8 +2274,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2289,7 +2289,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2297,16 +2297,16 @@
     "gallery": []
   },
   "papel-crepe-amarillo-x-10-unidades": {
-    "title": "Papel CrepÃ© Amarillo X 10 Unidades",
-    "short": "Papel CrepÃ© Amarillo X 10 Unidades",
-    "description": "Papel CrepÃ© Amarillo X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Amarillo X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Amarillo X 10 Unidades",
+    "short": "Papel Crep? Amarillo X 10 Unidades",
+    "description": "Papel Crep? Amarillo X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Amarillo X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2315,8 +2315,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2330,7 +2330,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2338,16 +2338,16 @@
     "gallery": []
   },
   "papel-crepe-azul-x-10-unidades": {
-    "title": "Papel CrepÃ© Azul X 10 Unidades",
-    "short": "Papel CrepÃ© Azul X 10 Unidades",
-    "description": "Papel CrepÃ© Azul X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Azul X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Azul X 10 Unidades",
+    "short": "Papel Crep? Azul X 10 Unidades",
+    "description": "Papel Crep? Azul X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Azul X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2356,8 +2356,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2371,7 +2371,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2379,16 +2379,16 @@
     "gallery": []
   },
   "papel-crepe-blanco-x-10-unidades": {
-    "title": "Papel CrepÃ© Blanco X 10 Unidades",
-    "short": "Papel CrepÃ© Blanco X 10 Unidades",
-    "description": "Papel CrepÃ© Blanco X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Blanco X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Blanco X 10 Unidades",
+    "short": "Papel Crep? Blanco X 10 Unidades",
+    "description": "Papel Crep? Blanco X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Blanco X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2397,8 +2397,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2412,7 +2412,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2420,16 +2420,16 @@
     "gallery": []
   },
   "papel-crepe-celeste-x-10-unidades": {
-    "title": "Papel CrepÃ© Celeste X 10 Unidades",
-    "short": "Papel CrepÃ© Celeste X 10 Unidades",
-    "description": "Papel CrepÃ© Celeste X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Celeste X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Celeste X 10 Unidades",
+    "short": "Papel Crep? Celeste X 10 Unidades",
+    "description": "Papel Crep? Celeste X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Celeste X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2438,8 +2438,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2453,7 +2453,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2461,16 +2461,16 @@
     "gallery": []
   },
   "papel-crepe-fucsia-x-10-unidades": {
-    "title": "Papel CrepÃ© Fucsia X 10 Unidades",
-    "short": "Papel CrepÃ© Fucsia X 10 Unidades",
-    "description": "Papel CrepÃ© Fucsia X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Fucsia X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Fucsia X 10 Unidades",
+    "short": "Papel Crep? Fucsia X 10 Unidades",
+    "description": "Papel Crep? Fucsia X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Fucsia X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2479,8 +2479,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2494,7 +2494,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2502,16 +2502,16 @@
     "gallery": []
   },
   "papel-crepe-lila-x-10-unidades": {
-    "title": "Papel CrepÃ© Lila X 10 Unidades",
-    "short": "Papel CrepÃ© Lila X 10 Unidades",
-    "description": "Papel CrepÃ© Lila X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Lila X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Lila X 10 Unidades",
+    "short": "Papel Crep? Lila X 10 Unidades",
+    "description": "Papel Crep? Lila X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Lila X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2520,8 +2520,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2535,7 +2535,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2543,16 +2543,16 @@
     "gallery": []
   },
   "papel-crepe-marron-x-10-unidades": {
-    "title": "Papel CrepÃ© MarrÃ³n X 10 Unidades",
-    "short": "Papel CrepÃ© MarrÃ³n X 10 Unidades",
-    "description": "Papel CrepÃ© MarrÃ³n X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© MarrÃ³n X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Marr?n X 10 Unidades",
+    "short": "Papel Crep? Marr?n X 10 Unidades",
+    "description": "Papel Crep? Marr?n X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Marr?n X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2561,8 +2561,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2576,7 +2576,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2584,16 +2584,16 @@
     "gallery": []
   },
   "papel-crepe-melon-x-10-unidades": {
-    "title": "Papel CrepÃ© MelÃ³n X 10 Unidades",
-    "short": "Papel CrepÃ© MelÃ³n X 10 Unidades",
-    "description": "Papel CrepÃ© MelÃ³n X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© MelÃ³n X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Mel?n X 10 Unidades",
+    "short": "Papel Crep? Mel?n X 10 Unidades",
+    "description": "Papel Crep? Mel?n X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Mel?n X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2602,8 +2602,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2617,7 +2617,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2625,16 +2625,16 @@
     "gallery": []
   },
   "papel-crepe-morado-x-10-unidades": {
-    "title": "Papel CrepÃ© Morado X 10 Unidades",
-    "short": "Papel CrepÃ© Morado X 10 Unidades",
-    "description": "Papel CrepÃ© Morado X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Morado X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Morado X 10 Unidades",
+    "short": "Papel Crep? Morado X 10 Unidades",
+    "description": "Papel Crep? Morado X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Morado X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2643,8 +2643,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2658,7 +2658,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2666,16 +2666,16 @@
     "gallery": []
   },
   "papel-crepe-naranja-x-10-unidades": {
-    "title": "Papel CrepÃ© Naranja X 10 Unidades",
-    "short": "Papel CrepÃ© Naranja X 10 Unidades",
-    "description": "Papel CrepÃ© Naranja X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Naranja X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Naranja X 10 Unidades",
+    "short": "Papel Crep? Naranja X 10 Unidades",
+    "description": "Papel Crep? Naranja X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Naranja X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2684,8 +2684,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2699,7 +2699,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2707,16 +2707,16 @@
     "gallery": []
   },
   "papel-crepe-negro-x-10-unidades": {
-    "title": "Papel CrepÃ© Negro X 10 Unidades",
-    "short": "Papel CrepÃ© Negro X 10 Unidades",
-    "description": "Papel CrepÃ© Negro X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Negro X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Negro X 10 Unidades",
+    "short": "Papel Crep? Negro X 10 Unidades",
+    "description": "Papel Crep? Negro X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Negro X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2725,8 +2725,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2740,7 +2740,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2748,16 +2748,16 @@
     "gallery": []
   },
   "papel-crepe-rojo-x-10-unidades": {
-    "title": "Papel CrepÃ© Rojo X 10 Unidades",
-    "short": "Papel CrepÃ© Rojo X 10 Unidades",
-    "description": "Papel CrepÃ© Rojo X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Rojo X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Rojo X 10 Unidades",
+    "short": "Papel Crep? Rojo X 10 Unidades",
+    "description": "Papel Crep? Rojo X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Rojo X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2766,8 +2766,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2781,7 +2781,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2789,16 +2789,16 @@
     "gallery": []
   },
   "papel-crepe-rosado-x-10-unidades": {
-    "title": "Papel CrepÃ© Rosado X 10 Unidades",
-    "short": "Papel CrepÃ© Rosado X 10 Unidades",
-    "description": "Papel CrepÃ© Rosado X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Rosado X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Rosado X 10 Unidades",
+    "short": "Papel Crep? Rosado X 10 Unidades",
+    "description": "Papel Crep? Rosado X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Rosado X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2807,8 +2807,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2822,7 +2822,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2830,16 +2830,16 @@
     "gallery": []
   },
   "papel-crepe-verde-limon-x-10-unidades": {
-    "title": "Papel CrepÃ© Verde  Limon X 10 Unidades",
-    "short": "Papel CrepÃ© Verde  Limon X 10 Unidades",
-    "description": "Papel CrepÃ© Verde  Limon X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Verde  Limon X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Verde  Limon X 10 Unidades",
+    "short": "Papel Crep? Verde  Limon X 10 Unidades",
+    "description": "Papel Crep? Verde  Limon X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Verde  Limon X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2848,8 +2848,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2863,7 +2863,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2871,16 +2871,16 @@
     "gallery": []
   },
   "papel-crepe-verde-oscuro-x-10-unidades": {
-    "title": "Papel CrepÃ© Verde Oscuro X 10 Unidades",
-    "short": "Papel CrepÃ© Verde Oscuro X 10 Unidades",
-    "description": "Papel CrepÃ© Verde Oscuro X 10 Unidades",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel CrepÃ© Verde Oscuro X 10 Unidades. Ideal para uso escolar y de oficina.",
+    "title": "Papel Crep? Verde Oscuro X 10 Unidades",
+    "short": "Papel Crep? Verde Oscuro X 10 Unidades",
+    "description": "Papel Crep? Verde Oscuro X 10 Unidades",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Crep? Verde Oscuro X 10 Unidades. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 1,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2889,8 +2889,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2904,7 +2904,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2915,13 +2915,13 @@
     "title": "Papel Fotocopia Chamex A4 75Gr Paquete X 500 Hojas",
     "short": "Papel Fotocopia Chamex A4 75Gr Paquete X 500 Hojas",
     "description": "Papel Fotocopia Chamex A4 75Gr Paquete X 500 Hojas",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel Fotocopia Chamex A4 75Gr Paquete X 500 Hojas. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Fotocopia Chamex A4 75Gr Paquete X 500 Hojas. Ideal para uso escolar y de oficina.",
     "price": 14.0,
     "rating": 4.5,
     "stock": 10,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2930,8 +2930,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2945,7 +2945,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2956,13 +2956,13 @@
     "title": "Papel Kraft Monolucido 49 Gr 70 X 100 Cm",
     "short": "Papel Kraft Monolucido 49 Gr 70 X 100 Cm",
     "description": "Papel Kraft Monolucido 49 Gr 70 X 100 Cm",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel Kraft Monolucido 49 Gr 70 X 100 Cm. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Kraft Monolucido 49 Gr 70 X 100 Cm. Ideal para uso escolar y de oficina.",
     "price": 0.7,
     "rating": 4.5,
     "stock": 500,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -2971,8 +2971,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -2986,7 +2986,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -2997,13 +2997,13 @@
     "title": "Papel Lustre - Amarillo",
     "short": "Papel Lustre - Amarillo",
     "description": "Papel Lustre - Amarillo",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Papel Lustre - Amarillo. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel Lustre - Amarillo. Ideal para uso escolar y de oficina.",
     "price": 0.5,
     "rating": 4.5,
     "stock": 100,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -3012,8 +3012,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3027,7 +3027,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3035,16 +3035,16 @@
     "gallery": []
   },
   "papelografo-rayado-61-x-86-cm-56-g-rollo-x-50-un": {
-    "title": "PapelÃ³grafo Rayado 61 X 86 Cm 56 G Rollo X 50 Un",
-    "short": "PapelÃ³grafo Rayado 61 X 86 Cm 56 G Rollo X 50 Un",
-    "description": "PapelÃ³grafo Rayado 61 X 86 Cm 56 G Rollo X 50 Un",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PapelÃ³grafo Rayado 61 X 86 Cm 56 G Rollo X 50 Un. Ideal para uso escolar y de oficina.",
+    "title": "Papel?grafo Rayado 61 X 86 Cm 56 G Rollo X 50 Un",
+    "short": "Papel?grafo Rayado 61 X 86 Cm 56 G Rollo X 50 Un",
+    "description": "Papel?grafo Rayado 61 X 86 Cm 56 G Rollo X 50 Un",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Papel?grafo Rayado 61 X 86 Cm 56 G Rollo X 50 Un. Ideal para uso escolar y de oficina.",
     "price": 0.5,
     "rating": 4.5,
     "stock": 50,
     "tag": "oferta",
     "category": "papeleria",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -3053,8 +3053,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: papeleria.",
+      "Marca: Gen?rico.",
+      "Categor?a: papeleria.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3068,7 +3068,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3079,7 +3079,7 @@
     "title": "Perforador Artesco M-208 11 Hojas Celeste",
     "short": "Perforador Artesco M-208 11 Hojas Celeste",
     "description": "Perforador Artesco M-208 11 Hojas Celeste",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Perforador Artesco M-208 11 Hojas Celeste. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Perforador Artesco M-208 11 Hojas Celeste. Ideal para uso escolar y de oficina.",
     "price": 9.5,
     "rating": 4.5,
     "stock": 2,
@@ -3095,7 +3095,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: oficina.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3109,7 +3109,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3120,7 +3120,7 @@
     "title": "Perforador Artesco M-73 25 Hojas Negro",
     "short": "Perforador Artesco M-73 25 Hojas Negro",
     "description": "Perforador Artesco M-73 25 Hojas Negro",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Perforador Artesco M-73 25 Hojas Negro. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Perforador Artesco M-73 25 Hojas Negro. Ideal para uso escolar y de oficina.",
     "price": 14.0,
     "rating": 4.5,
     "stock": 2,
@@ -3136,7 +3136,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: oficina.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3150,7 +3150,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3161,7 +3161,7 @@
     "title": "Perforador Escolar Artesco M-01 11 Hojas Azul",
     "short": "Perforador Escolar Artesco M-01 11 Hojas Azul",
     "description": "Perforador Escolar Artesco M-01 11 Hojas Azul",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Perforador Escolar Artesco M-01 11 Hojas Azul. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Perforador Escolar Artesco M-01 11 Hojas Azul. Ideal para uso escolar y de oficina.",
     "price": 9.0,
     "rating": 4.5,
     "stock": 3,
@@ -3177,7 +3177,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: adhesivos.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3191,7 +3191,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3202,7 +3202,7 @@
     "title": "Plastilina Jumbo Artesco X 12 Und",
     "short": "Plastilina Jumbo Artesco X 12 Und",
     "description": "Plastilina Jumbo Artesco X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Plastilina Jumbo Artesco X 12 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plastilina Jumbo Artesco X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 5.5,
     "rating": 4.5,
     "stock": 6,
@@ -3218,7 +3218,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: arte.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3232,7 +3232,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3240,10 +3240,10 @@
     "gallery": []
   },
   "plumon-artesco-fineliner-triangular-x-12-und": {
-    "title": "PlumÃ³n Artesco Fineliner Triangular X 12 Und",
-    "short": "PlumÃ³n Artesco Fineliner Triangular X 12 Und",
-    "description": "PlumÃ³n Artesco Fineliner Triangular X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Artesco Fineliner Triangular X 12 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Artesco Fineliner Triangular X 12 Und",
+    "short": "Plum?n Artesco Fineliner Triangular X 12 Und",
+    "description": "Plum?n Artesco Fineliner Triangular X 12 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Artesco Fineliner Triangular X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 11.0,
     "rating": 4.5,
     "stock": 6,
@@ -3259,7 +3259,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3273,7 +3273,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3281,10 +3281,10 @@
     "gallery": []
   },
   "plumon-delgado-faber-castell-colorfest-x-12-und": {
-    "title": "PlumÃ³n Delgado Faber Castell Colorfest X 12 Und",
-    "short": "PlumÃ³n Delgado Faber Castell Colorfest X 12 Und",
-    "description": "PlumÃ³n Delgado Faber Castell Colorfest X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Delgado Faber Castell Colorfest X 12 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Delgado Faber Castell Colorfest X 12 Und",
+    "short": "Plum?n Delgado Faber Castell Colorfest X 12 Und",
+    "description": "Plum?n Delgado Faber Castell Colorfest X 12 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Delgado Faber Castell Colorfest X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 12.0,
     "rating": 4.5,
     "stock": 4,
@@ -3300,7 +3300,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3314,7 +3314,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3322,10 +3322,10 @@
     "gallery": []
   },
   "plumon-delgado-faber-castell-fiesta-45-estuche-rigido-x-12-und": {
-    "title": "PlumÃ³n Delgado Faber Castell Fiesta 45 Estuche RÃ­gido X 12 Und",
-    "short": "PlumÃ³n Delgado Faber Castell Fiesta 45 Estuche RÃ­gido X 12 Und",
-    "description": "PlumÃ³n Delgado Faber Castell Fiesta 45 Estuche RÃ­gido X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Delgado Faber Castell Fiesta 45 Estuche RÃ­gido X 12 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Delgado Faber Castell Fiesta 45 Estuche R?gido X 12 Und",
+    "short": "Plum?n Delgado Faber Castell Fiesta 45 Estuche R?gido X 12 Und",
+    "description": "Plum?n Delgado Faber Castell Fiesta 45 Estuche R?gido X 12 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Delgado Faber Castell Fiesta 45 Estuche R?gido X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 14.0,
     "rating": 4.5,
     "stock": 6,
@@ -3341,7 +3341,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3355,7 +3355,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3363,10 +3363,10 @@
     "gallery": []
   },
   "plumon-delgado-faber-castell-fiesta-45-estuche-x-12-und": {
-    "title": "PlumÃ³n Delgado Faber Castell Fiesta 45 Estuche X 12 Und",
-    "short": "PlumÃ³n Delgado Faber Castell Fiesta 45 Estuche X 12 Und",
-    "description": "PlumÃ³n Delgado Faber Castell Fiesta 45 Estuche X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Delgado Faber Castell Fiesta 45 Estuche X 12 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Delgado Faber Castell Fiesta 45 Estuche X 12 Und",
+    "short": "Plum?n Delgado Faber Castell Fiesta 45 Estuche X 12 Und",
+    "description": "Plum?n Delgado Faber Castell Fiesta 45 Estuche X 12 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Delgado Faber Castell Fiesta 45 Estuche X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 6.5,
     "rating": 4.5,
     "stock": 12,
@@ -3382,7 +3382,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3396,7 +3396,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3404,10 +3404,10 @@
     "gallery": []
   },
   "plumon-delgado-faber-castell-fiesta-45-x-18-und": {
-    "title": "PlumÃ³n Delgado Faber Castell Fiesta 45 X 18 Und",
-    "short": "PlumÃ³n Delgado Faber Castell Fiesta 45 X 18 Und",
-    "description": "PlumÃ³n Delgado Faber Castell Fiesta 45 X 18 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Delgado Faber Castell Fiesta 45 X 18 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Delgado Faber Castell Fiesta 45 X 18 Und",
+    "short": "Plum?n Delgado Faber Castell Fiesta 45 X 18 Und",
+    "description": "Plum?n Delgado Faber Castell Fiesta 45 X 18 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Delgado Faber Castell Fiesta 45 X 18 Und. Ideal para uso escolar y de oficina.",
     "price": 13.0,
     "rating": 4.5,
     "stock": 4,
@@ -3423,7 +3423,7 @@
     ],
     "details": [
       "Marca: Faber Castell.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3437,7 +3437,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3445,10 +3445,10 @@
     "gallery": []
   },
   "plumon-indeleble-delgado-ove-duo-azul": {
-    "title": "PlumÃ³n Indeleble Delgado Ove DÃºo Azul",
-    "short": "PlumÃ³n Indeleble Delgado Ove DÃºo Azul",
-    "description": "PlumÃ³n Indeleble Delgado Ove DÃºo Azul",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Indeleble Delgado Ove DÃºo Azul. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Indeleble Delgado Ove D?o Azul",
+    "short": "Plum?n Indeleble Delgado Ove D?o Azul",
+    "description": "Plum?n Indeleble Delgado Ove D?o Azul",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Indeleble Delgado Ove D?o Azul. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3464,7 +3464,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3478,7 +3478,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3486,10 +3486,10 @@
     "gallery": []
   },
   "plumon-indeleble-delgado-ove-duo-negro": {
-    "title": "PlumÃ³n Indeleble Delgado Ove DÃºo Negro",
-    "short": "PlumÃ³n Indeleble Delgado Ove DÃºo Negro",
-    "description": "PlumÃ³n Indeleble Delgado Ove DÃºo Negro",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Indeleble Delgado Ove DÃºo Negro. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Indeleble Delgado Ove D?o Negro",
+    "short": "Plum?n Indeleble Delgado Ove D?o Negro",
+    "description": "Plum?n Indeleble Delgado Ove D?o Negro",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Indeleble Delgado Ove D?o Negro. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3505,7 +3505,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3519,7 +3519,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3527,10 +3527,10 @@
     "gallery": []
   },
   "plumon-indeleble-delgado-ove-duo-rojo": {
-    "title": "PlumÃ³n Indeleble Delgado Ove DÃºo Rojo",
-    "short": "PlumÃ³n Indeleble Delgado Ove DÃºo Rojo",
-    "description": "PlumÃ³n Indeleble Delgado Ove DÃºo Rojo",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Indeleble Delgado Ove DÃºo Rojo. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Indeleble Delgado Ove D?o Rojo",
+    "short": "Plum?n Indeleble Delgado Ove D?o Rojo",
+    "description": "Plum?n Indeleble Delgado Ove D?o Rojo",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Indeleble Delgado Ove D?o Rojo. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3546,7 +3546,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3560,7 +3560,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3568,10 +3568,10 @@
     "gallery": []
   },
   "plumon-indeleble-jumbo-ove-e23-azul": {
-    "title": "PlumÃ³n Indeleble Jumbo Ove E23 Azul",
-    "short": "PlumÃ³n Indeleble Jumbo Ove E23 Azul",
-    "description": "PlumÃ³n Indeleble Jumbo Ove E23 Azul",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Indeleble Jumbo Ove E23 Azul. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Indeleble Jumbo Ove E23 Azul",
+    "short": "Plum?n Indeleble Jumbo Ove E23 Azul",
+    "description": "Plum?n Indeleble Jumbo Ove E23 Azul",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Indeleble Jumbo Ove E23 Azul. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3587,7 +3587,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3601,7 +3601,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3609,10 +3609,10 @@
     "gallery": []
   },
   "plumon-indeleble-jumbo-ove-e23-negro": {
-    "title": "PlumÃ³n Indeleble Jumbo Ove E23 Negro",
-    "short": "PlumÃ³n Indeleble Jumbo Ove E23 Negro",
-    "description": "PlumÃ³n Indeleble Jumbo Ove E23 Negro",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Indeleble Jumbo Ove E23 Negro. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Indeleble Jumbo Ove E23 Negro",
+    "short": "Plum?n Indeleble Jumbo Ove E23 Negro",
+    "description": "Plum?n Indeleble Jumbo Ove E23 Negro",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Indeleble Jumbo Ove E23 Negro. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3628,7 +3628,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3642,7 +3642,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3650,10 +3650,10 @@
     "gallery": []
   },
   "plumon-indeleble-jumbo-ove-e23-rojo": {
-    "title": "PlumÃ³n Indeleble Jumbo Ove E23 Rojo",
-    "short": "PlumÃ³n Indeleble Jumbo Ove E23 Rojo",
-    "description": "PlumÃ³n Indeleble Jumbo Ove E23 Rojo",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Indeleble Jumbo Ove E23 Rojo. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Indeleble Jumbo Ove E23 Rojo",
+    "short": "Plum?n Indeleble Jumbo Ove E23 Rojo",
+    "description": "Plum?n Indeleble Jumbo Ove E23 Rojo",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Indeleble Jumbo Ove E23 Rojo. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3669,7 +3669,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3683,7 +3683,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3691,10 +3691,10 @@
     "gallery": []
   },
   "plumon-jumbo-ove-47-azul-x-1-und": {
-    "title": "PlumÃ³n Jumbo Ove 47 Azul X 1 Und",
-    "short": "PlumÃ³n Jumbo Ove 47 Azul X 1 Und",
-    "description": "PlumÃ³n Jumbo Ove 47 Azul X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Jumbo Ove 47 Azul X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Jumbo Ove 47 Azul X 1 Und",
+    "short": "Plum?n Jumbo Ove 47 Azul X 1 Und",
+    "description": "Plum?n Jumbo Ove 47 Azul X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Jumbo Ove 47 Azul X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3710,7 +3710,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3724,7 +3724,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3732,10 +3732,10 @@
     "gallery": []
   },
   "plumon-jumbo-ove-47-negro-x-1-und": {
-    "title": "PlumÃ³n Jumbo Ove 47 Negro X 1 Und",
-    "short": "PlumÃ³n Jumbo Ove 47 Negro X 1 Und",
-    "description": "PlumÃ³n Jumbo Ove 47 Negro X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Jumbo Ove 47 Negro X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Jumbo Ove 47 Negro X 1 Und",
+    "short": "Plum?n Jumbo Ove 47 Negro X 1 Und",
+    "description": "Plum?n Jumbo Ove 47 Negro X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Jumbo Ove 47 Negro X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3751,7 +3751,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3765,7 +3765,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3773,10 +3773,10 @@
     "gallery": []
   },
   "plumon-jumbo-ove-47-rojo-x-1-und": {
-    "title": "PlumÃ³n Jumbo Ove 47 Rojo X 1 Und",
-    "short": "PlumÃ³n Jumbo Ove 47 Rojo X 1 Und",
-    "description": "PlumÃ³n Jumbo Ove 47 Rojo X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Jumbo Ove 47 Rojo X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Jumbo Ove 47 Rojo X 1 Und",
+    "short": "Plum?n Jumbo Ove 47 Rojo X 1 Und",
+    "description": "Plum?n Jumbo Ove 47 Rojo X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Jumbo Ove 47 Rojo X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3792,7 +3792,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3806,7 +3806,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3814,10 +3814,10 @@
     "gallery": []
   },
   "plumon-jumbo-ove-47-verde-x-1-und": {
-    "title": "PlumÃ³n Jumbo Ove 47 Verde X 1 Und",
-    "short": "PlumÃ³n Jumbo Ove 47 Verde X 1 Und",
-    "description": "PlumÃ³n Jumbo Ove 47 Verde X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Jumbo Ove 47 Verde X 1 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Jumbo Ove 47 Verde X 1 Und",
+    "short": "Plum?n Jumbo Ove 47 Verde X 1 Und",
+    "description": "Plum?n Jumbo Ove 47 Verde X 1 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Jumbo Ove 47 Verde X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -3833,7 +3833,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3847,7 +3847,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3855,10 +3855,10 @@
     "gallery": []
   },
   "plumon-jumbo-ove-e47-x-12-und": {
-    "title": "PlumÃ³n Jumbo Ove E47 X 12 Und",
-    "short": "PlumÃ³n Jumbo Ove E47 X 12 Und",
-    "description": "PlumÃ³n Jumbo Ove E47 X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Jumbo Ove E47 X 12 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Jumbo Ove E47 X 12 Und",
+    "short": "Plum?n Jumbo Ove E47 X 12 Und",
+    "description": "Plum?n Jumbo Ove E47 X 12 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Jumbo Ove E47 X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 14.0,
     "rating": 4.5,
     "stock": 4,
@@ -3874,7 +3874,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3888,7 +3888,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3896,10 +3896,10 @@
     "gallery": []
   },
   "plumon-jumbo-ove-e47-x-6-und": {
-    "title": "PlumÃ³n Jumbo Ove E47 X 6 Und",
-    "short": "PlumÃ³n Jumbo Ove E47 X 6 Und",
-    "description": "PlumÃ³n Jumbo Ove E47 X 6 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Jumbo Ove E47 X 6 Und. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Jumbo Ove E47 X 6 Und",
+    "short": "Plum?n Jumbo Ove E47 X 6 Und",
+    "description": "Plum?n Jumbo Ove E47 X 6 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Jumbo Ove E47 X 6 Und. Ideal para uso escolar y de oficina.",
     "price": 7.0,
     "rating": 4.5,
     "stock": 6,
@@ -3915,7 +3915,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3929,7 +3929,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3937,10 +3937,10 @@
     "gallery": []
   },
   "plumon-para-pizarra-artesco-acrimax-123-azul": {
-    "title": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Azul",
-    "short": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Azul",
-    "description": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Azul",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Para Pizarra Artesco Acrimax 123 Azul. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Para Pizarra Artesco Acrimax 123 Azul",
+    "short": "Plum?n Para Pizarra Artesco Acrimax 123 Azul",
+    "description": "Plum?n Para Pizarra Artesco Acrimax 123 Azul",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Para Pizarra Artesco Acrimax 123 Azul. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 12,
@@ -3956,7 +3956,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -3970,7 +3970,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -3978,10 +3978,10 @@
     "gallery": []
   },
   "plumon-para-pizarra-artesco-acrimax-123-negro": {
-    "title": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Negro",
-    "short": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Negro",
-    "description": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Negro",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Para Pizarra Artesco Acrimax 123 Negro. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Para Pizarra Artesco Acrimax 123 Negro",
+    "short": "Plum?n Para Pizarra Artesco Acrimax 123 Negro",
+    "description": "Plum?n Para Pizarra Artesco Acrimax 123 Negro",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Para Pizarra Artesco Acrimax 123 Negro. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 12,
@@ -3997,7 +3997,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4011,7 +4011,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4019,10 +4019,10 @@
     "gallery": []
   },
   "plumon-para-pizarra-artesco-acrimax-123-rojo": {
-    "title": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Rojo",
-    "short": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Rojo",
-    "description": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Rojo",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Para Pizarra Artesco Acrimax 123 Rojo. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Para Pizarra Artesco Acrimax 123 Rojo",
+    "short": "Plum?n Para Pizarra Artesco Acrimax 123 Rojo",
+    "description": "Plum?n Para Pizarra Artesco Acrimax 123 Rojo",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Para Pizarra Artesco Acrimax 123 Rojo. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 12,
@@ -4038,7 +4038,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4052,7 +4052,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4060,10 +4060,10 @@
     "gallery": []
   },
   "plumon-para-pizarra-artesco-acrimax-123-verde": {
-    "title": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Verde",
-    "short": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Verde",
-    "description": "PlumÃ³n Para Pizarra Artesco Acrimax 123 Verde",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. PlumÃ³n Para Pizarra Artesco Acrimax 123 Verde. Ideal para uso escolar y de oficina.",
+    "title": "Plum?n Para Pizarra Artesco Acrimax 123 Verde",
+    "short": "Plum?n Para Pizarra Artesco Acrimax 123 Verde",
+    "description": "Plum?n Para Pizarra Artesco Acrimax 123 Verde",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Plum?n Para Pizarra Artesco Acrimax 123 Verde. Ideal para uso escolar y de oficina.",
     "price": 2.5,
     "rating": 4.5,
     "stock": 12,
@@ -4079,7 +4079,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4093,7 +4093,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4101,10 +4101,10 @@
     "gallery": []
   },
   "resaltador-artesco-metalico-x-4-und": {
-    "title": "Resaltador Artesco MetÃ¡lico X 4 Und",
-    "short": "Resaltador Artesco MetÃ¡lico X 4 Und",
-    "description": "Resaltador Artesco MetÃ¡lico X 4 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Resaltador Artesco MetÃ¡lico X 4 Und. Ideal para uso escolar y de oficina.",
+    "title": "Resaltador Artesco Met?lico X 4 Und",
+    "short": "Resaltador Artesco Met?lico X 4 Und",
+    "description": "Resaltador Artesco Met?lico X 4 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Resaltador Artesco Met?lico X 4 Und. Ideal para uso escolar y de oficina.",
     "price": 14.0,
     "rating": 4.5,
     "stock": 6,
@@ -4120,7 +4120,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: arte.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4134,7 +4134,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4145,7 +4145,7 @@
     "title": "Resaltador Ove Amarillo X 1 Und",
     "short": "Resaltador Ove Amarillo X 1 Und",
     "description": "Resaltador Ove Amarillo X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Resaltador Ove Amarillo X 1 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Resaltador Ove Amarillo X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 10,
@@ -4161,7 +4161,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: arte.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4175,7 +4175,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4186,7 +4186,7 @@
     "title": "Resaltador Ove Naranja X 1 Und",
     "short": "Resaltador Ove Naranja X 1 Und",
     "description": "Resaltador Ove Naranja X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Resaltador Ove Naranja X 1 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Resaltador Ove Naranja X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 10,
@@ -4202,7 +4202,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: arte.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4216,7 +4216,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4227,7 +4227,7 @@
     "title": "Resaltador Ove Verde X 1 Und",
     "short": "Resaltador Ove Verde X 1 Und",
     "description": "Resaltador Ove Verde X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Resaltador Ove Verde X 1 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Resaltador Ove Verde X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 10,
@@ -4243,7 +4243,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: arte.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4257,7 +4257,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4268,13 +4268,13 @@
     "title": "Set de Alfileres Uso Diario en Disco Paquete X 12 Und",
     "short": "Set de Alfileres Uso Diario en Disco Paquete X 12 Und",
     "description": "Set de Alfileres Uso Diario en Disco Paquete X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Set de Alfileres Uso Diario en Disco Paquete X 12 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Set de Alfileres Uso Diario en Disco Paquete X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 1.5,
     "rating": 4.5,
     "stock": 3,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -4283,8 +4283,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4298,7 +4298,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4306,10 +4306,10 @@
     "gallery": []
   },
   "silicona-liquida-artesco-100-ml": {
-    "title": "Silicona LÃ­quida Artesco 100 Ml",
-    "short": "Silicona LÃ­quida Artesco 100 Ml",
-    "description": "Silicona LÃ­quida Artesco 100 Ml",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Silicona LÃ­quida Artesco 100 Ml. Ideal para uso escolar y de oficina.",
+    "title": "Silicona L?quida Artesco 100 Ml",
+    "short": "Silicona L?quida Artesco 100 Ml",
+    "description": "Silicona L?quida Artesco 100 Ml",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Silicona L?quida Artesco 100 Ml. Ideal para uso escolar y de oficina.",
     "price": 3.5,
     "rating": 4.5,
     "stock": 12,
@@ -4325,7 +4325,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: adhesivos.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4339,7 +4339,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4347,10 +4347,10 @@
     "gallery": []
   },
   "silicona-liquida-artesco-30ml": {
-    "title": "Silicona LÃ­quida Artesco 30Ml",
-    "short": "Silicona LÃ­quida Artesco 30Ml",
-    "description": "Silicona LÃ­quida Artesco 30Ml",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Silicona LÃ­quida Artesco 30Ml. Ideal para uso escolar y de oficina.",
+    "title": "Silicona L?quida Artesco 30Ml",
+    "short": "Silicona L?quida Artesco 30Ml",
+    "description": "Silicona L?quida Artesco 30Ml",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Silicona L?quida Artesco 30Ml. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
@@ -4366,7 +4366,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: adhesivos.",
+      "Categor?a: adhesivos.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4380,7 +4380,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4391,13 +4391,13 @@
     "title": "Sobre Manila Graphos A4 X 1 Und",
     "short": "Sobre Manila Graphos A4 X 1 Und",
     "description": "Sobre Manila Graphos A4 X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Sobre Manila Graphos A4 X 1 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Sobre Manila Graphos A4 X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 100,
     "tag": "oferta",
     "category": "accesorios",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -4406,8 +4406,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: accesorios.",
+      "Marca: Gen?rico.",
+      "Categor?a: accesorios.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4421,7 +4421,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4429,10 +4429,10 @@
     "gallery": []
   },
   "tajador-metal-deposito-doble-pastel-artesco-caja-x12": {
-    "title": "Tajador Metal DepÃ³sito Doble Pastel Artesco Caja X12",
-    "short": "Tajador Metal DepÃ³sito Doble Pastel Artesco Caja X12",
-    "description": "Tajador Metal DepÃ³sito Doble Pastel Artesco Caja X12",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Tajador Metal DepÃ³sito Doble Pastel Artesco Caja X12. Ideal para uso escolar y de oficina.",
+    "title": "Tajador Metal Dep?sito Doble Pastel Artesco Caja X12",
+    "short": "Tajador Metal Dep?sito Doble Pastel Artesco Caja X12",
+    "description": "Tajador Metal Dep?sito Doble Pastel Artesco Caja X12",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Tajador Metal Dep?sito Doble Pastel Artesco Caja X12. Ideal para uso escolar y de oficina.",
     "price": 1.5,
     "rating": 4.5,
     "stock": 12,
@@ -4448,7 +4448,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: oficina.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4462,7 +4462,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4470,10 +4470,10 @@
     "gallery": []
   },
   "tajador-ove-plastico-caja-x-24": {
-    "title": "Tajador Ove PlÃ¡stico Caja X 24",
-    "short": "Tajador Ove PlÃ¡stico Caja X 24",
-    "description": "Tajador Ove PlÃ¡stico Caja X 24",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Tajador Ove PlÃ¡stico Caja X 24. Ideal para uso escolar y de oficina.",
+    "title": "Tajador Ove Pl?stico Caja X 24",
+    "short": "Tajador Ove Pl?stico Caja X 24",
+    "description": "Tajador Ove Pl?stico Caja X 24",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Tajador Ove Pl?stico Caja X 24. Ideal para uso escolar y de oficina.",
     "price": 0.6,
     "rating": 4.5,
     "stock": 12,
@@ -4489,7 +4489,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: oficina.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4503,7 +4503,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4511,16 +4511,16 @@
     "gallery": []
   },
   "tajador-plastico-deposito-doble-neon-vinifan-caja-x-12-und": {
-    "title": "Tajador PlÃ¡stico DepÃ³sito Doble Neon Vinifan Caja X 12 Und",
-    "short": "Tajador PlÃ¡stico DepÃ³sito Doble Neon Vinifan Caja X 12 Und",
-    "description": "Tajador PlÃ¡stico DepÃ³sito Doble Neon Vinifan Caja X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Tajador PlÃ¡stico DepÃ³sito Doble Neon Vinifan Caja X 12 Und. Ideal para uso escolar y de oficina.",
+    "title": "Tajador Pl?stico Dep?sito Doble Neon Vinifan Caja X 12 Und",
+    "short": "Tajador Pl?stico Dep?sito Doble Neon Vinifan Caja X 12 Und",
+    "description": "Tajador Pl?stico Dep?sito Doble Neon Vinifan Caja X 12 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Tajador Pl?stico Dep?sito Doble Neon Vinifan Caja X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 5.0,
     "rating": 4.5,
     "stock": 12,
     "tag": "oferta",
     "category": "oficina",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -4529,8 +4529,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: oficina.",
+      "Marca: Gen?rico.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4544,7 +4544,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4552,16 +4552,16 @@
     "gallery": []
   },
   "tajador-plastico-deposito-simple-funky-borrador-vinifan-caja-x-12-und": {
-    "title": "Tajador PlÃ¡stico DepÃ³sito Simple Funky+ Borrador Vinifan Caja X 12 Und",
-    "short": "Tajador PlÃ¡stico DepÃ³sito Simple Funky+ Borrador Vinifan Caja X 12 Und",
-    "description": "Tajador PlÃ¡stico DepÃ³sito Simple Funky+ Borrador Vinifan Caja X 12 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Tajador PlÃ¡stico DepÃ³sito Simple Funky+ Borrador Vinifan Caja X 12 Und. Ideal para uso escolar y de oficina.",
+    "title": "Tajador Pl?stico Dep?sito Simple Funky+ Borrador Vinifan Caja X 12 Und",
+    "short": "Tajador Pl?stico Dep?sito Simple Funky+ Borrador Vinifan Caja X 12 Und",
+    "description": "Tajador Pl?stico Dep?sito Simple Funky+ Borrador Vinifan Caja X 12 Und",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Tajador Pl?stico Dep?sito Simple Funky+ Borrador Vinifan Caja X 12 Und. Ideal para uso escolar y de oficina.",
     "price": 3.5,
     "rating": 4.5,
     "stock": 12,
     "tag": "oferta",
     "category": "oficina",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -4570,8 +4570,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: oficina.",
+      "Marca: Gen?rico.",
+      "Categor?a: oficina.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4585,7 +4585,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4596,7 +4596,7 @@
     "title": "Transportador Artesco",
     "short": "Transportador Artesco",
     "description": "Transportador Artesco",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Transportador Artesco. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Transportador Artesco. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 25,
@@ -4612,7 +4612,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: tecnico.",
+      "Categor?a: tecnico.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4626,7 +4626,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4637,7 +4637,7 @@
     "title": "Chinches Dorados Ove 10 Mm X 100 Und",
     "short": "Chinches Dorados Ove 10 Mm X 100 Und",
     "description": "Chinches Dorados Ove 10 Mm X 100 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Chinches Dorados Ove 10 Mm X 100 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Chinches Dorados Ove 10 Mm X 100 Und. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 12,
@@ -4653,7 +4653,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4667,7 +4667,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4678,13 +4678,13 @@
     "title": "Palito De Chupete Dragon Paquete X 40 Colores",
     "short": "Palito De Chupete Dragon Paquete X 40 Colores",
     "description": "Palito De Chupete Dragon Paquete X 40 Colores",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Palito De Chupete Dragon Paquete X 40 Colores. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Palito De Chupete Dragon Paquete X 40 Colores. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 6,
     "tag": "oferta",
     "category": "arte",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -4693,8 +4693,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: arte.",
+      "Marca: Gen?rico.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4708,7 +4708,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4719,13 +4719,13 @@
     "title": "Palito De Chupete Dragon Grueso De Color Paquete X 40 Und",
     "short": "Palito De Chupete Dragon Grueso De Color Paquete X 40 Und",
     "description": "Palito De Chupete Dragon Grueso De Color Paquete X 40 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Palito De Chupete Dragon Grueso De Color Paquete X 40 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Palito De Chupete Dragon Grueso De Color Paquete X 40 Und. Ideal para uso escolar y de oficina.",
     "price": 3.5,
     "rating": 4.5,
     "stock": 12,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -4734,8 +4734,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4749,7 +4749,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4760,13 +4760,13 @@
     "title": "Palito De Chupete paquetito",
     "short": "Palito De Chupete paquetito",
     "description": "Palito De Chupete paquetito",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Palito De Chupete paquetito. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Palito De Chupete paquetito. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 12,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -4775,8 +4775,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4790,7 +4790,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4801,13 +4801,13 @@
     "title": "Palito De Chupete Grueso Natural",
     "short": "Palito De Chupete Grueso Natural",
     "description": "Palito De Chupete Grueso Natural",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Palito De Chupete Grueso Natural. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Palito De Chupete Grueso Natural. Ideal para uso escolar y de oficina.",
     "price": 3.0,
     "rating": 4.5,
     "stock": 12,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -4816,8 +4816,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4831,7 +4831,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4842,7 +4842,7 @@
     "title": "Chinches De Colores Ove 10 Mm X 100 Und",
     "short": "Chinches De Colores Ove 10 Mm X 100 Und",
     "description": "Chinches De Colores Ove 10 Mm X 100 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Chinches De Colores Ove 10 Mm X 100 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Chinches De Colores Ove 10 Mm X 100 Und. Ideal para uso escolar y de oficina.",
     "price": 3.0,
     "rating": 4.5,
     "stock": 10,
@@ -4858,7 +4858,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: arte.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4872,7 +4872,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4883,7 +4883,7 @@
     "title": "Chinches De Colores Ove Push Pins 10 Mm X 50 Und",
     "short": "Chinches De Colores Ove Push Pins 10 Mm X 50 Und",
     "description": "Chinches De Colores Ove Push Pins 10 Mm X 50 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Chinches De Colores Ove Push Pins 10 Mm X 50 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Chinches De Colores Ove Push Pins 10 Mm X 50 Und. Ideal para uso escolar y de oficina.",
     "price": 2.0,
     "rating": 4.5,
     "stock": 10,
@@ -4899,7 +4899,7 @@
     ],
     "details": [
       "Marca: OVE.",
-      "CategorÃ­a: arte.",
+      "Categor?a: arte.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4913,7 +4913,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4924,13 +4924,13 @@
     "title": "Microporoso Escarchado A4 Surtido X 1 Und",
     "short": "Microporoso Escarchado A4 Surtido X 1 Und",
     "description": "Microporoso Escarchado A4 Surtido X 1 Und",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. Microporoso Escarchado A4 Surtido X 1 Und. Ideal para uso escolar y de oficina.",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Microporoso Escarchado A4 Surtido X 1 Und. Ideal para uso escolar y de oficina.",
     "price": 1.0,
     "rating": 4.5,
     "stock": 5,
     "tag": "oferta",
     "category": "escolar",
-    "brand": "GenÃ©rico",
+    "brand": "Gen?rico",
     "link": "",
     "colors": [
       "Standard"
@@ -4939,8 +4939,8 @@
       "Unico"
     ],
     "details": [
-      "Marca: GenÃ©rico.",
-      "CategorÃ­a: escolar.",
+      "Marca: Gen?rico.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4954,7 +4954,7 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
@@ -4962,10 +4962,10 @@
     "gallery": []
   },
   "tampon-artesco-negro-para-huella-digital": {
-    "title": "TampÃ³n Artesco Negro Para Huella Digital",
-    "short": "TampÃ³n Artesco Negro Para Huella Digital",
-    "description": "TampÃ³n Artesco Negro Para Huella Digital",
-    "longDescription": "Producto de papelerÃ­a y Ãºtiles escolares. TampÃ³n Artesco Negro Para Huella Digital. Ideal para uso escolar y de oficina.",
+    "title": "Tamp?n Artesco Negro Para Huella Digital",
+    "short": "Tamp?n Artesco Negro Para Huella Digital",
+    "description": "Tamp?n Artesco Negro Para Huella Digital",
+    "longDescription": "Producto de papeler?a y ?tiles escolares. Tamp?n Artesco Negro Para Huella Digital. Ideal para uso escolar y de oficina.",
     "price": 4.0,
     "rating": 4.5,
     "stock": 12,
@@ -4981,7 +4981,7 @@
     ],
     "details": [
       "Marca: Artesco.",
-      "CategorÃ­a: escolar.",
+      "Categor?a: escolar.",
       "Precio actualizado para venta."
     ],
     "usage": [
@@ -4995,11 +4995,111 @@
         "text": "Buen producto."
       },
       {
-        "name": "LibrerÃ­a BelÃ©n",
+        "name": "Librer?a Bel?n",
         "text": "Stock disponible."
       }
     ],
     "image": "img/products/tampon-artesco-negro-para-huella-digital.jpg",
+    "gallery": []
+  },
+  "cuaderno-cuadrimax-2x2-stanford": {
+    "title": "Cuaderno Cuadrimax 2x2 - Stanford",
+    "short": "Cuaderno Cuadrimax 2x2 - Stanford",
+    "description": "Cuaderno Cuadrimax 2x2 - Stanford",
+    "longDescription": "Cuaderno Cuadrimax 2x2 de Stanford. Ideal para uso escolar y oficina.",
+    "price": 6.5,
+    "rating": 4.5,
+    "stock": 50,
+    "tag": "",
+    "category": "cuadernos",
+    "brand": "Stanford",
+    "link": "",
+    "colors": ["Standard"],
+    "sizes": ["Unico"],
+    "details": ["Marca: Stanford.", "Categoría: cuadernos.", "Precio: S/ 6.50"],
+    "usage": ["Perfecto para uso escolar.", "Material de alta calidad.", "Consulta disponibilidad."],
+    "reviews": [{"name": "Cliente", "text": "Buen producto."}, {"name": "Librería Belén", "text": "Stock disponible."}],
+    "image": "img/products/cuaderno-cuadrimax-2x2-stanford.jpg",
+    "gallery": []
+  },
+  "cuaderno-cuadrimax-1x1-stanford": {
+    "title": "Cuaderno Cuadrimax 1x1 - Stanford",
+    "short": "Cuaderno Cuadrimax 1x1 - Stanford",
+    "description": "Cuaderno Cuadrimax 1x1 - Stanford",
+    "longDescription": "Cuaderno Cuadrimax 1x1 de Stanford. Ideal para uso escolar y oficina.",
+    "price": 6.5,
+    "rating": 4.5,
+    "stock": 50,
+    "tag": "",
+    "category": "cuadernos",
+    "brand": "Stanford",
+    "link": "",
+    "colors": ["Standard"],
+    "sizes": ["Unico"],
+    "details": ["Marca: Stanford.", "Categoría: cuadernos.", "Precio: S/ 6.50"],
+    "usage": ["Perfecto para uso escolar.", "Material de alta calidad.", "Consulta disponibilidad."],
+    "reviews": [{"name": "Cliente", "text": "Buen producto."}, {"name": "Librería Belén", "text": "Stock disponible."}],
+    "image": "img/products/cuaderno-cuadrimax-1x1-stanford.jpg",
+    "gallery": []
+  },
+  "cuaderno-triple-renglon-sombra-stanford": {
+    "title": "Cuaderno Triple Renglón con Sombra - Stanford",
+    "short": "Cuaderno Triple Renglón con Sombra - Stanford",
+    "description": "Cuaderno Triple Renglón con Sombra - Stanford",
+    "longDescription": "Cuaderno Triple Renglón con Sombra de Stanford. Ideal para uso escolar.",
+    "price": 6.5,
+    "rating": 4.5,
+    "stock": 50,
+    "tag": "",
+    "category": "cuadernos",
+    "brand": "Stanford",
+    "link": "",
+    "colors": ["Standard"],
+    "sizes": ["Unico"],
+    "details": ["Marca: Stanford.", "Categoría: cuadernos.", "Precio: S/ 6.50"],
+    "usage": ["Perfecto para uso escolar.", "Material de alta calidad.", "Consulta disponibilidad."],
+    "reviews": [{"name": "Cliente", "text": "Buen producto."}, {"name": "Librería Belén", "text": "Stock disponible."}],
+    "image": "img/products/cuaderno-triple-renglon-sombra-stanford.jpg",
+    "gallery": []
+  },
+  "cuaderno-cuadriculado-deluxe-junior-book-stanford": {
+    "title": "Cuaderno Cuadriculado Deluxe Junior Book - Stanford",
+    "short": "Cuaderno Cuadriculado Deluxe Junior Book - Stanford",
+    "description": "Cuaderno Cuadriculado Deluxe Junior Book - Stanford",
+    "longDescription": "Cuaderno Cuadriculado Deluxe Junior Book de Stanford. Alta calidad para estudiantes.",
+    "price": 6.5,
+    "rating": 4.5,
+    "stock": 50,
+    "tag": "",
+    "category": "cuadernos",
+    "brand": "Stanford",
+    "link": "",
+    "colors": ["Standard"],
+    "sizes": ["Unico"],
+    "details": ["Marca: Stanford.", "Categoría: cuadernos.", "Precio: S/ 6.50"],
+    "usage": ["Perfecto para uso escolar.", "Material de alta calidad.", "Consulta disponibilidad."],
+    "reviews": [{"name": "Cliente", "text": "Buen producto."}, {"name": "Librería Belén", "text": "Stock disponible."}],
+    "image": "img/products/cuaderno-cuadriculado-deluxe-junior-book-stanford.jpg",
+    "gallery": []
+  },
+  "cuaderno-rayado-stanford": {
+    "title": "Cuaderno Rayado - Stanford",
+    "short": "Cuaderno Rayado - Stanford",
+    "description": "Cuaderno Rayado - Stanford",
+    "longDescription": "Cuaderno Rayado de Stanford. Clásico para uso escolar y oficina.",
+    "price": 6.5,
+    "rating": 4.5,
+    "stock": 50,
+    "tag": "",
+    "category": "cuadernos",
+    "brand": "Stanford",
+    "link": "",
+    "colors": ["Standard"],
+    "sizes": ["Unico"],
+    "details": ["Marca: Stanford.", "Categoría: cuadernos.", "Precio: S/ 6.50"],
+    "usage": ["Perfecto para uso escolar.", "Material de alta calidad.", "Consulta disponibilidad."],
+    "reviews": [{"name": "Cliente", "text": "Buen producto."}, {"name": "Librería Belén", "text": "Stock disponible."}],
+    "image": "img/products/cuaderno-rayado-stanford.jpg",
     "gallery": []
   }
 };
