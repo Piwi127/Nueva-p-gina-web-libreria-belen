@@ -7,7 +7,7 @@
     <meta name="robots" content="index,follow,max-image-preview:large">
     <meta name="author" content="Libreria Belen">
     <meta name="description" content="Catálogo de Librería Belen: útiles escolares, papelería, cuadernos, arte y oficina. Filtra por categoría, marca y precio. Campaña escolar 2026 y envío gratis en estaciones de la Línea 1.">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://via.placeholder.com; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; frame-src https://www.google.com; upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://via.placeholder.com; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; frame-src https://www.google.com; ">
     <title>Catálogo - LIBRERÍA BELEN</title>
     <link rel="canonical" href="https://libreria-belen.com/catalog">
     <link rel="alternate" hreflang="es-PE" href="https://libreria-belen.com/catalog">
@@ -111,14 +111,31 @@
                     <input type="radio" name="category" value="all" checked onchange="filterProducts('all')"> Ver Todo
                 </label>
                 <label class="filter-item">
-                    <input type="radio" name="category" value="office" onchange="filterProducts('office')"> Oficina
-                </label>
-                <label class="filter-item">
                     <input type="radio" name="category" value="school" onchange="filterProducts('school')"> Escolar
                 </label>
                 <label class="filter-item">
-                    <input type="radio" name="category" value="tech" onchange="filterProducts('tech')">
-                    Técnico/Universitario
+                    <input type="radio" name="category" value="office" onchange="filterProducts('office')"> Oficina
+                </label>
+                <label class="filter-item">
+                    <input type="radio" name="category" value="arte" onchange="filterProducts('arte')"> Arte
+                </label>
+                <label class="filter-item">
+                    <input type="radio" name="category" value="papeleria" onchange="filterProducts('papeleria')"> Papelería
+                </label>
+                <label class="filter-item">
+                    <input type="radio" name="category" value="adhesivos" onchange="filterProducts('adhesivos')"> Adhesivos
+                </label>
+                <label class="filter-item">
+                    <input type="radio" name="category" value="cuadernos" onchange="filterProducts('cuadernos')"> Cuadernos
+                </label>
+                <label class="filter-item">
+                    <input type="radio" name="category" value="escritura" onchange="filterProducts('escritura')"> Escritura
+                </label>
+                <label class="filter-item">
+                    <input type="radio" name="category" value="accesorios" onchange="filterProducts('accesorios')"> Accesorios
+                </label>
+                <label class="filter-item">
+                    <input type="radio" name="category" value="tecnico" onchange="filterProducts('tecnico')"> Técnico
                 </label>
             </div>
             <div class="filter-group">
@@ -336,11 +353,10 @@
     </a>
 
     <script src="data/products.js?v=20260228e" defer></script>
-    <script src="js/app.js?v=20260228e" defer></script>
+    <script src="js/app.js?v=20260326a" defer></script>
 </body>
 
 </html>
-
 
 
 
