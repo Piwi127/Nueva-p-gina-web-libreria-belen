@@ -283,6 +283,44 @@
         </div>
     </section>
 
+    <!-- Sección de Enmicados -->
+    <section class="container enmicados-section" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
+        <div class="support-tech-shell" style="border: 1px solid #e5e5e5; border-radius: 12px; background: #fff; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+            <div style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start;">
+                <div style="flex: 1; min-width: 280px;">
+                    <span style="display: inline-block; background: linear-gradient(135deg, #e07a5f, #c96a52); color: white; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; padding: 0.34rem 0.72rem; border-radius: 4px; margin-bottom: 1rem;">NUEVO SERVICIO</span>
+                    <h2 style="font-size: 1.75rem; margin-bottom: 0.75rem; color: var(--primary-color);">Servicio de Enmicados</h2>
+                    <p style="color: #666; margin-bottom: 1.25rem; font-size: 1rem;">Ahora disponible en formatos grandes. Entrega inmediata y calidad garantizada.</p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+                        <span style="font-size: 0.85rem; color: #333; display: flex; align-items: center; gap: 0.4rem;"><i class="fas fa-ruler" style="color: #e07a5f;"></i> A3, A4, A5</span>
+                        <span style="font-size: 0.85rem; color: #333; display: flex; align-items: center; gap: 0.4rem;"><i class="fas fa-id-card" style="color: #e07a5f;"></i> Tamaño Carnet</span>
+                        <span style="font-size: 0.85rem; color: #333; display: flex; align-items: center; gap: 0.4rem;"><i class="fas fa-clock" style="color: #e07a5f;"></i> Entrega inmediata</span>
+                    </div>
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.5rem;">
+                        <div style="background: #fafafa; border-radius: 8px; padding: 1rem; text-align: center; border: 1px solid #e5e5e5;">
+                            <div style="font-size: 0.85rem; font-weight: 600; color: #333;">A3</div>
+                            <div style="font-size: 1.25rem; font-weight: 700; color: #e07a5f;">S/ 10.00</div>
+                        </div>
+                        <div style="background: #fafafa; border-radius: 8px; padding: 1rem; text-align: center; border: 1px solid #e5e5e5;">
+                            <div style="font-size: 0.85rem; font-weight: 600; color: #333;">A4</div>
+                            <div style="font-size: 1.25rem; font-weight: 700; color: #e07a5f;">S/ 7.00</div>
+                        </div>
+                        <div style="background: #fafafa; border-radius: 8px; padding: 1rem; text-align: center; border: 1px solid #e5e5e5;">
+                            <div style="font-size: 0.85rem; font-weight: 600; color: #333;">A5</div>
+                            <div style="font-size: 1.25rem; font-weight: 700; color: #e07a5f;">S/ 4.00</div>
+                        </div>
+                        <div style="background: #fafafa; border-radius: 8px; padding: 1rem; text-align: center; border: 1px solid #e5e5e5;">
+                            <div style="font-size: 0.85rem; font-weight: 600; color: #333;">Carnet</div>
+                            <div style="font-size: 1.25rem; font-weight: 700; color: #e07a5f;">S/ 2.00</div>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary" href="https://wa.me/51947872207?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20enmicados." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.85rem 1.5rem; background: #25D366; color: white; text-decoration: none; border-radius: 8px; font-weight: 600;"><i class="fab fa-whatsapp"></i> Solicitar por WhatsApp</a>
+                    <p style="font-size: 0.85rem; color: #888; margin-top: 0.75rem;">Otros formatos consultar disponibilidad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="container library-divider-section reveal-on-scroll" aria-label="Separación de ubicación">
         <div class="library-divider" role="presentation">
             <span class="library-divider-label">Ubicación y atención presencial</span>
@@ -359,20 +397,6 @@
         </div>
     </footer>
 
-    <!-- Anuncio emergente de ingreso -->
-    <div id="entryAnnouncementModal" class="modal entry-announcement-modal" role="dialog" aria-modal="true" aria-labelledby="entryAnnouncementTitle">
-        <div class="modal-content entry-announcement-content">
-            <button type="button" class="entry-announcement-close" data-announcement-close aria-label="Cerrar anuncio">
-                <i class="fas fa-times" aria-hidden="true"></i>
-            </button>
-            <p id="entryAnnouncementTitle" class="entry-announcement-kicker">Anuncio destacado</p>
-            <a class="entry-announcement-link" href="catalog.html" aria-label="Ir al catalogo">
-                <img class="entry-announcement-image" src="images/Publicidad%20nueva%20para%20libreria.png" alt="Anuncio destacado de Libreria Belen" width="900" height="900" loading="eager" decoding="async">
-            </a>
-            <a class="btn btn-primary entry-announcement-cta" href="catalog.html">Click aqui para ir al catalogo</a>
-        </div>
-    </div>
-
     <!-- Modal de detalle del producto -->
     <div id="productDetailModal" class="modal">
         <div class="modal-content product-detail-content">
@@ -448,6 +472,20 @@
     </a>
 
     <script src="data/products.js?v=20260228e" defer></script>
+    <!-- Anuncio emergente de ingreso -->
+    <div id="entryAnnouncementModal" class="modal entry-announcement-modal" role="dialog" aria-modal="true" aria-labelledby="entryAnnouncementTitle">
+        <div class="modal-content entry-announcement-content">
+            <button type="button" class="entry-announcement-close" data-announcement-close aria-label="Cerrar anuncio">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+            <p id="entryAnnouncementTitle" class="entry-announcement-kicker">Anuncio destacado</p>
+            <a class="entry-announcement-link" href="catalog.html" aria-label="Ir al catalogo">
+                <img class="entry-announcement-image" src="images/Publicidad%20nueva%20para%20libreria.png" alt="Anuncio destacado de Libreria Belen" width="900" height="900" loading="eager" decoding="async">
+            </a>
+            <a class="btn btn-primary entry-announcement-cta" href="catalog.html">Click aqui para ir al catalogo</a>
+        </div>
+    </div>
+
     <script src="js/app.js?v=20260327a" defer></script>
 </body>
 

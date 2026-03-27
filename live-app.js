@@ -138,6 +138,7 @@ const sidebar = document.getElementById('sidebar');
 const featuredCarousel = document.getElementById('featured-carousel');
 const productDetailModal = document.getElementById('productDetailModal');
 const entryAnnouncementModal = document.getElementById('entryAnnouncementModal');
+const enmicadosModal = document.getElementById('enmicadosModal');
 let autoScrollInterval;
 let entryAnnouncementCloseTimer = null;
 const ENTRY_ANNOUNCEMENT_ANIMATION_MS = 260;
@@ -255,6 +256,7 @@ function initEntryAnnouncementModal() {
     // Check for support modal first
     const supportModal = document.getElementById('supportAnnouncementModal');
     const homeModal = document.getElementById('entryAnnouncementModal');
+    const enmicadosModal = document.getElementById('enmicadosModal');
     
     // Use support modal on support page, home modal on home page
     const isSupportPage = document.body.classList.contains('support-page-body');
@@ -275,18 +277,30 @@ function initEntryAnnouncementModal() {
         closeBtnSelector = '[data-announcement-close]';
     }
     
-    if (!modalToUse) return;
-
-    // Bind close button
-    if (modalToUse.dataset.bound !== '1') {
-        const closeBtn = modalToUse.querySelector(closeBtnSelector);
-        if (closeBtn) {
-            closeBtn.addEventListener('click', closeFn);
+    if (modalToUse) {
+        // Bind close button
+        if (modalToUse.dataset.bound !== '1') {
+            const closeBtn = modalToUse.querySelector(closeBtnSelector);
+            if (closeBtn) {
+                closeBtn.addEventListener('click', closeFn);
+            }
+            modalToUse.dataset.bound = '1';
         }
-        modalToUse.dataset.bound = '1';
+        window.setTimeout(openFn, 280);
     }
 
-    window.setTimeout(openFn, 280);
+    // Also show enmicados modal on home page (after a delay)
+    if (isHomePage && enmicadosModal) {
+        if (enmicadosModal.dataset.bound !== '1') {
+            const closeBtn = enmicadosModal.querySelector('[data-enmicados-close]');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', closeEnmicadosModal);
+            }
+            enmicadosModal.dataset.bound = '1';
+        }
+        // Show after 3 seconds (after the main announcement)
+        window.setTimeout(openEnmicadosModal, 3000);
+    }
 }
 
 // Funcion: openSupportAnnouncementModal. Soporte tÃ©cnico.
@@ -324,6 +338,40 @@ function closeSupportAnnouncementModal() {
     }, delay);
 }
 
+// Enmicados modal functions
+function openEnmicadosModal() {
+    const modal = document.getElementById('enmicadosModal');
+    if (!modal) return;
+    if (entryAnnouncementCloseTimer) {
+        clearTimeout(entryAnnouncementCloseTimer);
+        entryAnnouncementCloseTimer = null;
+    }
+    modal.style.display = 'grid';
+    modal.setAttribute('aria-hidden', 'false');
+    requestAnimationFrame(() => {
+        modal.classList.add('is-visible');
+    });
+    document.body.classList.add('announcement-open');
+}
+
+function closeEnmicadosModal() {
+    const modal = document.getElementById('enmicadosModal');
+    if (!modal) return;
+    modal.classList.remove('is-visible');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('announcement-open');
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const delay = reduceMotion ? 0 : ENTRY_ANNOUNCEMENT_ANIMATION_MS;
+    if (entryAnnouncementCloseTimer) clearTimeout(entryAnnouncementCloseTimer);
+    entryAnnouncementCloseTimer = window.setTimeout(() => {
+        if (!modal.classList.contains('is-visible')) {
+            modal.style.display = 'none';
+        }
+        entryAnnouncementCloseTimer = null;
+    }, delay);
+}
+
 // Inicializacion
 document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.toggle('prices-pending', PRICES_PENDING);
@@ -342,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initVisualMicroInteractions();
     initExperimentalDesignLayer();
     initPremiumFeatures();
-    initEntryAnnouncementModal();
+    initEntryAnnouncementModal(); // Habilitado - muestra anuncio al ingresar
 
     if (productGrid) {
         // Catalog Page Logic

@@ -6633,6 +6633,242 @@ body.cart-open .whatsapp-float {
     color: #e2e8f0;
 }
 
+/* Enmicados Section - Index Page (matching support-tech-section style) */
+.enmicados-section {
+    margin: var(--spacing-lg) 0;
+}
+
+.enmicados-section .support-tech-shell {
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.enmicados-section .support-tech-badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #e07a5f, #c96a52);
+    color: white;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.34rem 0.72rem;
+    margin-bottom: 0.6rem;
+}
+
+.enmicados-section h2 {
+    margin-bottom: 0.75rem;
+}
+
+.enmicados-section .support-tech-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.enmicados-section .support-tech-stats span {
+    font-size: 0.85rem;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.enmicados-section .support-tech-stats i {
+    color: var(--accent-color);
+}
+
+/* Price Grid */
+.enmicados-pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.price-box-item {
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.price-box-item:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+}
+
+.price-box-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.price-box-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+/* Fallback icon */
+.enmicados-icon-fallback {
+    display: none;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, #e07a5f, #c96a52);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.enmicados-icon-fallback i {
+    font-size: 3rem;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .enmicados-pricing-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .enmicados-section .support-tech-stats {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .enmicados-section .support-tech-top {
+        flex-direction: column;
+    }
+    
+    .enmicados-section .support-tech-visual {
+        order: -1;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .price-box-item {
+        padding: 0.75rem;
+    }
+    
+    .price-box-value {
+        font-size: 1.1rem;
+    }
+}
+
+/* Enmicados Modal */
+.enmicados-content {
+    width: min(95vw, 500px);
+    max-width: 500px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.enmicados-header {
+    margin-bottom: 1.5rem;
+}
+
+.enmicados-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #e07a5f, #c96a52);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75rem;
+}
+
+.enmicados-content h2 {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.enmicados-subtitle {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.enmicados-pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+    background: #fafafa;
+    border-radius: 12px;
+}
+
+.enmicados-price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.enmicados-price-item:last-child {
+    border-bottom: none;
+}
+
+.enmicados-format {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.enmicados-price {
+    font-weight: 700;
+    color: var(--accent-color);
+    font-size: 1.1rem;
+}
+
+.enmicados-note {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 1.25rem;
+}
+
+.enmicados-content .entry-announcement-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #25D366, #20bd5a);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.enmicados-content .entry-announcement-cta:hover {
+    background: linear-gradient(135deg, #20bd5a, #25D366);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
 /* Support Announcement Modal - Fullscreen */
 #supportAnnouncementModal .entry-announcement-content {
     width: min(95vw, 900px);
