@@ -125,26 +125,6 @@
             <p>Brindamos diagnóstico, formateo, reparación, armado, actualizaciones y optimización para computadoras de hogar, oficina, estudio y gaming.</p>
         </section>
 
-        <section class="support-promo-block reveal-on-scroll">
-            <div class="support-promo-card">
-                <img src="img/publicidad-soporte-tecnico.svg" alt="Publicidad de servicios de soporte técnico Librería Belén" class="support-promo-image">
-            </div>
-            <div class="support-promo-content">
-                <h2>Información completa de nuestro servicio</h2>
-                <p>En Librería Belén brindamos soporte técnico especializado en mantenimiento y reparación de computadoras, laptops y servidores.</p>
-                <ul>
-                    <li>Hacemos trabajos de soporte.</li>
-                    <li>Creaciones y mantenimiento de servidores.</li>
-                    <li>Soporte de bases de datos en backend.</li>
-                    <li>Se crean páginas web a pedido.</li>
-                    <li>Se crean proyectos web.</li>
-                    <li>Se crean proyectos de punto de venta, POS, inventarios y balance entre otros.</li>
-                </ul>
-                <p class="support-promo-note">Todo trabajo previa cotización.</p>
-                <p class="support-promo-note">Manejamos todo tipo de lenguajes de programación.</p>
-            </div>
-        </section>
-
         <section class="support-page-layout reveal-on-scroll">
             <div class="support-page-services">
                 <h2>Especialidades que atendemos</h2>
@@ -315,7 +295,54 @@
         <span>Soporte técnico</span>
     </a>
 
-    <script src="js/app.js?v=20260326a" defer></script>
+    <!-- Anuncio emergente de soporte técnico -->
+    <div id="supportAnnouncementModal" class="modal entry-announcement-modal" role="dialog" aria-modal="true" aria-labelledby="supportAnnouncementTitle">
+        <div class="modal-content entry-announcement-content support-full-image">
+            <button type="button" class="entry-announcement-close" onclick="closeSupportAnnouncementModal()" aria-label="Cerrar anuncio">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+            <a class="entry-announcement-link fullscreen-link" href="catalog.html" aria-label="Ir al catalogo">
+                <img class="entry-announcement-image" src="img/publicidad-soporte-tecnico.svg" alt="Anuncio de soporte técnico Librería Belén" width="1920" height="1080" loading="eager" decoding="async">
+            </a>
+            <a class="btn btn-primary entry-announcement-cta" href="https://wa.me/51947872207?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n%20para%20servicio%20t%C3%A9cnico%20de%20PC." target="_blank" rel="noopener">Solicitar Cotización</a>
+        </div>
+    </div>
+
+    <script>
+        // Mostrar anuncio de soporte técnico
+        document.addEventListener('DOMContentLoaded', function() {
+            var modal = document.getElementById('supportAnnouncementModal');
+            if (!modal) return;
+            
+            // Ocultar inicialmente
+            modal.style.display = 'none';
+            
+            // Mostrar después de 1.5 segundos
+            setTimeout(function() {
+                modal.style.display = 'grid';
+                modal.classList.add('is-visible');
+                document.body.classList.add('announcement-open');
+            }, 1500);
+            
+            // Función para cerrar
+            window.closeSupportAnnouncementModal = function() {
+                modal.classList.remove('is-visible');
+                document.body.classList.remove('announcement-open');
+                setTimeout(function() {
+                    modal.style.display = 'none';
+                }, 250);
+            };
+            
+            // Cerrar al hacer click fuera
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    closeSupportAnnouncementModal();
+                }
+            });
+        });
+    </script>
+
+    <script src="js/app.js" defer></script>
 </body>
 
 </html>

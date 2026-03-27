@@ -252,17 +252,84 @@ function closeEntryAnnouncementModal() {
 
 // Funcion: initEntryAnnouncementModal. Describe y encapsula una parte de la logica de la aplicacion.
 function initEntryAnnouncementModal() {
-    if (!entryAnnouncementModal || !document.body.classList.contains('page-home')) return;
-
-    if (entryAnnouncementModal.dataset.bound !== '1') {
-        const closeBtn = entryAnnouncementModal.querySelector('[data-announcement-close]');
-        if (closeBtn) {
-            closeBtn.addEventListener('click', closeEntryAnnouncementModal);
-        }
-        entryAnnouncementModal.dataset.bound = '1';
+    // Check for support modal first
+    const supportModal = document.getElementById('supportAnnouncementModal');
+    const homeModal = document.getElementById('entryAnnouncementModal');
+    
+    // Use support modal on support page, home modal on home page
+    const isSupportPage = document.body.classList.contains('support-page-body');
+    const isHomePage = document.body.classList.contains('page-home');
+    
+    console.log('isSupportPage:', isSupportPage, 'supportModal:', !!supportModal);
+    console.log('isHomePage:', isHomePage, 'homeModal:', !!homeModal);
+    
+    let modalToUse = null;
+    let openFn, closeFn, closeBtnSelector;
+    
+    if (isSupportPage && supportModal) {
+        modalToUse = supportModal;
+        openFn = openSupportAnnouncementModal;
+        closeFn = closeSupportAnnouncementModal;
+        closeBtnSelector = '[data-support-announcement-close]';
+    } else if (isHomePage && homeModal) {
+        modalToUse = homeModal;
+        openFn = openEntryAnnouncementModal;
+        closeFn = closeEntryAnnouncementModal;
+        closeBtnSelector = '[data-announcement-close]';
+    }
+    
+    if (!modalToUse) {
+        console.log('No modal found');
+        return;
     }
 
-    window.setTimeout(openEntryAnnouncementModal, 280);
+    // Bind close button
+    if (modalToUse.dataset.bound !== '1') {
+        const closeBtn = modalToUse.querySelector(closeBtnSelector);
+        if (closeBtn) {
+            closeBtn.addEventListener('click', closeFn);
+        }
+        modalToUse.dataset.bound = '1';
+    }
+
+    // Force show for testing (remove sessionStorage check)
+    console.log('Opening modal in 280ms');
+    window.setTimeout(openFn, 280);
+}
+
+// Funcion: openSupportAnnouncementModal. Soporte técnico.
+function openSupportAnnouncementModal() {
+    const modal = document.getElementById('supportAnnouncementModal');
+    if (!modal) return;
+    if (entryAnnouncementCloseTimer) {
+        clearTimeout(entryAnnouncementCloseTimer);
+        entryAnnouncementCloseTimer = null;
+    }
+    modal.style.display = 'grid';
+    modal.setAttribute('aria-hidden', 'false');
+    requestAnimationFrame(() => {
+        modal.classList.add('is-visible');
+    });
+    document.body.classList.add('announcement-open');
+}
+
+// Funcion: closeSupportAnnouncementModal. Soporte técnico.
+function closeSupportAnnouncementModal() {
+    const modal = document.getElementById('supportAnnouncementModal');
+    if (!modal) return;
+    modal.classList.remove('is-visible');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('announcement-open');
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const delay = reduceMotion ? 0 : ENTRY_ANNOUNCEMENT_ANIMATION_MS;
+    if (entryAnnouncementCloseTimer) clearTimeout(entryAnnouncementCloseTimer);
+    entryAnnouncementCloseTimer = window.setTimeout(() => {
+        if (!modal.classList.contains('is-visible')) {
+            modal.style.display = 'none';
+        }
+        entryAnnouncementCloseTimer = null;
+    }, delay);
 }
 
 // Inicializacion
