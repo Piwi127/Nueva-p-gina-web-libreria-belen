@@ -260,9 +260,6 @@ function initEntryAnnouncementModal() {
     const isSupportPage = document.body.classList.contains('support-page-body');
     const isHomePage = document.body.classList.contains('page-home');
     
-    console.log('isSupportPage:', isSupportPage, 'supportModal:', !!supportModal);
-    console.log('isHomePage:', isHomePage, 'homeModal:', !!homeModal);
-    
     let modalToUse = null;
     let openFn, closeFn, closeBtnSelector;
     
@@ -278,10 +275,7 @@ function initEntryAnnouncementModal() {
         closeBtnSelector = '[data-announcement-close]';
     }
     
-    if (!modalToUse) {
-        console.log('No modal found');
-        return;
-    }
+    if (!modalToUse) return;
 
     // Bind close button
     if (modalToUse.dataset.bound !== '1') {
@@ -292,8 +286,6 @@ function initEntryAnnouncementModal() {
         modalToUse.dataset.bound = '1';
     }
 
-    // Force show for testing (remove sessionStorage check)
-    console.log('Opening modal in 280ms');
     window.setTimeout(openFn, 280);
 }
 
