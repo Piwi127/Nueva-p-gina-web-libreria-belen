@@ -2334,9 +2334,10 @@ body.announcement-open {
     display: flex;
     flex-direction: column;
     margin: 0;
-    width: min(94vw, 620px, calc(100dvh - 7.5rem));
-    max-height: calc(100dvh - 2.4rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
-    padding: 0.65rem;
+    width: min(95vw, 900px);
+    max-width: 900px;
+    max-height: calc(100dvh - 4rem);
+    padding: 1rem;
     border: 1px solid rgba(15, 23, 42, 0.18);
     border-radius: 18px;
     background: linear-gradient(165deg, #f8fafc 0%, #eef2ff 100%);
@@ -2416,7 +2417,7 @@ body.announcement-open {
     display: block;
     width: 100%;
     height: auto;
-    max-height: min(74dvh, 760px);
+    max-height: min(70vh, 600px);
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(15, 23, 42, 0.22);
     background: #ffffff;
