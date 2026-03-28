@@ -38,7 +38,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/block-de-dibujo-anillado-20h-justus-x-1-und.jpg",
+    "image": "img/products/block-de-dibujo-anillado-20h-justus.jpg",
     "gallery": []
   },
   "block-de-dibujo-empastado-ove-24-x-315-cm-20-hojas": {
@@ -79,7 +79,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/block-de-dibujo-empastado-ove-24-x-315-cm-20-hojas-x-1-und.jpg",
+    "image": "img/products/block-de-dibujo-empastado-ove-24-x-315-cm-20-hojas.jpg",
     "gallery": []
   },
   "block-escolar-80h-period-cuadr-libra": {
@@ -120,7 +120,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/block-escolar-80h-period-cuadr-libra-x-1-und.jpg",
+    "image": "img/products/block-escolar-80h-period-cuadr-libra.jpg",
     "gallery": []
   },
   "boligrafo-faber-castell-trilux-031-punta-fina-azul-x-1-und": {
@@ -161,7 +161,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/boligrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und.jpg",
+    "image": "img/products/boligrafo-faber-castell-060-azul.jpg",
     "gallery": []
   },
   "boligrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und": {
@@ -202,7 +202,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/boligrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und.jpg",
+    "image": "img/products/boligrafo-faber-castell-060-negro.jpg",
     "gallery": []
   },
   "boligrafo-faber-castell-trilux-031-punta-fina-rojo-x-1-und": {
@@ -243,7 +243,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/boligrafo-faber-castell-trilux-031-punta-fina-negro-x-1-und.jpg",
+    "image": "img/products/boligrafo-faber-castell-060-rojo.jpg",
     "gallery": []
   },
   "boligrafo-pilot-bp-sf-punta-fina-azul-x-1-und": {
@@ -284,7 +284,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-negro-x-1-und.jpg",
+    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-azul-x-1-und.jpg",
     "gallery": []
   },
   "boligrafo-pilot-bp-sf-punta-fina-negro-x-1-und": {
@@ -366,7 +366,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-negro-x-1-und.jpg",
+    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-rojo-x-1-und.jpg",
     "gallery": []
   },
   "boligrafo-pilot-bp-sf-punta-fina-verde-x-1-und": {
@@ -407,7 +407,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-negro-x-1-und.jpg",
+    "image": "img/products/boligrafo-pilot-bp-sf-punta-fina-verde-x-1-und.jpg",
     "gallery": []
   },
   "cartulina-escolar-amarillo-pastel-135140-g": {
@@ -448,7 +448,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/cartulina-escolar-rosado-pastel-135-140-g-x-1-und.jpg",
+    "image": "img/products/cartulina-escolar-amarillo-pastel-135-140-g-x-1-und.jpg",
     "gallery": []
   },
   "cartulina-escolar-blanco-140-g": {
@@ -489,7 +489,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/cartulina-escolar-rosado-pastel-135-140-g-x-1-und.jpg",
+    "image": "img/products/cartulina-escolar-blanco-140-g-x-1-und.jpg",
     "gallery": []
   },
   "cartulina-escolar-celeste-pastel-135140-g": {
@@ -530,7 +530,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/cartulina-escolar-rosado-pastel-135-140-g-x-1-und.jpg",
+    "image": "img/products/cartulina-escolar-celeste-pastel-135-140-g-x-1-und.jpg",
     "gallery": []
   },
   "cartulina-escolar-rosado-pastel-135140-g": {
@@ -612,7 +612,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/cartulina-escolar-rosado-pastel-135-140-g-x-1-und.jpg",
+    "image": "img/products/cartulina-escolar-verde-pastel-135-140-g-x-1-und.jpg",
     "gallery": []
   },
   "cartulina-negro-chica-50-x-65-cm": {
@@ -653,7 +653,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/cartulina-negro-chica-50-x-65-cm-x-1-und.jpg",
+    "image": "img/products/cartulina-negro-chica-50-x-65-cm.jpg",
     "gallery": []
   },
   "cola-artesco-con-aplicador-250-g": {
@@ -694,7 +694,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/cola-artesco-con-aplicador-57-g-x-1-und.jpg",
+    "image": "img/products/cola-artesco-con-aplicador-250-g.jpg",
     "gallery": []
   },
   "cola-artesco-con-aplicador-57-g": {
@@ -735,7 +735,7 @@
         "text": "Stock disponible."
       }
     ],
-    "image": "img/products/cola-artesco-con-aplicador-57-g-x-1-und.jpg",
+    "image": "img/products/cola-artesco-con-aplicador-57-g.jpg",
     "gallery": []
   },
   "cola-faber-castell-pega-bien-x110g": {
