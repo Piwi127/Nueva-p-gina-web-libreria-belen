@@ -5415,6 +5415,15 @@ body.cart-open .whatsapp-float {
         display: inline-flex;
     }
 
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: var(--spacing-sm);
+    }
+
+    .product-card {
+        padding: 1rem;
+    }
+
     .sidebar {
         position: fixed;
         top: 0;

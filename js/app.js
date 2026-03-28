@@ -34,6 +34,7 @@ let currentMaxPrice = Infinity;
 let currentSearchQuery = '';
 let productsLoadPromise = null;
 let jsPdfLoadPromise = null;
+let isProductsLoading = false;
 const PRICES_PENDING = false;
 const PRICE_LABEL = 'S/ 0.00';
 const THEME_STORAGE_KEY = 'libreriaBelenTheme';
@@ -388,7 +389,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initAccessibilityEnhancements();
     initDynamicYear();
     initVisualMicroInteractions();
-    initExperimentalDesignLayer();
     initPremiumFeatures();
     initEntryAnnouncementModal(); // Habilitado - muestra anuncio al ingresar
 
@@ -457,8 +457,9 @@ function ensureProductsLoaded() {
         return Promise.resolve(products);
     }
 
-    if (productsLoadPromise) return productsLoadPromise;
+    if (isProductsLoading) return productsLoadPromise;
 
+    isProductsLoading = true;
     productsLoadPromise = new Promise((resolve, reject) => {
         const existing = document.querySelector(`script[src="${PRODUCTS_SCRIPT_PATH}"]`);
         if (existing) {
@@ -507,6 +508,7 @@ function ensureProductsLoaded() {
         script.onerror = () => reject(new Error('No se pudo cargar products.js'));
         document.head.appendChild(script);
     }).finally(() => {
+        isProductsLoading = false;
         productsLoadPromise = null;
     });
 
@@ -1716,7 +1718,7 @@ function renderFeaturedCarousel() {
     featuredCarousel.innerHTML = '';
     const fragment = document.createDocumentFragment();
     featured.forEach((product, index) => {
-        const card = document.createElement('div');
+        const card = document.createElement('article');
         card.className = 'product-card';
         card.innerHTML = getProductCardHtml(product, index);
         fragment.appendChild(card);
@@ -1773,7 +1775,7 @@ function renderProducts(productsToRender) {
     }
 
     paginatedProducts.forEach((product, index) => {
-        const card = document.createElement('div');
+        const card = document.createElement('article');
         card.className = 'product-card';
         card.innerHTML = getProductCardHtml(product, index);
         productGrid.appendChild(card);
@@ -2572,65 +2574,7 @@ function initVisualMicroInteractions() {
     targets.forEach(el => observer.observe(el));
 }
 
-// Funcion: initExperimentalDesignLayer. Describe y encapsula una parte de la logica de la aplicacion.
-function initExperimentalDesignLayer() {
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduceMotion) return;
-    const hasHero = !!document.querySelector('.home-hero');
-    const hasCards = !!document.querySelector('.product-card');
-    if (!hasHero && !hasCards) return;
 
-    const hero = document.querySelector('.home-hero');
-    if (hero) {
-        let heroFrameId = null;
-        let latestHeroEvent = null;
-        hero.addEventListener('mousemove', (event) => {
-            latestHeroEvent = event;
-            if (heroFrameId) return;
-            heroFrameId = requestAnimationFrame(() => {
-                if (!latestHeroEvent) return;
-                const rect = hero.getBoundingClientRect();
-                const x = ((latestHeroEvent.clientX - rect.left) / rect.width) * 100;
-                const y = ((latestHeroEvent.clientY - rect.top) / rect.height) * 100;
-                hero.style.setProperty('--pointer-x', `${x}%`);
-                hero.style.setProperty('--pointer-y', `${y}%`);
-                heroFrameId = null;
-                latestHeroEvent = null;
-            });
-        });
-    }
-
-    let cardFrameId = null;
-    let latestCardEvent = null;
-    document.addEventListener('mousemove', (event) => {
-        if (window.innerWidth < 900) return;
-        if (!(event.target instanceof Element)) return;
-        latestCardEvent = event;
-        if (cardFrameId) return;
-
-        cardFrameId = requestAnimationFrame(() => {
-            if (!latestCardEvent) return;
-
-            const card = latestCardEvent.target.closest('.product-card');
-            if (!card) {
-                cardFrameId = null;
-                latestCardEvent = null;
-                return;
-            }
-
-            const rect = card.getBoundingClientRect();
-            const x = latestCardEvent.clientX - rect.left;
-            const y = latestCardEvent.clientY - rect.top;
-            const px = (x / rect.width) * 100;
-            const py = (y / rect.height) * 100;
-
-            card.style.setProperty('--pointer-x', `${px}%`);
-            card.style.setProperty('--pointer-y', `${py}%`);
-            cardFrameId = null;
-            latestCardEvent = null;
-        });
-    });
-}
 
 // ========== FUNCIONES PREMIUM ==========
 

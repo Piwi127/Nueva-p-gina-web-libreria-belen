@@ -225,10 +225,12 @@
                 </div>
 
                 <div class="cart-customer-form">
-                    <label for="customerName">Datos para el pedido</label>
+                    <label for="customerName">Nombres</label>
                     <input type="text" id="customerName" placeholder="Nombres" class="cart-field">
+                    <label for="customerLastName">Apellidos</label>
                     <input type="text" id="customerLastName" placeholder="Apellidos" class="cart-field">
-                    <input type="text" id="customerDni" placeholder="DNI (8 digitos)" maxlength="8" class="cart-field"
+                    <label for="customerDni">DNI (8 dígitos)</label>
+                    <input type="text" id="customerDni" placeholder="DNI (8 dígitos)" maxlength="8" class="cart-field"
                         oninput="this.value = this.value.replace(/[^0-9]/g, '')">
                 </div>
 
@@ -284,7 +286,7 @@
             <span class="close-modal" onclick="closeProductModal()">&times;</span>
             <div class="product-detail-grid">
                 <div class="detail-image-container">
-                    <img id="detailImage" src="" alt="Producto">
+                    <img id="detailImage" src="" alt="Imagen de referencia del producto">
                     <p class="image-disclaimer">Imagen de referencia, Librería Belen no es dueña ni autora de esta imagen.</p>
                 </div>
                 <div class="detail-info-container">

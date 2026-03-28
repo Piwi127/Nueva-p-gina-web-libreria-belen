@@ -42,14 +42,14 @@ const JSPDF_SCRIPT_PATH = 'vendor/jspdf/jspdf.umd.min.js?v=20260227a';
 const WHATSAPP_PHONE_NUMBER = '51947872207';
 const CF_BEACON_PLACEHOLDER = 'YOUR_CF_BEACON_TOKEN';
 const CATEGORY_LABELS = {
-    papeleria: 'PapelerÃ­a',
-    utiles: 'Ãtiles escolares',
+    papeleria: 'Papelería',
+    utiles: 'Útiles escolares',
     cuadernos: 'Cuadernos',
     arte: 'Arte y manualidades',
     oficina: 'Oficina',
-    organizacion: 'OrganizaciÃ³n',
-    escritura: 'Escritura y bolÃ­grafos',
-    tecnologia: 'TecnologÃ­a',
+    organizacion: 'Organización',
+    escritura: 'Escritura y bolígrafos',
+    tecnologia: 'Tecnología',
     regalos: 'Regalos',
     otros: 'Otros'
 };
@@ -59,13 +59,13 @@ const SUBCATEGORY_PATTERNS = {
         { key: 'cartulinas', label: 'Cartulinas', regex: /cartulina/ },
         { key: 'papel-bond', label: 'Papel bond', regex: /papel bond|bond/ },
         { key: 'papel-lustre', label: 'Papel lustre', regex: /papel lustre|lustre/ },
-        { key: 'papel-crepe', label: 'Papel crepÃ©', regex: /papel crepe|crepÃ©|crepe/ },
+        { key: 'papel-crepe', label: 'Papel crepé', regex: /papel crepe|crepé|crepe/ },
         { key: 'papel-fotocopia', label: 'Papel fotocopia', regex: /fotocopia|resma|chamex/ },
         { key: 'papel-seda', label: 'Papel seda', regex: /papel seda/ },
         { key: 'papel-kraft', label: 'Papel kraft', regex: /kraft/ },
-        { key: 'papel-carbon', label: 'Papel carbÃ³n', regex: /carb[oÃ³]n|carbon/ },
+        { key: 'papel-carbon', label: 'Papel carbón', regex: /carb[oó]n|carbon/ },
         { key: 'microporoso', label: 'Microporoso', regex: /microporoso/ },
-        { key: 'papelografo', label: 'PapelÃ³grafo', regex: /papel[oÃ³]grafo/ }
+        { key: 'papelografo', label: 'Papelógrafo', regex: /papel[oó]grafo/ }
     ],
     utiles: [
         { key: 'borradores', label: 'Borradores', regex: /borrador/ },
@@ -85,7 +85,7 @@ const SUBCATEGORY_PATTERNS = {
     ],
     arte: [
         { key: 'acuarelas', label: 'Acuarelas', regex: /acuarela/ },
-        { key: 'temperas', label: 'TÃ©mperas', regex: /t[eÃ©]mpera/ },
+        { key: 'temperas', label: 'Témperas', regex: /t[eé]mpera/ },
         { key: 'pinceles', label: 'Pinceles', regex: /pincel/ },
         { key: 'plastilina', label: 'Plastilina', regex: /plastilina/ },
         { key: 'foamy', label: 'Foamy/EVA', regex: /foamy|eva/ },
@@ -108,15 +108,15 @@ const SUBCATEGORY_PATTERNS = {
         { key: 'sobres', label: 'Sobres', regex: /sobre/ }
     ],
     escritura: [
-        { key: 'boligrafos', label: 'BolÃ­grafos', regex: /bol[Ã­i]grafo|lapicero|pluma/ },
-        { key: 'marcadores', label: 'Marcadores/Plumones', regex: /marcador|plum[oÃ³]n/ },
+        { key: 'boligrafos', label: 'Bolígrafos', regex: /bol[íi]grafo|lapicero|pluma/ },
+        { key: 'marcadores', label: 'Marcadores/Plumones', regex: /marcador|plum[oó]n/ },
         { key: 'resaltadores', label: 'Resaltadores', regex: /resaltador/ },
         { key: 'tintas', label: 'Tintas', regex: /tinta/ }
     ],
     tecnologia: [
         { key: 'usb', label: 'USB/Memorias', regex: /usb|memoria/ },
-        { key: 'audio', label: 'AudÃ­fonos', regex: /aud[iÃ­]fono/ },
-        { key: 'perifericos', label: 'PerifÃ©ricos', regex: /mouse|teclado/ }
+        { key: 'audio', label: 'Audífonos', regex: /aud[ií]fono/ },
+        { key: 'perifericos', label: 'Periféricos', regex: /mouse|teclado/ }
     ],
     regalos: [
         { key: 'detalles', label: 'Detalles', regex: /detalle|regalo/ }
@@ -303,7 +303,7 @@ function initEntryAnnouncementModal() {
     }
 }
 
-// Funcion: openSupportAnnouncementModal. Soporte tÃ©cnico.
+// Funcion: openSupportAnnouncementModal. Soporte técnico.
 function openSupportAnnouncementModal() {
     const modal = document.getElementById('supportAnnouncementModal');
     if (!modal) return;
@@ -319,7 +319,7 @@ function openSupportAnnouncementModal() {
     document.body.classList.add('announcement-open');
 }
 
-// Funcion: closeSupportAnnouncementModal. Soporte tÃ©cnico.
+// Funcion: closeSupportAnnouncementModal. Soporte técnico.
 function closeSupportAnnouncementModal() {
     const modal = document.getElementById('supportAnnouncementModal');
     if (!modal) return;
