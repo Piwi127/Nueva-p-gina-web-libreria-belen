@@ -6767,6 +6767,17 @@ body.cart-open .whatsapp-float {
     box-shadow: var(--shadow-sm);
 }
 
+.enmicados-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.enmicados-copy {
+    flex: 1 1 280px;
+}
+
 .enmicados-section .support-tech-badge {
     display: inline-flex;
     align-items: center;
@@ -6783,6 +6794,12 @@ body.cart-open .whatsapp-float {
 
 .enmicados-section h2 {
     margin-bottom: 0.75rem;
+}
+
+.enmicados-description {
+    color: #666;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
 }
 
 .enmicados-section .support-tech-stats {
@@ -6842,6 +6859,25 @@ body.cart-open .whatsapp-float {
     color: var(--accent-color);
 }
 
+.enmicados-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #25d366;
+    border-color: #25d366;
+}
+
+.enmicados-cta:hover {
+    background: #1faa52;
+    border-color: #1faa52;
+}
+
+.enmicados-note-inline {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.75rem;
+}
+
 /* Fallback icon */
 .enmicados-icon-fallback {
     display: none;
@@ -6861,6 +6897,10 @@ body.cart-open .whatsapp-float {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .enmicados-layout {
+        gap: 1.25rem;
+    }
+
     .enmicados-pricing-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -6887,6 +6927,11 @@ body.cart-open .whatsapp-float {
     
     .price-box-value {
         font-size: 1.1rem;
+    }
+
+    .enmicados-cta {
+        width: 100%;
+        justify-content: center;
     }
 }
 
@@ -7271,6 +7316,22 @@ body.cart-open .whatsapp-float {
     pointer-events: auto;
     animation: toastSlideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     border-left: 4px solid var(--accent-color);
+}
+
+@media (max-width: 480px) {
+    .toast-container {
+        top: auto;
+        right: 12px;
+        bottom: calc(84px + env(safe-area-inset-bottom));
+        left: 12px;
+    }
+
+    .toast {
+        min-width: 0;
+        width: 100%;
+        max-width: none;
+        padding: 0.9rem 1rem;
+    }
 }
 
 @keyframes toastSlideIn {
