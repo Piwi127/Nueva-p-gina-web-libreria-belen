@@ -5416,7 +5416,7 @@ body.cart-open .whatsapp-float {
     }
 
     .product-grid {
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-sm);
     }
 

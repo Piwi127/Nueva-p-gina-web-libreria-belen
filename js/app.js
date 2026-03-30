@@ -2569,7 +2569,7 @@ function initVisualMicroInteractions() {
                 obs.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+    }, { threshold: 0.01, rootMargin: '0px 0px 0px 0px' });
 
     targets.forEach(el => observer.observe(el));
 }
