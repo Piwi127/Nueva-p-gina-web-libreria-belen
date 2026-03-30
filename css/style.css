@@ -7922,3 +7922,76 @@ html {
         animation: none !important;
     }
 }
+
+/* Catalog page: disable visual effects and animations for maximum mobile stability */
+.catalog-page-body *,
+.catalog-page-body *::before,
+.catalog-page-body *::after {
+    animation: none !important;
+    transition: none !important;
+}
+
+.catalog-page-body .reveal-on-scroll,
+.catalog-page-body .reveal-on-scroll.is-visible,
+.catalog-page-body .reveal-on-scroll.reveal-left,
+.catalog-page-body .reveal-on-scroll.reveal-left.is-visible,
+.catalog-page-body .reveal-on-scroll.reveal-right,
+.catalog-page-body .reveal-on-scroll.reveal-right.is-visible,
+.catalog-page-body .reveal-on-scroll.reveal-scale,
+.catalog-page-body .reveal-on-scroll.reveal-scale.is-visible,
+.catalog-page-body .reveal-on-scroll .product-card,
+.catalog-page-body .reveal-on-scroll.is-visible .product-card {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+.catalog-page-body .product-card,
+.catalog-page-body .product-card:hover,
+.catalog-page-body .filter-group,
+.catalog-page-body .filter-group:hover,
+.catalog-page-body .pagination-btn,
+.catalog-page-body .pagination-btn:hover:not(:disabled),
+.catalog-page-body .pagination-btn.active,
+.catalog-page-body .catalog-sort,
+.catalog-page-body .catalog-sort:hover,
+.catalog-page-body .catalog-sort:focus,
+.catalog-page-body .filter-chip,
+.catalog-page-body .filter-chip:hover,
+.catalog-page-body .btn-cart,
+.catalog-page-body .btn-cart:hover,
+.catalog-page-body .btn-buy,
+.catalog-page-body .btn-buy:hover,
+.catalog-page-body .btn-whatsapp-product,
+.catalog-page-body .btn-whatsapp-product:hover,
+.catalog-page-body .favorite-btn,
+.catalog-page-body .favorite-btn:hover,
+.catalog-page-body #mobile-filter-toggle,
+.catalog-page-body #mobile-filter-toggle:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.catalog-page-body .product-card::before,
+.catalog-page-body .product-image::after {
+    opacity: 0 !important;
+    transform: none !important;
+}
+
+.catalog-page-body .product-image img,
+.catalog-page-body .product-card:hover .product-image img {
+    transform: none !important;
+}
+
+.catalog-page-body .product-title,
+.catalog-page-body .product-card:hover .product-title,
+.catalog-page-body .product-price,
+.catalog-page-body .product-card:hover .product-price {
+    color: inherit !important;
+    transform: none !important;
+}
+
+.catalog-page-body .product-actions,
+.catalog-page-body .product-card:hover .product-actions {
+    opacity: 1 !important;
+    transform: none !important;
+}
